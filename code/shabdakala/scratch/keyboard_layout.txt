@@ -1,0 +1,10 @@
+<Key value={KeyVal(charStatuses, "अ").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'अ').status}/>
+<Key value={KeyVal(charStatuses, "आ").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'आ').status}/>
+<Key value={KeyVal(charStatuses, "ई").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'ई').status}/>
+<Key value={KeyVal(charStatuses, "क").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'क').status}/>
+<Key value={KeyVal(charStatuses, "ख").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'ख').status}/>
+<Key value={KeyVal(charStatuses, "ग").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'ग').status}/>
+<Key value={KeyVal(charStatuses, "घ").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'घ').status}/>
+<Key value={KeyVal(charStatuses, "च").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'च').status}/>
+<Key value={KeyVal(charStatuses, "ज").chrForm.chrForm} onClick={onClick} status={KeyVal(charStatuses, 'ज').status}/>
+
