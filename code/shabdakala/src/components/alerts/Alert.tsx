@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Transition } from '@headlessui/react'
 import classNames from 'classnames'
+import React from 'react'
 
 type Props = {
   isOpen: boolean
