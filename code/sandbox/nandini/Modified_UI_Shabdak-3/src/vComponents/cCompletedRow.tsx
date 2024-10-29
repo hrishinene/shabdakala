@@ -27,7 +27,7 @@ const emptyCells = Array.from(Array(1))
 return (
 <div className="flex justify-center mb-2">
   {emptyCells.map((_, i) => (
-    <CompletedCell key={i} size='big' categoryName="मराठी चित्रपट" tupleValue = "देऊळ, ही वाट पंढरीची, संत तुकाराम, धूमधडाका" />
+    <CompletedCell key={i} size='big' categoryName="मराठी चित्रपट" tupleValue = "देऊळ, धूमधडाका, माऊली, झेंडा" />
   ))}
 </div>
 )

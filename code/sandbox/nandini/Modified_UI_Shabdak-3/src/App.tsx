@@ -286,7 +286,7 @@ function App() {
       </div>
       <div />
       {/* <Grid guesses={guesses} currentGuess={currentGuess} onChar={onChar} /> */}
-      <CGame game_guesses={guesses} game_currentGuess={currentGuess} onChar={onChar} />
+      <CGame cGame_twoD_word_list = { [['मिरवणूक', 'भाद्रपद', 'आकाशकंदील', 'फटाके'], ['फराळ', 'आरती', 'रांगोळी', 'मूर्ति']] }/>
       {/* <Keyboard
         onChar={onChar}
         onDelete={onDelete}

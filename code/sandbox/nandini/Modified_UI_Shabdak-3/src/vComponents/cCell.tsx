@@ -19,7 +19,7 @@ export const Cell = ({ value, status, size = 'small', onChar, className}: Props)
     'border-solid border-0 flex items-center justify-center mx-1 text-xl font-bold rounded dark:text-white', // Reduced font size
     {
       //'bg-custom-light-gray dark:bg-slate-800 border-slate-300 dark:border-slate-600': !status && !clicked,
-      'bg-[#e7e5e4] dark:bg-slate-800 border-slate-300 dark:border-slate-600': !status && !clicked,
+      'bg-[#e5e5e5] dark:bg-slate-800 border-slate-300 dark:border-slate-600': !status && !clicked,
       // 'bg-[#efefe6] dark:bg-slate-800 border-slate-300 dark:border-slate-600': !status && !clicked,
       // 'bg-red-500 dark:bg-slate-800 border-slate-400 dark:border-slate-600': !status && !clicked,
       //"bg-[#fde047] text-white border-yellow-500 dark:bg-yellow-700 dark:border-yellow-700":!status && !clicked,

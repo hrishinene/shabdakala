@@ -1,17 +1,18 @@
 
-import { MAX_CHALLENGES } from '../constants/settings'
+// import { MAX_CHALLENGES } from '../constants/settings'
 import { CompletedRow } from './cCompletedRow'
-import { EmptyRow } from './cLiveRow'
+import {LiveRow } from './cLiveRow'
 
 type Props = {
-  guesses: string[]
-  currentGuess: string
-  onChar: (value: string) => void
+  // guesses: string[]
+  // currentGuess: string
+  twoD_word_list : string[][]
+  // onChar: (value: string) => void
 }
 
-export const Grid = ({ guesses, currentGuess, onChar }: Props) => {
+export const Grid = ({twoD_word_list}: Props) => {
   //<AGA> : explain what empties is actually containing? is it an array of null values? like : [_, _, _, _]
-  const empties = Array.from(Array(MAX_CHALLENGES))
+  const numberOfLiveRows = Array.from(Array(twoD_word_list.length))
   const completed = Array.from(Array(1))
     // guesses.length < MAX_CHALLENGES - 1
     //   ? Array.from(Array(MAX_CHALLENGES - 1 - guesses.length))
@@ -30,8 +31,8 @@ export const Grid = ({ guesses, currentGuess, onChar }: Props) => {
         
       ))}
       
-      {empties.map((_, i) => (
-        <EmptyRow key={i} />
+      {numberOfLiveRows.map((_, i) => (
+        <LiveRow key={i} wordList={twoD_word_list[i]} />
         
       ))}
       
