@@ -4,11 +4,12 @@ import { iRowProto } from '../../lib/internal/iRowProto';
 import { shuffleArray } from '../../lib/Utils';
 import { ZTuple } from '../../lib/internal/ZTuple';
 import { iCellProto } from '../../lib/internal/iCellProto';
+import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 
 interface CRowProtoProps {
 
   rowProto: iRowProto;
-  onClick:(cellAddress:number)=>void;
+  onClick:(cellAddress:ZCellAddress)=>void;
 }
 
 // Completed Row Tuple contains the category name and the tuple value
@@ -33,7 +34,7 @@ function completedRowContent(tuple: ZTuple) {
   )
 }
 
-function rowCells(cells: iCellProto[], onClick: (cellAddress: number) => void) {
+function rowCells(cells: iCellProto[], onClick: (cellAddress: ZCellAddress) => void) {
   return (
     <div className="flex justify-center mb-1">
       {cells.map((cell, index) => (

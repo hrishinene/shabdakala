@@ -1,15 +1,17 @@
+import { ZCellAddress } from "./ZCellAddress";
+
 export class iCellProto {
     word: String = "Undefined"
-    address: number = 0;
+    address: ZCellAddress;
     isSelected: boolean = false
     
-    constructor(word : String, address : number) {
+    constructor(word : String, address : ZCellAddress) {
         this.word = word;
         this.address = address;
     }
 
     selectCell() {
-        this.isSelected = true;
+        this.isSelected = !this.isSelected;
     }
 
     getWord() {
