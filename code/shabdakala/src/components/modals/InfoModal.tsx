@@ -8,7 +8,6 @@ import './ifr.css';
 type Props = {
     isOpen: boolean
     handleClose: () => void
-
 }
 
 export const InfoModal = ({isOpen, handleClose}: Props) => {

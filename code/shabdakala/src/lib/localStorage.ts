@@ -33,3 +33,19 @@ export const loadStatsFromLocalStorage = () => {
   const stats = localStorage.getItem(gameStatKey)
   return stats ? (JSON.parse(stats) as GameStats) : null
 }
+
+//changed by Ahana and Nandini
+export type TestStorage = {
+  currentTime: string
+  randomNumber: number
+}
+const testStorageKey = 'testStorage'
+
+export const saveTestStorage = (testStorageParameter: TestStorage) => {
+  localStorage.setItem(testStorageKey, JSON.stringify(testStorageParameter))
+}
+
+export const loadTestStorage = () => {
+  const loadedTest = localStorage.getItem(testStorageKey)
+  return loadedTest ? (JSON.parse(loadedTest) as TestStorage) : null
+}

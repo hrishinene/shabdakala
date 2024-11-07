@@ -3,6 +3,8 @@ import {
   ChartBarIcon,
   SunIcon,
   MoonIcon,
+  MenuAlt1Icon,
+  MenuAlt3Icon,
 } from '@heroicons/react/outline'
 import { useState, useEffect } from 'react'
 import { Alert } from './components/alerts/Alert'
@@ -44,6 +46,8 @@ import {
 } from '@heroicons/react/solid'
 import { getAkshars, getShabda, unicodeMatch } from './lib/statuses'
 import { CGame } from './vComponents/cGame'
+import DropdownComponent from './components/modals/MenuModal'
+// import { DropdownComponent } from './components/modals/MenuModal'
 
 const ALERT_TIME_MS = 2500
 
@@ -58,6 +62,14 @@ function App() {
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
+  // const [isMenuModalOpen, setIsMenuModalOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to toggle menu open/close
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
@@ -198,86 +210,130 @@ function App() {
 
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-    {/* <div>
-      <h1 className="text-3xl font-bold dark:text-white" style={{ fontFamily: 'NYTKarnakCondensed, sans-serif' }}>
-        {GAME_TITLE}
-      </h1>
-    </div> */}
-      <div className="flex items-center pb-8">
-      <h1 className="text-5xl font-bold dark:text-white">
-        {GAME_TITLE}
-      </h1>
-       <span className="ml-4 text-2xl text-black dark:text-white"> 
-        {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-      </span>
-    </div>
 
-      <div>
-        {/* <h1 className="text-xl font-bold text-right dark:text-white">
-          <a href={GAME_SHABDAK_1_URL} className="underline font-bold">
-            सदाबहार शब्दक-१{' '}
-          </a>{' '}
-        </h1> */}
-      </div>
-      <hr />
+      <div className="flex container mt-2 items-center">
 
-      <div className="flex justify-end mx-auto items-center py-3">
-      {/* <div className="py-2"> */}
-        {/* {wordSource === 'Daily' ? (
-          <h1 className="text-2xl grow font-bold dark:text-white ml-3 bg-green-300 dark:bg-green-900 border-green-600 border-b p-4 m-4 rounded">
-            <a href={GAME_ENCODE_URL} className="underline font-bold">
-              आजचे शब्दक{' '}
-            </a>{' '}
-          </h1>
-        ) : (
-          <h1 className="text-xl grow font-bold dark:text-white ml-3">
-            <a href={GAME_ENCODE_URL} className="font-bold">
-              आजचे शब्दक{' '}
-            </a>{' '}
-          </h1>
-        )} */}
+        {/* left-aligned div */}
+        <div className="flex-1 text-left">
+        <DropdownComponent
+        // isOpen={isMenuModalOpen}
+        // handleClose={() => setIsMenuModalOpen(false)}
+        ></DropdownComponent>
 
-        {/* {wordSource === 'Random' ? (
-          <h1 className="text-2xl grow font-bold dark:text-white ml-3 bg-green-300 dark:bg-green-900 border-green-600 border-b p-4 m-4 rounded">
-            <a href={GAME_ENCODE_URL_RANDOM} className="underline font-bold">
-              सराव शब्दक{' '}
-            </a>{' '}
-          </h1>
-        ) : 
-        (
-          <h1 className="text-xl grow font-bold dark:text-white ml-3">
-            <a href={GAME_ENCODE_URL_RANDOM} className="font-bold">
-              सराव शब्दक{' '}
-            </a>{' '}
-          </h1>
-        )
-        } */}
+        {/* <button
+        aria-haspopup="true"
+        aria-expanded={isMenuOpen}
+        type="button"
+        className="szh-menu-button"
+        onClick={toggleMenu}
+      >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+                className="h-6 w-6 mr-4 cursor-pointer dark:stroke-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+    </button>
+  <div className="szh-menu-container">
+  <ul
+    role="menu"
+    aria-label="Menu"
+    // tabindex="-1"
+    className="szh-menu szh-menu--state-closed szh-menu--dir-bottom"
+    // style="left: 0px; top: 5.6px;"
+  >
+    <div
+      className="szh-menu__arrow szh-menu__arrow--dir-bottom"
+    //   style="left: 20px;"
+    ></div>
 
-        {isDarkMode ? (
-          <SunIcon
-            className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-            onClick={() => handleDarkMode(!isDarkMode)}
+    <li role="presentation">
+      <a
+        href="http://www.shabdak.com"
+        role="menuitem"
+        // tabIndex="-1"
+        className="szh-menu__item szh-menu__item--anchor text-xl underline decoration-indigo-500 decoration-2"
+      >
+        नवे शब्दक
+      </a>
+    </li>
+    <li role="presentation">
+      <a
+        href="http://hindi.shabdak.com"
+        role="menuitem"
+        // tabindex="-1"
+        className="szh-menu__item szh-menu__item--anchor text-xl underline decoration-indigo-500 decoration-2"
+      >
+        शब्दक - हिन्दी
+      </a>
+    </li>
+    <li role="presentation">
+      <a
+        href="https://shabdak.github.io"
+        role="menuitem"
+        rel="noopener noreferrer"
+        // tabIndex="-1"
+        className="szh-menu__item szh-menu__item--anchor text-xl underline decoration-indigo-500 decoration-2"
+      >
+        शब्दक ब्लॉग्
+      </a>
+    </li>
+  </ul>
+</div> */}
+
+          {/* <MenuAlt1Icon
+              className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
+              // onClick={() => handleMenuClick()}
+            /> */}
+        </div> 
+
+        {/* center-aligned div */}
+        <div className="flex-1 flex-col justify-center items-center pb-8 text-center">
+          <h1 className="text-5xl font-bold dark:text-white text-center">
+            {GAME_TITLE}
+          </h1>
+          <span className="mt-2 text-2xl text-black dark:text-white">
+            {new Date().toLocaleDateString("mr-IN", { month: 'long', day: 'numeric', year: 'numeric' })}
+          </span>
+        </div>
+
+        {/* Right-aligned div */}
+        <div className="flex flex-1 justify-end items-center space-x-2">
+          {isDarkMode ? (
+            <SunIcon
+              className="h-6 w-6 cursor-pointer dark:stroke-white"
+              onClick={() => handleDarkMode(!isDarkMode)}
+            />
+          ) : (
+            <MoonIcon
+              className="h-6 w-6 cursor-pointer"
+              onClick={() => handleDarkMode(!isDarkMode)}
+            />
+          )}
+          <QuestionMarkCircleIcon
+            className="h-6 w-6 cursor-pointer dark:stroke-white"
+            onClick={() => setIsInfoModalOpen(true)}
           />
-        ) : (
-          <MoonIcon
-            className="h-6 w-6 mr-2 cursor-pointer"
-            onClick={() => handleDarkMode(!isDarkMode)}
+          <ChartBarIcon
+            className="h-6 w-6 cursor-pointer dark:stroke-white"
+            onClick={() => setIsStatsModalOpen(true)}
           />
-        )}
-        <QuestionMarkCircleIcon
-          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-          onClick={() => setIsInfoModalOpen(true)}
-        />
-        <ChartBarIcon
-          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-          onClick={() => setIsStatsModalOpen(true)}
-        />
-        <DotsVerticalIcon
-          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
-          onClick={() => setIsAboutModalOpen(true)}
-        />
+          <DotsVerticalIcon
+            className="h-6 w-6 cursor-pointer dark:stroke-white"
+            onClick={() => setIsAboutModalOpen(true)}
+          />
+        </div>
       </div>
-      {/* </div> */}
+
       <hr />
             {/* New div for "Create groups of 3!" text */}
       <div className="text-center py-4">

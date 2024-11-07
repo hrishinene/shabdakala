@@ -47,7 +47,6 @@ export const Cell = ({ value, status, size = 'small', onChar, className}: Props)
     else{
       setClicked(true)
     }
-    // Set the clicked state to true to change the background color to grey
    
   }
 
