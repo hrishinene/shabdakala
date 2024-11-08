@@ -47,6 +47,7 @@ import {
 import { getAkshars, getShabda, unicodeMatch } from './lib/statuses'
 import { CGame } from './vComponents/cGame'
 import DropdownComponent from './components/modals/MenuModal'
+import CGameProto from './components/gameproto/CGameProto'
 // import { DropdownComponent } from './components/modals/MenuModal'
 
 const ALERT_TIME_MS = 2500
@@ -337,13 +338,10 @@ function App() {
 
       <hr />
             {/* New div for "Create groups of 3!" text */}
-      <div className="text-center py-4">
-        {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
-        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा !</h3>
-      </div>
+      <CGameProto/>
       <div />
       {/* <Grid guesses={guesses} currentGuess={currentGuess} onChar={onChar} /> */}
-      <CGame cGame_twoD_word_list = { [['मिरवणूक', 'भाद्रपद', 'आकाशकंदील', 'फटाके'], ['फराळ', 'आरती', 'रांगोळी', 'मूर्ति']] } cGame_mistake={mistakesRemaining}/>
+      {/* <CGame cGame_twoD_word_list = { [['मिरवणूक', 'भाद्रपद', 'आकाशकंदील', 'फटाके'], ['फराळ', 'आरती', 'रांगोळी', 'मूर्ति']] } cGame_mistake={mistakesRemaining}/> */}
       {/* <Keyboard
         onChar={onChar}
         onDelete={onDelete}

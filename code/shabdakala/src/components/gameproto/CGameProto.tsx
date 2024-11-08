@@ -83,6 +83,11 @@ export const CGameProto = () => {
   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
 
   return (
+    <div>
+      <div className="text-center py-4">
+        {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
+        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा !</h3>
+      </div>
       <div className="max-w-[550px] m-auto w-full flex-auto overflow-auto mt-2">
           {
               game.rows.map((row, index) => (
@@ -113,6 +118,7 @@ export const CGameProto = () => {
                   </button>
               )}
           </div>
+      </div>
       </div>
   )
 }

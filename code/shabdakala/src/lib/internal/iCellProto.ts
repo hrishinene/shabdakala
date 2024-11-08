@@ -15,6 +15,6 @@ export class iCellProto {
     }
 
     getWord() {
-        return this.isSelected ? "["+this.word+"]" : this.word;
+        return this.word;
     }
 }   

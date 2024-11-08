@@ -1,6 +1,6 @@
 import {MAX_WORD_LENGTH} from "./settings";
 
-export const GAME_TITLE = 'शब्दकळा';
+export const GAME_TITLE = 'शब्दाकृती';
 // export const GAME_URL = 'localhost:3000';
 export const GAME_URL = 'shabdak.com' 
 export const GAME_ENCODE_URL = 'https://shabdak3.el.r.appspot.com';
