@@ -1,4 +1,5 @@
 import { saveTestStorage, loadTestStorage, TestStorage } from '../lib/localStorage'
+import { generateEmojiGrid3 } from '../lib/share'
 
 //<AGA> : initialization of temp, which will be passed to saveTestStorage function
 const temp: TestStorage = {
@@ -17,6 +18,10 @@ const handleClickForLoading: React.MouseEventHandler<HTMLButtonElement> = () => 
     const loaded = loadTestStorage()
     console.log(loaded)
 }
+
+const handleClickForSharing: React.MouseEventHandler<HTMLButtonElement> = () => {
+    generateEmojiGrid3([['medium','easy','hard','easy'],['medium','medium','medium','medium'],['hard','hard','hard','hard'],['easy','easy','easy','easy']])}
+
 export const Buttons=()=> {
     return (
         <div className="flex justify-center py-4">
@@ -27,7 +32,7 @@ export const Buttons=()=> {
             <button className="w-fit-content  h-12 px-5  rounded-full bg-gray-500 text-white hover:bg-gray-600 focus:outline-none" onClick={handleClickForLoading}>
             Deselect All
             </button>
-            <button className="w-fit-content h-12 px-5 rounded-full bg-gray-500 text-white hover:bg-gray-600 focus:outline-none">
+            <button className="w-fit-content h-12 px-5 rounded-full bg-gray-500 text-white hover:bg-gray-600 focus:outline-none" onClick={handleClickForSharing}>
             Submit
             </button>
         </div>

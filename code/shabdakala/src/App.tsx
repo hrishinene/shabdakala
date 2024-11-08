@@ -64,6 +64,7 @@ function App() {
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
   // const [isMenuModalOpen, setIsMenuModalOpen] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mistakesRemaining,setmistakesRemaining]=useState(3);
 
   // Function to toggle menu open/close
   const toggleMenu = () => {
@@ -342,7 +343,7 @@ function App() {
       </div>
       <div />
       {/* <Grid guesses={guesses} currentGuess={currentGuess} onChar={onChar} /> */}
-      <CGame cGame_twoD_word_list = { [['मिरवणूक', 'भाद्रपद', 'आकाशकंदील', 'फटाके'], ['फराळ', 'आरती', 'रांगोळी', 'मूर्ति']] }/>
+      <CGame cGame_twoD_word_list = { [['मिरवणूक', 'भाद्रपद', 'आकाशकंदील', 'फटाके'], ['फराळ', 'आरती', 'रांगोळी', 'मूर्ति']] } cGame_mistake={mistakesRemaining}/>
       {/* <Keyboard
         onChar={onChar}
         onDelete={onDelete}

@@ -8,13 +8,14 @@ import {MAX_CHALLENGES} from '../constants/settings'
 // `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
 // generateEmojiGrid(guesses)
 // )
-// }
+// [[med,easy,hard,easy],[],[],[]]}
+let shareString : string
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
     let encodedUrl = getEncodedUrl(GAME_ENCODE_URL);
     let msg = lost? "मी प्रयत्न केलेले शब्दक:" : "मी सोडवलेले शब्दक:";
     let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : guesses.length}/${MAX_CHALLENGES}\n\n` +
-        generateEmojiGrid2(guesses) + `\n\n` + GAME_URL +  `\n\n` + msg + `\n` + encodedUrl;
+        generateEmojiGrid3([['medium','easy','hard','easy'],['medium','medium','medium','medium'],['hard','hard','hard','hard'],['easy','easy','easy','easy']]) + `\n\n` + GAME_URL +  `\n\n` + msg + `\n` + encodedUrl;
 
     // console.log("message", text);
     navigator.clipboard.writeText(text).then(r => {
@@ -57,11 +58,9 @@ export const generateEmojiGrid = (guesses: string[]) => {
 }
 
 export const generateEmojiGrid2 = (guesses: string[]) => {
-    return guesses
-        .map((guess) => {
+    return guesses.map((guess) => {
             const status:CharStatus[] = getGuessStatuses2(guess)
-            return getAkshars(guess)
-                .map((_, i) => {
+            return getAkshars(guess).map((_, i) => {
                     switch (status[i]) {
                         case 'correct':
                             // return '🟦'
@@ -77,5 +76,32 @@ export const generateEmojiGrid2 = (guesses: string[]) => {
                 })
                 .join('')
         })
-        .join('\n')
-}
+        .join('\n')}
+
+
+        export const generateEmojiGrid3 = (guesses: string[][]) => {
+            shareString=""
+            let temp: string
+            guesses.forEach((innerList) => {
+                 innerList.forEach((item) => {
+                    if(item=='easy'){
+                        temp='🟦'
+                        //temp='🥉'
+                        //temp='🔷''🔶'🥇🥈🥉
+                    }
+                    else if(item=='medium'){
+                        //temp='🥈'
+                         temp='🟩'
+                    }
+                    else{
+                        //temp='🥇'
+                        temp='🟧'
+                    }
+                    shareString=shareString+temp
+                });
+                shareString=shareString+'\n';
+              });
+            console.log(shareString)
+            return shareString
+        }
+            

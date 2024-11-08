@@ -12,14 +12,14 @@ const DropdownComponent: FC = () => {
     <div className="relative inline-block text-left">
       <button
         type="button"
-        className="px-4 py-2 text-white bg-blue-500 rounded"
+        className="px-4 py-2 text-white rounded"
         onClick={toggleDropdown}
       >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="black"
                 aria-hidden="true"
                 className="h-6 w-6 mr-4 cursor-pointer dark:stroke-white"
               >
@@ -33,33 +33,33 @@ const DropdownComponent: FC = () => {
     </button>
 
       {isDropdownOpen && (
-        <div className="absolute mt-2 w-56 bg-white border border-gray-200 rounded shadow-lg">
+        <div className="absolute mt-2 w-56 dark:bg-slate-800 bg-white border border-gray-200 rounded shadow-lg">
           <ul className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             <li>
               <a
-                href="#"
-                className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                href="http://www.shabdak.com"
+                className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="menuitem"
               >
-                Option 1
+               नवे शब्दक
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                href="http://hindi.shabdak.com"
+                className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="menuitem"
               >
-                Option 2
+                शब्दक - हिन्दी
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                href="http://shabdak1.shabdak.com"
+                className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="menuitem"
               >
-                Option 3
+                सदाबहार शब्दक-१
               </a>
             </li>
           </ul>
