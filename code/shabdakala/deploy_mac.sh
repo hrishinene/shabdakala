@@ -10,7 +10,7 @@ gcloud config set project shabdakriti
 
 echo "Cloning repository to directory: $D"
 git clone git@github.com:hrishinene/shabdakala.git
-cd shabdakala
+cd shabdakala/code/shabdakala
 git fetch
 git checkout main
 git pull
