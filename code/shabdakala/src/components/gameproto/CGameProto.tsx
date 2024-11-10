@@ -80,13 +80,14 @@ export const CGameProto = () => {
   var isSubmitEnabled = !game.isWon() && game.getSelectedCells().length == 4;
   var isShuffleEnabled = !game.isWon() && game.getSelectedCells().length == 0;
   var isDeselectEnabled = !game.isWon() && game.getSelectedCells().length > 0;
-  var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
+//   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
+  var isHintEnabled = false
 
   return (
     <div>
       <div className="text-center py-4">
         {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
-        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा !</h3>
+        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा!</h3>
       </div>
       <div className="max-w-[550px] m-auto w-full flex-auto overflow-auto mt-2">
           {

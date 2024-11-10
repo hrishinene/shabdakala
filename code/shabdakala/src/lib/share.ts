@@ -13,7 +13,7 @@ let shareString : string
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
     let encodedUrl = getEncodedUrl(GAME_ENCODE_URL);
-    let msg = lost? "मी प्रयत्न केलेले शब्दक:" : "मी सोडवलेले शब्दक:";
+    let msg = lost? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
     let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : guesses.length}/${MAX_CHALLENGES}\n\n` +
         generateEmojiGrid3([['medium','easy','hard','easy'],['medium','medium','medium','medium'],['hard','hard','hard','hard'],['easy','easy','easy','easy']]) + `\n\n` + GAME_URL +  `\n\n` + msg + `\n` + encodedUrl;
 

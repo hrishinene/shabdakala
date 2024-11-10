@@ -303,9 +303,11 @@ function App() {
           <h1 className="text-5xl font-bold dark:text-white text-center">
             {GAME_TITLE}
           </h1>
+          <div>
           <span className="mt-2 text-2xl text-black dark:text-white">
             {new Date().toLocaleDateString("mr-IN", { month: 'long', day: 'numeric', year: 'numeric' })}
           </span>
+          </div>
         </div>
 
         {/* Right-aligned div */}
