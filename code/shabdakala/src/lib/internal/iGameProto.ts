@@ -9,14 +9,13 @@ import { ZCellAddress } from './ZCellAddress';
 export class iGameProto {
     combo: ZCombo;
     solvedThemes: string[] = [];
-    rows: iRowProto[];
+    remainingLives: number = 3;
+    rows: iRowProto[] = [];
 
-    constructor(combo: ZCombo, rows: iRowProto[]) {
+    constructor(combo: ZCombo, solvedThemes: string[]) {
         this.combo = combo;
-        this.rows = rows;
-        if (rows == undefined || rows.length == 0) {
-            this.populate();
-        }
+        this.solvedThemes = solvedThemes;
+        this.populate();
     }
 
 
@@ -108,6 +107,8 @@ export class iGameProto {
             return true;
         }
 
+        // Reduce lives
+        this.remainingLives -= 1;
         return false;
         
     }

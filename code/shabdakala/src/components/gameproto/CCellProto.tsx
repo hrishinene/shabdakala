@@ -17,13 +17,13 @@ function handleCellClick(cellProt: iCellProto, onClickCallback: (cellAddress: ZC
 export const CCellProto = ({cellProto, onClick} : CCellProtoProps) => {
   const classes = classnames(
     'w-[150px] h-[80px]',
-    'border-solid border-0 flex items-center justify-center mx-1 text-xl font-bold rounded dark:text-white', // Reduced font size
+    'border-solid border-2 dark:border-0 flex items-center justify-center mx-1 text-xl font-bold rounded dark:text-white', // Reduced font size
+    'border-black dark:border-slate-100',
+    'cell-animation',
     {
       'bg-[#f4f4f5] dark:bg-slate-800 border-slate-300 dark:border-slate-600': !cellProto.isSelected,
       'bg-custom-dark-gray text-white': cellProto.isSelected,
-      'bg-white text-black': !cellProto.isSelected && cellProto.getWord(),
-      'border-black dark:border-slate-100': cellProto.getWord(),
-      'cell-animation': !!cellProto,
+      'bg-white text-black': !cellProto.isSelected,
     }
   )
 
