@@ -4,6 +4,8 @@ import { CRowProto } from './CRowProto';
 import { shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
+import { MistakesRemaining } from '../../vComponents/cMistakesRemaining';
+import { CLivesProto } from './CLivesProto';
 
 export const CGameProto = () => {
   const [game, setGame] = useState<iGameProto | undefined>(undefined);
@@ -80,13 +82,14 @@ export const CGameProto = () => {
   var isSubmitEnabled = !game.isWon() && game.getSelectedCells().length == 4;
   var isShuffleEnabled = !game.isWon() && game.getSelectedCells().length == 0;
   var isDeselectEnabled = !game.isWon() && game.getSelectedCells().length > 0;
-  var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
+//   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
+  var isHintEnabled = false
 
   return (
     <div>
       <div className="text-center py-4">
         {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
-        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा !</h3>
+        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा!</h3>
       </div>
       <div className="max-w-[550px] m-auto w-full flex-auto overflow-auto mt-2">
           {
@@ -94,26 +97,29 @@ export const CGameProto = () => {
                   <CRowProto key={index} rowProto={row} onClick={handleCellClick} />
               ))
           }
+
+          <CLivesProto mistake={game.remainingLives}/>
+
           <div className="flex justify-center mt-4 space-x-4">
               {isSubmitEnabled && (
-                  <button className="bg-gray-500 text-black px-4 py-2 rounded mb-2" onClick={() => handleSubmission()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleSubmission()}>
                       submit
                   </button>
               )}
               {isShuffleEnabled && (
-                  <button className="bg-gray-500 text-black px-4 py-2 rounded mb-2" onClick={() => handleShuffle()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleShuffle()}>
                       shuffle
                   </button>
               )}
 
               {isHintEnabled && (
-                  <button className="bg-gray-500 text-black px-4 py-2 rounded mb-2" onClick={() => handleClick("hint")}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleClick("hint")}>
                       hint
                   </button>
               )}
 
               {isDeselectEnabled && (
-                  <button className="bg-gray-500 text-black px-4 py-2 rounded mb-2" onClick={() => handleUnselect()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleUnselect()}>
                       unselect
                   </button>
               )}

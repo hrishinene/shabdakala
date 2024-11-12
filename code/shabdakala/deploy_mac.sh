@@ -5,14 +5,14 @@ D=/tmp/deploy$$;
 echo "Temp Dir: $D"
 mkdir $D
 cd $D
-echo "Setting projectid to shabdak3"
-gcloud config set project shabdak3
+echo "Setting projectid to shabdakriti"
+gcloud config set project shabdakriti
 
 echo "Cloning repository to directory: $D"
-git clone git@github.com:hrishinene/vardaL.git
-cd vardaL
+git clone git@github.com:hrishinene/shabdakala.git
+cd shabdakala/code/shabdakala
 git fetch
-git checkout shabdak_3
+git checkout main
 git pull
 
 echo "Running npm build"
