@@ -10,9 +10,29 @@ import { WRONG_GROUP_MESSAGE,
           WRONG_GROUP_BY_ONE_WORD,
           ALREADY_USED_GROUP,
  } from '../../constants/strings';
+ import { GameStorage, loadGameStorage, saveGameStorage } from '../../lib/localStorage';
+
 
 export const CGameProto = () => {
-  const [game, setGame] = useState<iGameProto | undefined>(undefined);
+  const constructZCombo = (jsonString: string): ZCombo => {
+    const parsedData = JSON.parse(jsonString);
+    return new ZCombo(parsedData.tuples)
+  };
+  
+  const [game, setGame] = useState<iGameProto|undefined>(() => {
+    var loaded = loadGameStorage()
+    var temp= new ZCombo([])
+    var temp1=new iGameProto(temp,[])
+
+    if (loaded == null || loaded.comboStorage.tuples.length==0) {
+      //console.log(temp1)
+      return temp1
+    }
+    var combo = constructZCombo(JSON.stringify({tuples: loaded.comboStorage.tuples}));
+    return new iGameProto(combo,loaded.solvedThemesStorage, loaded.remainingLives, loaded.attempts);
+
+  });
+  
   const [modificationCount, setModificationCount] = useState<number>(0);
   const [isGameWon, setIsGameWon] = useState(false)
   const [isWrongGroup, setWrongGroup] = useState(false)
@@ -21,25 +41,41 @@ export const CGameProto = () => {
   const [isGameLost, setIsGameLost] = useState(false)
   const [isWarningAlertOpen, setWarningAlertOpen] = useState(false)
 
+  //const temp : ZCombo;
+
+  // const gameStorage : GameStorage {
+  //     combo: temp;
+  //     solvedThemes: [];
+  // }
+  //const [vibrate,setvibrate]=useState(false)
+
   // Initiate tuples... For now hardcoded
   useEffect(() => {
     var tuples = [
-        // {words:["one", "two", "three", "four"], theme: "numbers", sharedBy: "me", difficulty: 1},
-        // {words:["A", "B", "C", "D"], theme: "Alphabets", sharedBy: "me", difficulty: 0},
-        // {words:["OK", "Yeah", "Done", "Bravo"], theme: "Exclaimations", sharedBy: "me", difficulty: 2},
-        {words:["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1},
-        { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 0 },
-        { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 2 },
+      // {words:["one", "two", "three", "four"], theme: "numbers", sharedBy: "me", difficulty: 1},
+      // {words:["A", "B", "C", "D"], theme: "Alphabets", sharedBy: "me", difficulty: 0},
+      // {words:["OK", "Yeah", "Done", "Bravo"], theme: "Exclaimations", sharedBy: "me", difficulty: 2},
+      {words:["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1},
+      { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 0 },
+      { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 2 },
     ];
-  
+    if(game?.combo.tuples.length==0){
+      //var comboOne = constructZCombo(JSON.stringify({tuples: tuples}));
       var combo = constructZCombo(JSON.stringify({tuples: tuples}));
-      var gameProto = new iGameProto(combo, []);
+      var gameProto = new iGameProto(combo,[]);
       setGame(gameProto);
+    }
     }, []);
-  const constructZCombo = (jsonString: string): ZCombo => {
-    const parsedData = JSON.parse(jsonString);
-    return new ZCombo(parsedData.tuples)
-  };
+
+    useEffect(()=> {
+      var gameStorage : GameStorage ={
+        comboStorage: game?.combo || new ZCombo([]),
+        solvedThemesStorage: game?.solvedThemes || [],
+        remainingLives: game?.remainingLives || 3,
+        attempts: game?.attempts || []
+      }
+      saveGameStorage(gameStorage);
+  },[modificationCount])
 
   const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>): void => {
     setter(true);

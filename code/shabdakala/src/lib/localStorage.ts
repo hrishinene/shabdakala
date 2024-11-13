@@ -1,3 +1,6 @@
+import { ZCombo } from "./internal/ZCombo"
+import { ZAttempt } from "./internal/ZWordGroup"
+
 const gameStateKey = 'gameState2'
 
 type StoredGameState = {
@@ -48,4 +51,24 @@ export const saveTestStorage = (testStorageParameter: TestStorage) => {
 export const loadTestStorage = () => {
   const loadedTest = localStorage.getItem(testStorageKey)
   return loadedTest ? (JSON.parse(loadedTest) as TestStorage) : null
+}
+
+//Final schema of local storage
+//Add Lives Remaining 
+export type GameStorage = {
+  comboStorage: ZCombo;
+  solvedThemesStorage: string[];
+  remainingLives: number;
+  attempts: ZAttempt[];
+}
+
+const gameStorageKey = 'GameStorage'
+
+export const saveGameStorage = (GameStorageParameter: GameStorage) => {
+  localStorage.setItem(gameStorageKey, JSON.stringify(GameStorageParameter))
+}
+
+export const loadGameStorage = () => {
+  const loadedGame = localStorage.getItem(gameStorageKey)
+  return loadedGame ? (JSON.parse(loadedGame) as GameStorage) : null
 }

@@ -14,9 +14,11 @@ export class iGameProto {
     attempts: ZAttempt[] = [];
     rows: iRowProto[] = [];
 
-    constructor(combo: ZCombo, solvedThemes: string[]) {
+    constructor(combo: ZCombo, solvedThemes: string[], remainingLives: number = 3, attempts: ZAttempt[] = []) {
         this.combo = combo;
         this.solvedThemes = solvedThemes;
+        this.remainingLives = remainingLives;
+        this.attempts = attempts;
         this.populate();
     }
 
@@ -99,10 +101,17 @@ export class iGameProto {
         // Check if the selected cells match the tuple
         var selectedWords = selectedCells.map(cell => cell.word);
 
-        // Check if the selected words are present in attempts
-        if (this.attempts.find(attempt => attempt.words.every((word, index) => word === selectedWords[index]))) {
+        // Check if the selected words are present in attempts in any order
+        if (this.attempts.find(attempt => {
+            const sortedAttemptWords = attempt.words.slice().sort();
+            const sortedSelectedWords = selectedWords.slice().sort();
+            return sortedAttemptWords.every((word, index) => word === sortedSelectedWords[index]);
+        })) {
             return -1;
         }
+        // if (this.attempts.find(attempt => attempt.words.every((word, index) => word === selectedWords[index]))) {
+            // return -1;
+        // }
 
         // Add to attempts
         this.attempts.push({
