@@ -5,11 +5,13 @@ import { ZCombo } from './ZCombo'; // Adjust the import path as necessary
 import { shuffleArray } from '../Utils'; // Adjust the import path as necessary
 import { iCellProto } from './iCellProto';
 import { ZCellAddress } from './ZCellAddress';
+import { ZAttempt } from './ZWordGroup';
 
 export class iGameProto {
     combo: ZCombo;
     solvedThemes: string[] = [];
     remainingLives: number = 3;
+    attempts: ZAttempt[] = [];
     rows: iRowProto[] = [];
 
     constructor(combo: ZCombo, solvedThemes: string[]) {
@@ -96,21 +98,32 @@ export class iGameProto {
 
         // Check if the selected cells match the tuple
         var selectedWords = selectedCells.map(cell => cell.word);
+
+        // Check if the selected words are present in attempts
+        if (this.attempts.find(attempt => attempt.words.every((word, index) => word === selectedWords[index]))) {
+            return -1;
+        }
+
+        // Add to attempts
+        this.attempts.push({
+            words: selectedWords,
+            attemptNumber: this.attempts.length + 1
+        });
+
         var matchingTuple = this.combo.getMatchingTuple(selectedWords);
         if (matchingTuple) {
             // Mark the row as complete 
-            var completeRow = new iCompleteRow(matchingTuple);
+            // var completeRow = new iCompleteRow(matchingTuple);
             this.solvedThemes.push(matchingTuple.theme);
 
             // Unselect all cells
             this.handleUnselect();
-            return true;
+            return 0;
         }
 
         // Reduce lives
         this.remainingLives -= 1;
-        return false;
-        
+        return this.combo.getMinimumWrongWords(selectedWords);
     }
 
     getFirstLiveRowIndex() {

@@ -1,15 +1,25 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { iGameProto } from '../../lib/internal/iGameProto'   
 import { CRowProto } from './CRowProto';
 import { shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
-import { MistakesRemaining } from '../../vComponents/cMistakesRemaining';
 import { CLivesProto } from './CLivesProto';
+import { Alert } from '../alerts/Alert';
+import { WRONG_GROUP_MESSAGE,
+          WRONG_GROUP_BY_ONE_WORD,
+          ALREADY_USED_GROUP,
+ } from '../../constants/strings';
 
 export const CGameProto = () => {
   const [game, setGame] = useState<iGameProto | undefined>(undefined);
   const [modificationCount, setModificationCount] = useState<number>(0);
+  const [isGameWon, setIsGameWon] = useState(false)
+  const [isWrongGroup, setWrongGroup] = useState(false)
+  const [isAlreadyUsedAttempt, setAlreadyUsedAttempt] = useState(false)
+  const [isWrongGroupByOneWord, setWrongGroupByOneWord] = useState(false)
+  const [isGameLost, setIsGameLost] = useState(false)
+  const [isWarningAlertOpen, setWarningAlertOpen] = useState(false)
 
   // Initiate tuples... For now hardcoded
   useEffect(() => {
@@ -31,15 +41,33 @@ export const CGameProto = () => {
     return new ZCombo(parsedData.tuples)
   };
 
+  const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>): void => {
+    setter(true);
+    setTimeout(() => {
+      setter(false);
+    }, 2500);
+  }
+
   const handleSubmission = () => {
       if (!game) {
-            return;
-        }
-      const success = game.handleSubmision();
-      if (success) {
-          game.populate()
+        return;
+      }
+      const errors = game.handleSubmision();
+      if (game.isWon()) {
+          setIsGameWon(true);
+      }
+
+      if (errors == -1) {
+          flashAlert(setAlreadyUsedAttempt);
+          return; // no need to redraw
+      } 
+
+      if (errors == 0) {
+          game.populate() // rearrange game
+      } else if (errors == 1) {
+          flashAlert(setWrongGroupByOneWord);
       } else {
-          alert("Incorrect combination! Please try again.");
+        flashAlert(setWrongGroup);
       }
 
       setModificationCount(modificationCount + 1);
@@ -125,6 +153,9 @@ export const CGameProto = () => {
               )}
           </div>
       </div>
+        <Alert message={WRONG_GROUP_MESSAGE} isOpen={isWrongGroup} />
+        <Alert message={WRONG_GROUP_BY_ONE_WORD} isOpen={isWrongGroupByOneWord} />
+        <Alert message={ALREADY_USED_GROUP} isOpen={isAlreadyUsedAttempt} />
       </div>
   )
 }

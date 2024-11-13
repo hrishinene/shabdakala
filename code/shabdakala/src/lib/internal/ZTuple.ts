@@ -3,6 +3,6 @@ export type ZTuple = {
     words: string[]; 
     theme:string;
     sharedBy:string;
-    difficulty:Number;
+    difficulty:number;
     createdOn:Date
 }

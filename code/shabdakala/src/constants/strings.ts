@@ -10,6 +10,9 @@ export const WIN_MESSAGES = ['महान!', 'उत्तम!', 'भले श
 export const GAME_COPIED_MESSAGE = 'आता व्हॉट्सॅप् वर पेस्ट करा'
 export const ABOUT_GAME_MESSAGE = `'${GAME_TITLE}' विषयी थोडेसे...`
 export const NOT_ENOUGH_LETTERS_MESSAGE = `निदान ${MAX_WORD_LENGTH} तरी अक्षरं हवीत!`
+export const WRONG_GROUP_MESSAGE = `क्षमस्व, तुम्ही सुचवलेला शब्दबंध चुकीचा आहे!`
+export const WRONG_GROUP_BY_ONE_WORD = `अरेरे, तुम्ही सुचवलेला शब्दबंधामधला फक्त एक शब्द चुकला आहे!`
+export const ALREADY_USED_GROUP = `हा शब्दबंध तुम्ही आधी एकदा सुचविला होता!`
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `आजचा शब्द आहे ${solution}. चांगला प्रयत्न!`
 export const ENTER_TEXT = '\u2713'

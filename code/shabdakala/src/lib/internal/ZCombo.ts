@@ -21,4 +21,12 @@ export class ZCombo {
             return words.length === tuple.words.length && words.every(word => tuple.words.includes(word));
         });
     }   
+
+    getMinimumWrongWords(selectedWords: string[]) {
+        // find the tuple that matches the words array with any sequence
+        return this.tuples.reduce((min, tuple) => {
+            const wrongWords = tuple.words.filter(word => !selectedWords.includes(word));
+            return wrongWords.length < min ? wrongWords.length : min;
+        }, 1000);
+    }
 }
