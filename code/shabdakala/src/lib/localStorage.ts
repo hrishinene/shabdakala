@@ -1,5 +1,5 @@
 import { ZCombo } from "./internal/ZCombo"
-import { ZAttempt } from "./internal/ZWordGroup"
+import { ZAttempt } from "./internal/ZAttempt"
 
 const gameStateKey = 'gameState2'
 

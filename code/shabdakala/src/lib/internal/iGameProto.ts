@@ -5,7 +5,7 @@ import { ZCombo } from './ZCombo'; // Adjust the import path as necessary
 import { shuffleArray } from '../Utils'; // Adjust the import path as necessary
 import { iCellProto } from './iCellProto';
 import { ZCellAddress } from './ZCellAddress';
-import { ZAttempt } from './ZWordGroup';
+import { ZAttempt } from './ZAttempt';
 
 export class iGameProto {
     combo: ZCombo;
@@ -141,7 +141,11 @@ export class iGameProto {
     }
 
     isWon() {
-        return this.getCompletedRows().length == this.combo.tuples.length;
+        return this.solvedThemes.length == this.combo.tuples.length;
+    }
+
+    isLost() {
+        return this.remainingLives == 0;
     }
 
     getCompletedRows() {

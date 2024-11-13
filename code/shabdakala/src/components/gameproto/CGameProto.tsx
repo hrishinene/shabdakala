@@ -68,6 +68,12 @@ export const CGameProto = () => {
     }, []);
 
     useEffect(()=> {
+      // temporary - until we have a proper state management
+      if (game?.isWon() || game?.isLost()) {
+        localStorage.removeItem('GameStorage');
+        return;
+      }
+
       var gameStorage : GameStorage ={
         comboStorage: game?.combo || new ZCombo([]),
         solvedThemesStorage: game?.solvedThemes || [],
@@ -89,20 +95,23 @@ export const CGameProto = () => {
         return;
       }
       const errors = game.handleSubmision();
-      if (game.isWon()) {
+      if (game.isWon()) { // All combos solved
+          game.populate();
           setIsGameWon(true);
-      }
-
-      if (errors == -1) {
+          // clear localStorage
+          // localStorage.removeItem('GameStorage');
+      } else if (game.isLost()) { // All lives lost
+          setIsGameLost(true);
+          // clear localStorage
+          // localStorage.removeItem('GameStorage');
+      } else if (errors == -1) { // already used attempt
           flashAlert(setAlreadyUsedAttempt);
           return; // no need to redraw
-      } 
-
-      if (errors == 0) {
+      } else if (errors == 0) { // correct group
           game.populate() // rearrange game
-      } else if (errors == 1) {
+      } else if (errors == 1) { // wrong group by one word
           flashAlert(setWrongGroupByOneWord);
-      } else {
+      } else { // wrong group
         flashAlert(setWrongGroup);
       }
 
@@ -143,9 +152,9 @@ export const CGameProto = () => {
     return <div>Loading...</div>;
   }
 
-  var isSubmitEnabled = !game.isWon() && game.getSelectedCells().length == 4;
-  var isShuffleEnabled = !game.isWon() && game.getSelectedCells().length == 0;
-  var isDeselectEnabled = !game.isWon() && game.getSelectedCells().length > 0;
+  var isSubmitEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 4;
+  var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 0;
+  var isDeselectEnabled = !game.isWon()  && !game.isLost() && game.getSelectedCells().length > 0;
 //   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
   var isHintEnabled = false
 
