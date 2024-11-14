@@ -20,3 +20,14 @@ export function setMaxWords(len:number) {
             break;
     }
 }
+
+export type ZColor = {
+    background: string; 
+    shareIcon:string;
+}
+
+export const Colors:ZColor[] = [
+    { background: "#47fd55", shareIcon: "🟩" },
+    { background: "#fdb047", shareIcon: "🟧" },
+    { background: "#d093fe", shareIcon: "🟪" }
+]

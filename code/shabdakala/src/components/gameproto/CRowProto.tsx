@@ -1,10 +1,10 @@
 import classnames from 'classnames'
 import { CCellProto } from './CCellProto'
 import { iRowProto } from '../../lib/internal/iRowProto';
-import { shuffleArray } from '../../lib/Utils';
 import { ZTuple } from '../../lib/internal/ZTuple';
 import { iCellProto } from '../../lib/internal/iCellProto';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
+import { Colors } from '../../constants/settings';
 
 interface CRowProtoProps {
 
@@ -14,10 +14,13 @@ interface CRowProtoProps {
 
 // Completed Row Tuple contains the category name and the tuple value
 function completedRowContent(tuple: ZTuple) {
+  var color = Colors[tuple.difficulty].background;
+  var colorClass = "bg-["+color +"] text-black";
   const classes = classnames(
-    'border-solid border-0 flex items-center justify-center mx-1 rounded dark:text-white', // Reduced font size
-    "bg-[#fde047] text-black border-yellow-500 dark:bg-yellow-700 dark:border-yellow-700",
-     'w-[620px] h-[80px]')
+    "border-solid border-0 flex items-center justify-center mx-1 rounded", // Reduced font size
+    colorClass,
+     "w-[620px] h-[80px]")
+     
 
   const thm = tuple.theme
   const wrds = tuple.words.join(',');
