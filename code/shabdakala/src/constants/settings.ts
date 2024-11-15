@@ -22,12 +22,13 @@ export function setMaxWords(len:number) {
 }
 
 export type ZColor = {
+    bgcolor: string; 
     background: string; 
     shareIcon:string;
 }
 
 export const Colors:ZColor[] = [
-    { background: "#47fd55", shareIcon: "🟩" },
-    { background: "#fdb047", shareIcon: "🟧" },
-    { background: "#d093fe", shareIcon: "🟪" }
+    { bgcolor: "bg-lime-400", background: "#47fd55", shareIcon: "🟩" },
+    { bgcolor : "bg-orange-400", background: "#fdb047", shareIcon: "🟧" },
+    { bgcolor : "bg-violet-400", background: "#d093fe", shareIcon: "🟪" }
 ]

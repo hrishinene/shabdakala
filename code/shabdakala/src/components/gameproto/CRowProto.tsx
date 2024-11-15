@@ -14,11 +14,11 @@ interface CRowProtoProps {
 
 // Completed Row Tuple contains the category name and the tuple value
 function completedRowContent(tuple: ZTuple) {
-  var color = Colors[tuple.difficulty].background;
-  var colorClass = "bg-["+color +"] text-black";
+  var color = Colors[tuple.difficulty].bgcolor;
+  // var borderClass = "bg-orange-400"+color +"] text-black";
   const classes = classnames(
-    "border-solid border-0 flex items-center justify-center mx-1 rounded", // Reduced font size
-    colorClass,
+    "border-solid border-0 flex items-center justify-center mx-1 rounded text-black", // Reduced font size
+    color,
      "w-[620px] h-[80px]")
      
 
