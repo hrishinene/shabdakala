@@ -10,7 +10,7 @@ import { WRONG_GROUP_MESSAGE,
           WRONG_GROUP_BY_ONE_WORD,
           ALREADY_USED_GROUP,
  } from '../../constants/strings';
- import { GameStorage, loadGameStorage, saveGameStorage } from '../../lib/localStorage';
+ import { GameStorage, loadGameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
 
 
 export const CGameProto = () => {
@@ -19,26 +19,31 @@ export const CGameProto = () => {
     return new ZCombo(parsedData.tuples)
   };
   
-  const [game, setGame] = useState<iGameProto|undefined>(() => {
-    var loaded = loadGameStorage()
-    var temp= new ZCombo([])
-    var temp1=new iGameProto(temp,[])
+ const [game, setGame] = useState<iGameProto|null>();
+  // const [game, setGame] = useState<iGameProto|null>(() => {
+    // return iGameProto.loadGame()
 
-    if (loaded == null || loaded.comboStorage.tuples.length==0) {
+    // if (loaded == null) {
+      // game = undefined
+    // }
+    // var temp= new ZCombo([])
+    // var temp1=new iGameProto(temp,[])
+
+    // if (loaded == null || loaded.comboStorage.tuples.length==0) {
       //console.log(temp1)
-      return temp1
-    }
-    var combo = constructZCombo(JSON.stringify({tuples: loaded.comboStorage.tuples}));
-    return new iGameProto(combo,loaded.solvedThemesStorage, loaded.remainingLives, loaded.attempts);
+      // return temp1
+    // }
+    // var combo = constructZCombo(JSON.stringify({tuples: loaded.comboStorage.tuples}));
+    // return new iGameProto(combo,loaded.solvedThemesStorage, loaded.remainingLives, loaded.attempts);
 
-  });
+  // });
   
   const [modificationCount, setModificationCount] = useState<number>(0);
-  const [isGameWon, setIsGameWon] = useState(false)
+  // const [isGameWon, setIsGameWon] = useState(false)
   const [isWrongGroup, setWrongGroup] = useState(false)
   const [isAlreadyUsedAttempt, setAlreadyUsedAttempt] = useState(false)
   const [isWrongGroupByOneWord, setWrongGroupByOneWord] = useState(false)
-  const [isGameLost, setIsGameLost] = useState(false)
+  // const [isGameLost, setIsGameLost] = useState(false)
   const [isWarningAlertOpen, setWarningAlertOpen] = useState(false)
 
   //const temp : ZCombo;
@@ -51,6 +56,8 @@ export const CGameProto = () => {
 
   // Initiate tuples... For now hardcoded
   useEffect(() => {
+    var gameProto = iGameProto.loadGame()
+    if(gameProto == null || gameProto.combo.tuples.length==0) {
     var tuples = [
       // {words:["one", "two", "three", "four"], theme: "numbers", sharedBy: "me", difficulty: 1},
       // {words:["A", "B", "C", "D"], theme: "Alphabets", sharedBy: "me", difficulty: 0},
@@ -59,26 +66,31 @@ export const CGameProto = () => {
       { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 2 },
       { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 0 },
     ];
-    if(game?.combo.tuples.length==0){
-      //var comboOne = constructZCombo(JSON.stringify({tuples: tuples}));
+
       var combo = constructZCombo(JSON.stringify({tuples: tuples}));
-      var gameProto = new iGameProto(combo,[]);
-      setGame(gameProto);
+      gameProto = new iGameProto(combo,[]);
     }
+
+    setGame(gameProto);
+    setModificationCount(modificationCount + 1);
     }, []);
 
     useEffect(()=> {
       // temporary - until we have a proper state management
-      if (game?.isWon() || game?.isLost()) {
-        localStorage.removeItem('GameStorage');
+      // if (game?.isWon() || game?.isLost()) {
+        // localStorage.removeItem('GameStorage');
+        // return;
+      // }
+
+      if (!game) {
         return;
       }
 
       var gameStorage : GameStorage ={
-        comboStorage: game?.combo || new ZCombo([]),
-        solvedThemesStorage: game?.solvedThemes || [],
-        remainingLives: game?.remainingLives || 3,
-        attempts: game?.attempts || []
+        comboStorage: game.combo,
+        solvedThemesStorage: game.solvedThemes,
+        remainingLives: game.remainingLives,
+        attempts: game.attempts
       }
       saveGameStorage(gameStorage);
   },[modificationCount])
@@ -87,7 +99,7 @@ export const CGameProto = () => {
     setter(true);
     setTimeout(() => {
       setter(false);
-    }, 2500);
+    }, 3500);
   }
 
   const handleSubmission = () => {
@@ -97,13 +109,11 @@ export const CGameProto = () => {
       const errors = game.handleSubmision();
       if (game.isWon()) { // All combos solved
           game.populate();
-          setIsGameWon(true);
+          saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
-          // localStorage.removeItem('GameStorage');
       } else if (game.isLost()) { // All lives lost
-          setIsGameLost(true);
+          saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
-          // localStorage.removeItem('GameStorage');
       } else if (errors == -1) { // already used attempt
           flashAlert(setAlreadyUsedAttempt);
           return; // no need to redraw
@@ -148,13 +158,22 @@ export const CGameProto = () => {
     setModificationCount(modificationCount + 1);
   }
 
+  const handleReset = () => {
+    // alert("Reset");
+    localStorage.removeItem('GameStorage');
+    setGame(null)
+    // alert("Game Reset");
+    setModificationCount(modificationCount + 1);
+  }
+
   if (!game) {
-    return <div>Loading...</div>;
+    return <div className='text-left py-4 text-black dark:text-white'>Please Reload Page</div>;
   }
 
   var isSubmitEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 4;
   var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 0;
   var isDeselectEnabled = !game.isWon()  && !game.isLost() && game.getSelectedCells().length > 0;
+  var isResetEnabled = game.isWon()  || game.isLost();
 //   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
   var isHintEnabled = false
 
@@ -175,25 +194,31 @@ export const CGameProto = () => {
 
           <div className="flex justify-center mt-4 space-x-4">
               {isSubmitEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleSubmission()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleSubmission()}>
                       submit
                   </button>
               )}
               {isShuffleEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleShuffle()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleShuffle()}>
                       shuffle
                   </button>
               )}
 
               {isHintEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleClick("hint")}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleClick("hint")}>
                       hint
                   </button>
               )}
 
               {isDeselectEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded mb-2" onClick={() => handleUnselect()}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleUnselect()}>
                       unselect
+                  </button>
+              )}
+
+              {isResetEnabled && (
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleReset()}>
+                      Reset (Temp)
                   </button>
               )}
           </div>
@@ -201,6 +226,10 @@ export const CGameProto = () => {
         <Alert message={WRONG_GROUP_MESSAGE} isOpen={isWrongGroup} />
         <Alert message={WRONG_GROUP_BY_ONE_WORD} isOpen={isWrongGroupByOneWord} />
         <Alert message={ALREADY_USED_GROUP} isOpen={isAlreadyUsedAttempt} />
+        {/* Success message Alert and Failure message Alerts*/}
+
+        {/* Success message Alert and Failure message Alerts*/}
+        
       </div>
   )
 }

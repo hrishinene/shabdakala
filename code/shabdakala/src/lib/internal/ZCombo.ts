@@ -5,9 +5,9 @@ export class ZCombo {
     tuples: ZTuple[];
     createdOn:Date;
 
-    constructor(tuples: ZTuple[]) {
+    constructor(tuples: ZTuple[], createdOn?:Date) {
         this.tuples = tuples;
-        this.createdOn = new Date();
+        this.createdOn = createdOn ? createdOn : new Date();
     }
 
     getTuples() {

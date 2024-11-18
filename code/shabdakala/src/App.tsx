@@ -51,6 +51,7 @@ import { getAkshars, getShabda, unicodeMatch } from './lib/statuses'
 import { CGame } from './vComponents/cGame'
 import DropdownComponent from './components/modals/MenuModal'
 import CGameProto from './components/gameproto/CGameProto'
+import { CStatsModalProto } from './components/modals/CStatsModalProto'
 // import { DropdownComponent } from './components/modals/MenuModal'
 
 const ALERT_TIME_MS = 2500
@@ -357,7 +358,7 @@ function App() {
         isOpen={isInfoModalOpen}
         handleClose={() => setIsInfoModalOpen(false)}
       />
-      <StatsModal
+      {/* <StatsModal
         isOpen={isStatsModalOpen}
         handleClose={() => setIsStatsModalOpen(false)}
         guesses={guesses}
@@ -368,7 +369,16 @@ function App() {
           setSuccessAlert(GAME_COPIED_MESSAGE)
           return setTimeout(() => setSuccessAlert(''), ALERT_TIME_MS)
         }}
+      /> */}
+      <CStatsModalProto
+      isOpen={isStatsModalOpen}
+      handleClose={() => setIsStatsModalOpen(false)}
+      handleShare={() => {
+        setSuccessAlert(GAME_COPIED_MESSAGE)
+        return setTimeout(() => setSuccessAlert(''), ALERT_TIME_MS)
+      }}
       />
+
       <AboutModal
         isOpen={isAboutModalOpen}
         handleClose={() => setIsAboutModalOpen(false)}

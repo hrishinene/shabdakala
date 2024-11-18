@@ -1,7 +1,8 @@
-import {CharStatus2, getAkshars, getGuessStatuses, getEncodedUrl, getGuessStatuses2, CharStatus} from './statuses'
-import {solutionIndex} from './words'
-import {GAME_TITLE, GAME_URL, GAME_ENCODE_URL} from '../constants/strings'
-import {MAX_CHALLENGES} from '../constants/settings'
+import { CharStatus2, getAkshars, getGuessStatuses, getEncodedUrl, getGuessStatuses2, CharStatus } from './statuses'
+import { solutionIndex } from './words'
+import { GAME_TITLE, GAME_URL, GAME_ENCODE_URL } from '../constants/strings'
+import { MAX_CHALLENGES } from '../constants/settings'
+import { iGameProto } from './internal/iGameProto'
 
 // export const shareStatus = (guesses: string[], lost: boolean) => {
 // navigator.clipboard.writeText(
@@ -9,13 +10,13 @@ import {MAX_CHALLENGES} from '../constants/settings'
 // generateEmojiGrid(guesses)
 // )
 // [[med,easy,hard,easy],[],[],[]]}
-let shareString : string
+let shareString: string
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
     let encodedUrl = getEncodedUrl(GAME_ENCODE_URL);
-    let msg = lost? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
+    let msg = lost ? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
     let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : guesses.length}/${MAX_CHALLENGES}\n\n` +
-        generateEmojiGrid3([['medium','easy','hard','easy'],['medium','medium','medium','medium'],['hard','hard','hard','hard'],['easy','easy','easy','easy']]) + `\n\n` + GAME_URL +  `\n\n` + msg + `\n` + encodedUrl;
+        generateEmojiGrid3([['medium', 'easy', 'hard', 'easy'], ['medium', 'medium', 'medium', 'medium'], ['hard', 'hard', 'hard', 'hard'], ['easy', 'easy', 'easy', 'easy']]) + `\n\n` + GAME_URL + `\n\n` + msg + `\n` + encodedUrl;
 
     // console.log("message", text);
     navigator.clipboard.writeText(text).then(r => {
@@ -36,7 +37,7 @@ export const shareStatus = (guesses: string[], lost: boolean) => {
 export const generateEmojiGrid = (guesses: string[]) => {
     return guesses
         .map((guess) => {
-            const status:CharStatus2[] = getGuessStatuses(guess)
+            const status: CharStatus2[] = getGuessStatuses(guess)
             return getAkshars(guess)
                 .map((_, i) => {
                     switch (status[i].status) {
@@ -49,7 +50,7 @@ export const generateEmojiGrid = (guesses: string[]) => {
                             return '🟡';
                         default:
                             return '⬛';
-                            // return '⚫';
+                        // return '⚫';
                     }
                 })
                 .join('')
@@ -59,49 +60,77 @@ export const generateEmojiGrid = (guesses: string[]) => {
 
 export const generateEmojiGrid2 = (guesses: string[]) => {
     return guesses.map((guess) => {
-            const status:CharStatus[] = getGuessStatuses2(guess)
-            return getAkshars(guess).map((_, i) => {
-                    switch (status[i]) {
-                        case 'correct':
-                            // return '🟦'
-                            // return '🟩'
-                            return '🟢';
-                        case 'present':
-                            // return '🟧'
-                            return '🟡';
-                        default:
-                            return '⬛';
-                            // return '⚫';
-                    }
-                })
-                .join('')
+        const status: CharStatus[] = getGuessStatuses2(guess)
+        return getAkshars(guess).map((_, i) => {
+            switch (status[i]) {
+                case 'correct':
+                    // return '🟦'
+                    // return '🟩'
+                    return '🟢';
+                case 'present':
+                    // return '🟧'
+                    return '🟡';
+                default:
+                    return '⬛';
+                // return '⚫';
+            }
         })
-        .join('\n')}
+            .join('')
+    })
+        .join('\n')
+}
 
 
-        export const generateEmojiGrid3 = (guesses: string[][]) => {
-            shareString=""
-            let temp: string
-            guesses.forEach((innerList) => {
-                 innerList.forEach((item) => {
-                    if(item=='easy'){
-                        temp='🟦'
-                        //temp='🥉'
-                        //temp='🔷''🔶'🥇🥈🥉
-                    }
-                    else if(item=='medium'){
-                        //temp='🥈'
-                         temp='🟩'
-                    }
-                    else{
-                        //temp='🥇'
-                        temp='🟧'
-                    }
-                    shareString=shareString+temp
-                });
-                shareString=shareString+'\n';
-              });
-            console.log(shareString)
-            return shareString
-        }
-            
+export const generateEmojiGrid3 = (guesses: string[][]) => {
+    shareString = ""
+    let temp: string
+    guesses.forEach((innerList) => {
+        innerList.forEach((item) => {
+            if (item == 'easy') {
+                temp = '🟦'
+                //temp='🥉'
+                //temp='🔷''🔶'🥇🥈🥉
+            }
+            else if (item == 'medium') {
+                //temp='🥈'
+                temp = '🟩'
+            }
+            else {
+                //temp='🥇'
+                temp = '🟧'
+            }
+            shareString = shareString + temp
+        });
+        shareString = shareString + '\n';
+    });
+    console.log(shareString)
+    return shareString
+}
+//---------------------------------------------------
+// Shabdabandha sharing logic
+//---------------------------------------------------
+export const shareShabdabandhaStatus = (game: iGameProto): void => {
+    let encodedUrl = "shabdabandha.shabdak.com";
+    let msg = game.isLost() ? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
+    // let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : guesses.length}/${MAX_CHALLENGES}\n\n` +
+        // generateEmojiGrid3([['medium', 'easy', 'hard', 'easy'], ['medium', 'medium', 'medium', 'medium'], ['hard', 'hard', 'hard', 'hard'], ['easy', 'easy', 'easy', 'easy']]) + `\n\n` + GAME_URL + `\n\n` + msg + `\n` + encodedUrl;
+
+    // TODO - prepare the text to share
+    let text = "❌ 🟩🟧🟦🟧\n✅ 🟧🟧🟧🟧\n❌ 🟩🟦🟦🟦\n✅ 🟦🟦🟦🟦\n✅ 🟩🟩🟩🟩\n";
+
+    // console.log("message", text);
+    navigator.clipboard.writeText(text).then(r => {
+        // ignore for now
+    })
+
+    if (navigator.share) {
+        navigator
+            .share({
+                text: text,
+            })
+            .catch(error => {
+                console.error('Something went wrong', error);
+            });
+    }
+}
+

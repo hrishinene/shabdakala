@@ -6,6 +6,7 @@ import { shuffleArray } from '../Utils'; // Adjust the import path as necessary
 import { iCellProto } from './iCellProto';
 import { ZCellAddress } from './ZCellAddress';
 import { ZAttempt } from './ZAttempt';
+import { loadGameStorage } from '../localStorage';
 
 export class iGameProto {
     combo: ZCombo;
@@ -150,5 +151,20 @@ export class iGameProto {
 
     getCompletedRows() {
         return this.rows.filter(row => row.isComplete());
+    }
+
+    static loadGame() : iGameProto | null {
+        const gameStorage = loadGameStorage();
+        if (!gameStorage) {
+            return null;
+        }
+
+        const combo = new ZCombo(gameStorage.comboStorage.tuples, gameStorage.comboStorage.createdOn);
+        const solvedThemes = gameStorage.solvedThemesStorage;
+        const remainingLives = gameStorage.remainingLives;
+        const attempts = gameStorage.attempts;
+
+        return new iGameProto(combo, solvedThemes, remainingLives, attempts);
+        
     }
 }   

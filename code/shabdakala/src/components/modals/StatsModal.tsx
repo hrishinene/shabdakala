@@ -13,6 +13,7 @@ import {
 } from '../../constants/strings'
 
 import {FORM_LINK} from "../../constants/settings";
+import { iGameProto } from '../../lib/internal/iGameProto'
 type Props = {
   isOpen: boolean
   handleClose: () => void
@@ -43,6 +44,13 @@ export const StatsModal = ({
       </BaseModal>
     )
   }
+
+  // Load the game
+  var game = iGameProto.loadGame();
+  
+  // iGame
+  // .loadGame()
+
   return (
     <BaseModal
       title={STATISTICS_TITLE}
