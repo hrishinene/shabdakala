@@ -1,7 +1,7 @@
 import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
-import { GameStats, loadShabdabandhaStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
-import { shareShabdabandhaStatus, shareStatus } from '../../lib/share'
+import { GameStats, loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
+import { shareShabdabandhaStatus as shareSBStatus, shareStatus } from '../../lib/share'
 import { solution } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
@@ -14,8 +14,8 @@ import {
 
 import {FORM_LINK} from "../../constants/settings";
 import { iGameProto } from '../../lib/internal/iGameProto'
-import { ShabdabandhaStatBar } from '../stats/ShabdabandhaStatBar'
-import { ShabdabandhaHistogram } from '../stats/ShabdabandhaHistogram'
+import { SBStatBar } from '../stats/SBStatBar'
+import { SBHistogram } from '../stats/SBHistogram'
 type Props = {
   isOpen: boolean
   handleClose: () => void
@@ -27,7 +27,7 @@ export const CStatsModalProto = ({
   handleClose,
   handleShare,
 }: Props) => {
-  const gameStats = loadShabdabandhaStatsFromLocalStorage();
+  const gameStats = loadSBStatsFromLocalStorage();
   if (gameStats.totalGames <= 0) {
     return (
       <BaseModal
@@ -35,7 +35,7 @@ export const CStatsModalProto = ({
         isOpen={isOpen}
         handleClose={handleClose}
       >
-        <ShabdabandhaStatBar gameStats={gameStats} />
+        <SBStatBar gameStats={gameStats} />
       </BaseModal>
     )
   }
@@ -50,14 +50,14 @@ export const CStatsModalProto = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <ShabdabandhaStatBar gameStats={gameStats} />
+      <SBStatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
         {GUESS_DISTRIBUTION_TEXT}
       </h4>
       <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
         {GUESS_DISTRIBUTION_SUBTEXT}
       </h5>
-      <ShabdabandhaHistogram gameStats={gameStats} />
+      <SBHistogram gameStats={gameStats} />
       {(game?.isWon() || game?.isLost()) && (
         <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
           <div>
@@ -77,7 +77,7 @@ export const CStatsModalProto = ({
             className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
             onClick={() => {
               if (game) {
-                shareShabdabandhaStatus(game)
+                shareSBStatus(game)
               }
               handleShare()
             }}
@@ -95,7 +95,7 @@ export const CStatsModalProto = ({
       {(game?.isWon() || game?.isLost()) && (
         <div className="mt-5 sm:mt-6 dark:text-white">
         <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
-        हे शब्दबंध आपल्यासाठी बनवण्यात यांचा सहभाग होता: पी. सायली सौरभ कुलकर्णी आणि AI प्रणाली 
+        हे शब्दबंध आपल्यासाठी बनवण्यात यांचा सहभाग होता: पी. सायली, सौरभ कुलकर्णी आणि AI प्रणाली (Chat GPT आणि तत्सम) 
         </h5>
         </div>
       )}

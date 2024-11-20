@@ -1,7 +1,7 @@
 import { CharStatus2, getAkshars, getGuessStatuses, getEncodedUrl, getGuessStatuses2, CharStatus } from './statuses'
 import { solutionIndex } from './words'
-import { GAME_TITLE, GAME_URL, GAME_ENCODE_URL } from '../constants/strings'
-import { MAX_CHALLENGES } from '../constants/settings'
+import { GAME_TITLE, GAME_URL, GAME_ENCODE_URL, TICK_EMOJI, CROSS_EMOJI } from '../constants/strings'
+import { Colors, MAX_CHALLENGES } from '../constants/settings'
 import { iGameProto } from './internal/iGameProto'
 
 // export const shareStatus = (guesses: string[], lost: boolean) => {
@@ -111,12 +111,16 @@ export const generateEmojiGrid3 = (guesses: string[][]) => {
 //---------------------------------------------------
 export const shareShabdabandhaStatus = (game: iGameProto): void => {
     let encodedUrl = "shabdabandha.shabdak.com";
-    let msg = game.isLost() ? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
-    // let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : guesses.length}/${MAX_CHALLENGES}\n\n` +
+    let lost = game.isLost();
+    let attemptsCount = game.attempts.length;
+
+    let msg = lost ? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
+    let text = `${GAME_TITLE} (${solutionIndex}) ${lost ? 'X' : attemptsCount}/5\n\n` +
+        generateSBEmojiGrid(game) + `\n` + GAME_URL + `\n`;
         // generateEmojiGrid3([['medium', 'easy', 'hard', 'easy'], ['medium', 'medium', 'medium', 'medium'], ['hard', 'hard', 'hard', 'hard'], ['easy', 'easy', 'easy', 'easy']]) + `\n\n` + GAME_URL + `\n\n` + msg + `\n` + encodedUrl;
 
     // TODO - prepare the text to share
-    let text = "❌ 🟩🟧🟦🟧\n✅ 🟧🟧🟧🟧\n❌ 🟩🟦🟦🟦\n✅ 🟦🟦🟦🟦\n✅ 🟩🟩🟩🟩\n";
+    // let text = "❌ 🟩🟧🟦🟧\n✅ 🟧🟧🟧🟧\n❌ 🟩🟦🟦🟦\n✅ 🟦🟦🟦🟦\n✅ 🟩🟩🟩🟩\n";
 
     // console.log("message", text);
     navigator.clipboard.writeText(text).then(r => {
@@ -132,5 +136,26 @@ export const shareShabdabandhaStatus = (game: iGameProto): void => {
                 console.error('Something went wrong', error);
             });
     }
+}
+
+export const generateSBEmojiGrid = (game: iGameProto) => {
+    shareString = ""
+    game.attempts.forEach((attempt) => {
+        var matchIndicators:number[] = game.combo.getMatchIndicators(attempt);
+        // if all indicators are identical, then it is a correct guess
+        if (matchIndicators.every((val, i, arr) => val === arr[0])) {
+            shareString = shareString + TICK_EMOJI + ' ';
+        } else {
+            shareString = shareString + CROSS_EMOJI + ' ';
+        }
+
+        matchIndicators.forEach((item) => {
+            shareString = shareString +  Colors[item].shareIcon;
+        });
+        shareString = shareString + '\n';
+    });
+
+    console.log(shareString)
+    return shareString
 }
 

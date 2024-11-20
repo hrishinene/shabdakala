@@ -1,3 +1,4 @@
+import { ZAttempt } from "./ZAttempt";
 import { ZTuple } from "./ZTuple";
 
 // ZCombo is a type that represents a combination of tuples - typically 3
@@ -28,5 +29,18 @@ export class ZCombo {
             const wrongWords = tuple.words.filter(word => !selectedWords.includes(word));
             return wrongWords.length < min ? wrongWords.length : min;
         }, 1000);
+    }
+
+    getMatchIndicators(attempt: ZAttempt): number[] {
+        // find difficulty of the tuple in which the words from attempt is present
+        var matchIndicators: number[] = [];
+        attempt.words.forEach(word => {
+            const tuple = this.tuples.find(tuple => tuple.words.includes(word));
+            if (tuple) {
+                matchIndicators.push(tuple.difficulty);
+            }
+        });
+
+        return matchIndicators;
     }
 }

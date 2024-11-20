@@ -25,7 +25,7 @@ const StatItem = ({
   )
 }
 
-export const ShabdabandhaStatBar = ({ gameStats }: Props) => {
+export const SBStatBar = ({ gameStats }: Props) => {
   return (
     <div className="flex justify-center my-2">
       <StatItem label={TOTAL_TRIES_TEXT} value={gameStats.totalGames} />

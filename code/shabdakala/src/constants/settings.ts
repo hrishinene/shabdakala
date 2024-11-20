@@ -30,5 +30,6 @@ export type ZColor = {
 export const Colors:ZColor[] = [
     { bgcolor: "bg-lime-500", background: "#47fd55", shareIcon: "🟩" },
     { bgcolor : "bg-orange-400", background: "#fdb047", shareIcon: "🟧" },
-    { bgcolor : "bg-violet-300", background: "#d093fe", shareIcon: "🟪" }
+    // { bgcolor : "bg-violet-300", background: "#d093fe", shareIcon: "🟪" }
+    { bgcolor : "bg-blue-300", background: "#d093fe", shareIcon: "🟦" }
 ]

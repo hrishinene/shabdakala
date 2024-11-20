@@ -2,7 +2,7 @@ import {MAX_WORD_LENGTH} from "./settings";
 
 export const GAME_TITLE = 'शब्दबंध (Demo)';
 // export const GAME_URL = 'localhost:3000';
-export const GAME_URL = 'shabdak.com' 
+export const GAME_URL = 'shabdabandha.shabdak.com' 
 export const GAME_ENCODE_URL = 'https://shabdak3.el.r.appspot.com';
 export const GAME_SHABDAK_1_URL = 'http://shabdak1.shabdak.com';
 export const GAME_ENCODE_URL_RANDOM = 'https://shabdak3.el.r.appspot.com/?random=1';
@@ -30,8 +30,10 @@ export const CURRENT_STREAK_TEXT = 'अखंडित यशोमाला'
 export const BEST_STREAK_TEXT = 'सर्वोत्तम यशोमाला'
 export const BRUHADKOSH_REF =(solution : string) => 'हा शब्द <b>बृहद्कोशाच्या</b> सौजन्याने आपल्यापर्यंत आणण्यात येत आहे. एकाच वेळी अनेक कोशांत या शब्दाचा अर्थ पाहण्यासाठी <a href=https://bruhadkosh.org/words?shodh=विराजमान>इथे क्लिक करा</a>'
 export const BRUHAD =  (solution: string) => `हा शब्द <b>बृहद्कोशाच्या</b> सौजन्याने आपल्यापर्यंत आणण्यात येत आहे. एकाच वेळी अनेक कोशांत या शब्दाचा अर्थ पाहण्यासाठी <b><u><a href = "https://bruhadkosh.org/words?shodh= +${solution}"> इथे क्लिक करा</a></u></b>`
-export const CROSS_EMOJI = '❌'
-export const TICK_EMOJI = '✅'
+// export const CROSS_EMOJI = '❌'
+export const CROSS_EMOJI = '☹️'
+// export const TICK_EMOJI = '✅'
+export const TICK_EMOJI = '😊'
 export const ALERT_EMOJI = '⚠️'
 
 
