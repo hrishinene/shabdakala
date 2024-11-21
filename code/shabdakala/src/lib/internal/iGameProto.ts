@@ -153,6 +153,31 @@ export class iGameProto {
         return this.rows.filter(row => row.isComplete());
     }
 
+    reveal() {
+        // reveal the solution. Mark all rows as complete
+        // copy tuples in local variable
+          // Manufacture rows from combo
+        // reset rows
+        this.rows = [];
+
+        // First fill the solved themes with Complete Rows
+        this.solvedThemes.map(theme => {
+            this.combo.tuples.forEach(tuple => {
+                if (tuple.theme == theme) {
+                    this.rows.push(new iCompleteRow(tuple));
+                }
+            });
+        }
+        );
+
+        // reveal remaining tuples
+        this.combo.tuples.map((tuple, index) => {
+            if (!this.solvedThemes.includes(tuple.theme)) {
+                this.rows.push(new iCompleteRow(tuple));
+            }
+        });
+    }
+
     static loadGame() : iGameProto | null {
         const gameStorage = loadGameStorage();
         if (!gameStorage) {

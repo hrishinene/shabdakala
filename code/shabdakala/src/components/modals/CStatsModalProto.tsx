@@ -2,7 +2,7 @@ import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats, loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
 import { shareShabdabandhaStatus as shareSBStatus, shareStatus } from '../../lib/share'
-import { solution } from '../../lib/words'
+import { solution, tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -16,6 +16,7 @@ import {FORM_LINK} from "../../constants/settings";
 import { iGameProto } from '../../lib/internal/iGameProto'
 import { SBStatBar } from '../stats/SBStatBar'
 import { SBHistogram } from '../stats/SBHistogram'
+import Countdown from 'react-countdown'
 type Props = {
   isOpen: boolean
   handleClose: () => void
@@ -58,20 +59,18 @@ export const CStatsModalProto = ({
         {GUESS_DISTRIBUTION_SUBTEXT}
       </h5>
       <SBHistogram gameStats={gameStats} />
-      {(game?.isWon() || game?.isLost()) && (
-        <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
+      {(game?.isLost() || game?.isWon()) && (
+        <div className="mt-5 sm:mt-6 columns-1 dark:text-white">
           <div>
-            <button
-            type="button"
-            className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-7 bg-red-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-xl"
-            onClick={(e) => {
-            e.preventDefault();
-            window.location.href=GAME_ENCODE_URL_RANDOM;
-            }}
-            >
-            खेळत रहा...
-            </button>
+            <h5>पुन्हा आपली भेट</h5>
+            <Countdown
+              className="text-lg font-medium text-gray-900 dark:text-gray-100"
+              date={tomorrow}
+              daysInHours={true}
+            />
           </div>
+          <div>
+
           <button
             type="button"
             className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
@@ -79,6 +78,7 @@ export const CStatsModalProto = ({
               if (game) {
                 shareSBStatus(game)
               }
+
               handleShare()
             }}
           >
@@ -90,13 +90,17 @@ export const CStatsModalProto = ({
           >
             <a href={FORM_LINK} rel="noopener noreferrer"> तुमची प्रतिक्रिया? </a>
           </button>
+          </div>
         </div>
       )}
       {(game?.isWon() || game?.isLost()) && (
         <div className="mt-5 sm:mt-6 dark:text-white">
         <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
-        हे शब्दबंध आपल्यासाठी बनवण्यात यांचा सहभाग होता: पी. सायली, सौरभ कुलकर्णी आणि AI प्रणाली (Chat GPT आणि तत्सम) 
+        हे शब्दबंध आपल्यासाठी बनवण्यात यांचा सहभाग होता:
         </h5>
+        <h6 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
+            पी. सायली, सौरभ कुलकर्णी आणि AI प्रणाली (Chat GPT आणि तत्सम) 
+        </h6>
         </div>
       )}
     </BaseModal>

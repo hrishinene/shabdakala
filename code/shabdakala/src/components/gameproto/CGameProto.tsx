@@ -9,8 +9,12 @@ import { Alert } from '../alerts/Alert';
 import { WRONG_GROUP_MESSAGE,
           WRONG_GROUP_BY_ONE_WORD,
           ALREADY_USED_GROUP,
+          GAME_COPIED_MESSAGE,
+          WIN_MESSAGES,
+          LOST_GAME_MESSAGE,
  } from '../../constants/strings';
  import { GameStorage, loadGameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
+import { CStatsModalProto } from '../modals/CStatsModalProto';
 
 
 export const CGameProto = () => {
@@ -43,8 +47,11 @@ export const CGameProto = () => {
   const [isWrongGroup, setWrongGroup] = useState(false)
   const [isAlreadyUsedAttempt, setAlreadyUsedAttempt] = useState(false)
   const [isWrongGroupByOneWord, setWrongGroupByOneWord] = useState(false)
-  // const [isGameLost, setIsGameLost] = useState(false)
-  const [isWarningAlertOpen, setWarningAlertOpen] = useState(false)
+  const [isFailureMessageDisplayed, setFailureMessageDisplayed] = useState(false)
+  const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
+  const [successAlert, setSuccessAlert] = useState('')
+  const [gameRevealed, setGameRevealed] = useState(false)
+  const ALERT_TIME_MS = 3500
 
   //const temp : ZCombo;
 
@@ -76,12 +83,6 @@ export const CGameProto = () => {
     }, []);
 
     useEffect(()=> {
-      // temporary - until we have a proper state management
-      // if (game?.isWon() || game?.isLost()) {
-        // localStorage.removeItem('GameStorage');
-        // return;
-      // }
-
       if (!game) {
         return;
       }
@@ -95,11 +96,50 @@ export const CGameProto = () => {
       saveGameStorage(gameStorage);
   },[modificationCount])
 
-  const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>): void => {
+
+  // Handle Game won or lost
+  useEffect(() => {
+    if (!game) {
+      return;
+    }
+
+    if (game.isWon()) {
+      // display success message
+      setSuccessAlert(
+        WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)]
+      )
+      setTimeout(() => {
+        setSuccessAlert('')
+        setIsStatsModalOpen(true)
+      }, ALERT_TIME_MS)
+    }
+
+    if (game.isLost()) {
+      // display failure message
+      setFailureMessageDisplayed(true);
+
+      // reveal the solution
+       setTimeout(() => {
+        game.reveal();
+        setGameRevealed(true)
+      }, 500)
+
+      // open stats modal
+      setTimeout(() => {
+        setFailureMessageDisplayed(false);
+        setGameRevealed(false);
+        setIsStatsModalOpen(true)
+      }, 5500)
+    }
+  }, [modificationCount])
+
+
+
+  const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>, timeoutMS:number = 3500): void => {
     setter(true);
     setTimeout(() => {
       setter(false);
-    }, 3500);
+    }, timeoutMS);
   }
 
   const handleSubmission = () => {
@@ -226,10 +266,24 @@ export const CGameProto = () => {
         <Alert message={WRONG_GROUP_MESSAGE} isOpen={isWrongGroup} />
         <Alert message={WRONG_GROUP_BY_ONE_WORD} isOpen={isWrongGroupByOneWord} />
         <Alert message={ALREADY_USED_GROUP} isOpen={isAlreadyUsedAttempt} />
-        {/* Success message Alert and Failure message Alerts*/}
 
         {/* Success message Alert and Failure message Alerts*/}
-        
+        {/* <Alert message="Congratulations!! You have Won the game!" isOpen={isSuccessMessageDisplayed} /> */}
+        {/* <Alert message="Sorry!! You have lost the game! Better luck next time" isOpen={isFailureMessageDisplayed} /> */}
+        <Alert message= {LOST_GAME_MESSAGE} isOpen={isFailureMessageDisplayed} />
+        <CStatsModalProto
+        isOpen={isStatsModalOpen}
+        handleClose={() => setIsStatsModalOpen(false)}
+        handleShare={() => {
+          setSuccessAlert(GAME_COPIED_MESSAGE)
+          return setTimeout(() => setSuccessAlert(''), ALERT_TIME_MS)
+        }}
+        />
+        <Alert
+          message={successAlert}
+          isOpen={successAlert !== ''}
+          variant="success"
+        />
       </div>
   )
 }
