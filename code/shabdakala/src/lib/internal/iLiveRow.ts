@@ -7,7 +7,15 @@ export class iLiveRow implements iRowProto {
 
     constructor(cells: iCellProto[]) {
         this.cells = cells;
-    }   
+    }
+
+    showHint(show: boolean, words:string[]): void {
+        // if cell contains the word, mark the cell as hinted
+        this.cells.forEach(cell => {
+            cell.showHint(show, words);
+        });
+    }
+
     getCells(): iCellProto[] {
         return this.cells;
     }
