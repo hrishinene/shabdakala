@@ -153,6 +153,13 @@ export class iGameProto {
         return this.rows.filter(row => row.isComplete());
     }
 
+    showHint(show: boolean) {
+        var words:string[] = this.combo.getWordsFromEachTuple();
+        this.rows.forEach(row => {
+            row.showHint(show, words);
+        });
+    }
+
     reveal() {
         // reveal the solution. Mark all rows as complete
         // copy tuples in local variable

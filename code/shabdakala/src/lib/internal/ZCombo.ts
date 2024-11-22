@@ -7,6 +7,8 @@ export class ZCombo {
     createdOn:Date;
 
     constructor(tuples: ZTuple[], createdOn?:Date) {
+        // sort tuples in the order of difficulty
+        tuples.sort((a, b) => a.difficulty - b.difficulty);
         this.tuples = tuples;
         this.createdOn = createdOn ? createdOn : new Date();
     }
@@ -42,5 +44,10 @@ export class ZCombo {
         });
 
         return matchIndicators;
+    }
+
+    getWordsFromEachTuple(): string[] {
+        // get only first word from each tuple
+        return this.tuples.map(tuple => tuple.words[0]);
     }
 }

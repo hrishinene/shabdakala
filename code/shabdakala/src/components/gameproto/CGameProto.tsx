@@ -51,6 +51,7 @@ export const CGameProto = () => {
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [successAlert, setSuccessAlert] = useState('')
   const [gameRevealed, setGameRevealed] = useState(false)
+  const [hint, setHint] = useState(false)
   const ALERT_TIME_MS = 3500
 
   //const temp : ZCombo;
@@ -122,14 +123,14 @@ export const CGameProto = () => {
        setTimeout(() => {
         game.reveal();
         setGameRevealed(true)
-      }, 500)
+      }, 3000)
 
       // open stats modal
       setTimeout(() => {
         setFailureMessageDisplayed(false);
         setGameRevealed(false);
         setIsStatsModalOpen(true)
-      }, 5500)
+      }, 10000)
     }
   }, [modificationCount])
 
@@ -178,6 +179,22 @@ export const CGameProto = () => {
       setModificationCount(modificationCount + 1);
   }
 
+  const handleHint = () => {
+    //   alert("Hint");
+      if (!game) {
+          return;
+      }
+
+      game.showHint(true);
+      setHint(true);
+
+      setTimeout(() => {
+        game.showHint(false);
+        setHint(false);
+      }, 3500)
+  }
+
+
   const handleUnselect = () => {
     //   alert("Unselect");
       if (!game) {
@@ -214,8 +231,7 @@ export const CGameProto = () => {
   var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 0;
   var isDeselectEnabled = !game.isWon()  && !game.isLost() && game.getSelectedCells().length > 0;
   var isResetEnabled = game.isWon()  || game.isLost();
-//   var isHintEnabled = !game.isWon() && game.getSelectedCells().length == 0;
-  var isHintEnabled = false
+  var isHintEnabled = !game.isWon() && !game.isLost() &&  game.getSelectedCells().length == 0;
 
   return (
     <div>
@@ -245,7 +261,7 @@ export const CGameProto = () => {
               )}
 
               {isHintEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleClick("hint")}>
+                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleHint()}>
                       hint
                   </button>
               )}
