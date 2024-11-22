@@ -249,36 +249,68 @@ export const CGameProto = () => {
           <CLivesProto mistake={game.remainingLives}/>
 
           <div className="flex justify-center mt-4 space-x-4">
-              {isSubmitEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleSubmission()}>
-                      submit
-                  </button>
-              )}
-              {isShuffleEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleShuffle()}>
-                      shuffle
-                  </button>
-              )}
 
-              {isHintEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleHint()}>
-                      hint
-                  </button>
-              )}
+          {/* submit button */}
+          <button
+              className={`px-4 py-2 rounded-3xl mb-2 ${
+                isSubmitEnabled
+                  ? "bg-gray-500 dark:bg-gray-50 text-white dark:text-black "
+                  : "bg-gray-500 dark:bg-gray-50 text-white dark:text-black cursor-not-allowed opacity-50"
+              }`}
+              disabled={!isSubmitEnabled}
+              onClick={handleSubmission}
+            >
+              submit
+            </button>
 
-              {isDeselectEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleUnselect()}>
-                      unselect
-                  </button>
-              )}
+            {/* shuffle button */}
+            <button
+              className={`px-4 py-2 rounded-3xl mb-2 ${
+                isShuffleEnabled
+                  ? "bg-gray-500 dark:bg-gray-50 text-white dark:text-black"
+                  : "bg-gray-500 dark:bg-gray-50 text-white dark:text-black cursor-not-allowed opacity-50"
+              }`}
+              disabled={!isShuffleEnabled}
+              onClick={handleShuffle}
+            >
+              shuffle
+            </button>
 
+            {/* hint button */}
+            <button
+              className={`px-4 py-2 rounded-3xl mb-2 ${
+                isHintEnabled
+                  ? "bg-gray-500 dark:bg-gray-50 text-white dark:text-black"
+                  : "bg-gray-500 dark:bg-gray-50 text-white dark:text-black cursor-not-allowed opacity-50"
+              }`}
+              disabled={!isHintEnabled}
+              onClick={() => handleHint()}
+            >
+              hint
+            </button>
+
+            {/* deselect button */}
+            <button
+              className={`px-4 py-2 rounded-3xl mb-2 ${
+                isDeselectEnabled
+                  ? "bg-gray-500 dark:bg-gray-50 text-white dark:text-black"
+                  : "bg-gray-500 dark:bg-gray-50 text-white dark:text-black cursor-not-allowed opacity-50"
+              }`}
+              disabled={!isDeselectEnabled}
+              onClick={() => handleUnselect()}
+            >
+              deselect
+            </button>
+            
+              {/* reset button */}
               {isResetEnabled && (
                   <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleReset()}>
-                      Reset (Temp)
+                      reset
                   </button>
               )}
           </div>
       </div>
+
         <Alert message={WRONG_GROUP_MESSAGE} isOpen={isWrongGroup} />
         <Alert message={WRONG_GROUP_BY_ONE_WORD} isOpen={isWrongGroupByOneWord} />
         <Alert message={ALREADY_USED_GROUP} isOpen={isAlreadyUsedAttempt} />

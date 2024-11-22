@@ -21,6 +21,7 @@ export function getArrayIndex(tuplesArray: any[]): number {
   return index;
 }
 
+
 export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : number{
   const normalizedDate1 = new Date(date1.getFullYear(), date1.getMonth(), date1.getDate());
   const normalizedDate2 = new Date(date2.getFullYear(), date2.getMonth(), date2.getDate());
