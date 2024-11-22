@@ -21,6 +21,16 @@ export function getArrayIndex(tuplesArray: any[]): number {
   return index;
 }
 
+export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : number{
+  const normalizedDate1 = new Date(date1.getFullYear(), date1.getMonth(), date1.getDate());
+  const normalizedDate2 = new Date(date2.getFullYear(), date2.getMonth(), date2.getDate());
+  
+  // Calculate the difference in days
+  const diffInDays = Math.round((normalizedDate1.getTime() - normalizedDate2.getTime()) / (1000 * 60 * 60 * 24));
+  console.log("calc index : " + ((diffInDays % array.length) + array.length) % array.length);
+  // Return the modulo of the difference with the array length
+  return ((diffInDays % array.length) + array.length) % array.length; // Ensure non-negative result
+}
 
 export const encodingUrlTest = (baseUrl:string, combo: any | null) =>
   {

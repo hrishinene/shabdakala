@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { iGameProto } from '../../lib/internal/iGameProto'   
 import { CRowProto } from './CRowProto';
-import { decodingUrlTest, encodingUrlTest, formatDate, getArrayIndex, shuffleArray } from '../../lib/Utils';
+import { decodingUrlTest, encodingUrlTest, findDaysOffset, formatDate, getArrayIndex, shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { GameStorage, loadGameStorage, saveGameStorage } from '../../lib/localStorage';
@@ -38,15 +38,14 @@ const [game, setGame] = useState<iGameProto|undefined>(() => {
       else
       {
         var loaded = loadGameStorage()
-        var tuples = [FinalTuplesList[0][getArrayIndex(FinalTuplesList[0])], FinalTuplesList[1][getArrayIndex(FinalTuplesList[1])], FinalTuplesList[2][getArrayIndex(FinalTuplesList[2])] ];
-        var combo = constructZCombo(JSON.stringify({tuples: tuples}));
+        var tuples = [FinalTuplesList[0][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[0])], FinalTuplesList[1][findDaysOffset(new Date('2024-11-21'), new Date(),FinalTuplesList[1])], FinalTuplesList[2][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[2])] ];
 
         if(loaded != null)
         {
           //combo.isComboEqual(constructZCombo(JSON.stringify({ tuples: loaded.comboStorage.tuples })))
-          console.log(JSON.stringify(combo.tuples))
+          console.log(JSON.stringify(tuples))
           console.log(JSON.stringify( loaded.comboStorage.tuples))
-          if(JSON.stringify(combo.tuples)==JSON.stringify( loaded.comboStorage.tuples)) 
+          if(JSON.stringify(tuples)==JSON.stringify( loaded.comboStorage.tuples)) 
             {
               console.log("Initializing from local storage");
               return new iGameProto(
@@ -65,7 +64,7 @@ const [game, setGame] = useState<iGameProto|undefined>(() => {
   const [modificationCount, setModificationCount] = useState<number>(0);
 
   useEffect(() => {
-    var tuples = [FinalTuplesList[0][getArrayIndex(FinalTuplesList[0])], FinalTuplesList[1][getArrayIndex(FinalTuplesList[1])], FinalTuplesList[2][getArrayIndex(FinalTuplesList[2])] ];
+    var tuples = [FinalTuplesList[0][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[0])], FinalTuplesList[1][findDaysOffset(new Date('2024-11-21'), new Date(),FinalTuplesList[1])], FinalTuplesList[2][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[2])] ];
 
     if(game?.combo.tuples.length==0){
       var combo = constructZCombo(JSON.stringify({tuples: tuples}));
