@@ -7,6 +7,7 @@ import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { GameStorage, loadGameStorage, saveGameStorage } from '../../lib/localStorage';
 import { FinalTuplesList } from '../../constants/FinalTuplesList';
 import { ZTuple } from '../../lib/internal/ZTuple';
+import { Console } from 'console';
 
 
 export const CGameProto = () => {
@@ -37,10 +38,15 @@ const [game, setGame] = useState<iGameProto|undefined>(() => {
       else
       {
         var loaded = loadGameStorage()
+        var tuples = [FinalTuplesList[0][getArrayIndex(FinalTuplesList[0])], FinalTuplesList[1][getArrayIndex(FinalTuplesList[1])], FinalTuplesList[2][getArrayIndex(FinalTuplesList[2])] ];
+        var combo = constructZCombo(JSON.stringify({tuples: tuples}));
 
         if(loaded != null)
         {
-          if(formatDate(new Date()) == formatDate( new Date(loaded.comboStorage.createdOn))) 
+          //combo.isComboEqual(constructZCombo(JSON.stringify({ tuples: loaded.comboStorage.tuples })))
+          console.log(JSON.stringify(combo.tuples))
+          console.log(JSON.stringify( loaded.comboStorage.tuples))
+          if(JSON.stringify(combo.tuples)==JSON.stringify( loaded.comboStorage.tuples)) 
             {
               console.log("Initializing from local storage");
               return new iGameProto(
@@ -50,7 +56,6 @@ const [game, setGame] = useState<iGameProto|undefined>(() => {
             }
             // console.log("did not go into if");           
         }
-
           console.log("Initializing from code");
           return new iGameProto(new ZCombo([]), []);
       }
