@@ -12,6 +12,7 @@ import { WRONG_GROUP_MESSAGE,
           GAME_COPIED_MESSAGE,
           WIN_MESSAGES,
           LOST_GAME_MESSAGE,
+          HINT_MESSAGE,
  } from '../../constants/strings';
  import { GameStorage, loadGameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
 import { CStatsModalProto } from '../modals/CStatsModalProto';
@@ -330,6 +331,11 @@ export const CGameProto = () => {
         <Alert
           message={successAlert}
           isOpen={successAlert !== ''}
+          variant="success"
+        />
+        <Alert
+          message={HINT_MESSAGE}
+          isOpen={hint}
           variant="success"
         />
       </div>
