@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { iGameProto } from '../../lib/internal/iGameProto'   
 import { CRowProto } from './CRowProto';
-import { shuffleArray } from '../../lib/Utils';
+import { findDaysOffset, shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { CLivesProto } from './CLivesProto';
@@ -16,6 +16,7 @@ import { WRONG_GROUP_MESSAGE,
  } from '../../constants/strings';
  import { GameStorage, loadGameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
 import { CStatsModalProto } from '../modals/CStatsModalProto';
+import { Tuples } from '../../constants/tuples';
 
 
 export const CGameProto = () => {
@@ -23,6 +24,13 @@ export const CGameProto = () => {
     const parsedData = JSON.parse(jsonString);
     return new ZCombo(parsedData.tuples)
   };
+
+  const loadNewGame = (offset : number) :iGameProto => {
+    var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
+    var combo = constructZCombo(JSON.stringify({ tuples: newTuples }));
+
+    return new iGameProto(combo,[]);
+  }
   
  const [game, setGame] = useState<iGameProto|null>();
   // const [game, setGame] = useState<iGameProto|null>(() => {
@@ -65,24 +73,41 @@ export const CGameProto = () => {
 
   // Initiate tuples... For now hardcoded
   useEffect(() => {
-    var gameProto = iGameProto.loadGame()
-    if(gameProto == null || gameProto.combo.tuples.length==0) {
-    var tuples = [
+    var storedGame = iGameProto.loadGame()
+
+    // Check if the href contains offset - if so, load from it
+    const url = new URL(window.location.href);
+    const offset = url.searchParams.get("offset");
+    var newGame = offset ? loadNewGame(parseInt(offset)) : null ;
+
+    if(storedGame == null || storedGame.combo.tuples.length==0 && newGame != null) {
+      setGame(newGame);
+    } else if (storedGame != null && newGame == null) {
+      setGame(storedGame);
+    }else if (storedGame != null && newGame != null) {
+      if (storedGame.combo.equals(newGame.combo)) {
+        // console.log("Game already loaded")
+        setGame(storedGame);
+      } else {
+        // console.log("New Game loaded")
+        setGame(newGame);
+      }
+    } else { // Default fall back - for demo
+      var tuples = [
       // {words:["one", "two", "three", "four"], theme: "numbers", sharedBy: "me", difficulty: 1},
       // {words:["A", "B", "C", "D"], theme: "Alphabets", sharedBy: "me", difficulty: 0},
       // {words:["OK", "Yeah", "Done", "Bravo"], theme: "Exclaimations", sharedBy: "me", difficulty: 2},
-      {words:["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1},
-      { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 2 },
-      { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 0 },
-    ];
+        { words: ["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1 },
+        { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 2 },
+        { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 0 },
+      ];
 
       var combo = constructZCombo(JSON.stringify({tuples: tuples}));
-      gameProto = new iGameProto(combo,[]);
+      setGame(new iGameProto(combo,[]));
     }
 
-    setGame(gameProto);
     setModificationCount(modificationCount + 1);
-    }, []);
+  }, []);
 
     useEffect(()=> {
       if (!game) {
