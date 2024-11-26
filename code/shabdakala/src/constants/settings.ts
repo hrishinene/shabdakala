@@ -34,3 +34,5 @@ export const Colors:ZColor[] = [
     // { bgcolor : "bg-violet-300", background: "#d093fe", shareIcon: "🟪" }
     { bgcolor : "bg-blue-300", background: "#d093fe", shareIcon: "🟦" }
 ]
+
+export const StartDate:Date = new Date("2024-11-21");

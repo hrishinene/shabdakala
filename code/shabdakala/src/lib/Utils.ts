@@ -6,7 +6,7 @@ export function shuffleArray(array: any[]): any[] {
 };
 
 
-export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : number{
+export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : number {
   const normalizedDate1 = new Date(date1.getFullYear(), date1.getMonth(), date1.getDate());
   const normalizedDate2 = new Date(date2.getFullYear(), date2.getMonth(), date2.getDate());
   
@@ -15,6 +15,21 @@ export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : numb
   console.log("calc index : " + ((diffInDays % array.length) + array.length) % array.length);
   // Return the modulo of the difference with the array length
   return ((diffInDays % array.length) + array.length) % array.length; // Ensure non-negative result
+}
+
+export function findDaysDifference(start : Date, end : Date) : number {
+  const normalizedStart = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+  const normalizedEnd = new Date(end.getFullYear(), end.getMonth(), end.getDate());
+  var days = Math.round((normalizedEnd.getTime() - normalizedStart.getTime()) / (1000 * 60 * 60 * 24));
+  return days < 0 ? -days : days;
+}
+
+export function findDaysDifferenceFromToday(date : Date) : number {
+  return findDaysDifference(new Date(), date);
+}
+
+export function findArrayElement(array : any[], index : number) : any {
+  return array[index % array.length];
 }
 
 export const encodingUrlTest = (baseUrl:string, combo: any | null) =>
