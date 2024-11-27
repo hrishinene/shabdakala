@@ -1,11 +1,11 @@
-import { iCellProto } from "./iCellProto";
-import { iRowProto } from "./iRowProto";
+import { iCell } from "./iCell";
+import { iRow } from "./iRow";
 import { ZTuple } from "./ZTuple";
 
-export class iLiveRow implements iRowProto {
-    cells: iCellProto[] = [];
+export class iLiveRow implements iRow {
+    cells: iCell[] = [];
 
-    constructor(cells: iCellProto[]) {
+    constructor(cells: iCell[]) {
         this.cells = cells;
     }
 
@@ -16,7 +16,7 @@ export class iLiveRow implements iRowProto {
         });
     }
 
-    getCells(): iCellProto[] {
+    getCells(): iCell[] {
         return this.cells;
     }
 

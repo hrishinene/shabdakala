@@ -1,8 +1,5 @@
-import { StatBar } from '../stats/StatBar'
-import { Histogram } from '../stats/Histogram'
-import { GameStats, loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
-import { shareShabdabandhaStatus as shareSBStatus, shareStatus } from '../../lib/share'
-import { solution, tomorrow } from '../../lib/words'
+import { loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
+import { shareShabdabandhaStatus as shareSBStatus} from '../../lib/share'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -11,9 +8,8 @@ import {
   SHARE_TEXT,
   GAME_ENCODE_URL_RANDOM,
 } from '../../constants/strings'
-
-import {FORM_LINK} from "../../constants/settings";
-import { iGameProto } from '../../lib/internal/iGameProto'
+import {FORM_LINK, Tomorrow} from "../../constants/settings";
+import { iGame } from '../../lib/internal/iGame'
 import { SBStatBar } from '../stats/SBStatBar'
 import { SBHistogram } from '../stats/SBHistogram'
 import Countdown from 'react-countdown'
@@ -42,7 +38,7 @@ export const CStatsModalProto = ({
   }
 
   // Load the game
-  var game = iGameProto.loadGame();
+  var game = iGame.loadGame();
   // alert("game won: " + game?.isWon() + " game lost: " + game?.isLost());
 
   return (
@@ -65,7 +61,7 @@ export const CStatsModalProto = ({
             <h5>पुन्हा आपली भेट</h5>
             <Countdown
               className="text-lg font-medium text-gray-900 dark:text-gray-100"
-              date={tomorrow}
+              date={Tomorrow}
               daysInHours={true}
             />
           </div>

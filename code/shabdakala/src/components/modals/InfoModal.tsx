@@ -1,8 +1,8 @@
-import {Cell} from '../grid/Cell'
+// import {Cell} from '../grid/Cell'
 import {BaseModal} from './BaseModal'
 // import {MAX_CHALLENGES} from "../../constants/settings";
 // import {MAX_WORD_LENGTH} from "../../constants/settings";
-import {ENTER_TEXT} from "../../constants/strings";
+// import {ENTER_TEXT} from "../../constants/strings";
 import './ifr.css';
 
 type Props = {
@@ -22,14 +22,14 @@ export const InfoModal = ({isOpen, handleClose}: Props) => {
 
             <p className="text-sm text-gray-500 dark:text-gray-300">
             <h2><b> काही उदाहरणे </b></h2>
-                एक लपलेला शब्द ओळखा! प्रत्येक प्रयात्नानंतर '{ENTER_TEXT}' कळ दाबली की घरांची
+                एक लपलेला शब्द ओळखा! प्रत्येक प्रयात्नानंतर कळ दाबली की घरांची
                 पार्श्वभूमी बदलेल त्यावरून तुम्ही त्या शब्दाच्या किती जवळ आहात ते कळेल.
             </p>
 
             <div className="flex justify-center mb-1 mt-4">
-                <Cell value="स्वा" status="correct"/>
-                <Cell value="व" status="absent"/>
-                <Cell value="ड" status="absent"/>
+                <button value="स्वा"/>
+                <button value="व"/>
+                <button value="ड"/>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-300">
                 शब्दात 'स' आहे आणि तो याच ठिकाणी आहे, आणि त्याचे रूप "स्वा" असे आहे 
@@ -40,9 +40,9 @@ export const InfoModal = ({isOpen, handleClose}: Props) => {
             </p>
 
             <div className="flex justify-center mb-1 mt-4">
-                <Cell value="स" status="absent"/>
-                <Cell value="द" status="absent"/>
-                <Cell value="न्व" status="present"/>
+                <button value="स"/>
+                <button value="द"/>
+                <button value="न्व"/>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-300">
                 शब्दात 'न' आहे, आणि त्याचे रूप "न्व" असे आहे, पण तो या ठिकाणी नाहीये!
@@ -52,9 +52,9 @@ export const InfoModal = ({isOpen, handleClose}: Props) => {
             </p>
 
             <div className="flex justify-center mb-1 mt-4">
-                <Cell value="ल" status="absent"/>
-                <Cell value="व" status="absent"/>
-                <Cell value="ण" status="absent"/>
+                <button value="ल"/>
+                <button value="व"/>
+                <button value="ण"/>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-300">
                 यापैकी कुठलेच अक्षर शब्दात कुठल्याही रूपात नाही.

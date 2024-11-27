@@ -1,14 +1,14 @@
 import classnames from 'classnames'
-import { CCellProto } from './CCellProto'
-import { iRowProto } from '../../lib/internal/iRowProto';
+import { CCell } from './CCell'
+import { iRow } from '../../lib/internal/iRow';
 import { ZTuple } from '../../lib/internal/ZTuple';
-import { iCellProto } from '../../lib/internal/iCellProto';
+import { iCell } from '../../lib/internal/iCell';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { Colors } from '../../constants/settings';
 
-interface CRowProtoProps {
+interface CRowProps {
 
-  rowProto: iRowProto;
+  rowProto: iRow;
   onClick:(cellAddress:ZCellAddress)=>void;
 }
 
@@ -37,17 +37,17 @@ function completedRowContent(tuple: ZTuple) {
   )
 }
 
-function rowCells(cells: iCellProto[], onClick: (cellAddress: ZCellAddress) => void) {
+function rowCells(cells: iCell[], onClick: (cellAddress: ZCellAddress) => void) {
   return (
     <div className="flex justify-center mb-1">
       {cells.map((cell, index) => (
-        <CCellProto key={index} cellProto={cell} onClick = {onClick} />
+        <CCell key={index} cellProto={cell} onClick = {onClick} />
       ))}
     </div>
   );
 }
 
-export const CRowProto = ({rowProto, onClick} : CRowProtoProps) => {
+export const CRow = ({rowProto, onClick} : CRowProps) => {
   // if row is complete, paint the entire row
   if (rowProto.isComplete()) {
     const tuple = rowProto.getTuple();

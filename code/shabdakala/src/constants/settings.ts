@@ -1,26 +1,26 @@
-export let MAX_WORD_LENGTH = 4
-export let MAX_CHALLENGES = 6
-export const RANDOM_DATE = true
+// export let MAX_WORD_LENGTH = 4
+// export let MAX_CHALLENGES = 6
+// export const RANDOM_DATE = true
 // export const FORM_LINK = "https://forms.gle/EFjoyEsdaxk3bCpf6"
 // export const FORM_LINK = "https://forms.gle/43tbxoHU3tS1zvWQ9"
 export const FORM_LINK = "https://forms.gle/bjzjiCuYY5n8SkXMA"
 
-export function setMaxWords(len:number) {
-    MAX_WORD_LENGTH = len;
-    MAX_CHALLENGES = 6;
-    switch (len) {
-        case 3:
-           MAX_CHALLENGES = 8; 
-            break;
-        case 4:
-           MAX_CHALLENGES = 7; 
-            break;
+// export function setMaxWords(len:number) {
+//     MAX_WORD_LENGTH = len;
+//     MAX_CHALLENGES = 6;
+//     switch (len) {
+//         case 3:
+//            MAX_CHALLENGES = 8; 
+//             break;
+//         case 4:
+//            MAX_CHALLENGES = 7; 
+//             break;
     
-        default:
-            MAX_CHALLENGES = 6;
-            break;
-    }
-}
+//         default:
+//             MAX_CHALLENGES = 6;
+//             break;
+//     }
+// }
 
 export type ZColor = {
     bgcolor: string; 
@@ -35,4 +35,12 @@ export const Colors:ZColor[] = [
     { bgcolor : "bg-blue-300", background: "#d093fe", shareIcon: "🟦" }
 ]
 
+// Dates and Epoch
+const epoch = new Date('January 1, 2022 00:00:00');
+const epochMs = epoch.valueOf()
+const now = Date.now()
+const msInDay = 86400000
+
+export const Today = Math.floor((now - epochMs) / msInDay)
+export const Tomorrow = (Today + 1) * msInDay + epochMs
 export const StartDate:Date = new Date("2024-11-21");
