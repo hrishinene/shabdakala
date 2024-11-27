@@ -50,4 +50,21 @@ export class ZCombo {
         // get only first word from each tuple
         return this.tuples.map(tuple => tuple.words[0]);
     }
+
+    // Compare each word from each tuple of the combo
+    equals(other: ZCombo) : boolean {
+        if (this.tuples.length !== other.tuples.length) {
+            return false;
+        }
+
+        // compare each tuple themes
+        for (let i = 0; i < this.tuples.length; i++) {
+            if (this.tuples[i].theme !== other.tuples[i].theme) {
+                console.log("Themes do not match");
+                return false;
+            }
+        }
+        console.log("Themes do match");
+        return true;
+    }
 }

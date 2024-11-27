@@ -1,21 +1,20 @@
 import classnames from 'classnames'
-import { iCellProto } from "../../lib/internal/iCellProto";
-import { ZDummyObject } from "../../lib/internal/ZDummyObject"
+import { iCell } from "../../lib/internal/iCell";
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { Colors } from '../../constants/settings';
 
 
-interface CCellProtoProps {
-  cellProto: iCellProto;
+interface CCellProps {
+  cellProto: iCell;
   onClick:(cellAddress:ZCellAddress)=>void;
 }
 
-function handleCellClick(cellProt: iCellProto, onClickCallback: (cellAddress: ZCellAddress) => void) {
+function handleCellClick(cellProt: iCell, onClickCallback: (cellAddress: ZCellAddress) => void) {
   cellProt.selectCell();
   onClickCallback(cellProt.address);
 }
 
-export const CCellProto = ({cellProto, onClick} : CCellProtoProps) => {
+export const CCell = ({cellProto, onClick} : CCellProps) => {
   var color = Colors[0].bgcolor;
   if (cellProto.isHinted) {
     color = Colors[cellProto.wordDifficulty].bgcolor;

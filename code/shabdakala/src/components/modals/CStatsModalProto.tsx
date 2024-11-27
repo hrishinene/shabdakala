@@ -1,8 +1,5 @@
-import { StatBar } from '../stats/StatBar'
-import { Histogram } from '../stats/Histogram'
-import { GameStats, loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
-import { shareShabdabandhaStatus as shareSBStatus, shareStatus } from '../../lib/share'
-import { solution, tomorrow } from '../../lib/words'
+import { loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
+import { shareShabdabandhaStatus as shareSBStatus} from '../../lib/share'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -11,9 +8,8 @@ import {
   SHARE_TEXT,
   GAME_ENCODE_URL_RANDOM,
 } from '../../constants/strings'
-
-import {FORM_LINK} from "../../constants/settings";
-import { iGameProto } from '../../lib/internal/iGameProto'
+import {FORM_LINK, Tomorrow} from "../../constants/settings";
+import { iGame } from '../../lib/internal/iGame'
 import { SBStatBar } from '../stats/SBStatBar'
 import { SBHistogram } from '../stats/SBHistogram'
 import Countdown from 'react-countdown'
@@ -42,7 +38,7 @@ export const CStatsModalProto = ({
   }
 
   // Load the game
-  var game = iGameProto.loadGame();
+  var game = iGame.loadGame();
   // alert("game won: " + game?.isWon() + " game lost: " + game?.isLost());
   var i=0;
   var contributors=""
@@ -97,8 +93,10 @@ export const CStatsModalProto = ({
           <div>
             <h5 className='text-base leading-6 font-medium text-gray-900 dark:text-gray-100'>पुन्हा आपली भेट</h5>
             <Countdown
+
               className="text-base font-medium text-gray-900 dark:text-gray-100"
-              date={tomorrow}
+              date={Tomorrow}
+
               daysInHours={true}
             />
           </div>
@@ -120,7 +118,7 @@ export const CStatsModalProto = ({
               type="button"
               className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 sm:text-sm"
           >
-            <a href={FORM_LINK} rel="noopener noreferrer"> तुमची प्रतिक्रिया? </a>
+            <a href={FORM_LINK} rel="noopener noreferrer">प्रतिक्रिया आणि साहाय्य</a>
           </button>
           </div>
 

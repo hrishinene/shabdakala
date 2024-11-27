@@ -1,6 +1,6 @@
 import { ZCellAddress } from "./ZCellAddress";
 
-export class iCellProto {
+export class iCell {
     word: string
     address: ZCellAddress;
     isSelected: boolean = false

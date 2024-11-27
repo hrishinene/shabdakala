@@ -1,8 +1,8 @@
-import { iCellProto } from "./iCellProto";
-import { iRowProto } from "./iRowProto";
+import { iCell } from "./iCell";
+import { iRow } from "./iRow";
 import { ZTuple } from "./ZTuple";
 
-export class iCompleteRow implements iRowProto {
+export class iCompleteRow implements iRow {
     tuple: ZTuple;
 
     constructor(tuple: ZTuple) {
@@ -12,7 +12,7 @@ export class iCompleteRow implements iRowProto {
         // do nothing   
     }
 
-    getCells(): iCellProto[] {
+    getCells(): iCell[] {
         // return empty array of iCellProto
         return [];
     }

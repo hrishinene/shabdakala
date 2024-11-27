@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { iGameProto } from '../../lib/internal/iGameProto'   
-import { CRowProto } from './CRowProto';
-import { shuffleArray } from '../../lib/Utils';
+import { iGame } from '../../lib/internal/iGame'   
+import { CRow } from './CRowProto';
+// import { findDaysDifference, findDaysOffset, shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
-import { CLivesProto } from './CLivesProto';
+import { CLives } from './CLives';
 import { Alert } from '../alerts/Alert';
 import { WRONG_GROUP_MESSAGE,
           WRONG_GROUP_BY_ONE_WORD,
@@ -12,35 +12,75 @@ import { WRONG_GROUP_MESSAGE,
           GAME_COPIED_MESSAGE,
           WIN_MESSAGES,
           LOST_GAME_MESSAGE,
+          HINT_MESSAGE,
  } from '../../constants/strings';
- import { GameStorage, loadGameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
+ import { GameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage } from '../../lib/localStorage';
 import { CStatsModalProto } from '../modals/CStatsModalProto';
+import { Tuples } from '../../constants/tuples';
+import { StartDate } from '../../constants/settings';
+import { findDaysDifference } from '../../lib/Utils';
 
 
-export const CGameProto = () => {
+export const CGame = () => {
   const constructZCombo = (jsonString: string): ZCombo => {
     const parsedData = JSON.parse(jsonString);
     return new ZCombo(parsedData.tuples)
   };
+
+  const loadNewGame = (offset : number) :iGame => {
+    console.log("Loading New Game with index: " + offset);
+    var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
+    var combo = constructZCombo(JSON.stringify({ tuples: newTuples }));
+
+    return new iGame(combo,[]);
+  }
+
+  const demoGame = () : iGame => {
+      var tuples = [
+        { words: ["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1 },
+        { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 2 },
+        { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 0 },
+      ];
+
+      var combo = constructZCombo(JSON.stringify({tuples: tuples}));
+      return new iGame(combo,[]);
+  }
+
+  const loadNewGameFromUrl = () :iGame => {
+    const url = new URL(window.location.href);
+
+    // Load based on offset
+    const offsetParam = url.searchParams.get("offset");
+    const offset = offsetParam ? parseInt(offsetParam) : null;
+    if (offset) {
+      return loadNewGame(offset);
+    }
+
+    // Load based on Demo
+    const demo= url.searchParams.get("demo");
+    if (demo) {
+      return demoGame();
+    }
+
+
+    // Load Based on Encoded - TBD
+
+
+    // Load based on Date (and also in case of no date)
+
+    var startDateParam = url.searchParams.get("startDate");
+    const startDate = startDateParam ? new Date(startDateParam) : StartDate;
+
+    var todayParam = url.searchParams.get("today");
+    const todayDate = todayParam ? new Date(todayParam) : new Date();
+
+    var daysOffset = findDaysDifference(startDate, todayDate);
+
+    var tomorrowParam = url.searchParams.get("tomorrow");
+    return tomorrowParam ? loadNewGame(daysOffset + 1) : loadNewGame(daysOffset);
+  }
   
- const [game, setGame] = useState<iGameProto|null>();
-  // const [game, setGame] = useState<iGameProto|null>(() => {
-    // return iGameProto.loadGame()
-
-    // if (loaded == null) {
-      // game = undefined
-    // }
-    // var temp= new ZCombo([])
-    // var temp1=new iGameProto(temp,[])
-
-    // if (loaded == null || loaded.comboStorage.tuples.length==0) {
-      //console.log(temp1)
-      // return temp1
-    // }
-    // var combo = constructZCombo(JSON.stringify({tuples: loaded.comboStorage.tuples}));
-    // return new iGameProto(combo,loaded.solvedThemesStorage, loaded.remainingLives, loaded.attempts);
-
-  // });
+ const [game, setGame] = useState<iGame|null>();
   
   const [modificationCount, setModificationCount] = useState<number>(0);
   // const [isGameWon, setIsGameWon] = useState(false)
@@ -54,36 +94,32 @@ export const CGameProto = () => {
   const [hint, setHint] = useState(false)
   const ALERT_TIME_MS = 3500
 
-  //const temp : ZCombo;
-
-  // const gameStorage : GameStorage {
-  //     combo: temp;
-  //     solvedThemes: [];
-  // }
-  //const [vibrate,setvibrate]=useState(false)
-
-  // Initiate tuples... For now hardcoded
+  // Initiate tuples based on date/storage and inputs... 
   useEffect(() => {
-    var gameProto = iGameProto.loadGame()
-    if(gameProto == null || gameProto.combo.tuples.length==0) {
-    var tuples = [
-      // {words:["one", "two", "three", "four"], theme: "numbers", sharedBy: "me", difficulty: 1},
-      // {words:["A", "B", "C", "D"], theme: "Alphabets", sharedBy: "me", difficulty: 0},
-      // {words:["OK", "Yeah", "Done", "Bravo"], theme: "Exclaimations", sharedBy: "me", difficulty: 2},
-      {words:["सोमवार", "भवानी", "गुरुवार", "सदाशिव"], theme: "पुण्यातील काही पेठांची नावे", sharedBy: "शंतनू", difficulty: 1},
-      { words: ["आभाळ", "वादळ", "आई", "तू"], theme: "मराठी मालिकांच्या नावाची सुरुवातीची अक्षरे", sharedBy: "जयश्री", difficulty: 2 },
-      { words: ["गरज", "सरो", "वैद्य", "मरो"], theme: "एका प्रसिद्ध म्हणीतील शब्द", sharedBy: "स्मिता", difficulty: 0 },
-    ];
+    var newGame = loadNewGameFromUrl()
+    var storedGame = iGame.loadGame()
 
-      var combo = constructZCombo(JSON.stringify({tuples: tuples}));
-      gameProto = new iGameProto(combo,[]);
+    // New Game cannot be null - but just in case!
+    if (newGame == null) {
+      setGame(demoGame());
+      return;
     }
 
-    setGame(gameProto);
-    setModificationCount(modificationCount + 1);
-    }, []);
+    if (storedGame == null) {
+      // console.log("Setting New Game")
+      setGame(newGame);
+    } else if (storedGame.combo.equals(newGame.combo)) {
+      // console.log("Stored game is same. Loading Stored Game")
+      setGame(storedGame);
+    } else {
+      // console.log("Stored game is different. Loading New Game")
+      setGame(newGame);
+    }
 
-    useEffect(()=> {
+    setModificationCount(modificationCount + 1);
+  }, []);
+
+  useEffect(() => {
       if (!game) {
         return;
       }
@@ -155,12 +191,12 @@ export const CGameProto = () => {
       } else if (game.isLost()) { // All lives lost
           saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
-      } else if (errors == -1) { // already used attempt
+      } else if (errors === -1) { // already used attempt
           flashAlert(setAlreadyUsedAttempt);
           return; // no need to redraw
-      } else if (errors == 0) { // correct group
+      } else if (errors === 0) { // correct group
           game.populate() // rearrange game
-      } else if (errors == 1) { // wrong group by one word
+      } else if (errors === 1) { // wrong group by one word
           flashAlert(setWrongGroupByOneWord);
       } else { // wrong group
         flashAlert(setWrongGroup);
@@ -205,11 +241,6 @@ export const CGameProto = () => {
       setModificationCount(modificationCount + 1);
   }
 
-  const handleClick = (buttenLabel: string) => {
-    // alert(`Clicked ${buttenLabel} Button`);
-    setModificationCount(modificationCount + 1);
-  }
-
   const handleCellClick = (cellAddress: ZCellAddress) => {
     // alert(`Clicked Cell: ${cellAddress}`);
     setModificationCount(modificationCount + 1);
@@ -227,11 +258,11 @@ export const CGameProto = () => {
     return <div className='text-left py-4 text-black dark:text-white'>Please Reload Page</div>;
   }
 
-  var isSubmitEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 4;
-  var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length == 0;
+  var isSubmitEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length === 4;
+  var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length === 0;
   var isDeselectEnabled = !game.isWon()  && !game.isLost() && game.getSelectedCells().length > 0;
   var isResetEnabled = game.isWon()  || game.isLost();
-  var isHintEnabled = !game.isWon() && !game.isLost() &&  game.getSelectedCells().length == 0;
+  var isHintEnabled = !game.isWon() && !game.isLost() &&  game.getSelectedCells().length === 0;
 
   return (
     <div>
@@ -242,11 +273,11 @@ export const CGameProto = () => {
       <div className="max-w-[550px] m-auto w-full flex-auto overflow-auto mt-2">
           {
               game.rows.map((row, index) => (
-                  <CRowProto key={index} rowProto={row} onClick={handleCellClick} />
+                  <CRow key={index} rowProto={row} onClick={handleCellClick} />
               ))
           }
 
-          <CLivesProto mistake={game.remainingLives}/>
+          <CLives mistake={game.remainingLives}/>
 
           <div className="flex justify-center mt-4 space-x-4">
 
@@ -332,8 +363,13 @@ export const CGameProto = () => {
           isOpen={successAlert !== ''}
           variant="success"
         />
+        <Alert
+          message={HINT_MESSAGE}
+          isOpen={hint}
+          variant="success"
+        />
       </div>
   )
 }
 
-export default CGameProto;
+export default CGame;
