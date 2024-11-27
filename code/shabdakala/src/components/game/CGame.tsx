@@ -18,7 +18,7 @@ import { WRONG_GROUP_MESSAGE,
 import { CStatsModalProto } from '../modals/CStatsModalProto';
 import { Tuples } from '../../constants/tuples';
 import { StartDate } from '../../constants/settings';
-import { findDaysDifference } from '../../lib/Utils';
+import { findDaysDifference, getElement } from '../../lib/Utils';
 
 
 export const CGame = () => {
@@ -29,7 +29,8 @@ export const CGame = () => {
 
   const loadNewGame = (offset : number) :iGame => {
     console.log("Loading New Game with index: " + offset);
-    var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
+    // var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
+    var newTuples = [getElement(Tuples[0], offset), getElement(Tuples[1], offset), getElement(Tuples[2], offset)];
     var combo = constructZCombo(JSON.stringify({ tuples: newTuples }));
 
     return new iGame(combo,[]);
@@ -268,7 +269,7 @@ export const CGame = () => {
     <div>
       <div className="text-center py-4">
         {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
-        <h3 className="text-lg font-sans text-black dark:text-white">चार गोष्टींचे गट बनवा!</h3>
+        <h3 className="text-lg font-sans text-black dark:text-white">परस्पर संबंध असलेल्या चार गोष्टींचे शब्दबंध शोधा</h3>
       </div>
       <div className="max-w-[550px] m-auto w-full flex-auto overflow-auto mt-2">
           {
@@ -291,7 +292,7 @@ export const CGame = () => {
               disabled={!isSubmitEnabled}
               onClick={handleSubmission}
             >
-              submit
+              उत्तर नोंदवा
             </button>
 
             {/* shuffle button */}
@@ -304,7 +305,7 @@ export const CGame = () => {
               disabled={!isShuffleEnabled}
               onClick={handleShuffle}
             >
-              shuffle
+              क्रम बदला
             </button>
 
             {/* hint button */}
@@ -317,7 +318,7 @@ export const CGame = () => {
               disabled={!isHintEnabled}
               onClick={() => handleHint()}
             >
-              hint
+              संकेत
             </button>
 
             {/* deselect button */}
@@ -330,15 +331,15 @@ export const CGame = () => {
               disabled={!isDeselectEnabled}
               onClick={() => handleUnselect()}
             >
-              deselect
+              निवड रद्द करा
             </button>
             
               {/* reset button */}
-              {isResetEnabled && (
-                  <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleReset()}>
-                      reset
-                  </button>
-              )}
+              {/* {isResetEnabled && ( */}
+                  {/* <button className="bg-gray-500 dark:bg-gray-50 text-white dark:text-black px-4 py-2 rounded-3xl mb-2" onClick={() => handleReset()}> */}
+                      {/* reset (temporary) */}
+                  {/* </button> */}
+              {/* )} */}
           </div>
       </div>
 

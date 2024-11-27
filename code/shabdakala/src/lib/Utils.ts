@@ -17,6 +17,10 @@ export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : numb
   return ((diffInDays % array.length) + array.length) % array.length; // Ensure non-negative result
 }
 
+export function getElement(array : any[], index : number) : any {
+  return array[index % array.length];
+}
+
 export function findDaysDifference(start : Date, end : Date) : number {
   const normalizedStart = new Date(start.getFullYear(), start.getMonth(), start.getDate());
   const normalizedEnd = new Date(end.getFullYear(), end.getMonth(), end.getDate());
