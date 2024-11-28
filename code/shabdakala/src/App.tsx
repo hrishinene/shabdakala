@@ -20,11 +20,6 @@ import {
   GAME_ENCODE_URL_RANDOM,
   GAME_SHABDAK_1_URL,
 } from './constants/strings'
-// import { addStatsForCompletedGame, loadStats } from './lib/stats'
-// import {
-  // loadGameStateFromLocalStorage,
-  // saveGameStateToLocalStorage,
-// } from './lib/localStorage'
 
 import './App.css'
 import {

@@ -29,7 +29,7 @@ export const Tuples = [
                 "कुर्ता",
                 "धोतर"
             ],
-            "theme": "शालूनवस्त्रांची नावे",
+            "theme": "वस्त्रांची नावे",
             "sharedBy": "chatgpt",
             "difficulty": 0
         },

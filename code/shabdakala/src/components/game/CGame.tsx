@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { iGame } from '../../lib/internal/iGame'   
 import { CRow } from './CRowProto';
-// import { findDaysDifference, findDaysOffset, shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { CLives } from './CLives';
@@ -18,7 +17,7 @@ import { WRONG_GROUP_MESSAGE,
 import { CStatsModalProto } from '../modals/CStatsModalProto';
 import { Tuples } from '../../constants/tuples';
 import { StartDate } from '../../constants/settings';
-import { findDaysDifference, getElement } from '../../lib/Utils';
+import { findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
 
 
 export const CGame = () => {
@@ -174,6 +173,9 @@ export const CGame = () => {
 
 
   const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>, timeoutMS:number = 3500): void => {
+    // make a beep sound
+    playSadSound();
+
     setter(true);
     setTimeout(() => {
       setter(false);
@@ -186,16 +188,19 @@ export const CGame = () => {
       }
       const errors = game.handleSubmision();
       if (game.isWon()) { // All combos solved
+          playHappyMusic();
           game.populate();
           saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
       } else if (game.isLost()) { // All lives lost
+          playSadMusic();
           saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
       } else if (errors === -1) { // already used attempt
           flashAlert(setAlreadyUsedAttempt);
           return; // no need to redraw
       } else if (errors === 0) { // correct group
+          playHappySound();
           game.populate() // rearrange game
       } else if (errors === 1) { // wrong group by one word
           flashAlert(setWrongGroupByOneWord);

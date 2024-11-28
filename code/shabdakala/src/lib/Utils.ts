@@ -100,3 +100,115 @@ export const encodingUrlTest = (baseUrl:string, combo: any | null) =>
     return decodedTupleList;
   
 };
+
+// Function to play a beep sound
+export const playBeep = () => {
+  const context = new (window.AudioContext || window.AudioContext)();
+  const oscillator = context.createOscillator();
+  const gainNode = context.createGain();
+
+  oscillator.connect(gainNode);
+  gainNode.connect(context.destination);
+
+  oscillator.type = 'sine';
+  oscillator.frequency.setValueAtTime(440, context.currentTime); // A4 note
+  oscillator.start();
+  gainNode.gain.exponentialRampToValueAtTime(0.00001, context.currentTime + 0.5);
+  oscillator.stop(context.currentTime + 0.5);
+};
+
+// Function to play a happy sound
+export const playHappySound = () => {
+  const context = new (window.AudioContext || window.AudioContext)();
+  const oscillator = context.createOscillator();
+  const gainNode = context.createGain();
+
+  oscillator.connect(gainNode);
+  gainNode.connect(context.destination);
+
+  oscillator.type = 'triangle';
+  oscillator.frequency.setValueAtTime(523.25, context.currentTime); // C5 note
+  oscillator.start();
+  gainNode.gain.exponentialRampToValueAtTime(0.00001, context.currentTime + 0.5);
+  oscillator.stop(context.currentTime + 0.5);
+};
+
+
+// Function to play a sad sound
+export const playSadSound = () => {
+  const context = new (window.AudioContext || window.AudioContext)();
+  const oscillator = context.createOscillator();
+  const gainNode = context.createGain();
+
+  oscillator.connect(gainNode);
+  gainNode.connect(context.destination);
+
+  oscillator.type = 'sine';
+  oscillator.frequency.setValueAtTime(220, context.currentTime); // A3 note
+  oscillator.start();
+  gainNode.gain.exponentialRampToValueAtTime(0.00001, context.currentTime + 1); // Longer duration for a sad effect
+  oscillator.stop(context.currentTime + 1);
+};
+
+
+// Function to play happy music
+export const playHappyMusic = () => {
+  const context = new (window.AudioContext || window.AudioContext)();
+  const gainNode = context.createGain();
+  gainNode.connect(context.destination);
+
+  const notes = [
+    { frequency: 523.25/2., duration: 0.1 }, // C5
+    // { frequency: 587.33, duration: 0.4 }, // D5
+    // { frequency: 659.25, duration: 0.4 }, // E5
+    // { frequency: 698.46, duration: 0.4 }, // F5
+    { frequency: 783.99/2., duration: 0.1 }, // G5
+    // { frequency: 880.00, duration: 0.4 }, // A5
+    // { frequency: 987.77, duration: 0.4 }, // B5
+    { frequency: 1046.50/2., duration: 0.2 }, // C6
+  ];
+
+  let currentTime = context.currentTime;
+
+  notes.forEach(note => {
+    const oscillator = context.createOscillator();
+    oscillator.connect(gainNode);
+    oscillator.type = 'triangle';
+    oscillator.frequency.setValueAtTime(note.frequency, currentTime);
+    oscillator.start(currentTime);
+    oscillator.stop(currentTime + note.duration);
+    currentTime += note.duration;
+  });
+};
+
+// Function to play a sad music sequence
+export const playSadMusic = () => {
+  const context = new (window.AudioContext || window.AudioContext)();
+  const gainNode = context.createGain();
+  gainNode.connect(context.destination);
+
+  const notes = [
+    { frequency: 1046.50/2., duration: 0.1 }, // C6
+    // { frequency: 587.33, duration: 0.4 }, // D5
+    // { frequency: 659.25, duration: 0.4 }, // E5
+    // { frequency: 698.46, duration: 0.4 }, // F5
+    { frequency: 783.99/2., duration: 0.1 }, // G5
+    // { frequency: 880.00, duration: 0.4 }, // A5
+    // { frequency: 987.77, duration: 0.4 }, // B5
+    { frequency: 523.25/2., duration: 0.2 }, // C5
+  ];
+
+  let currentTime = context.currentTime;
+
+  notes.forEach(note => {
+    const oscillator = context.createOscillator();
+    oscillator.connect(gainNode);
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(note.frequency, currentTime);
+    oscillator.start(currentTime);
+    oscillator.stop(currentTime + note.duration);
+    currentTime += note.duration;
+  });
+};
+
+
