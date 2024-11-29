@@ -1,8 +1,4 @@
-import {Cell} from '../grid/Cell'
-import {BaseModal} from './BaseModal'
-// import {MAX_CHALLENGES} from "../../constants/settings";
-// import {MAX_WORD_LENGTH} from "../../constants/settings";
-import {ENTER_TEXT} from "../../constants/strings";
+import { BaseModal } from './BaseModal'
 import './ifr.css';
 
 type Props = {
@@ -10,55 +6,43 @@ type Props = {
     handleClose: () => void
 }
 
-export const InfoModal = ({isOpen, handleClose}: Props) => {
+export const InfoModal = ({ isOpen, handleClose }: Props) => {
     return (
         <BaseModal title="'शब्दबंध' असे खेळा" isOpen={isOpen} handleClose={handleClose}>
-            <div className={`iframe-container`}>
-                <iframe src="https://www.youtube.com/embed/jU-BLLsCosA" title="शब्दबंध (Demo) 'कसा खेळाल?"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen></iframe>
+            <p className="text-sm text-gray-500 dark:text-gray-300">
+                <h2><b> शब्दबंध शोधण्याचा प्रवास </b></h2>
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-300 text-left text-justify">
+                अ&#41; तुम्हाला खालीलप्रमाणे १२ शब्दांचे संज्ञापट दिले जाईल. तुम्हाला यातील समान विषयावर आधारित ४ शब्दांचे ३ शब्दबंध शोधायचे आहेत.
+            </p>
+
+            <div className="flex justify-center mb-4 mt-2">
+                <img src="/gridImage.png" alt="Base Image" style={{ border: '0.5px solid black' }} />
+            </div>
+            <p className="text-sm text-gray-500 dark:text-gray-300 text-left text-justify">
+                ब&#41; तुम्ही ४ शब्द निवडून उत्तर नोंदवू करू शकता
+            </p>
+
+            <div className="flex justify-center mb-4 mt-2">
+                <img src="/selectedItemsImage.png" alt="Base Image" style={{ border: '0.5px solid black' }} />
             </div>
 
-            <p className="text-sm text-gray-500 dark:text-gray-300">
-            <h2><b> काही उदाहरणे </b></h2>
-                एक लपलेला शब्द ओळखा! प्रत्येक प्रयात्नानंतर '{ENTER_TEXT}' कळ दाबली की घरांची
-                पार्श्वभूमी बदलेल त्यावरून तुम्ही त्या शब्दाच्या किती जवळ आहात ते कळेल.
+
+            <p className="text-sm text-gray-500 dark:text-gray-300 text-left text-justify">
+                क&#41; जर निवडलेले ४ शब्द एका गटात बसत असतील, तर तो शब्दबंध प्रकट होईल; अन्यथा, एक संधी कमी होईल. तुमच्याकडे अशा ३ संधी आहेत.
             </p>
 
-            <div className="flex justify-center mb-1 mt-4">
-                <Cell value="स्वा" status="correct"/>
-                <Cell value="व" status="absent"/>
-                <Cell value="ड" status="absent"/>
+            <div className="flex justify-center mb-4 mt-2">
+                <img src="/oneThemeSolvedImage.png" alt="Base Image" style={{ border: '0.5px solid black' }} />
+
             </div>
-            <p className="text-sm text-gray-500 dark:text-gray-300">
-                शब्दात 'स' आहे आणि तो याच ठिकाणी आहे, आणि त्याचे रूप "स्वा" असे आहे 
-
-            </p>
-            <p className="text-sm text-gray-500">
-                (म्हणजे शब्द "स्वागत" किंवा "स्वातंत्र्य" असू शकेल, पण "संवाद" नक्कीच नाही.)
+            <p className="text-sm text-gray-500 dark:text-gray-300 text-left text-justify">
+                ड&#41; जर तुम्ही अडकलात आणि काही सूचक माहिती हवी असेल, तर फक्त संकेत बटण दाबा. ते तुम्हाला असे ३ शब्द वेगवेगळ्या रंगांमध्ये दाखवेल, जे ३ वेगळ्या शब्दबंधांमध्ये आहेत.
             </p>
 
-            <div className="flex justify-center mb-1 mt-4">
-                <Cell value="स" status="absent"/>
-                <Cell value="द" status="absent"/>
-                <Cell value="न्व" status="present"/>
+            <div className="flex justify-center mb-4 mt-2">
+                <img src="/hintImage.png" alt="Base Image" style={{ border: '0.5px solid black' }} />
             </div>
-            <p className="text-sm text-gray-500 dark:text-gray-300">
-                शब्दात 'न' आहे, आणि त्याचे रूप "न्व" असे आहे, पण तो या ठिकाणी नाहीये!
-            </p>
-            <p className="text-sm text-gray-500">
-                (म्हणजे शब्द "अन्वय" असू शकेल, पण "कदर" किंवा "दाहक" नक्कीच नाही)
-            </p>
-
-            <div className="flex justify-center mb-1 mt-4">
-                <Cell value="ल" status="absent"/>
-                <Cell value="व" status="absent"/>
-                <Cell value="ण" status="absent"/>
-            </div>
-            <p className="text-sm text-gray-500 dark:text-gray-300">
-                यापैकी कुठलेच अक्षर शब्दात कुठल्याही रूपात नाही.
-            </p>
         </BaseModal>
     )
 }

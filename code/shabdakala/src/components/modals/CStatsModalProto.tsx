@@ -1,8 +1,5 @@
-import { StatBar } from '../stats/StatBar'
-import { Histogram } from '../stats/Histogram'
-import { GameStats, loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
-import { shareShabdabandhaStatus as shareSBStatus, shareStatus } from '../../lib/share'
-import { solution, tomorrow } from '../../lib/words'
+import { loadShabdabandhaStatsFromLocalStorage as loadSBStatsFromLocalStorage, ShabdabandhaStats } from '../../lib/localStorage'
+import { shareShabdabandhaStatus as shareSBStatus} from '../../lib/share'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -11,9 +8,8 @@ import {
   SHARE_TEXT,
   GAME_ENCODE_URL_RANDOM,
 } from '../../constants/strings'
-
-import {FORM_LINK} from "../../constants/settings";
-import { iGameProto } from '../../lib/internal/iGameProto'
+import {FORM_LINK, Tomorrow} from "../../constants/settings";
+import { iGame } from '../../lib/internal/iGame'
 import { SBStatBar } from '../stats/SBStatBar'
 import { SBHistogram } from '../stats/SBHistogram'
 import Countdown from 'react-countdown'
@@ -42,8 +38,27 @@ export const CStatsModalProto = ({
   }
 
   // Load the game
-  var game = iGameProto.loadGame();
+  var game = iGame.loadGame();
   // alert("game won: " + game?.isWon() + " game lost: " + game?.isLost());
+  var i=0;
+  var contributors=""
+  var contributorsArray: string[]=[]
+  for(i=0;i<3;i++){
+    if(contributorsArray.includes(game?.combo.tuples[i].sharedBy ?? "")){
+      continue
+    }
+    else{
+      if(contributors.length>0){
+       contributorsArray.push(game?.combo.tuples[i].sharedBy ?? "")
+       contributors=contributors.concat(", ",game?.combo.tuples[i].sharedBy ?? "")
+      }
+      else{
+        contributorsArray.push(game?.combo.tuples[i].sharedBy ?? "")
+        contributors=contributors.concat(game?.combo.tuples[i].sharedBy ?? "")
+      }
+    }
+  }
+  
 
   return (
     <BaseModal
@@ -59,17 +74,32 @@ export const CStatsModalProto = ({
         {GUESS_DISTRIBUTION_SUBTEXT}
       </h5>
       <SBHistogram gameStats={gameStats} />
+
+      {(game?.isWon() || game?.isLost()) && (
+        <div className="mt-5 sm:mt-6 dark:text-white">
+        <h5 className="text-base leading-6 font-medium text-gray-900 dark:text-gray-100">
+        आजचा शब्दबंध तयार करण्यात यांचा सहभाग होता:
+        </h5>
+        <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
+          {contributors}
+        </h5>
+        </div>
+      )}
+
       {(game?.isLost() || game?.isWon()) && (
         <div className="mt-5 sm:mt-6 columns-1 dark:text-white">
           <div>
-            <h5>पुन्हा आपली भेट</h5>
+            
+          <div>
+            <h5 className='text-base leading-6 font-medium text-gray-900 dark:text-gray-100'>पुन्हा आपली भेट</h5>
             <Countdown
-              className="text-lg font-medium text-gray-900 dark:text-gray-100"
-              date={tomorrow}
+
+              className="text-base font-medium text-gray-900 dark:text-gray-100"
+              date={Tomorrow}
+
               daysInHours={true}
             />
           </div>
-          <div>
 
           <button
             type="button"
@@ -91,18 +121,10 @@ export const CStatsModalProto = ({
             <a href={FORM_LINK} rel="noopener noreferrer">प्रतिक्रिया आणि साहाय्य</a>
           </button>
           </div>
-        </div>
-      )}
-      {(game?.isWon() || game?.isLost()) && (
-        <div className="mt-5 sm:mt-6 dark:text-white">
-        <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
-        हे शब्दबंध आपल्यासाठी बनवण्यात यांचा सहभाग होता:
-        </h5>
-        <h6 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
-            पी. सायली, सौरभ कुलकर्णी आणि AI प्रणाली (Chat GPT आणि तत्सम) 
-        </h6>
+
         </div>
       )}
     </BaseModal>
   )
 }
+//पी. सायली, सौरभ कुलकर्णी आणि AI प्रणाली (Chat GPT आणि तत्सम) 

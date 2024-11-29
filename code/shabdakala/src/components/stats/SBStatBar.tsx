@@ -1,4 +1,4 @@
-import { GameStats, ShabdabandhaStats } from '../../lib/localStorage'
+import { ShabdabandhaStats } from '../../lib/localStorage'
 import {
   TOTAL_TRIES_TEXT,
   SUCCESS_RATE_TEXT,

@@ -1,19 +1,19 @@
 import { iCompleteRow } from './iCompleteRow';
 import { iLiveRow } from './iLiveRow';
-import { iRowProto } from './iRowProto';
+import { iRow } from './iRow';
 import { ZCombo } from './ZCombo'; // Adjust the import path as necessary
 import { shuffleArray } from '../Utils'; // Adjust the import path as necessary
-import { iCellProto } from './iCellProto';
+import { iCell } from './iCell';
 import { ZCellAddress } from './ZCellAddress';
 import { ZAttempt } from './ZAttempt';
 import { loadGameStorage } from '../localStorage';
 
-export class iGameProto {
+export class iGame {
     combo: ZCombo;
     solvedThemes: string[] = [];
     remainingLives: number = 3;
     attempts: ZAttempt[] = [];
-    rows: iRowProto[] = [];
+    rows: iRow[] = [];
 
     constructor(combo: ZCombo, solvedThemes: string[], remainingLives: number = 3, attempts: ZAttempt[] = []) {
         this.combo = combo;
@@ -57,10 +57,10 @@ export class iGameProto {
         var shuffledArrayIndex = 0;
         for (var index = this.rows.length; index < this.combo.tuples.length; index++) {
             this.rows.push(new iLiveRow([ 
-                new iCellProto(shuffledArray[shuffledArrayIndex], new ZCellAddress(index, 0)),
-                new iCellProto(shuffledArray[shuffledArrayIndex + 1], new ZCellAddress(index, 1)),
-                new iCellProto(shuffledArray[shuffledArrayIndex + 2], new ZCellAddress(index, 2)),
-                new iCellProto(shuffledArray[shuffledArrayIndex + 3], new ZCellAddress(index, 3)),
+                new iCell(shuffledArray[shuffledArrayIndex], new ZCellAddress(index, 0)),
+                new iCell(shuffledArray[shuffledArrayIndex + 1], new ZCellAddress(index, 1)),
+                new iCell(shuffledArray[shuffledArrayIndex + 2], new ZCellAddress(index, 2)),
+                new iCell(shuffledArray[shuffledArrayIndex + 3], new ZCellAddress(index, 3)),
             ]));       
 
             shuffledArrayIndex += 4;
@@ -72,7 +72,7 @@ export class iGameProto {
     }
 
     getSelectedCells() {
-        var selectedCells: iCellProto[] = [];
+        var selectedCells: iCell[] = [];
         this.rows.forEach(row => {
             row.getCells().forEach(cell => {
                 if (cell.isSelected) {
@@ -185,7 +185,7 @@ export class iGameProto {
         });
     }
 
-    static loadGame() : iGameProto | null {
+    static loadGame() : iGame | null {
         const gameStorage = loadGameStorage();
         if (!gameStorage) {
             return null;
@@ -196,7 +196,7 @@ export class iGameProto {
         const remainingLives = gameStorage.remainingLives;
         const attempts = gameStorage.attempts;
 
-        return new iGameProto(combo, solvedThemes, remainingLives, attempts);
+        return new iGame(combo, solvedThemes, remainingLives, attempts);
         
     }
 }   
