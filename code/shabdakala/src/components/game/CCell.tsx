@@ -27,7 +27,7 @@ export const CCell = ({cellProto, onClick} : CCellProps) => {
     'cell-animation',
     {
       [color] : cellProto.isHinted,
-      'shadow-2xl shadow-black dark : shadow-slate-600': cellProto.isHinted,
+      'shadow-lg shadow-gray-800 dark:shadow-slate-700 transition-shadow duration-300':cellProto.isHinted,
       'bg-[#f4f4f5] dark:bg-slate-800 border-slate-300 dark:border-slate-600': !cellProto.isSelected && !cellProto.isHinted,
       'bg-custom-dark-gray text-white': cellProto.isSelected,
       'bg-white text-black': !cellProto.isSelected && !cellProto.isHinted,

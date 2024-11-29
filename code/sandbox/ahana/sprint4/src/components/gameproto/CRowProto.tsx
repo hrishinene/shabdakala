@@ -5,6 +5,7 @@ import { shuffleArray } from '../../lib/Utils';
 import { ZTuple } from '../../lib/internal/ZTuple';
 import { iCellProto } from '../../lib/internal/iCellProto';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
+import {easeIn, motion} from 'framer-motion'
 
 interface CRowProtoProps {
 
@@ -22,15 +23,15 @@ function completedRowContent(tuple: ZTuple) {
   const thm = tuple.theme
   const wrds = tuple.words.join(',');
   return (
-    <div className="flex justify-center mb-2">
-
+    <motion.div className="flex justify-center mb-2" initial={{ opacity: 0, y: -50}} 
+    animate={{ opacity: 1, y: 0 }} transition={{ease: 'easeIn' ,duration: 0.4}} >
     <button className={classes}>
      <div className="flex flex-col items-center">
         <span className='text-xl font-bold'> {thm} </span>
         <span className='text-xl font-sans'> {wrds} </span>
      </div>
     </button>
-    </div>
+    </motion.div>
   )
 }
 

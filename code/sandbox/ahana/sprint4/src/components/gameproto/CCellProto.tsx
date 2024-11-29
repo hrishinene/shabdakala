@@ -5,6 +5,7 @@ import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import {motion} from "framer-motion";
 //import {vibrate} from "./CGameProto"
 //import { useState } from 'react';
+
 const shakeVariants = {
   shake: {
     x: [0, -2, 2, -2, 2, 0], // Keyframes for shaking left and right
@@ -16,14 +17,7 @@ const shakeVariants = {
   normal: {
     x: 0, // Default position
   },
-  elevate: {
-    y: -5,
-    transition: {
-      duration: 0.3,
-      ease: "easeOut",
-    },
 
-  }
 };
 
 interface CCellProtoProps {
@@ -48,11 +42,8 @@ export const CCellProto = ({cellProto, onClick} : CCellProtoProps) => {
       'cell-animation': !!cellProto,
     }
   )
-
-
   return (
-            <motion.button className={classes} onClick={() => handleCellClick(cellProto, onClick)} animate={
-              cellProto.isVibarting ? (cellProto.isElevating ? "normal" : "shake") : (cellProto.isElevating ? "elevate" : "normal")}
+            <motion.button className={classes} onClick={() => handleCellClick(cellProto, onClick)} animate={cellProto.isVibarting ? "shake" : "normal"}
             variants={shakeVariants} whileTap={{ scale: 0.95}}>
               {cellProto.getWord()}
             </motion.button>
