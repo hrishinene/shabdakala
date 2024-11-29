@@ -44,7 +44,7 @@ export const CCellProto = ({cellProto, onClick} : CCellProtoProps) => {
   )
   return (
             <motion.button className={classes} onClick={() => handleCellClick(cellProto, onClick)} animate={cellProto.isVibarting ? "shake" : "normal"}
-            variants={shakeVariants} whileTap={{ scale: 0.95}}>
+            variants={shakeVariants} whileTap={{scale: 0.5, transition:{duration:0.5}}}>
               {cellProto.getWord()}
             </motion.button>
   )
