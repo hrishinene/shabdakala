@@ -65,6 +65,7 @@ const [game, setGame] = useState<iGameProto|undefined>(() => {
 
   useEffect(() => {
     var tuples = [FinalTuplesList[0][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[0])], FinalTuplesList[1][findDaysOffset(new Date('2024-11-21'), new Date(),FinalTuplesList[1])], FinalTuplesList[2][findDaysOffset(new Date('2024-11-21'), new Date(), FinalTuplesList[2])] ];
+    
 
     if(game?.combo.tuples.length==0){
       var combo = constructZCombo(JSON.stringify({tuples: tuples}));
