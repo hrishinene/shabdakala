@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { iGameProto } from '../../lib/internal/iGameProto'   
 import { CRowProto } from './CRowProto';
-import { decodingUrlTest, encodingUrlTest, findDaysOffset } from '../../lib/Utils';
+import { decodingUrlTest, encodingUrlTest, findDaysOffset, formatDate, getArrayIndex, shuffleArray } from '../../lib/Utils';
 import { ZCombo } from '../../lib/internal/ZCombo';
 import { ZCellAddress } from '../../lib/internal/ZCellAddress';
 import { GameStorage, loadGameStorage, saveGameStorage } from '../../lib/localStorage';

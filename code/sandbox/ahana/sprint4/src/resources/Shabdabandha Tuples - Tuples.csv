@@ -1,5 +1,22 @@
-शब्द१,शब्द२,शब्द३,शब्द४,विषय(थीम),from,difficulty (1/2/3)
-चाखणे,चावणे,गिळणे,खाणे,खाण्याशी संबंधित क्रिया,AI प्रणाली,2
-मूर्ती,मिरवणूक,भाद्रपद,आरती,गणेशोत्सव,ह्रषी नेने ,2
-ग्वाल्हेर,जयपूर,मेवाती,भेंडी बाजार,हिंदुस्थानी शास्त्रीय संगीतातली घराणी,ह्रषी नेने ,3
-नांगरणी,रब्बी,खरीप,पेरणी,कृषीशी निगडित संज्ञा,AI प्रणाली,2
+शब्द१,शब्द२,शब्द३,शब्द४,विषय(थीम),from,difficulty (1/2/3),status
+वचन,ahana,वचन,वचन,वचन,वचन,2.0,failure
+g,g,g,g,g,,1.0,success
+h,h,h,h,h,h,0.0,success
+i,i,i,i,i,,0.0,success
+j,j,j,j,,j,0.0,success
+k,k,k,k,,k,0.0,failure
+l,l,l,l,l,Shabdabandha Team,0.0,success
+m,m,m,m,m,m,2.0,success
+n,n,n,n,n,n,0.0,success
+p,p,p,p,p,p,1.0,success
+q,q,q,q,q,q,2.0,success
+r,r,r,r,r,r,0.0,success
+s,s,s,s,s,s,1.0,success
+t,t,t,t,t,t,2.0,success
+u,u,u,u,u,u,0.0,success
+v,v,v,v,v,v,1.0,success
+w,w,w,w,w,w,2.0,success
+x,x,x,x,x,x,0.0,success
+y,y,y,y,y,y,1.0,success
+z,z,z,z,z,z,2.0,success
+aa,aa,aa,aa,aa,aa,2.0,success
