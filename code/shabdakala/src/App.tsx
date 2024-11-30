@@ -28,7 +28,7 @@ import {
 } from '@heroicons/react/solid'
 import DropdownComponent from './components/modals/MenuModal'
 import CGame from './components/game/CGame'
-import { CStatsModalProto } from './components/modals/CStatsModalProto'
+import { CStatsModal } from './components/modals/CStatsModal'
 
 const ALERT_TIME_MS = 2500
 
@@ -133,7 +133,7 @@ function App() {
         isOpen={isInfoModalOpen}
         handleClose={() => setIsInfoModalOpen(false)}
       />
-      <CStatsModalProto
+      <CStatsModal
         isOpen={isStatsModalOpen}
         handleClose={() => setIsStatsModalOpen(false)}
         handleShare={() => {

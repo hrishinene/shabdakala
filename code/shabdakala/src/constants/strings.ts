@@ -1,6 +1,6 @@
 // import {MAX_WORD_LENGTH} from "./settings";
 
-export const GAME_TITLE = 'शब्दबंध (Demo)';
+export const GAME_TITLE = 'शब्दबंध';
 // export const GAME_URL = 'localhost:3000';
 export const GAME_URL = 'shabdabandha.shabdak.com' 
 export const GAME_ENCODE_URL = 'https://shabdak3.el.r.appspot.com';

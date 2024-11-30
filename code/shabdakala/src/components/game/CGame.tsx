@@ -14,7 +14,7 @@ import { WRONG_GROUP_MESSAGE,
           HINT_MESSAGE,
  } from '../../constants/strings';
  import { GameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage } from '../../lib/localStorage';
-import { CStatsModalProto } from '../modals/CStatsModalProto';
+import { CStatsModal } from '../modals/CStatsModal';
 import { Tuples } from '../../constants/tuples';
 import { StartDate } from '../../constants/settings';
 import { findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
@@ -356,7 +356,7 @@ export const CGame = () => {
         {/* <Alert message="Congratulations!! You have Won the game!" isOpen={isSuccessMessageDisplayed} /> */}
         {/* <Alert message="Sorry!! You have lost the game! Better luck next time" isOpen={isFailureMessageDisplayed} /> */}
         <Alert message= {LOST_GAME_MESSAGE} isOpen={isFailureMessageDisplayed} />
-        <CStatsModalProto
+        <CStatsModal
         isOpen={isStatsModalOpen}
         handleClose={() => setIsStatsModalOpen(false)}
         handleShare={() => {

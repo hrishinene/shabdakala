@@ -19,7 +19,7 @@ type Props = {
   handleShare: () => void
 }
 
-export const CStatsModalProto = ({
+export const CStatsModal = ({
   isOpen,
   handleClose,
   handleShare,
@@ -40,25 +40,43 @@ export const CStatsModalProto = ({
   // Load the game
   var game = iGame.loadGame();
   // alert("game won: " + game?.isWon() + " game lost: " + game?.isLost());
+  if (game === null) {
+    return (
+      <BaseModal
+        title={STATISTICS_TITLE}
+        isOpen={isOpen}
+        handleClose={handleClose}
+      >
+        <SBStatBar gameStats={gameStats} />
+      </BaseModal>
+    )
+  }
+
   var i=0;
   var contributors=""
   var contributorsArray: string[]=[]
-  for(i=0;i<3;i++){
-    if(contributorsArray.includes(game?.combo.tuples[i].sharedBy ?? "")){
+  // console.log("Calling Stats Modal");
+  for(i=0;i<3;i++) {
+    const sharedBy:string = game.combo.tuples[i].sharedBy ?? ""
+    // console.log("Contributors: " + contributors);
+    // console.log("Contributors Array = " + contributorsArray);
+    // console.log("Shared By = " + sharedBy);
+
+    if(contributorsArray.includes(sharedBy)){
       continue
-    }
-    else{
-      if(contributors.length>0){
-       contributorsArray.push(game?.combo.tuples[i].sharedBy ?? "")
-       contributors=contributors.concat(", ",game?.combo.tuples[i].sharedBy ?? "")
+    } else {
+      if (contributors.length > 0) {
+        contributors = contributors + ", "
       }
-      else{
-        contributorsArray.push(game?.combo.tuples[i].sharedBy ?? "")
-        contributors=contributors.concat(game?.combo.tuples[i].sharedBy ?? "")
-      }
+
+      // console.log("Shared By = " + sharedBy);
+      // console.log("Contributors Array = " + contributorsArray);
+
+      // add to contributorsArray and concat
+      contributors = contributors.concat(sharedBy)
+      contributorsArray.push(sharedBy)
     }
   }
-  
 
   return (
     <BaseModal
