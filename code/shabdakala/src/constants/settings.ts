@@ -14,7 +14,7 @@ export const Colors:ZColor[] = [
 ]
 
 // Dates and Epoch
-const epoch = new Date('January 1, 2022 00:00:00');
+const epoch = new Date('November 29, 2024 00:00:00');
 const epochMs = epoch.valueOf()
 const now = Date.now()
 const msInDay = 86400000
