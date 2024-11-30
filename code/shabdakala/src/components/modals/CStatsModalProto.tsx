@@ -78,7 +78,7 @@ export const CStatsModalProto = ({
       {(game?.isWon() || game?.isLost()) && (
         <div className="mt-5 sm:mt-6 dark:text-white">
         <h5 className="text-base leading-6 font-medium text-gray-900 dark:text-gray-100">
-        आजचा शब्दबंध तयार करण्यात यांचा सहभाग होता:
+        आजचे शब्दबंध तयार करण्यात यांचा सहभाग होता:
         </h5>
         <h5 className="text-sm leading-6 font-tiny text-gray-700 dark:text-gray-100">
           {contributors}
