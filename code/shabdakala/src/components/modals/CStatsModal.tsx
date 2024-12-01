@@ -17,7 +17,7 @@ type Props = {
   isOpen: boolean
   handleClose: () => void
   handleShare: () => void
-}
+};
 
 export const CStatsModal = ({
   isOpen,
@@ -56,27 +56,21 @@ export const CStatsModal = ({
   var contributors=""
   var contributorsArray: string[]=[]
   // console.log("Calling Stats Modal");
-  for(i=0;i<3;i++) {
-    const sharedBy:string = game.combo.tuples[i].sharedBy ?? ""
-    // console.log("Contributors: " + contributors);
-    // console.log("Contributors Array = " + contributorsArray);
-    // console.log("Shared By = " + sharedBy);
-
-    if(contributorsArray.includes(sharedBy)){
-      continue
-    } else {
-      if (contributors.length > 0) {
-        contributors = contributors + ", "
-      }
-
-      // console.log("Shared By = " + sharedBy);
-      // console.log("Contributors Array = " + contributorsArray);
-
-      // add to contributorsArray and concat
-      contributors = contributors.concat(sharedBy)
-      contributorsArray.push(sharedBy)
+  // add sharedBy to contributorsArray
+  game.combo.tuples.forEach((tuple) => {
+    contributorsArray.push(tuple.sharedBy);
+  });
+  // sort contributorsArray and remove duplicates
+  contributorsArray = contributorsArray.filter((item, index) => contributorsArray.indexOf(item) === index)
+  contributorsArray.sort()
+  // console.log("Contributors Array = " + contributorsArray);
+  // finally add to contributors with comma
+  contributorsArray.forEach((contributor) => {
+    if (contributors.length > 0) {
+      contributors = contributors + ", "
     }
-  }
+    contributors = contributors.concat(contributor)
+  });
 
   return (
     <BaseModal
