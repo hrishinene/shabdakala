@@ -29,7 +29,8 @@ export const CGame = () => {
   const loadNewGame = (offset : number) :iGame => {
     console.log("Loading New Game with index: " + offset);
     // var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
-    var newTuples = [getElement(Tuples[0], offset), getElement(Tuples[1], offset), getElement(Tuples[2], offset)];
+    var tplCombo = getElement(Tuples, offset);
+    var newTuples = [tplCombo[0], tplCombo[1], tplCombo[2]]
     var combo = constructZCombo(JSON.stringify({ tuples: newTuples }));
 
     return new iGame(combo,[]);
