@@ -12,13 +12,7 @@ import { AboutModal } from './components/modals/AboutModal'
 import { InfoModal } from './components/modals/InfoModal'
 import {
   GAME_TITLE,
-  WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
-  // ABOUT_GAME_MESSAGE,
-  // GAME_URL,
-  GAME_ENCODE_URL,
-  GAME_ENCODE_URL_RANDOM,
-  GAME_SHABDAK_1_URL,
 } from './constants/strings'
 
 import './App.css'

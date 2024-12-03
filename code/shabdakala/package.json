@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.2",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",

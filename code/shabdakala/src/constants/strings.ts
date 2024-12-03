@@ -3,9 +3,9 @@
 export const GAME_TITLE = 'शब्दबंध';
 // export const GAME_URL = 'localhost:3000';
 export const GAME_URL = 'shabdabandha.shabdak.com' 
-export const GAME_ENCODE_URL = 'https://shabdak3.el.r.appspot.com';
-export const GAME_SHABDAK_1_URL = 'http://shabdak1.shabdak.com';
-export const GAME_ENCODE_URL_RANDOM = 'https://shabdak3.el.r.appspot.com/?random=1';
+export const GAME_ENCODE_URL = 'https://shabdakriti.de.r.appspot.com';
+// export const GAME_SHABDAK_1_URL = 'http://shabdak1.shabdak.com';
+// export const GAME_ENCODE_URL_RANDOM = 'https://shabdak3.el.r.appspot.com/?random=1';
 export const WIN_MESSAGES = ['महान!', 'उत्तम!', 'भले शाब्बास!', 'वा वा !', 'मानलं तुम्हाला!', 'कमाल!', 'फार छान!', 'अगदी बरोब्बर!']
 export const GAME_COPIED_MESSAGE = 'आता व्हॉट्सॅप् वर पेस्ट करा'
 export const ABOUT_GAME_MESSAGE = `'${GAME_TITLE}' विषयी थोडेसे...`
@@ -37,3 +37,4 @@ export const CROSS_EMOJI = '❌'
 export const TICK_EMOJI = '✅'
 // export const TICK_EMOJI = '👍' // '😊'
 export const ALERT_EMOJI = '⚠️'
+export const PASS = 'j0y0fc0d1ng';

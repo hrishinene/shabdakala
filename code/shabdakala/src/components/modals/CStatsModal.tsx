@@ -6,7 +6,6 @@ import {
   GUESS_DISTRIBUTION_TEXT,
   GUESS_DISTRIBUTION_SUBTEXT,
   SHARE_TEXT,
-  GAME_ENCODE_URL_RANDOM,
 } from '../../constants/strings'
 import {FORM_LINK, Tomorrow} from "../../constants/settings";
 import { iGame } from '../../lib/internal/iGame'

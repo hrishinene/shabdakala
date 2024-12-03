@@ -25,7 +25,7 @@ export function findDaysDifference(start : Date, end : Date) : number {
   const normalizedStart = new Date(start.getFullYear(), start.getMonth(), start.getDate());
   const normalizedEnd = new Date(end.getFullYear(), end.getMonth(), end.getDate());
   var days = Math.round((normalizedEnd.getTime() - normalizedStart.getTime()) / (1000 * 60 * 60 * 24));
-  return days < 0 ? -days : days;
+  return days;
 }
 
 export function findDaysDifferenceFromToday(date : Date) : number {
@@ -211,4 +211,41 @@ export const playSadMusic = () => {
   });
 };
 
+
+export function encodeString(str:string) : string {
+  let encoded:string = "";
+  for (var i = 0; i < str.length; i++) {
+    let charCode = str.charCodeAt(i);
+    // console.log("Encoding Original", String.fromCharCode(charCode), "New => ", String.fromCharCode((charCode + i + 3)));
+    encoded = encoded.concat(String.fromCharCode(charCode + i + 3));
+  }
+return encoded;
+}
+
+export function decodeString(str:string) : string {
+  let decoded:string = "";
+  for (var i = 0; i < str.length; i++) {
+    let charCode = str.charCodeAt(i);
+    // console.log("Decoding Original", String.fromCharCode(charCode), "New => ", String.fromCharCode((charCode - i - 3)));
+    decoded = decoded.concat(String.fromCharCode(charCode - i - 3));
+  }
+
+
+return decoded;
+}
+
+export function getEncodedUrl(baseUrl:string, solution:string) : string {
+  let encoded = baseUrl + "?encoded=" + encodeString(solution);
+  // console.log("Url =", encoded);
+  return encoded;
+}
+
+export function getDateUrl(baseUrl:string, date:Date) : string {
+  let encoded = baseUrl + "?today=" + isoFormatDate(date);
+  return encoded;
+}
+
+function isoFormatDate(date: Date) {
+  return date.toString().split('T')[0];
+}
 

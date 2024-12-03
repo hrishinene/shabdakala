@@ -199,4 +199,12 @@ export class iGame {
         return new iGame(combo, solvedThemes, remainingLives, attempts);
         
     }
+
+    getComboString(): string {
+        return this.combo.getString();
+    }
+
+    getComboDate(): Date {
+        return this.combo.getComboDate();
+    }
 }   

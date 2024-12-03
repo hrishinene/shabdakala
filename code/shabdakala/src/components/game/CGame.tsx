@@ -12,27 +12,47 @@ import { WRONG_GROUP_MESSAGE,
           WIN_MESSAGES,
           LOST_GAME_MESSAGE,
           HINT_MESSAGE,
+          PASS,
  } from '../../constants/strings';
  import { GameStorage, saveGameStorage, saveShabdabandhaStatsToLocalStorage } from '../../lib/localStorage';
 import { CStatsModal } from '../modals/CStatsModal';
 import { Tuples } from '../../constants/tuples';
 import { StartDate } from '../../constants/settings';
-import { findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
+import { decodeString, findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
 
 
 export const CGame = () => {
-  const constructZCombo = (jsonString: string): ZCombo => {
+  const constructZCombo = (jsonString: string, date? : Date): ZCombo => {
     const parsedData = JSON.parse(jsonString);
-    return new ZCombo(parsedData.tuples)
+    return new ZCombo(parsedData.tuples, date)
   };
 
-  const loadNewGame = (offset : number) :iGame => {
+  const loadNewGameFromOffset = (offset : number, date? : Date) :iGame => {
     console.log("Loading New Game with index: " + offset);
     // var newTuples = [Tuples[0][offset], Tuples[1][offset], Tuples[2][offset]];
+    if (offset < 0)
+      return demoGame();
+
     var tplCombo = getElement(Tuples, offset);
     var newTuples = [tplCombo[0], tplCombo[1], tplCombo[2]]
-    var combo = constructZCombo(JSON.stringify({ tuples: newTuples }));
+    var combo = constructZCombo(JSON.stringify({ tuples: newTuples }), date);
 
+    return new iGame(combo,[]);
+  }
+
+  const loadNewGameFromRawString = (raw: string) :iGame => {
+    // Split the raw string into tuples
+    var words:string[] = raw.split("X");
+    if (words.length != 15)
+      return demoGame();
+
+    var tuples = [
+      { words: words.slice(0,4), theme: words[4], sharedBy: "शब्दबंध", difficulty: 0 },
+      { words: words.slice(5,9), theme: words[9], sharedBy: "शब्दबंध", difficulty: 1 },
+      { words: words.slice(10,14), theme: words[14], sharedBy: "शब्दबंध", difficulty: 2 }
+    ];
+
+    var combo = constructZCombo(JSON.stringify({tuples: tuples}));
     return new iGame(combo,[]);
   }
 
@@ -54,7 +74,7 @@ export const CGame = () => {
     const offsetParam = url.searchParams.get("offset");
     const offset = offsetParam ? parseInt(offsetParam) : null;
     if (offset) {
-      return loadNewGame(offset);
+      return loadNewGameFromOffset(offset);
     }
 
     // Load based on Demo
@@ -63,22 +83,37 @@ export const CGame = () => {
       return demoGame();
     }
 
+    // Load encoded or password protected
+    const encoded = url.searchParams.get("encoded");
+    if (encoded) {
+      const pass = url.searchParams.get("pass");
+      if (pass && pass !== PASS) // wrong password
+        return demoGame();
 
-    // Load Based on Encoded - TBD
 
+      var combostring = pass ? encoded : decodeString(encoded);
+
+      return loadNewGameFromRawString(combostring);
+    }
 
     // Load based on Date (and also in case of no date)
-
     var startDateParam = url.searchParams.get("startDate");
     const startDate = startDateParam ? new Date(startDateParam) : StartDate;
 
+    var todayDate = new Date();
     var todayParam = url.searchParams.get("today");
-    const todayDate = todayParam ? new Date(todayParam) : new Date();
+    if (todayParam) {
+      todayDate = new Date(todayParam);
+      // don't allow future dates
+
+      if (findDaysDifference(todayDate, new Date()) < 0)
+        todayDate = new Date();
+    }
 
     var daysOffset = findDaysDifference(startDate, todayDate);
 
     var tomorrowParam = url.searchParams.get("tomorrow");
-    return tomorrowParam ? loadNewGame(daysOffset + 1) : loadNewGame(daysOffset);
+    return tomorrowParam ? loadNewGameFromOffset(daysOffset + 1) : loadNewGameFromOffset(daysOffset, todayDate);
   }
   
  const [game, setGame] = useState<iGame|null>();

@@ -67,4 +67,22 @@ export class ZCombo {
         console.log("Themes do match");
         return true;
     }
+
+    getString(): string {
+        var str = '';
+        for (let i = 0; i < this.tuples.length; i++) {
+            if (i > 0) {
+                str += 'X';
+            }
+
+            str += this.tuples[i].words.join('X');
+            str += 'X';
+            str+= this.tuples[i].theme;
+        }
+        return str;
+    }
+
+    getComboDate(): Date {
+        return this.createdOn;
+    }
 }
