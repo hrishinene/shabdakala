@@ -191,7 +191,7 @@ export class iGame {
             return null;
         }
 
-        const combo = new ZCombo(gameStorage.comboStorage.tuples, gameStorage.comboStorage.createdOn);
+        const combo = new ZCombo(gameStorage.comboStorage.tuples, new Date(gameStorage.comboStorage.createdOn));
         const solvedThemes = gameStorage.solvedThemesStorage;
         const remainingLives = gameStorage.remainingLives;
         const attempts = gameStorage.attempts;

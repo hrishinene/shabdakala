@@ -246,6 +246,11 @@ export function getDateUrl(baseUrl:string, date:Date) : string {
 }
 
 function isoFormatDate(date: Date) {
-  return date.toString().split('T')[0];
+  try {
+    return date.toISOString().split('T')[0];
+  }
+  catch (e) {
+    return date.toString().split('T')[0];
+  }
 }
 
