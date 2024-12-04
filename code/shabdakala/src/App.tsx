@@ -148,7 +148,7 @@ function App() {
           onChange={handleDateChange}
           minDate={new Date("2024-12-01")}
           maxDate={new Date()}
-          dateFormat="yyyy-MMM-dd"
+          dateFormat="MMMM dd, yyyy"
           className="p-2 rounded-2xl border-1 border-gray-500 dark:border-gray-50 text-center bg-gray-300 dark:bg-gray-100"
           />
           </div>
