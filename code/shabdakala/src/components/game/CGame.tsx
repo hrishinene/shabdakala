@@ -18,7 +18,8 @@ import { WRONG_GROUP_MESSAGE,
 import { CStatsModal } from '../modals/CStatsModal';
 import { Tuples } from '../../constants/tuples';
 import { StartDate } from '../../constants/settings';
-import { decodeString, findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
+// import { decodeString, findDaysDifference, getElement, playBeep, playHappyMusic, playHappySound, playSadMusic, playSadSound } from '../../lib/Utils';
+import { decodeString, findDaysDifference, getElement } from '../../lib/Utils';
 
 
 export const CGame = () => {
@@ -210,7 +211,7 @@ export const CGame = () => {
 
   const flashAlert = (setter: React.Dispatch<React.SetStateAction<boolean>>, timeoutMS:number = 3500): void => {
     // make a beep sound
-    playSadSound();
+    // playSadSound();
 
     setter(true);
     setTimeout(() => {
@@ -224,19 +225,19 @@ export const CGame = () => {
       }
       const errors = game.handleSubmision();
       if (game.isWon()) { // All combos solved
-          playHappyMusic();
+          // playHappyMusic();
           game.populate();
           saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
       } else if (game.isLost()) { // All lives lost
-          playSadMusic();
+          // playSadMusic();
           saveShabdabandhaStatsToLocalStorage(game);
           // clear localStorage
       } else if (errors === -1) { // already used attempt
           flashAlert(setAlreadyUsedAttempt);
           return; // no need to redraw
       } else if (errors === 0) { // correct group
-          playHappySound();
+          // playHappySound();
           game.populate() // rearrange game
       } else if (errors === 1) { // wrong group by one word
           flashAlert(setWrongGroupByOneWord);

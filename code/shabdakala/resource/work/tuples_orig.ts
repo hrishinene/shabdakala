@@ -234,19 +234,6 @@ export const Tuples = [
         },
         {
             "words": [
-                "पेशवे",
-                " पायऱ्या",
-                "मंदिर",
-                "टेकडी"
-            ],
-            "theme": "पुणे स्थित  पर्वती टेकडी संबंधित ",
-            "sharedBy": "ऋतुजा ",
-            "difficulty": 2
-        }
-    ],
-    [
-        {
-            "words": [
                 "भरती",
                 " लाटा",
                 " गाज",
@@ -254,8 +241,10 @@ export const Tuples = [
             ],
             "theme": " समुद्र",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "गाठ",
@@ -265,7 +254,7 @@ export const Tuples = [
             ],
             "theme": "दोरी/दोरखंड इत्यादींशी संबंधित ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -276,10 +265,8 @@ export const Tuples = [
             ],
             "theme": "मुंबई",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "कांगारू",
@@ -289,8 +276,10 @@ export const Tuples = [
             ],
             "theme": " ऑस्ट्रेलिया",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "ज्योत",
@@ -300,7 +289,7 @@ export const Tuples = [
             ],
             "theme": " मेणबत्तीशी संबंधित ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -311,10 +300,8 @@ export const Tuples = [
             ],
             "theme": " ​​शिवाजी महाराज ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "गाजर",
@@ -324,8 +311,10 @@ export const Tuples = [
             ],
             "theme": " जमिनीखालच्या खाण्यायोग्य वनस्पती ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "कोन",
@@ -335,7 +324,7 @@ export const Tuples = [
             ],
             "theme": " आईस्क्रीम ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -346,10 +335,8 @@ export const Tuples = [
             ],
             "theme": " भारतीय संरक्षण प्रबोधिनी (NDA) ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "रक्त",
@@ -359,8 +346,10 @@ export const Tuples = [
             ],
             "theme": "लाल वस्तू",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "भांगडा",
@@ -370,7 +359,7 @@ export const Tuples = [
             ],
             "theme": " पंजाब आणि पंजाबी",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -381,10 +370,8 @@ export const Tuples = [
             ],
             "theme": "कोकणातील गोष्टी ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "कविता",
@@ -394,8 +381,10 @@ export const Tuples = [
             ],
             "theme": "कवयित्री शांता शेळके यांच्याशी संबंधित",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "गुंड्या",
@@ -405,7 +394,7 @@ export const Tuples = [
             ],
             "theme": "चिमणरावांचे चऱ्हाट (पुस्तक व मालिका) मधील पात्रे ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -416,10 +405,8 @@ export const Tuples = [
             ],
             "theme": "आगा खान पॅलेस",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "आवाज",
@@ -429,8 +416,10 @@ export const Tuples = [
             ],
             "theme": "काही प्रसिद्ध दिवाळी अंक ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 42.195,
@@ -440,7 +429,7 @@ export const Tuples = [
             ],
             "theme": " मॅरेथॉनशी संबंधित ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -451,10 +440,8 @@ export const Tuples = [
             ],
             "theme": "गिर्यारोहणाशी संबंधित ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "तिकीट",
@@ -464,8 +451,10 @@ export const Tuples = [
             ],
             "theme": "रेल्वे प्रवास ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "अमूल",
@@ -475,7 +464,7 @@ export const Tuples = [
             ],
             "theme": "दूध देणारे :)",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -486,10 +475,8 @@ export const Tuples = [
             ],
             "theme": "विडा/पान बनवण्यासाठी पदार्थ ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "लता",
@@ -499,8 +486,10 @@ export const Tuples = [
             ],
             "theme": "पांढरी वस्त्रे परिधान करणारे लोक ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आग",
@@ -510,7 +499,7 @@ export const Tuples = [
             ],
             "theme": "गाडी प्रत्यय लावून अर्थपूर्ण ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -521,10 +510,8 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "काटा",
@@ -534,8 +521,10 @@ export const Tuples = [
             ],
             "theme": " घड्याळ ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "दूध",
@@ -545,7 +534,7 @@ export const Tuples = [
             ],
             "theme": "पांढऱ्या गोष्टी",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -556,10 +545,8 @@ export const Tuples = [
             ],
             "theme": "खगोलशास्त्रीय",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "दैव",
@@ -569,8 +556,10 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "विद्या",
@@ -580,7 +569,7 @@ export const Tuples = [
             ],
             "theme": "हिंदी चित्रपटांमधील मधील काही अभिनेत्री ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -591,10 +580,8 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "कल्पवृक्ष",
@@ -604,8 +591,10 @@ export const Tuples = [
             ],
             "theme": "समुद्र मंथनातून मिळालेल्या काही गोष्टी ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आग",
@@ -615,7 +604,7 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -626,10 +615,8 @@ export const Tuples = [
             ],
             "theme": " वर्तमान पत्र ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "अंथरुण",
@@ -639,8 +626,10 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "झरा",
@@ -650,7 +639,7 @@ export const Tuples = [
             ],
             "theme": "निसर्ग ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -661,10 +650,8 @@ export const Tuples = [
             ],
             "theme": " अध्यात्म ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "मूर्ती",
@@ -674,8 +661,10 @@ export const Tuples = [
             ],
             "theme": "देऊळ ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "उथळ",
@@ -685,7 +674,7 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -696,10 +685,8 @@ export const Tuples = [
             ],
             "theme": "भगतसिंग यांच्या जीवनाशी संबंधित ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "पद",
@@ -709,8 +696,10 @@ export const Tuples = [
             ],
             "theme": "राजकारणातल्या उचित अनुचित गोष्टी ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आग",
@@ -720,7 +709,7 @@ export const Tuples = [
             ],
             "theme": "पुणे स्थित शनिवार वाडा वास्तू संबंधित ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -731,10 +720,8 @@ export const Tuples = [
             ],
             "theme": "चित्रकला (पेंटिंग)",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "दिल्ली",
@@ -744,8 +731,10 @@ export const Tuples = [
             ],
             "theme": "राजकारण आणि त्या आधारित चित्रपटाचे नाव ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "लिफाफा",
@@ -755,7 +744,7 @@ export const Tuples = [
             ],
             "theme": "पत्रव्यवहार संबंधी ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -766,10 +755,8 @@ export const Tuples = [
             ],
             "theme": " यावर बसतात  ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "काख",
@@ -779,8 +766,10 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "नाच",
@@ -790,7 +779,7 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -801,10 +790,8 @@ export const Tuples = [
             ],
             "theme": " हवामानखात्याशी संबंधित  ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "समुद्र",
@@ -814,8 +801,10 @@ export const Tuples = [
             ],
             "theme": "कोळ्याच्या जीवनाशी संबंधित ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आधी",
@@ -825,7 +814,7 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -836,10 +825,8 @@ export const Tuples = [
             ],
             "theme": "मराठी म्हणीतील शब्द ",
             "sharedBy": "एक शुभचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "सूर्यफूल",
@@ -849,28 +836,6 @@ export const Tuples = [
             ],
             "theme": "तेल बिया ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
-        {
-            "words": [
-                "पक्ष",
-                " मत",
-                " चिन्ह",
-                "सभा"
-            ],
-            "theme": "निवडणूक ",
-            "sharedBy": "सुभाष भावे",
-            "difficulty": 1
-        },
-        {
-            "words": [
-                "⁠व्यक्ती",
-                " बटाटा",
-                " तुजपाशी",
-                "सुंदर"
-            ],
-            "theme": " पु. ल. देशपांडे यांच्या पुस्तकांच्या नावातील शब्द",
-            "sharedBy": "ऋतुजा ",
             "difficulty": 2
         }
     ]
