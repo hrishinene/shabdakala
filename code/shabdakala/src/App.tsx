@@ -12,6 +12,8 @@ import {
   GAME_TITLE,
   GAME_COPIED_MESSAGE,
   GAME_ENCODE_URL,
+  GAME_URL,
+  GAME_FULL_URL,
 } from './constants/strings'
 
 import './App.css'
@@ -111,7 +113,9 @@ function App() {
         {/* center-aligned div */}
         <div className="flex-1 flex-col justify-center items-center pb-8 text-center">
           <h1 className="text-5xl font-bold dark:text-white text-center">
+            <a href={GAME_FULL_URL} rel="noopener noreferrer">
             {GAME_TITLE}
+            </a>
           </h1>
           <div>
             <span className="mt-2 text-2xl text-black dark:text-white">
