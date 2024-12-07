@@ -240,10 +240,23 @@ export function getEncodedUrl(baseUrl:string, solution:string) : string {
   return encoded;
 }
 
+
 export function getDateUrl(baseUrl:string, date:Date) : string {
-  let encoded = baseUrl + "?today=" + isoFormatDate(date);
+  let encoded = baseUrl + "?today=" + localFormatDate(date);
   return encoded;
 }
+
+function localFormatDate(date: Date): string {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-based
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+// export function getDateUrl(baseUrl:string, date:Date) : string {
+//   let encoded = baseUrl + "?today=" + isoFormatDate(date);
+//   return encoded;
+// }
 
 function isoFormatDate(date: Date) {
   try {
