@@ -104,14 +104,18 @@ export const CGame = () => {
     var todayDate = new Date();
     var todayParam = url.searchParams.get("today");
     if (todayParam) {
-      todayDate = new Date(todayParam);
+      todayDate = new Date(todayParam+"T00:00:00"); // Convert to Local
       // don't allow future dates
 
       if (findDaysDifference(todayDate, new Date()) < 0)
         todayDate = new Date();
     }
 
+    // console.log("Today Date: " + todayDate);
+    // console.log("Start Date: " + startDate);
+
     var daysOffset = findDaysDifference(startDate, todayDate);
+    console.log("Days Offset: " + daysOffset);
 
     var tomorrowParam = url.searchParams.get("tomorrow");
     return tomorrowParam ? loadNewGameFromOffset(daysOffset + 1) : loadNewGameFromOffset(daysOffset, todayDate);

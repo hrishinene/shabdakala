@@ -40,7 +40,21 @@ function App() {
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
   // const [isMenuModalOpen, setIsMenuModalOpen] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [selectedDate, setSelectedDate] = useState<Date>(new Date());
+  const [gameDate, setGameDate] = useState<Date>(() => {
+    // Check if the date is in the future
+    const url = new URL(window.location.href);
+    var todayDate = new Date();
+    var todayParam = url.searchParams.get("today");
+    if (todayParam)
+      todayDate = new Date(todayParam+"T00:00:00");
+
+    // console.log("todayDate: " + todayDate)
+
+    return todayDate
+  });
+
+  const [selectedDate, setSelectedDate] = useState<Date>(() => {
+    return gameDate});
 
   // Function to toggle menu open/close
   const toggleMenu = () => {
@@ -73,14 +87,14 @@ function App() {
   }
 
   const handleDateChange = (date: Date | null, event?: React.SyntheticEvent) => {
-    console.log(date)
+    // console.log(date)
     if (date) {
       setSelectedDate(date)
     }
   }
 
   const navigationLink = () => {
-    console.log("navigate to archive game dated: " + selectedDate)
+    // console.log("navigate to archive game dated: " + selectedDate)
     return getDateUrl(GAME_ENCODE_URL, selectedDate);
   }
 
@@ -101,7 +115,7 @@ function App() {
           </h1>
           <div>
             <span className="mt-2 text-2xl text-black dark:text-white">
-              {new Date().toLocaleDateString("mr-IN", { month: 'long', day: 'numeric', year: 'numeric' })}
+              {gameDate.toLocaleDateString("mr-IN", { month: 'long', day: 'numeric', year: 'numeric' })}
             </span>
           </div>
         </div>

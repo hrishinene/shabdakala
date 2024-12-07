@@ -12,7 +12,7 @@ export function findDaysOffset(date1 : Date, date2 : Date, array : any[]) : numb
   
   // Calculate the difference in days
   const diffInDays = Math.round((normalizedDate1.getTime() - normalizedDate2.getTime()) / (1000 * 60 * 60 * 24));
-  console.log("calc index : " + ((diffInDays % array.length) + array.length) % array.length);
+  // console.log("calc index : " + ((diffInDays % array.length) + array.length) % array.length);
   // Return the modulo of the difference with the array length
   return ((diffInDays % array.length) + array.length) % array.length; // Ensure non-negative result
 }

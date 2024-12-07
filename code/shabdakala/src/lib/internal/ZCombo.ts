@@ -60,11 +60,11 @@ export class ZCombo {
         // compare each tuple themes
         for (let i = 0; i < this.tuples.length; i++) {
             if (this.tuples[i].theme !== other.tuples[i].theme) {
-                console.log("Themes do not match");
+                // console.log("Themes do not match");
                 return false;
             }
         }
-        console.log("Themes do match");
+        // console.log("Themes do match");
         return true;
     }
 

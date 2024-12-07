@@ -21,4 +21,6 @@ const msInDay = 86400000
 
 export const Today = Math.floor((now - epochMs) / msInDay)
 export const Tomorrow = (Today + 1) * msInDay + epochMs
-export const StartDate:Date = new Date("2024-11-30");
+// export const StartDate:Date = new Date("2024-11-30");
+export const StartDate:Date = new Date(2024,10,29,0,0,0,0);
+// export const StartDate:Date = new Date(Date.UTC(2024,10,30,0,0,0,0));
