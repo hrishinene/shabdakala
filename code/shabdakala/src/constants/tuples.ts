@@ -275,7 +275,7 @@ export const Tuples = [
                 "घड्याळ"
             ],
             "theme": "महाराष्ट्रातील पक्षांची निवडणूक चिन्हे",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 2
         }
     ],
@@ -310,7 +310,7 @@ export const Tuples = [
                 "गरुड"
             ],
             "theme": "काही देवांची वाहने ",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 2
         }
     ],
@@ -365,8 +365,8 @@ export const Tuples = [
             "words": [
                 "चित्रं",
                 "झोप",
-                "कारणं",
-                "काम"
+                "खोडी",
+                "पाणी"
             ],
             "theme": "ज्या गोष्टी काढता येतात",
             "sharedBy": "संदीप सोवनी ",
@@ -375,7 +375,7 @@ export const Tuples = [
         {
             "words": [
                 "शोध",
-                "अर्थ",
+                "विरजण",
                 "झाड",
                 "आग"
             ],
@@ -398,28 +398,15 @@ export const Tuples = [
         },
         {
             "words": [
-                "झोप",
-                "ठेच",
-                "बस",
-                "वाट"
-            ],
-            "theme": "ही “लागते” :-)",
-            "sharedBy": "केदार",
-            "difficulty": 1
-        },
-        {
-            "words": [
                 "रक्त",
                 " जास्वंद",
                 " माणिक",
                 " सफरचंद"
             ],
-            "theme": "लाल वस्तू",
+            "theme": "लाल रंगाच्या वस्तू",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "भांगडा",
@@ -427,20 +414,22 @@ export const Tuples = [
                 " गहू",
                 " हॉकी"
             ],
-            "theme": " पंजाब आणि पंजाबी",
+            "theme": " पंजाबशी संबंधित ",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
-                "कप",
+                "ढाल",
                 "करंडक",
                 "मेडल",
                 "चक्र"
             ],
             "theme": "पारितोषिके",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -451,10 +440,8 @@ export const Tuples = [
             ],
             "theme": "विरघळणार्या / पाघळणाऱ्या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "समुद्र",
@@ -464,8 +451,10 @@ export const Tuples = [
             ],
             "theme": "कोकणातील गोष्टी ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "कविता",
@@ -475,21 +464,19 @@ export const Tuples = [
             ],
             "theme": "कवयित्री शांता शेळके यांच्याशी संबंधित",
             "sharedBy": "ऋतुजा ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
                 "हात",
                 "चौकट",
-                "पीस",
+                "हुकूम",
                 "विदुषक"
             ],
             "theme": "पत्ते",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "गाऊन",
@@ -499,8 +486,10 @@ export const Tuples = [
             ],
             "theme": "न्यायालय",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "सागरा धरणी",
@@ -509,8 +498,8 @@ export const Tuples = [
                 "नोकरी"
             ],
             "theme": "ही “मिळते” :-)",
-            "sharedBy": "केदार",
-            "difficulty": 1
+            "sharedBy": "केदार म्हसवडे",
+            "difficulty": 0
         },
         {
             "words": [
@@ -521,10 +510,8 @@ export const Tuples = [
             ],
             "theme": "चिमणरावांचे चऱ्हाट (पुस्तक व मालिका) मधील पात्रे ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "नदी",
@@ -534,8 +521,10 @@ export const Tuples = [
             ],
             "theme": "वाहणार्‍या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "पाणी",
@@ -545,7 +534,7 @@ export const Tuples = [
             ],
             "theme": "पारदर्शक गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -556,10 +545,8 @@ export const Tuples = [
             ],
             "theme": "बरेच, खूप या अर्थी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "आवाज",
@@ -569,8 +556,10 @@ export const Tuples = [
             ],
             "theme": "काही प्रसिद्ध दिवाळी अंक ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "भर",
@@ -579,8 +568,8 @@ export const Tuples = [
                 "बस"
             ],
             "theme": "नामरुपे आणि क्रियेची आज्ञार्थ रुपे",
-            "sharedBy": "केदार",
-            "difficulty": 1
+            "sharedBy": "केदार म्हसवडे",
+            "difficulty": 0
         },
         {
             "words": [
@@ -591,10 +580,8 @@ export const Tuples = [
             ],
             "theme": " मॅरेथॉनशी संबंधित ",
             "sharedBy": "HVN Unplugged",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "दोरी",
@@ -604,8 +591,10 @@ export const Tuples = [
             ],
             "theme": "गिर्यारोहणाशी संबंधित ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "तिकीट",
@@ -615,7 +604,7 @@ export const Tuples = [
             ],
             "theme": "रेल्वे प्रवास ",
             "sharedBy": "सुभाष भावे",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -626,10 +615,8 @@ export const Tuples = [
             ],
             "theme": "दूध देणारे :)",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "तलफ",
@@ -638,9 +625,11 @@ export const Tuples = [
                 "शिंक"
             ],
             "theme": "ही “येते” :-)",
-            "sharedBy": "केदार",
-            "difficulty": 0
-        },
+            "sharedBy": "केदार म्हसवडे",
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "चुना",
@@ -650,7 +639,7 @@ export const Tuples = [
             ],
             "theme": "विडा/पान बनवण्यासाठी पदार्थ ",
             "sharedBy": "मीनल अभ्यंकर ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -661,10 +650,8 @@ export const Tuples = [
             ],
             "theme": "पांढरी वस्त्रे परिधान करणारे लोक ",
             "sharedBy": "एक हितचिंतक",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "बहर",
@@ -674,8 +661,10 @@ export const Tuples = [
             ],
             "theme": "वनस्पतीं वर येणार्‍या नव्या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "नाणी",
@@ -685,7 +674,7 @@ export const Tuples = [
             ],
             "theme": "सुट्या पैशांचे प्रकार",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -696,6 +685,17 @@ export const Tuples = [
             ],
             "theme": "\"विकत घेतला श्याम\" गाण्यातले शब्द",
             "sharedBy": "संदीप सोवनी ",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "झोप",
+                "ठेच",
+                "बस",
+                "वाट"
+            ],
+            "theme": "ही “लागते” :-)",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 2
         }
     ],
@@ -743,7 +743,7 @@ export const Tuples = [
                 "चार"
             ],
             "theme": "'सदा' हा उपसर्ग लावून अर्थपूर्ण शब्द",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 0
         },
         {
@@ -754,7 +754,7 @@ export const Tuples = [
                 "चित्रा"
             ],
             "theme": "नक्षत्रं",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 1
         },
         {
@@ -813,7 +813,7 @@ export const Tuples = [
                 "उपमा"
             ],
             "theme": "मराठी भाषालंकार",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 0
         },
         {
@@ -929,7 +929,7 @@ export const Tuples = [
                 "सात"
             ],
             "theme": "पहिल्या ४ मूळ संख्या",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 1
         },
         {
@@ -1104,7 +1104,7 @@ export const Tuples = [
                 "शीतल"
             ],
             "theme": "मराठी “यूनिसेक्स्” नावं",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 1
         },
         {
@@ -1279,7 +1279,7 @@ export const Tuples = [
                 "गजा"
             ],
             "theme": "व्यक्ती आणि वल्ली' मधील काही व्यक्तिरेखा ",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 1
         },
         {
@@ -1389,13 +1389,13 @@ export const Tuples = [
         },
         {
             "words": [
-                "केदार",
+                "केदार म्हसवडे",
                 "आसावरी",
                 "सारंग",
                 "कल्याण"
             ],
             "theme": "काही राग",
-            "sharedBy": "केदार",
+            "sharedBy": "केदार म्हसवडे",
             "difficulty": 2
         }
     ],
