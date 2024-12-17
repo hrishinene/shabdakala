@@ -15,7 +15,7 @@ open https://www.google.com/intl/mr/inputtools/try/
 # if not exists create work dir
 mkdir work
 cd work
-rm -rf *
+rm -rf ./*
 
 # copy files
 cp ../sbwords.xlsx .
