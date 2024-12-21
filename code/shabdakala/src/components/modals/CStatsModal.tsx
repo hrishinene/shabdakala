@@ -52,8 +52,8 @@ export const CStatsModal = ({
           हे खेळही नक्की खेळून पहा:
         </p>
         <ul className="list-none">
-          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
-          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
+          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
+          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
         </ul>
       </BaseModal>
     )
@@ -148,8 +148,8 @@ export const CStatsModal = ({
           हे खेळही नक्की खेळून पहा:
         </p>
         <ul className="list-none">
-          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
-          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
+          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
+          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
         </ul>
     </BaseModal>
   )
