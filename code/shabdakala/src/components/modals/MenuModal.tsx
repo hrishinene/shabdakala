@@ -41,16 +41,7 @@ const DropdownComponent: FC = () => {
                 className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="menuitem"
               >
-               नवे शब्दक
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://hindi.shabdak.com"
-                className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
-                role="menuitem"
-              >
-                शब्दक - हिन्दी
+               लोकप्रिय जोडाक्षरी शब्दक-३
               </a>
             </li>
             <li>
@@ -59,7 +50,7 @@ const DropdownComponent: FC = () => {
                 className="block dark:text-white px-4 py-2 text-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
                 role="menuitem"
               >
-                सदाबहार शब्दक-१
+                सदाबहार त्रयक्षरी शब्दक-१
               </a>
             </li>
           </ul>

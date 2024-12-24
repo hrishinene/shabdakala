@@ -27,6 +27,8 @@ import 'react-datepicker/dist/react-datepicker.css'
 import CGame from './components/game/CGame'
 import { CStatsModal } from './components/modals/CStatsModal'
 import { getDateUrl } from './lib/Utils'
+import SplashScreen from './components/modals/SplashScreen';
+
 
 const ALERT_TIME_MS = 2500
 
@@ -98,6 +100,19 @@ function App() {
   const navigationLink = () => {
     // console.log("navigate to archive game dated: " + selectedDate)
     return getDateUrl(GAME_ENCODE_URL, selectedDate);
+  }
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Adjust the timeout duration as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <SplashScreen />;
   }
 
   return (

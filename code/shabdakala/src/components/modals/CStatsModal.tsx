@@ -47,6 +47,14 @@ export const CStatsModal = ({
         handleClose={handleClose}
       >
         <SBStatBar gameStats={gameStats} />
+        <hr className="border-solid border-t-2 border-slate-500 mb-2" />
+        <p className="text-gray-800 dark:text-gray-400 text-center justify-items-center">
+          हे खेळही नक्की खेळून पहा:
+        </p>
+        <ul className="list-none">
+          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
+          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
+        </ul>
       </BaseModal>
     )
   }
@@ -127,7 +135,7 @@ export const CStatsModal = ({
           </button>
           <button
               type="button"
-              className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 sm:text-sm"
+              className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 sm:text-sm mb-2"
           >
             <a href={FORM_LINK} rel="noopener noreferrer">प्रतिक्रिया आणि साहाय्य</a>
           </button>
@@ -135,6 +143,14 @@ export const CStatsModal = ({
 
         </div>
       )}
+        <hr className="border-solid border-t-2 border-slate-500 mb-2" />
+        <p className="text-gray-800 dark:text-gray-400 text-center justify-items-center font-bold">
+          हे खेळही नक्की खेळून पहा:
+        </p>
+        <ul className="list-none">
+          <li><a href="http://www.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">लोकप्रिय जोडाक्षरी शब्दक-३</a></li>
+          <li><a href="http://shabdak1.shabdak.com" className="text-l underline decoration-indigo-500 dark:text-gray-300 decoration-2">सदाबहार त्रयक्षरी शब्दक-१</a></li>
+        </ul>
     </BaseModal>
   )
 }
