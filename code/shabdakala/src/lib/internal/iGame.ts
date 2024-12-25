@@ -14,11 +14,13 @@ export class iGame {
     remainingLives: number = 3;
     attempts: ZAttempt[] = [];
     rows: iRow[] = [];
+    timeSpentSeconds: number = 0;
 
-    constructor(combo: ZCombo, solvedThemes: string[], remainingLives: number = 3, attempts: ZAttempt[] = []) {
+    constructor(combo: ZCombo, solvedThemes: string[], remainingLives: number = 3, timeSpentSeconds:number = 0,  attempts: ZAttempt[] = []) {
         this.combo = combo;
         this.solvedThemes = solvedThemes;
         this.remainingLives = remainingLives;
+        this.timeSpentSeconds = timeSpentSeconds;
         this.attempts = attempts;
         this.populate();
     }
@@ -195,8 +197,9 @@ export class iGame {
         const solvedThemes = gameStorage.solvedThemesStorage;
         const remainingLives = gameStorage.remainingLives;
         const attempts = gameStorage.attempts;
+        const timeSpentSeconds = gameStorage.timeSpentSeconds;
 
-        return new iGame(combo, solvedThemes, remainingLives, attempts);
+        return new iGame(combo, solvedThemes, remainingLives, timeSpentSeconds, attempts);
         
     }
 
@@ -206,5 +209,11 @@ export class iGame {
 
     getComboDate(): Date {
         return this.combo.getComboDate();
+    }
+
+    getTimeSpent() {
+        const minutes = Math.floor(this.timeSpentSeconds / 60);
+        const seconds = this.timeSpentSeconds % 60;
+        return `${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
     }
 }   

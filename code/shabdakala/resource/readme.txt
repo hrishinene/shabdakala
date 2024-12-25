@@ -3,7 +3,7 @@ Making combos
 --------------
 source ~/.bashrc
 source ~/github/scripts/gc_devdashboard/dashboard.sh
-cd /Users/hrishinene/github/shabdakala/shabdakala/code/shabdakala/resource
+cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource
 
 # open in excel and load and check
 open sbwords.xlsx
@@ -20,7 +20,7 @@ rm -rf ./*
 # copy files
 cp ../sbwords.xlsx .
 cp ../tpls_tmpl.ts tuples.ts
-cp /Users/hrishinene/github/shabdakala/shabdakala/code/shabdakala/src/constants/tuples.ts ./tuples_orig.ts
+cp /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts ./tuples_orig.ts
 
 ### Install Python stuff
 # if pandas error
@@ -32,13 +32,13 @@ python3 -m pip install pandas
 pip install openpyxl
 
 # finally make tuples
-python /Users/hrishinene/github/shabdakala/shabdakala/code/shabdakala/scripts/python/csv2combo.py sbwords.xlsx ./tuples.ts
+python /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/scripts/python/csv2combo.py sbwords.xlsx ./tuples.ts
 
 # Compare tuples files
 diff tuples.ts tuples_orig.ts
 
 # Once convinced, copy on to the src
-cp tuples.ts /Users/hrishinene/github/shabdakala/shabdakala/code/shabdakala/src/constants/tuples.ts
+cp tuples.ts /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts
 
 ********* Python errors **********
 

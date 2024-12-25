@@ -117,6 +117,7 @@ function App() {
 
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
+      {/* <Timer /> Add the Timer component here */}
 
       <div className="flex container mt-2 items-center">
 
@@ -174,7 +175,7 @@ function App() {
       <hr />
       <div className="text-center py-1 mt-1 space-x-1">
         {/* <h3 className="text-lg font-sans text-black">Create groups of 4!</h3> */}
-        <h3 className="text-lg font-sans text-black dark:text-white">शब्दबंध संग्रहातून</h3>
+        <h3 className="text-lg font-bold font-sans text-black dark:text-white">शब्दबंध संग्रहातून</h3>
         <div className="text-center flex justify-center mt-2 space-x-2" >
         <DatePicker
           selected={selectedDate}

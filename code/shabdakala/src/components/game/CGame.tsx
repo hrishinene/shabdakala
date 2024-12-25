@@ -133,7 +133,13 @@ export const CGame = () => {
   const [successAlert, setSuccessAlert] = useState('')
   const [gameRevealed, setGameRevealed] = useState(false)
   const [hint, setHint] = useState(false)
+  const [sessionStartTime, setSessionStartTime] = useState<Date>(new Date())
   const ALERT_TIME_MS = 3500
+
+  const sessionElapsedSeconds = () => {
+    var now = new Date();
+    return Math.round((now.getTime() - sessionStartTime.getTime()) / 1000);
+  } 
 
   // Initiate tuples based on date/storage and inputs... 
   useEffect(() => {
@@ -165,11 +171,16 @@ export const CGame = () => {
         return;
       }
 
+      console.log("Saving Game Storage " + sessionElapsedSeconds());
+      game.timeSpentSeconds += sessionElapsedSeconds();
+      setSessionStartTime(new Date());
+
       var gameStorage : GameStorage ={
         comboStorage: game.combo,
         solvedThemesStorage: game.solvedThemes,
         remainingLives: game.remainingLives,
-        attempts: game.attempts
+        attempts: game.attempts,
+        timeSpentSeconds: game.timeSpentSeconds
       }
       saveGameStorage(gameStorage);
   },[modificationCount])
@@ -182,6 +193,7 @@ export const CGame = () => {
     }
 
     if (game.isWon()) {
+      // update time
       // display success message
       setSuccessAlert(
         WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)]
@@ -324,9 +336,9 @@ export const CGame = () => {
               ))
           }
 
-          <CLives mistake={game.remainingLives}/>
+          <CLives mistake={game.remainingLives} timeSpentSeconds={game.timeSpentSeconds}/>
 
-          <div className="flex justify-center mt-4 space-x-4">
+          <div className="flex justify-center mt-2 space-x-4">
 
           {/* submit button */}
           <button

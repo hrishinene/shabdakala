@@ -61,6 +61,7 @@ export type GameStorage = {
   solvedThemesStorage: string[];
   remainingLives: number;
   attempts: ZAttempt[];
+  timeSpentSeconds: number;
 }
 
 const gameStorageKey = 'GameStorage'
