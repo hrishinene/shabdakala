@@ -115,7 +115,7 @@ export const CGame = () => {
     // console.log("Start Date: " + startDate);
 
     var daysOffset = findDaysDifference(startDate, todayDate);
-    console.log("Days Offset: " + daysOffset);
+    // console.log("Days Offset: " + daysOffset);
 
     var tomorrowParam = url.searchParams.get("tomorrow");
     return tomorrowParam ? loadNewGameFromOffset(daysOffset + 1) : loadNewGameFromOffset(daysOffset, todayDate);
@@ -171,8 +171,10 @@ export const CGame = () => {
         return;
       }
 
-      console.log("Saving Game Storage " + sessionElapsedSeconds());
+      // console.log("Saving Game Storage " + sessionElapsedSeconds());
       game.timeSpentSeconds += sessionElapsedSeconds();
+
+      // console.log("Game time Spent = " + game.timeSpentSeconds);
       setSessionStartTime(new Date());
 
       var gameStorage : GameStorage ={

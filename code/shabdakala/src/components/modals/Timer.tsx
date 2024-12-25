@@ -17,8 +17,15 @@ const Timer = ({startTime}: Props)=> {
   }, []);
 
   const formatTime = (totalSeconds: number) => {
+    // console.log("totalSeconds: ", totalSeconds);
+    // if totalSeconds is not number, return 0:00
+    if (isNaN(totalSeconds)) {
+      return "0:00";
+    }
+
     const minutes = Math.floor(totalSeconds / 60);
-    const seconds = totalSeconds % 60;
+    const seconds = Math.floor(totalSeconds) % 60;
+    // console.log("minutes: ", minutes, "seconds: ", seconds);
     return `${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
   };
 

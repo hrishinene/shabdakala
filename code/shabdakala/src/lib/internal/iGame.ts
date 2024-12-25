@@ -197,10 +197,14 @@ export class iGame {
         const solvedThemes = gameStorage.solvedThemesStorage;
         const remainingLives = gameStorage.remainingLives;
         const attempts = gameStorage.attempts;
-        const timeSpentSeconds = gameStorage.timeSpentSeconds;
+
+        if (isNaN(gameStorage.timeSpentSeconds)) {
+            gameStorage.timeSpentSeconds = 0;
+        }
+
+        const timeSpentSeconds = gameStorage.timeSpentSeconds ? gameStorage.timeSpentSeconds : 0;
 
         return new iGame(combo, solvedThemes, remainingLives, timeSpentSeconds, attempts);
-        
     }
 
     getComboString(): string {
