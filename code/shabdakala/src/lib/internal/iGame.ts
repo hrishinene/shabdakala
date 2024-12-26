@@ -151,6 +151,10 @@ export class iGame {
         return this.remainingLives == 0;
     }
 
+    isOver() {
+        return (this.isWon() || this.isLost());
+    }
+
     getCompletedRows() {
         return this.rows.filter(row => row.isComplete());
     }
@@ -216,6 +220,7 @@ export class iGame {
     }
 
     getTimeSpent() {
+        // const timeSpentOptimized = this.timeSpentSeconds ? this.timeSpentSeconds - 1 : 0;
         const minutes = Math.floor(this.timeSpentSeconds / 60);
         const seconds = this.timeSpentSeconds % 60;
         return `${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;

@@ -94,7 +94,7 @@ export const CStatsModal = ({
       </h5>
       <SBHistogram gameStats={gameStats} />
 
-      {(game?.isWon() || game?.isLost()) && (
+      {(game?.isOver()) && (
         <div className="mt-5 sm:mt-6 dark:text-white">
         <h5 className="text-base leading-6 font-medium text-gray-900 dark:text-gray-100">
         आजचे शब्दबंध तयार करण्यात यांचा सहभाग होता:
@@ -105,7 +105,7 @@ export const CStatsModal = ({
         </div>
       )}
 
-      {(game?.isLost() || game?.isWon()) && (
+      {(game?.isOver()) && (
         <div className="mt-5 sm:mt-6 columns-1 dark:text-white">
           <div>
             

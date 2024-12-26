@@ -11,7 +11,7 @@ const Timer = ({startTime, game}: Props)=> {
   const [seconds, setSeconds] = useState(startTime);
 
   useEffect(() => {
-    if (game.isWon() || game.isLost()) {
+    if (game.isOver()) {
         // console.log("game is won or lost");
         setSeconds(game.timeSpentSeconds)
         return;
@@ -26,7 +26,7 @@ const Timer = ({startTime, game}: Props)=> {
         // console.log("clearing timer");
         clearInterval(timerId);
     }
-  }, [game.isWon(), game.isLost()]);
+  }, [game.isOver()]);
 
   const formatTime = (totalSeconds: number) => {
     // console.log("totalSeconds: ", totalSeconds);

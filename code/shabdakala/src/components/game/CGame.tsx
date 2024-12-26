@@ -172,7 +172,8 @@ export const CGame = () => {
       }
 
       // console.log("Saving Game Storage " + sessionElapsedSeconds());
-      game.timeSpentSeconds += sessionElapsedSeconds();
+      if (!game.isOver())
+        game.timeSpentSeconds += sessionElapsedSeconds();
 
       // console.log("Game time Spent = " + game.timeSpentSeconds);
       setSessionStartTime(new Date());
@@ -319,11 +320,11 @@ export const CGame = () => {
     return <div className='text-left py-4 text-black dark:text-white'>Please Reload Page</div>;
   }
 
-  var isSubmitEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length === 4;
-  var isShuffleEnabled = !game.isWon() && !game.isLost() && game.getSelectedCells().length === 0;
-  var isDeselectEnabled = !game.isWon()  && !game.isLost() && game.getSelectedCells().length > 0;
-  var isResetEnabled = game.isWon()  || game.isLost();
-  var isHintEnabled = !game.isWon() && !game.isLost() &&  game.getSelectedCells().length === 0;
+  var isSubmitEnabled = !game.isOver() && game.getSelectedCells().length === 4;
+  var isShuffleEnabled = !game.isOver() && game.getSelectedCells().length === 0;
+  var isDeselectEnabled = !game.isOver() && game.getSelectedCells().length > 0;
+  var isResetEnabled = game.isOver();
+  var isHintEnabled = !game.isOver() &&  game.getSelectedCells().length === 0;
 
   return (
     <div>
