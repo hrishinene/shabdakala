@@ -338,7 +338,7 @@ export const CGame = () => {
               ))
           }
 
-          <CLives mistake={game.remainingLives} timeSpentSeconds={game.timeSpentSeconds}/>
+          <CLives mistake={game.remainingLives} timeSpentSeconds={game.timeSpentSeconds} game={game}/>
 
           <div className="flex justify-center mt-2 space-x-4">
 

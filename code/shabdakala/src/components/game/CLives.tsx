@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import Timer from '../modals/Timer'
+import { iGame } from '../../lib/internal/iGame'
 
 type Props = {
   mistake : number
   timeSpentSeconds: number
+  game: iGame
 }
 
-export const CLives=({mistake, timeSpentSeconds}: Props)=>{
+export const CLives=({mistake, timeSpentSeconds, game}: Props)=>{
 const round = Array.from(Array(mistake))
 
 return(
@@ -20,7 +22,7 @@ return(
         <span  className="inline-block w-3.5 h-3.5 bg-custom-dark-gray rounded-full mx-1"></span>
         <span  className="inline-block w-3.5 h-3.5 bg-custom-dark-gray rounded-full mx-1"></span> */}
     </h3>
-    <Timer startTime={timeSpentSeconds}/>
+    <Timer startTime={timeSpentSeconds} game = {game}/>
   </div>
 )
 }

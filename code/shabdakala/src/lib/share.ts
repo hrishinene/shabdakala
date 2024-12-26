@@ -12,8 +12,10 @@ export const shareShabdabandhaStatus = (game: iGame): void => {
     let attemptsCount = game.attempts.length;
 
     let msg = lost ? "मी प्रयत्न केलेले शब्दबंध:" : "मी सोडवलेले शब्दबंध:";
-    let text = `${GAME_TITLE} (${Today}) ${lost ? 'X' : attemptsCount}/5\n\n` +
-        'सोडवायला लागलेला वेळ: ' + game.getTimeSpent() + '\n\n' +
+    let attemptsMsg = lost ? "X" : attemptsCount;
+    let exclaimation = lost ? " 🙁" : " फक्त 🙂";
+    let text = `${GAME_TITLE} (${Today}) ${attemptsMsg}/5\n\n` +
+        'सोडवायला लागलेला वेळ: ' + game.getTimeSpent() + exclaimation + '\n\n' +
         generateSBEmojiGrid(game) + `\n` + GAME_URL + `\n\n` + msg + `\n` + encodedUrl;
         // generateEmojiGrid3([['medium', 'easy', 'hard', 'easy'], ['medium', 'medium', 'medium', 'medium'], ['hard', 'hard', 'hard', 'hard'], ['easy', 'easy', 'easy', 'easy']]) + `\n\n` + GAME_URL + `\n\n` + msg + `\n` + encodedUrl;
 
