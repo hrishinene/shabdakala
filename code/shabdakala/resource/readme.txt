@@ -1,6 +1,6 @@
 ### 02 Dec 2024 - 18:13:03
-Making combos
---------------
+# Making combos
+# --------------
 source ~/.bashrc
 source ~/github/scripts/gc_devdashboard/dashboard.sh
 cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource
