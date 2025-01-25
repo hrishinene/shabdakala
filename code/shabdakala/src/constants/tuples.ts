@@ -2034,8 +2034,8 @@ export const Tuples = [
             "words": [
                 "वाईन",
                 "जंतुनाशक",
-                "विद्रावक",
-                "ज्वलंत"
+                "व्यसन",
+                "ज्वलनशील "
             ],
             "theme": "अल्कोहोल",
             "sharedBy": "संदीप सोवनी ",
@@ -2046,7 +2046,7 @@ export const Tuples = [
                 "ढोल",
                 "वीज",
                 "सायरन",
-                "फटका"
+                "फटाका"
             ],
             "theme": "मोठा आवाज करणार्‍या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
@@ -2057,7 +2057,7 @@ export const Tuples = [
                 "काथ्या",
                 "खराटा",
                 "करवंटी",
-                "कोयर"
+                "कॉयर"
             ],
             "theme": "नारळाच्या झाडापासून बनवलेल्या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
@@ -2089,28 +2089,17 @@ export const Tuples = [
         },
         {
             "words": [
-                "नवजीवन",
-                "सकस",
-                "कडक",
-                "समास"
-            ],
-            "theme": "Palindromes, of course! (विलोमपदॆ)",
-            "sharedBy": "केदार म्हसवडे",
-            "difficulty": 2
-        }
-    ],
-    [
-        {
-            "words": [
                 "ओतप्रोत",
                 "उदंड",
                 "ओसंडून",
                 "तुडुंब"
             ],
-            "theme": "अति",
+            "theme": "अती, खूप जास्त   ",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "डॉन",
@@ -2120,7 +2109,7 @@ export const Tuples = [
             ],
             "theme": "युरोपियन नद्या",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2131,10 +2120,8 @@ export const Tuples = [
             ],
             "theme": "ज्या गोष्टी रंगतात",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "ततकार",
@@ -2144,8 +2131,10 @@ export const Tuples = [
             ],
             "theme": "कथ्थक",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "बुजगावणं",
@@ -2155,7 +2144,7 @@ export const Tuples = [
             ],
             "theme": "शेत",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2166,10 +2155,8 @@ export const Tuples = [
             ],
             "theme": "साधू",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "भाव",
@@ -2179,8 +2166,10 @@ export const Tuples = [
             ],
             "theme": "ज्यांना \"गीत\" जोडता येतं",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "नाणे",
@@ -2190,7 +2179,7 @@ export const Tuples = [
             ],
             "theme": "घाट",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2201,10 +2190,8 @@ export const Tuples = [
             ],
             "theme": "ज्याच्यात पाणी मुरते",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "नवीन",
@@ -2214,8 +2201,10 @@ export const Tuples = [
             ],
             "theme": "Palindromes, of course! (विलोमपदॆ)",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "शारदा",
@@ -2225,7 +2214,7 @@ export const Tuples = [
             ],
             "theme": "पहिल्या \"मनाचे श्लोका\"तील शब्द",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2236,10 +2225,8 @@ export const Tuples = [
             ],
             "theme": "कार्ड",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "नदीचा प्रवाह",
@@ -2249,8 +2236,10 @@ export const Tuples = [
             ],
             "theme": "नागमोडी गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "बंब",
@@ -2260,7 +2249,7 @@ export const Tuples = [
             ],
             "theme": "यांचा आगीशी खेळ!",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2271,10 +2260,8 @@ export const Tuples = [
             ],
             "theme": "व्यंगचित्रकार",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "स्वप्नं",
@@ -2284,8 +2271,10 @@ export const Tuples = [
             ],
             "theme": "वास्तवात नसलेल्या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "अणू",
@@ -2295,7 +2284,7 @@ export const Tuples = [
             ],
             "theme": "ज्यात बहुतांशी पोकळी असते",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2306,10 +2295,8 @@ export const Tuples = [
             ],
             "theme": "काही मराठी साहित्यिकांची आडनावे",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "ज्योतिर्लिंग",
@@ -2319,8 +2306,10 @@ export const Tuples = [
             ],
             "theme": "बाराच्या संखेने असलेल्या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "रास्ता",
@@ -2330,7 +2319,7 @@ export const Tuples = [
             ],
             "theme": "पेठ",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2341,10 +2330,8 @@ export const Tuples = [
             ],
             "theme": "श्रमपरिहाराची साधने",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "मेधा",
@@ -2354,8 +2341,10 @@ export const Tuples = [
             ],
             "theme": "मेमरी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "दशा",
@@ -2365,7 +2354,7 @@ export const Tuples = [
             ],
             "theme": "सिच्युएशन",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2376,10 +2365,8 @@ export const Tuples = [
             ],
             "theme": "फोडणी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "कथा",
@@ -2389,8 +2376,10 @@ export const Tuples = [
             ],
             "theme": "कठोपनिषद्",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "अभ्यास",
@@ -2400,7 +2389,7 @@ export const Tuples = [
             ],
             "theme": "शिकणे",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2411,10 +2400,8 @@ export const Tuples = [
             ],
             "theme": "प्रखर गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "निर्या",
@@ -2424,8 +2411,10 @@ export const Tuples = [
             ],
             "theme": "साडी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "सोनं",
@@ -2435,7 +2424,7 @@ export const Tuples = [
             ],
             "theme": "अंगठी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2446,10 +2435,8 @@ export const Tuples = [
             ],
             "theme": "ज्या गोष्टी रचता येतात",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "बाळ",
@@ -2459,8 +2446,10 @@ export const Tuples = [
             ],
             "theme": "ज्यांना कुतूहल असते",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "घनिष्ठ",
@@ -2470,7 +2459,7 @@ export const Tuples = [
             ],
             "theme": "मैत्री",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2481,10 +2470,8 @@ export const Tuples = [
             ],
             "theme": "झाडाला लोंबकळणाऱे",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "गोबी",
@@ -2494,8 +2481,10 @@ export const Tuples = [
             ],
             "theme": "वाळवंटं",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आरोह",
@@ -2505,7 +2494,7 @@ export const Tuples = [
             ],
             "theme": "चढणार्‍या गोष्टी",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2516,10 +2505,8 @@ export const Tuples = [
             ],
             "theme": "भारतीय नोबेल विजेत्यांची पहिली नावे",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "गांधी",
@@ -2529,8 +2516,10 @@ export const Tuples = [
             ],
             "theme": "\"महात्मा\" पदवी असलेले",
             "sharedBy": "संदीप सोवनी ",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "बिड",
@@ -2540,7 +2529,7 @@ export const Tuples = [
             ],
             "theme": "अर्थहीन पहिले, पण अर्थपूर्ण दुसरे शब्द (हाड-, काम-, हात-, घर-)",
             "sharedBy": "केदार म्हसवडे",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -2550,6 +2539,17 @@ export const Tuples = [
                 "फोन कॉल"
             ],
             "theme": "दोन घटकांना जोडणारे",
+            "sharedBy": "संदीप सोवनी ",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "रक्त",
+                "कुंकू",
+                "जास्वंद",
+                "थांबा"
+            ],
+            "theme": "लाल",
             "sharedBy": "संदीप सोवनी ",
             "difficulty": 2
         }
