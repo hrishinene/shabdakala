@@ -3,7 +3,7 @@
 # --------------
 source ~/.bashrc
 source ~/github/scripts/gc_devdashboard/dashboard.sh
-cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource
+cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/.
 
 # open in excel and load and check
 open sbwords.xlsx
