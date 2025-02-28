@@ -40,6 +40,21 @@ diff tuples.ts tuples_orig.ts
 # Once convinced, copy on to the src
 cp tuples.ts /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts
 
+# Submit to Git
+git add /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts
+git add /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/sbwords.xlsx
+cd ..
+rm -rf /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/work
+
+
+git commit -m "Words change"
+
+git push origin main
+
+cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/
+
+source deploy_mac.sh
+
 ********* Python errors **********
 
 
