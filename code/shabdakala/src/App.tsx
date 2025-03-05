@@ -115,6 +115,15 @@ function App() {
     return <SplashScreen />;
   }
 
+  const handleFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    const { target } = e;
+
+    if (target) {
+      target.readOnly = true;  // -------> this for all others
+      target.blur(); //  ------> this for ios iphone, TV Browsers, Ipad, Safari
+    }
+  };
+
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
       {/* <Timer /> Add the Timer component here */}
@@ -183,6 +192,11 @@ function App() {
           minDate={new Date("2024-12-01")}
           maxDate={new Date()}
           dateFormat="MMMM dd, yyyy"
+          disabledKeyboardNavigation={false}
+            onFocus={handleFocus}
+            onKeyDown={(e) => {
+              e.preventDefault();
+           }}
           className="p-2 rounded-2xl border-1 border-gray-500 dark:border-gray-50 text-center bg-gray-300 dark:bg-gray-100"
           />
           </div>
