@@ -7033,5 +7033,215 @@ export const Tuples = [
             "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
+    ],
+    [
+        {
+            "words": [
+                "सतार",
+                "मेंडोलिन",
+                "सरोद",
+                "इसराज"
+            ],
+            "theme": "तंतुवाद्ये ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तबला",
+                "ढोलकी",
+                "मृदुन्ग",
+                "मादल"
+            ],
+            "theme": "ताल वाद्ये",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बासरी",
+                "क्लॅरॉनेट",
+                "सनई",
+                "हार्मोनियम"
+            ],
+            "theme": "वायू वाद्ये  ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "नेहेरु",
+                "गुजराल",
+                "वाजपेयी",
+                "मोदी"
+            ],
+            "theme": "पंतप्रधान",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मुर्मू",
+                "पाटील",
+                "कलाम",
+                "मुखर्जी"
+            ],
+            "theme": "राष्ट्रपती ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "अंतुले",
+                "नाईक",
+                "कन्नमवार",
+                "पवार"
+            ],
+            "theme": "महाराष्ट्र मुख्यमंत्री",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "होंडा",
+                "टोयोटा",
+                "मित्सुबिशी",
+                "तोशिबा"
+            ],
+            "theme": "जपानी कंपन्या ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गूगल",
+                "टेस्ला",
+                "फोर्ड",
+                "अमेझॉन"
+            ],
+            "theme": "अमेरिकन कंपन्या",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शेल",
+                "व्होडाफोन",
+                "बार्कले",
+                "युनिलिव्हर"
+            ],
+            "theme": "ब्रिटिश कंपन्या",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आदिनाथ",
+                "महावीर",
+                "संभव",
+                "सुपार्श्व"
+            ],
+            "theme": "जैन तीर्थांकर ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "नानक",
+                "तेगबहादूर",
+                "गोविंद",
+                "हरगोविंद"
+            ],
+            "theme": "शीख गुरु",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गोरख",
+                "मच्छिन्द्र",
+                "कानिफ",
+                "ओंकार"
+            ],
+            "theme": "नाथ संप्रदायातील संत",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "नकुल",
+                "अर्जुन",
+                "युधिष्ठीर",
+                "भीम"
+            ],
+            "theme": "पांडव ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "राम",
+                "लक्ष्मण",
+                "भारत",
+                "शत्रुघ्न"
+            ],
+            "theme": "दशरथ पुत्र   ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "विकर्ण",
+                "दुःशासन",
+                "युयुत्सु",
+                "दुर्योधन"
+            ],
+            "theme": "कौरव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पारिजात",
+                "कामधेनू",
+                "हलाहल",
+                "अमृत"
+            ],
+            "theme": "समुद्रमंथनातील रत्ने",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "जास्वंद",
+                "गुलाब",
+                "कमळ",
+                "चाफा"
+            ],
+            "theme": "झाडांवरील फुले",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "जाई",
+                "जुई",
+                "मोगरा",
+                "बोगनवेल"
+            ],
+            "theme": "वेलींवरील फुले",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
     ]
 ];
