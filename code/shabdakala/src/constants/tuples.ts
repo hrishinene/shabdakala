@@ -7243,5 +7243,1300 @@ export const Tuples = [
             "sharedBy": "HVN Unplugged",
             "difficulty": 2
         }
+    ],
+    [
+        {
+            "words": [
+                "प्राण",
+                "रणजीत",
+                "अमजद",
+                "प्रेम"
+            ],
+            "theme": "हिंदी चित्रपट खलनायक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पेंटल",
+                "असरानी",
+                "मेहमूद",
+                "जगदीप"
+            ],
+            "theme": "हिंदी चित्रपट हास्य अभिनेता   ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "डेव्हिड",
+                "अनुपम",
+                "अशोक",
+                "बलराज"
+            ],
+            "theme": "हिंदी चित्रपट चरित्र अभिनेता",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "प्राण",
+                "रणजीत",
+                "अमजद",
+                "प्रेम"
+            ],
+            "theme": "हिंदी चित्रपट खलनायक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पेंटल",
+                "असरानी",
+                "मेहमूद",
+                "जगदीप"
+            ],
+            "theme": "हिंदी चित्रपट हास्य अभिनेता   ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "डेव्हिड",
+                "अनुपम",
+                "अशोक",
+                "बलराज"
+            ],
+            "theme": "हिंदी चित्रपट चरित्र अभिनेता",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पूर्वरंग",
+                "अपूर्वाई",
+                "व्यक्ती आणि वल्ली",
+                "खोगीरभरती"
+            ],
+            "theme": "पुलं वाङ्मय",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "विशाखा",
+                "मारवा",
+                "रसयात्रा",
+                "नटसम्राट"
+            ],
+            "theme": "कुसुमाग्रज वाङ्मय",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "रक्तचंदन",
+                "काजळमाया",
+                "हिरवे रावे",
+                "पिंगळा वेळ"
+            ],
+            "theme": "जी. ए. कुलकर्णी वाङ्मय ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "बिंदू",
+                "हेलन",
+                "जयश्री टी",
+                "कम्मो"
+            ],
+            "theme": "हिंदी चित्रपट नृत्यांगना",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सुरैय्या",
+                "सुलक्षणा",
+                "सलमा",
+                "परिणीती"
+            ],
+            "theme": "हिंदी चित्रपट अभिनेत्री गायिका",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शशिकला",
+                "मनोरमा",
+                "ललिता",
+                "नादिरा"
+            ],
+            "theme": "हिंदी चित्रपट खलनायिका ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "नारळ",
+                "पायस",
+                "पंचामृत",
+                "उकडीचे मोदक"
+            ],
+            "theme": "सणासुदीचे पदार्थ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तुळस",
+                "दुर्वा",
+                "आघाडा ",
+                "बेल"
+            ],
+            "theme": "पवित्र झाडे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गणपती",
+                "नवरात्र",
+                "दिवाळी",
+                "होळी"
+            ],
+            "theme": "भारतीय सण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "गाय",
+                "बैल",
+                "म्हैस",
+                "शेळी"
+            ],
+            "theme": "पाळीव प्राणी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कोल्हापूर",
+                "नाशिक",
+                "पुणे",
+                "औरंगाबाद"
+            ],
+            "theme": "महाराष्ट्रातील शहरे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पाऊस",
+                "वीज",
+                "ढग",
+                "गारपीट"
+            ],
+            "theme": "हवामानाशी संबंधित",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "छडी",
+                "वर्ग",
+                "शिक्षक",
+                "घंटा"
+            ],
+            "theme": "शालेय जीवन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "शिवाजी महाराज",
+                "तानाजी",
+                "बाजी प्रभू",
+                "जिजामाता"
+            ],
+            "theme": "मराठा इतिहासातील व्यक्तिरेखा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "रांगोळी",
+                "फटाके",
+                "आकाशकंदील",
+                "दिवे"
+            ],
+            "theme": "दिवाळीशी संबंधित",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "तांदूळ",
+                "डाळ",
+                "पोळी",
+                "भाजी"
+            ],
+            "theme": "दैनंदिन आहार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "आंबा",
+                "सफरचंद",
+                "केळं",
+                "डाळिंब"
+            ],
+            "theme": "फळे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सायकल",
+                "गाडी",
+                "बस",
+                "ट्रक"
+            ],
+            "theme": "वाहनप्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मराठी",
+                "हिंदी",
+                "इंग्रजी",
+                "संस्कृत"
+            ],
+            "theme": "भाषा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सागर",
+                "नदी",
+                "तलाव",
+                "विहीर"
+            ],
+            "theme": "पाण्याचे स्रोत",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पेन",
+                "पेन्सिल",
+                "खोडरबर",
+                "कोनमापक"
+            ],
+            "theme": "शालेय साहित्य",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "चहा",
+                "कॉफी",
+                "दूध",
+                "सरबत"
+            ],
+            "theme": "पेय",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "झोप",
+                "भूक",
+                "श्वास",
+                "तहान"
+            ],
+            "theme": "मूलभूत गरजा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "नाटक",
+                "स्फुटलेखन",
+                "कविता",
+                "कथा"
+            ],
+            "theme": "साहित्य प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कृष्णविवर",
+                "ग्रह",
+                "चंद्र",
+                "आकाशगंगा"
+            ],
+            "theme": "अंतरिक्षाशी संबंधित",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लता",
+                "आशा",
+                "उषा",
+                "मीना"
+            ],
+            "theme": "मंगेशकर भगिनी ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शिंपी",
+                "सुतार",
+                "लोहार",
+                "गवंडी"
+            ],
+            "theme": "कारागीर",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पोहणे",
+                "सायकल",
+                "धावणे",
+                "उडी"
+            ],
+            "theme": "व्यायाम",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "आकाश",
+                "धरती",
+                "पाणी",
+                "वारा"
+            ],
+            "theme": "निसर्ग",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "टोमॅटो",
+                "कांदा",
+                "वांगी",
+                "कारलं"
+            ],
+            "theme": "भाजीपाला",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "साखर",
+                "मीठ",
+                "हळद",
+                "तिखट"
+            ],
+            "theme": "मसाले",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पुस्तक",
+                "वाचनालय",
+                "वाचक",
+                "पान"
+            ],
+            "theme": "वाचन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शिवणकाम",
+                "भरतकाम",
+                "चित्रकला",
+                "शेती"
+            ],
+            "theme": "हस्तकला",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "सिंह",
+                "वाघ",
+                "गेंडा",
+                "हत्ती"
+            ],
+            "theme": "जंगली प्राणी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मोबाईल",
+                "लॅपटॉप",
+                "टॅब्लेट",
+                "टीव्ही"
+            ],
+            "theme": "इलेक्ट्रॉनिक साधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "फुटबॉल",
+                "क्रिकेट",
+                "कबड्डी",
+                "हॉकी"
+            ],
+            "theme": "खेळ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "हिवाळा",
+                "पावसाळा",
+                "उन्हाळा",
+                "शरद"
+            ],
+            "theme": "ऋतू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "हात",
+                "पाय",
+                "डोळे",
+                "कान"
+            ],
+            "theme": "शरीराचे अवयव",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पराठा",
+                "इडली",
+                "डोसा",
+                "उपमा"
+            ],
+            "theme": "नाश्ता",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "घोडा",
+                "गाढव",
+                "उंट",
+                "झेब्रा"
+            ],
+            "theme": "चार पायांचे प्राणी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "रेडिओ",
+                "टेलिव्हिजन",
+                "वर्तमानपत्र",
+                "इंटरनेट"
+            ],
+            "theme": "माहितीचे स्रोत",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बालगीत",
+                "गोष्टी",
+                "फुगे",
+                "खेळणी"
+            ],
+            "theme": "बालपणाशी संबंधित",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कविता",
+                "शायरी",
+                "दोहे",
+                "अभंग"
+            ],
+            "theme": "काव्य प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "बायो",
+                "केमिस्ट्री",
+                "फिजिक्स",
+                "गणित"
+            ],
+            "theme": "शालेय विषय",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "झेंडा",
+                "राष्ट्रगीत",
+                "संविधान",
+                "स्वातंत्र्य"
+            ],
+            "theme": "देशप्रेम",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मामा",
+                "काका",
+                "आजोबा",
+                "चुलता"
+            ],
+            "theme": "नातेसंबंध",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "उषःकाल",
+                "सकाळ",
+                "दुपार",
+                "संध्याकाळ"
+            ],
+            "theme": "दिवसाचे भाग",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "काजू",
+                "बदाम",
+                "अक्रोड",
+                "मनुका"
+            ],
+            "theme": "सुकामेवा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "घर",
+                "बंगला",
+                "अपार्टमेंट",
+                "झोपडी"
+            ],
+            "theme": "निवास",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "रस्ता",
+                "पूल",
+                "महामार्ग",
+                "चौक"
+            ],
+            "theme": "वाहतूक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पाय",
+                "सायकल",
+                "रिक्षा",
+                "बस"
+            ],
+            "theme": "प्रवासाची साधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "गोमूत्र",
+                "हळद",
+                "कुंकू",
+                "फुलं"
+            ],
+            "theme": "पूजेसाठी उपयोगी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "इन्स्टा",
+                "व्हाट्सअप",
+                "फेसबुक",
+                "यूट्यूब "
+            ],
+            "theme": "सोशल मीडिया",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "साडी",
+                "धोतर",
+                "शर्ट",
+                "कुर्ता"
+            ],
+            "theme": "कपडे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "जणू",
+                "खरं तर",
+                "बहुधा",
+                "केवळ"
+            ],
+            "theme": "क्रियाविशेषणे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गड",
+                "किल्ला",
+                "तट",
+                "बुरुज"
+            ],
+            "theme": "दुर्गशास्त्र",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कुरकुरीत",
+                "चविष्ट",
+                "गोडसर",
+                "तिखट"
+            ],
+            "theme": "चव वर्णन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "झाड",
+                "फुलं",
+                "पाने",
+                "फळं"
+            ],
+            "theme": "वनस्पती",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कारखाना",
+                "शेत",
+                "दुकान",
+                "कार्यालय"
+            ],
+            "theme": "कामाची ठिकाणं",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घंटा",
+                "बासरी",
+                "ढोल",
+                "तबला"
+            ],
+            "theme": "वाद्ये",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "दात",
+                "नाक",
+                "डोळे",
+                "कान"
+            ],
+            "theme": "इंद्रिये",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "हरभरा",
+                "मूग",
+                "मसूर",
+                "उडीद"
+            ],
+            "theme": "डाळी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सायकल",
+                "ट्रक",
+                "बाईक",
+                "स्कूटर"
+            ],
+            "theme": "रस्त्यावरील वाहनं",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पहाट",
+                "संध्याकाळ",
+                "मध्यरात्र",
+                "मध्यान्ह"
+            ],
+            "theme": "वेळ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "झाडं",
+                "जनावरे",
+                "माणसं",
+                "पक्षी"
+            ],
+            "theme": "जीवसृष्टी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "चंद्र",
+                "सूर्य",
+                "नक्षत्र",
+                "ग्रह"
+            ],
+            "theme": "आकाशीय वस्तू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "थंडी",
+                "गरम",
+                "ओलसर",
+                "कोरडे"
+            ],
+            "theme": "हवामान",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गोल",
+                "चौरस",
+                "त्रिकोण",
+                "आयत"
+            ],
+            "theme": "आकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पिठलं",
+                "भाकरी",
+                "भाजी",
+                "लोणचं"
+            ],
+            "theme": "ग्रामीण जेवण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कढई",
+                "तवा",
+                "भांडे",
+                "झारा"
+            ],
+            "theme": "स्वयंपाक भांडी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "हसणं",
+                "रडणं",
+                "ओरडणं",
+                "कुजबुजणं"
+            ],
+            "theme": "प्रतिक्रिया",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "आकाश",
+                "पाणी",
+                "माती",
+                "अग्नी"
+            ],
+            "theme": "पंचमहाभूत",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "ढगाळ",
+                "कोसळणारा",
+                "हलकासा",
+                "वीजांसह"
+            ],
+            "theme": "पावसाचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सोमवार",
+                "मंगळवार",
+                "बुधवार",
+                "गुरुवार"
+            ],
+            "theme": "आठवड्याचे दिवस",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घर",
+                "कुटुंब",
+                "नातेसंबंध",
+                "प्रेम"
+            ],
+            "theme": "कौटुंबिक जीवन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भिंत",
+                "छत",
+                "दरवाजा",
+                "खिडकी"
+            ],
+            "theme": "घराचे भाग",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पाटी",
+                "खडू",
+                "वह्या",
+                "पुस्तके"
+            ],
+            "theme": "शालेय साहित्य",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घड्याळ",
+                "कॅलेंडर",
+                "वेळ",
+                "दिनांक"
+            ],
+            "theme": "वेळ दर्शक गोष्टी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "शुद्धलेखन",
+                "व्याकरण",
+                "वाचन",
+                "लेखन"
+            ],
+            "theme": "भाषाशिक्षण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "स्वयंपाकघर",
+                "हॉल",
+                "बेडरूम",
+                "बाथरूम"
+            ],
+            "theme": "घरातली खोली",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "परवा",
+                "काल",
+                "आज",
+                "उद्या"
+            ],
+            "theme": "काळ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "दही",
+                "ताक",
+                "लोणी",
+                "तूप"
+            ],
+            "theme": "दुग्धजन्य पदार्थ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ओढा",
+                "प्रवाह",
+                "धबधबा",
+                "सरोवर"
+            ],
+            "theme": "पाण्याचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "नदी",
+                "समुद्र",
+                "तलाव",
+                "विहीर"
+            ],
+            "theme": "जलस्रोत",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भात",
+                "पोहे",
+                "साबुदाणा",
+                "उपमा"
+            ],
+            "theme": "उपवासाचे पदार्थ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मंद",
+                "जोरदार",
+                "सोसाट्याचा",
+                "झुळूक"
+            ],
+            "theme": "वाऱ्याचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सकाळी",
+                "दुपारी",
+                "संध्याकाळी",
+                "रात्री"
+            ],
+            "theme": "वेळेचे वर्णन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "किराणा",
+                "भाजी",
+                "फळं",
+                "दूध"
+            ],
+            "theme": "घरच्या खरेदीच्या गोष्टी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कमळ",
+                "गुलाब",
+                "जाई",
+                "मोगरा"
+            ],
+            "theme": "फुलं",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पंखा",
+                "कुलर",
+                "एसी",
+                "झुरळपंखा"
+            ],
+            "theme": "थंडी करणारी साधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "ऊन",
+                "छाया",
+                "सावली",
+                "तडका"
+            ],
+            "theme": "प्रकाशाचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "धावणे",
+                "थांबणे",
+                "चालणे",
+                "बसणे"
+            ],
+            "theme": "हालचाली",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मुलगा",
+                "मुलगी",
+                "आई",
+                "बाबा"
+            ],
+            "theme": "कुटुंब",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मित्र",
+                "मैत्रीण",
+                "वर्गमित्र",
+                "शेजारी"
+            ],
+            "theme": "सामाजिक संबंध",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "बटाटेवडा",
+                "वडा पाव",
+                "भजी",
+                "मिसळ"
+            ],
+            "theme": "झणझणीत खाणं",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कुरकुर",
+                "गोंगाट",
+                "बडबड",
+                "ओरड"
+            ],
+            "theme": "आवाज",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "टिकली",
+                "कुंकू",
+                "मंगळसूत्र",
+                "बांगड्या"
+            ],
+            "theme": "स्त्रियांचे दागिने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तलवार",
+                "भाला",
+                "बंदूक",
+                "तोफा"
+            ],
+            "theme": "शस्त्रास्त्रे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पीक",
+                "बियाणं",
+                "खत",
+                "पाणी"
+            ],
+            "theme": "शेतीसाठी घटक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "खाणं",
+                "प्यायचं",
+                "झोपायचं",
+                "खेळायचं"
+            ],
+            "theme": "दैनंदिन क्रिया",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "आरसा",
+                "कंगवा",
+                "साबण",
+                "परफ्युम"
+            ],
+            "theme": "सौंदर्य वस्तू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सोनं",
+                "चांदी",
+                "हिरा",
+                "माणिक"
+            ],
+            "theme": "मौल्यवान धातू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "बघणे",
+                "ऐकणे",
+                "वास घेणे",
+                "चव घेणे"
+            ],
+            "theme": "ज्ञानेंद्रिये",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "देव",
+                "मंदिर",
+                "घंटा",
+                "प्रसाद"
+            ],
+            "theme": "धार्मिक गोष्टी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "परीक्षा",
+                "निकाल",
+                "अभ्यास",
+                "श्रेणी"
+            ],
+            "theme": "शिक्षण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
     ]
 ];
