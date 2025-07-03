@@ -7772,6 +7772,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "सुबक ठेंगणी",
+                "मधू मलुष्टे",
+                "पुढारी",
+                "मास्तर"
+            ],
+            "theme": "पुलंच्या म्हैस कथेतील पात्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ठाकूर",
+                "इमाम साहेब",
+                "कालिया",
+                "जय"
+            ],
+            "theme": "शोले चित्रपटातील पात्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बसेसर राम",
+                "लल्लू",
+                "दादी",
+                "भागवंतीं"
+            ],
+            "theme": "हम लोग मालिकेतही पात्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "य",
                 "लय",
                 "खूप",
@@ -7842,6 +7877,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "साक्ष",
+                "पुरावा",
+                "अटक",
+                "कोठडी"
+            ],
+            "theme": "पोलीस आणि न्यायालय",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चोरी",
+                "खून",
+                "दरोडा",
+                "घरफोडी"
+            ],
+            "theme": "गंभीर गुन्हे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "हवालदार",
+                "फौजदार",
+                "अधीक्षक",
+                "महानिरीक्षक"
+            ],
+            "theme": "पोलिसांची श्रेणी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "कझाकस्तान",
                 "टर्की",
                 "रशिया",
@@ -7906,6 +7976,41 @@ export const Tuples = [
             ],
             "theme": "धनादेशावरील माहिती",
             "sharedBy": "रविकिरण देशपांडे",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "धनगर",
+                "मेंढपाळ",
+                "गुराखी",
+                "गोप"
+            ],
+            "theme": "पशु पालन",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दूध",
+                "लोकर",
+                "अंडी",
+                "हस्तिदंत"
+            ],
+            "theme": "प्राण्यांपासून मिळणारे पदार्थ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गोठा",
+                "खुराडे",
+                "कोंडवाडा",
+                "तबेला"
+            ],
+            "theme": "प्राण्यांना ठेवण्याच्या जागा",
+            "sharedBy": "HVN Unplugged",
             "difficulty": 2
         }
     ],
@@ -8017,6 +8122,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "कापूस",
+                "रॉकेल",
+                "लाकडाचा भुसा",
+                "फटाके"
+            ],
+            "theme": "ज्वालाग्राही पदार्थ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "साखर",
+                "मीठ",
+                "व्हिनेगर",
+                "कार्बन डाय ऑक्साईड"
+            ],
+            "theme": "पाण्यात विरघळणारी द्रव्ये",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "लवंगी",
+                "सुतळी",
+                "चमनचिडी",
+                "आपटबार"
+            ],
+            "theme": "फटाक्यांचे प्रकार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "मेघ",
                 "गडगडाट",
                 "वीज",
@@ -8046,6 +8186,41 @@ export const Tuples = [
             ],
             "theme": "ऋतू ",
             "sharedBy": "रविकिरण देशपांडे",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आग",
+                "रामेश्वर",
+                "बंब",
+                "सोमेश्वर"
+            ],
+            "theme": "एक म्हण",
+            "sharedBy": "हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "रात्र",
+                "थोडी",
+                "सोंगं",
+                "फार"
+            ],
+            "theme": "अजून एक म्हण",
+            "sharedBy": "हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "आंधळा",
+                "डोळा",
+                "देव",
+                "दोन"
+            ],
+            "theme": "ही पण एक म्हण",
+            "sharedBy": "हितचिंतक",
             "difficulty": 2
         }
     ],
