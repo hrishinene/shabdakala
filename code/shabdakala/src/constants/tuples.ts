@@ -8297,6 +8297,181 @@ export const Tuples = [
     [
         {
             "words": [
+                "अक्राळविक्राळ",
+                "भयानक",
+                "क्रूर",
+                "अवाढव्य"
+            ],
+            "theme": "राक्षसाची विशेषणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "प्रतापी",
+                "न्यायप्रिय",
+                "प्रजावत्सल",
+                "चक्रवर्ती"
+            ],
+            "theme": "राजाची विशेषणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सज्जन",
+                "प्रामाणिक",
+                "सूज्ञ",
+                "कष्टाळू"
+            ],
+            "theme": "सभ्य माणसाची विशेषणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "निशा",
+                "यामिनी",
+                "रजनी",
+                "विभावरी"
+            ],
+            "theme": "रात्र समानार्थी शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वर्षा",
+                "वृष्टी",
+                "पर्जन्य",
+                "जलधारा"
+            ],
+            "theme": "पाऊस",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वसुधा",
+                "भूमी",
+                "धरा",
+                "अवनी"
+            ],
+            "theme": "पृथ्वी तत्त्व",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भिंग",
+                "दुर्बीण",
+                "शोभादर्शक",
+                "सूक्ष्मदर्शक"
+            ],
+            "theme": "वेगळे दृश्य दाखवणाऱ्या वस्तू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दूरदर्शन",
+                "आकाशवाणी",
+                "वृत्तपत्रे",
+                "इंटरनेट"
+            ],
+            "theme": "प्रसारमाध्यमे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वीट",
+                "मडके",
+                "पिझ्झा",
+                "देशी दारू"
+            ],
+            "theme": "भट्टी मधे बनणाऱ्या गोष्टी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भाव",
+                "भात",
+                "वेळ",
+                "हवा"
+            ],
+            "theme": "या गोष्टी खातात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मूग",
+                "राग",
+                "औषधाची गोळी",
+                "पाणी"
+            ],
+            "theme": "या गोष्टी गिळतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "थाप",
+                "बंदुकीची गोळी",
+                "टोमणा",
+                "लाथ"
+            ],
+            "theme": "या गोष्टी मारतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "झाडू",
+                "कचरापेटी",
+                "पुनर्वापर (Recycle)",
+                "निर्जंतुक"
+            ],
+            "theme": "स्वच्छता या विषयाशी संबंधित शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "साबण",
+                "शॅम्पू",
+                "टॉवेल",
+                "बादली"
+            ],
+            "theme": "अंघोळ विषयी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "केस",
+                "भांडी",
+                "कपडे",
+                "फरशी"
+            ],
+            "theme": "पाणी आणि साबणाचे वापर",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "सागर",
                 "नदी",
                 "तलाव",
