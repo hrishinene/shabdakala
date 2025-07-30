@@ -8542,6 +8542,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "लोकमत",
+                "सकाळ",
+                "लोकसत्ता",
+                "पुढारी"
+            ],
+            "theme": "मराठी वर्तमानपत्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "एबीपी माझा",
+                "साम",
+                "स्टार प्रवाह",
+                "सह्याद्री"
+            ],
+            "theme": "मराठी वाहिन्या",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "भाडीपा",
+                "मित्र म्हणे",
+                "अमुक तमुक",
+                "मधुरा रेसिपीज"
+            ],
+            "theme": "मराठी युट्युब चॅनेल",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मामा",
+                "मामेबहीण",
+                "मावसभाऊ",
+                "मावशी"
+            ],
+            "theme": "मातुल (आईच्या बाजूचे) नातेवाईक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चुलता",
+                "आत्तेभाऊ",
+                "काकू",
+                "आत्या"
+            ],
+            "theme": "वडलांच्या बाजूचे नातेवाईक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "दीर",
+                "नणंद",
+                "सासू",
+                "जाऊ"
+            ],
+            "theme": "पतीच्या बाजूचे नातेवाईक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "लता",
                 "आशा",
                 "उषा",
