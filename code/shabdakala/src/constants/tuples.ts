@@ -9280,7 +9280,7 @@ export const Tuples = [
                 "ठिय्या",
                 "लाच",
                 "मान",
-                "लक्ष्य"
+                "लक्ष"
             ],
             "theme": "... देणे",
             "sharedBy": "HVN Unplugged",
