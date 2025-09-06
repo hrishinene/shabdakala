@@ -9872,6 +9872,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "धावपट्टी",
+                "उड्डाण",
+                "डिजियात्रा",
+                "चेकिन"
+            ],
+            "theme": "विमान प्रवास",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "स्टेशन",
+                "रूळ",
+                "बर्थ",
+                "बोगदे"
+            ],
+            "theme": "रेल्वे प्रवास ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "टायर",
+                "लाल परी",
+                "घाट",
+                "चालक"
+            ],
+            "theme": "रस्त्याने प्रवास ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "झोप",
+                "मृत्यू",
+                "विचार",
+                "ध्यान"
+            ],
+            "theme": "एकट्याच्या क्रिया/उपक्रम ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पिकनिक",
+                "क्रिकेट",
+                "संमेलन",
+                "सभा"
+            ],
+            "theme": "समूहाच्या क्रिया/उपक्रम  ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बुद्धिबळ",
+                "लग्न",
+                "हस्तांदोलन",
+                "द्वंद्वगीत"
+            ],
+            "theme": "दोन माणसांच्या क्रिया/उपक्रम ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "घोडा",
                 "गाढव",
                 "उंट",
