@@ -10047,6 +10047,111 @@ export const Tuples = [
     [
         {
             "words": [
+                "पाळणा",
+                "दूध",
+                "अंगाई",
+                "रांगणे"
+            ],
+            "theme": "बालपण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पहिलं प्रेम",
+                "महाविद्यालय",
+                "नोकरी",
+                "स्वप्न"
+            ],
+            "theme": "तारुण्य",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "आठवणी",
+                "नातवंड",
+                "निवृत्ती",
+                "चष्मा"
+            ],
+            "theme": "वार्धक्य",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पद्मश्री",
+                "ज्ञानपीठ",
+                "साहित्य अकादमी",
+                "पद्मभूषण"
+            ],
+            "theme": "भारतीय नागरी सन्मान",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "परमवीर",
+                "शौर्य",
+                "कीर्ती",
+                "वीर"
+            ],
+            "theme": "__चक्र - सैन्य दलातील सन्मान",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "नोबेल",
+                "मॅगसेसे",
+                "पुलित्झर",
+                "ऑस्कर"
+            ],
+            "theme": "आंतरराष्ट्रीय पारितोषिके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "किलबिल",
+                "ढोल",
+                "संगीत",
+                "भरणे"
+            ],
+            "theme": "कानाचे अनुभव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दीपणे",
+                "रंग",
+                "प्रतिबिंब",
+                "चित्र"
+            ],
+            "theme": "डोळ्याचे अनुभव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "श्वास",
+                "कांदे सोलणे",
+                "अत्तर",
+                "सर्दी"
+            ],
+            "theme": "नाकासंबंधी अनुभव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "कविता",
                 "शायरी",
                 "दोहे",
