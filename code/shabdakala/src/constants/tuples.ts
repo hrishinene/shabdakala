@@ -10152,6 +10152,181 @@ export const Tuples = [
     [
         {
             "words": [
+                "वार",
+                "घटिका",
+                "सन",
+                "तिथी"
+            ],
+            "theme": "दिन/समय दर्शक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कार",
+                "वंत",
+                "कृती",
+                "कंद"
+            ],
+            "theme": "कला---",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "दार",
+                "चोरवाट",
+                "भुयार",
+                "खिडकी"
+            ],
+            "theme": "प्रवेश मार्ग",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पंचम",
+                "षड्ज",
+                "गंधार",
+                "धैवत"
+            ],
+            "theme": "संगीत स्वर",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ललित",
+                "भिन्न षड्ज",
+                "छायानट",
+                "पिलू"
+            ],
+            "theme": "संगीत राग",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "एक",
+                "खेमटा",
+                "झप",
+                "भजनी"
+            ],
+            "theme": "संगीत ताल",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "अश्रूंची झाली",
+                "प्रेमाच्या गावा",
+                "रायगडाला जेंव्हा",
+                "प्रेमा तुझा"
+            ],
+            "theme": "वसंत कानेटकर नाटके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दुरितांचे तिमिर",
+                "देव दीनाघरी",
+                "वाहतो ही",
+                "सीमेवरून परत"
+            ],
+            "theme": "बाळ कोल्हटकर नाटके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शांतता कोर्ट",
+                "अशी पाखरे",
+                "घाशीराम",
+                "सखाराम"
+            ],
+            "theme": "विजय तेंडुलकर नाटके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "अवतार",
+                "दिशा",
+                "बोटे",
+                "दसरा"
+            ],
+            "theme": "दहा/दश ___",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गुण",
+                "काळ",
+                "दोष",
+                "देव"
+            ],
+            "theme": "तीन/त्रि ___",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "विनायक",
+                "प्रहर",
+                "योग",
+                "पैलू"
+            ],
+            "theme": "आठ/अष्ट/अष्टांग ___",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "विधिलिखित",
+                "दैव",
+                "प्राक्तन",
+                "प्रारब्ध"
+            ],
+            "theme": "नशीब",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "परिणाम",
+                "फळ",
+                "निकाल",
+                "निष्पत्ती"
+            ],
+            "theme": "अखेरीस जे मिळते/घडते",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मनसुबा",
+                "इच्छा",
+                "इरादा",
+                "उद्दिष्ट"
+            ],
+            "theme": "हेतू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "कविता",
                 "शायरी",
                 "दोहे",
