@@ -10327,6 +10327,181 @@ export const Tuples = [
     [
         {
             "words": [
+                "मराठी",
+                "हिंदी",
+                "संस्कृत",
+                "नेपाळी"
+            ],
+            "theme": "देवनागरी लिपी वापरणाऱ्या",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "देवनागरी",
+                "रोमन",
+                "अरबी",
+                "कांजी"
+            ],
+            "theme": "विविध लिप्या",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "लॅटिन",
+                "प्राकृत",
+                "पाली",
+                "अर्धमागधी"
+            ],
+            "theme": "लुप्त (आता वापरात नसलेल्या) भाषा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "धडधड",
+                "पत्र",
+                "नजरानजर",
+                "ओढ"
+            ],
+            "theme": "पाहिलं प्रेम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वधू",
+                "मंडप",
+                "सप्तपदी",
+                "संसार"
+            ],
+            "theme": "लग्न",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "विभक्त",
+                "न्यायालय",
+                "पालकत्व",
+                "पोटगी"
+            ],
+            "theme": "घटस्फोट",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "बद्धकोष्ठ",
+                "आम्लपित्त",
+                "अपचन",
+                "आमांश(डिसेंट्री)"
+            ],
+            "theme": "पोटाचे आजार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "रक्तदाब",
+                "मधुमेह",
+                "डोकेदुखी(मायग्रेन)",
+                "लठ्ठपणा"
+            ],
+            "theme": "जीवनशैलीचे आजार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "क्षय",
+                "धनुर्वात",
+                "कॉलरा",
+                "कुष्ठरोग"
+            ],
+            "theme": "जंतुजन्य आजार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "किसणी",
+                "सुरी",
+                "विळी",
+                "कातणं"
+            ],
+            "theme": "स्वयंपाक घर - कापण्याची अवजारे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कुकर",
+                "तवा",
+                "कढई",
+                "लंगरी"
+            ],
+            "theme": "स्वयंपाकघर - पदार्थ गरम करण्यासाठी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "डाव",
+                "झारी",
+                "चिमटा",
+                "लाटणं"
+            ],
+            "theme": "स्वयंपाक घर लांबट अवजारे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "टाळाटाळ",
+                "दिरंगाई",
+                "आळस",
+                "कंटाळा"
+            ],
+            "theme": "चालढकल/procrastination",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लक्ष्य",
+                "ध्यास",
+                "महत्वाकांक्षा",
+                "संकल्प"
+            ],
+            "theme": "ध्येय/goal",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "भिंग",
+                "तन्मयता",
+                "व्यग्रतामुक्तता",
+                "निग्रह"
+            ],
+            "theme": "एकाग्रता/focus",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "कविता",
                 "शायरी",
                 "दोहे",
