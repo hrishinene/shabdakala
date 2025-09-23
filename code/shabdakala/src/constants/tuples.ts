@@ -9980,7 +9980,7 @@ export const Tuples = [
                 "व्याघ्रम्भर",
                 "लवथवती",
                 "कुरवंड्या",
-                "फणिवरवंदना"
+                "फणिवरबंधना"
             ],
             "theme": "विविध आरत्यांमधील शब्द",
             "sharedBy": "HVN Unplugged",
@@ -10530,6 +10530,111 @@ export const Tuples = [
                 "लाप्लास"
             ],
             "theme": "प्रसिद्ध गणितज्ञ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मंडाले",
+                "एस. एन. गोएंका",
+                "हेलन",
+                "पांढरे हत्ती"
+            ],
+            "theme": "ब्रह्मदेश (म्यानमार)",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मलमल",
+                "रुना लैला",
+                "डॉ. महम्मद युनूस",
+                "ब्रह्मपुत्रेचे पूर"
+            ],
+            "theme": "बांगलादेश",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ऋण कर्बभार(कार्बन फूटप्रिंट)",
+                "राष्ट्रीय आनंद निर्देशांक(GHI)",
+                "थिंफू",
+                "दोचुला खिंड"
+            ],
+            "theme": "भूतान",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "तिहार",
+                "अंदमान",
+                "ग्वाटेमाला बे",
+                "मंडाले"
+            ],
+            "theme": "तुरुंग",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अहमदाबाद",
+                "कलकत्ता",
+                "बंगलोर",
+                "लखनौ"
+            ],
+            "theme": "IIM संस्था शहरे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मुंबई",
+                "खड्गपूर",
+                "दिल्ली",
+                "चेन्नई"
+            ],
+            "theme": "IIT संस्था शहरे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "घेराव",
+                "मोर्चा",
+                "संप",
+                "निदर्शने"
+            ],
+            "theme": "सामूहिक निषेध",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "खड्डे",
+                "बेशिस्त चालक",
+                "मिरवणूक",
+                "सिग्नल बिघाड"
+            ],
+            "theme": "ट्रॅफिक जॅम ची करणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सायकल रिक्षा",
+                "टांगा",
+                "डोली",
+                "व्हील चेअर"
+            ],
+            "theme": "स्वयंचलित नसलेली वाहने",
             "sharedBy": "HVN Unplugged",
             "difficulty": 2
         }
