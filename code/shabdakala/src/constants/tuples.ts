@@ -10642,6 +10642,227 @@ export const Tuples = [
     [
         {
             "words": [
+                "लघुकोन",
+                "बर्मुडा",
+                "प्रेमाचा ___",
+                "१८० अंश"
+            ],
+            "theme": "त्रिकोण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "समलंब",
+                "ते __ कुटुंब",
+                "पतंगाकृती",
+                "सुवर्ण महामार्ग प्रकल्प"
+            ],
+            "theme": "चौकोन/चौकोनी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पिरॅमिड",
+                "नाईल",
+                "क्लिओपात्रा",
+                "कैरो"
+            ],
+            "theme": "इजिप्त",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "गण",
+                "वर्ण",
+                "योनी",
+                "नाड"
+            ],
+            "theme": "पत्रिकेतील गुणमिलन",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ओव्या",
+                "अभंग",
+                "श्लोक",
+                "आर्या"
+            ],
+            "theme": "काव्य रचनेचे प्रकार",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मघई",
+                "बनारसी",
+                "बंगला",
+                "कपुरी"
+            ],
+            "theme": "विड्याची पाने",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "बीळ",
+                "वारूळ",
+                "ढोली",
+                "पोळं"
+            ],
+            "theme": "पक्षी/प्राणी/कीटक घरे",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गजेंद्र",
+                "ऐरावत",
+                "अश्वत्थामा",
+                "जम्बो"
+            ],
+            "theme": "हत्ती",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वासरू",
+                "कोकरू",
+                "बछडा",
+                "रेडकू"
+            ],
+            "theme": "जनावरांची पिल्ले",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कळस",
+                "माथा",
+                "शिखर",
+                "शेंडा"
+            ],
+            "theme": "उंची वरचा भाग",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कडाप्पा",
+                "ग्रॅनाईट",
+                "संगमरवर",
+                "कोटा"
+            ],
+            "theme": "थर असलेले दगड",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शब्दवेधी",
+                "वाक्",
+                "मदन",
+                "हवा"
+            ],
+            "theme": "बाण",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "एकेरी",
+                "दुहेरी",
+                "चक्राकार",
+                "भुयारी"
+            ],
+            "theme": "वाहतुकीचे रस्ते",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सहाण",
+                "साळीच्या लाह्या",
+                "मुंडावळी",
+                "होमकुंड"
+            ],
+            "theme": "लग्नविधी",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "भरतनाट्यम",
+                "मोहिनीअट्टम",
+                "कत्थक",
+                "ओडिसी"
+            ],
+            "theme": "नृत्यप्रकार",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "दौलत",
+                "चक्र",
+                "पार्टनर",
+                "गारंबीचा बापू"
+            ],
+            "theme": "प्रसिद्ध कादंबऱ्या",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तर्जनी",
+                "अनामिका",
+                "करंगळी",
+                "अंगठा"
+            ],
+            "theme": "बोटांची नावे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "रजनी",
+                "यामिनी",
+                "शर्वरी",
+                "निशा"
+            ],
+            "theme": "रात्र",
+            "sharedBy": "सुनंदा केळकर",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "अश्विनी",
+                "भरणी",
+                "कृतिका",
+                "रोहिणी"
+            ],
+            "theme": "नक्षत्रं",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
                 "कविता",
                 "शायरी",
                 "दोहे",
@@ -10649,7 +10870,7 @@ export const Tuples = [
             ],
             "theme": "काव्य प्रकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10660,8 +10881,10 @@ export const Tuples = [
             ],
             "theme": "शालेय विषय",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "झेंडा",
@@ -10671,10 +10894,8 @@ export const Tuples = [
             ],
             "theme": "देशप्रेम",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "मामा",
@@ -10684,7 +10905,7 @@ export const Tuples = [
             ],
             "theme": "नातेसंबंध",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10695,8 +10916,10 @@ export const Tuples = [
             ],
             "theme": "दिवसाचे भाग",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "काजू",
@@ -10706,10 +10929,8 @@ export const Tuples = [
             ],
             "theme": "सुकामेवा",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "घर",
@@ -10719,7 +10940,7 @@ export const Tuples = [
             ],
             "theme": "निवास",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10730,8 +10951,10 @@ export const Tuples = [
             ],
             "theme": "वाहतूक",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "पाय",
@@ -10741,10 +10964,8 @@ export const Tuples = [
             ],
             "theme": "प्रवासाची साधने",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "गोमूत्र",
@@ -10754,7 +10975,7 @@ export const Tuples = [
             ],
             "theme": "पूजेसाठी उपयोगी",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10765,8 +10986,10 @@ export const Tuples = [
             ],
             "theme": "सोशल मीडिया",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "साडी",
@@ -10776,10 +10999,8 @@ export const Tuples = [
             ],
             "theme": "कपडे",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "जणू",
@@ -10789,7 +11010,7 @@ export const Tuples = [
             ],
             "theme": "क्रियाविशेषणे",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10800,8 +11021,10 @@ export const Tuples = [
             ],
             "theme": "दुर्गशास्त्र",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "कुरकुरीत",
@@ -10811,10 +11034,8 @@ export const Tuples = [
             ],
             "theme": "चव वर्णन",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "झाड",
@@ -10824,7 +11045,7 @@ export const Tuples = [
             ],
             "theme": "वनस्पती",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10835,8 +11056,10 @@ export const Tuples = [
             ],
             "theme": "कामाची ठिकाणं",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "घंटा",
@@ -10846,10 +11069,8 @@ export const Tuples = [
             ],
             "theme": "वाद्ये",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "दात",
@@ -10859,7 +11080,7 @@ export const Tuples = [
             ],
             "theme": "इंद्रिये",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10870,8 +11091,10 @@ export const Tuples = [
             ],
             "theme": "डाळी",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "सायकल",
@@ -10881,10 +11104,8 @@ export const Tuples = [
             ],
             "theme": "रस्त्यावरील वाहनं",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "पहाट",
@@ -10894,7 +11115,7 @@ export const Tuples = [
             ],
             "theme": "वेळ",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10905,8 +11126,10 @@ export const Tuples = [
             ],
             "theme": "जीवसृष्टी",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "चंद्र",
@@ -10916,10 +11139,8 @@ export const Tuples = [
             ],
             "theme": "आकाशीय वस्तू",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "थंडी",
@@ -10929,7 +11150,7 @@ export const Tuples = [
             ],
             "theme": "हवामान",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10940,8 +11161,10 @@ export const Tuples = [
             ],
             "theme": "आकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "पिठलं",
@@ -10951,10 +11174,8 @@ export const Tuples = [
             ],
             "theme": "ग्रामीण जेवण",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "कढई",
@@ -10964,7 +11185,7 @@ export const Tuples = [
             ],
             "theme": "स्वयंपाक भांडी",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -10975,8 +11196,10 @@ export const Tuples = [
             ],
             "theme": "प्रतिक्रिया",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "आकाश",
@@ -10986,10 +11209,8 @@ export const Tuples = [
             ],
             "theme": "पंचमहाभूत",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "ढगाळ",
@@ -10999,7 +11220,7 @@ export const Tuples = [
             ],
             "theme": "पावसाचे प्रकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11010,8 +11231,10 @@ export const Tuples = [
             ],
             "theme": "आठवड्याचे दिवस",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "घर",
@@ -11021,10 +11244,8 @@ export const Tuples = [
             ],
             "theme": "कौटुंबिक जीवन",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "भिंत",
@@ -11034,7 +11255,7 @@ export const Tuples = [
             ],
             "theme": "घराचे भाग",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11045,8 +11266,10 @@ export const Tuples = [
             ],
             "theme": "शालेय साहित्य",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "घड्याळ",
@@ -11056,10 +11279,8 @@ export const Tuples = [
             ],
             "theme": "वेळ दर्शक गोष्टी",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "शुद्धलेखन",
@@ -11069,7 +11290,7 @@ export const Tuples = [
             ],
             "theme": "भाषाशिक्षण",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11080,8 +11301,10 @@ export const Tuples = [
             ],
             "theme": "घरातली खोली",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "परवा",
@@ -11091,10 +11314,8 @@ export const Tuples = [
             ],
             "theme": "काळ",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "दही",
@@ -11104,7 +11325,7 @@ export const Tuples = [
             ],
             "theme": "दुग्धजन्य पदार्थ",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11115,8 +11336,10 @@ export const Tuples = [
             ],
             "theme": "पाण्याचे प्रकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "नदी",
@@ -11126,10 +11349,8 @@ export const Tuples = [
             ],
             "theme": "जलस्रोत",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "भात",
@@ -11139,7 +11360,7 @@ export const Tuples = [
             ],
             "theme": "उपवासाचे पदार्थ",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11150,8 +11371,10 @@ export const Tuples = [
             ],
             "theme": "वाऱ्याचे प्रकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "सकाळी",
@@ -11161,10 +11384,8 @@ export const Tuples = [
             ],
             "theme": "वेळेचे वर्णन",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "किराणा",
@@ -11174,7 +11395,7 @@ export const Tuples = [
             ],
             "theme": "घरच्या खरेदीच्या गोष्टी",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11185,8 +11406,10 @@ export const Tuples = [
             ],
             "theme": "फुलं",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "पंखा",
@@ -11196,10 +11419,8 @@ export const Tuples = [
             ],
             "theme": "थंडी करणारी साधने",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "ऊन",
@@ -11209,7 +11430,7 @@ export const Tuples = [
             ],
             "theme": "प्रकाशाचे प्रकार",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11220,8 +11441,10 @@ export const Tuples = [
             ],
             "theme": "हालचाली",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "मुलगा",
@@ -11231,10 +11454,8 @@ export const Tuples = [
             ],
             "theme": "कुटुंब",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "मित्र",
@@ -11244,7 +11465,7 @@ export const Tuples = [
             ],
             "theme": "सामाजिक संबंध",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11255,8 +11476,10 @@ export const Tuples = [
             ],
             "theme": "झणझणीत खाणं",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "कुरकुर",
@@ -11266,10 +11489,8 @@ export const Tuples = [
             ],
             "theme": "आवाज",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "टिकली",
@@ -11279,7 +11500,7 @@ export const Tuples = [
             ],
             "theme": "स्त्रियांचे दागिने",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11290,8 +11511,10 @@ export const Tuples = [
             ],
             "theme": "शस्त्रास्त्रे",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "पीक",
@@ -11301,10 +11524,8 @@ export const Tuples = [
             ],
             "theme": "शेतीसाठी घटक",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "खाणं",
@@ -11314,7 +11535,7 @@ export const Tuples = [
             ],
             "theme": "दैनंदिन क्रिया",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11325,8 +11546,10 @@ export const Tuples = [
             ],
             "theme": "सौंदर्य वस्तू",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "सोनं",
@@ -11336,10 +11559,8 @@ export const Tuples = [
             ],
             "theme": "मौल्यवान धातू",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 0
+        },
         {
             "words": [
                 "बघणे",
@@ -11349,7 +11570,7 @@ export const Tuples = [
             ],
             "theme": "ज्ञानेंद्रिये",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
+            "difficulty": 1
         },
         {
             "words": [
@@ -11360,8 +11581,10 @@ export const Tuples = [
             ],
             "theme": "धार्मिक गोष्टी",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "परीक्षा",
@@ -11370,6 +11593,28 @@ export const Tuples = [
                 "श्रेणी"
             ],
             "theme": "शिक्षण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ओळखपत्र",
+                "गणवेश",
+                "घंटा",
+                "मैदान"
+            ],
+            "theme": "शाळा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "खेळपट्टी",
+                "तापमान",
+                "सूर्यप्रकाश",
+                "शिवण"
+            ],
+            "theme": "क्रिकेट मध्ये यावर चेंडू किती स्विंग होईल हे ठरते",
             "sharedBy": "Chat GPT",
             "difficulty": 2
         }
