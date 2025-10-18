@@ -11517,6 +11517,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "साधू",
+                "संत",
+                "दिवाळी",
+                "दसरा"
+            ],
+            "theme": "येति घरा.. एक म्हण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "नागपंचमी",
+                "गोकुळाष्टमी",
+                "रक्षाबंधन",
+                "मंगळागौर"
+            ],
+            "theme": "श्रावणातील सण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घोणस",
+                "नाग",
+                "तस्कर",
+                "नानेटी"
+            ],
+            "theme": "सापांचे प्रकार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "केळे",
+                "टॅपिओका",
+                "बटाटा",
+                "रताळे"
+            ],
+            "theme": "यांचे चिप्स (पातळ काप) करतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कांदा",
+                "घोसाळे",
+                "मिरची",
+                "ओव्याची पाने"
+            ],
+            "theme": "यांची भजी करतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "दुधी",
+                "गाजर",
+                "मूग",
+                "काटेरी"
+            ],
+            "theme": "... हलवा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "पाय",
                 "सायकल",
                 "रिक्षा",
