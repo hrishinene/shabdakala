@@ -11832,6 +11832,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "हंगेरी",
+                "जपान",
+                "इटली",
+                "जर्मनी"
+            ],
+            "theme": "महायुद्ध-२:अक्ष (axis) राष्ट्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सोव्हिएत संघ",
+                "अमेरिका",
+                "ब्रिटन",
+                "फ्रान्स"
+            ],
+            "theme": "महायुद्ध-२:मित्र राष्ट्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "स्वित्झर्लंड",
+                "स्वीडन",
+                "पोर्तुगाल",
+                "तुर्कस्तान"
+            ],
+            "theme": "महायुद्ध-२:तटस्थ राष्ट्रे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "व्हेनेझुएला",
+                "चिली",
+                "पेरू",
+                "अर्जेंटिना"
+            ],
+            "theme": "दक्षिण अमेरिका देश",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सीताफळ",
+                "लिची",
+                "सफरचंद",
+                "द्राक्ष"
+            ],
+            "theme": "फळे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मेसी",
+                "टॅंगो",
+                "इग्वाझू",
+                "फुटबॉल"
+            ],
+            "theme": "अर्जेंटिना",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "सुळसुळीत",
                 "राठ",
                 "दाट",
