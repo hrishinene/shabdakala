@@ -12007,6 +12007,111 @@ export const Tuples = [
     [
         {
             "words": [
+                "अमनदीप",
+                "दीप्ती",
+                "स्मृती",
+                "ऋचा"
+            ],
+            "theme": "क्रिकेट विश्वविजेत्या खेळाडू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ज्वाला",
+                "सिंधू",
+                "साईना",
+                "अश्विनी"
+            ],
+            "theme": "बॅडमिंटनपटू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "साक्षी",
+                "मीराबाई",
+                "मनू",
+                "मल्लेश्वरी"
+            ],
+            "theme": "ऑलिम्पिक पदक विजेत्या खेळाडू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "साद",
+                "हाळी",
+                "हाक",
+                "आवाज"
+            ],
+            "theme": "मोठ्याने बोलावणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वाद",
+                "कलह",
+                "भांडण",
+                "तंटा"
+            ],
+            "theme": "झगडा वैर",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "त्रुटी",
+                "खोट",
+                "बिघाड",
+                "दोष"
+            ],
+            "theme": "लहान मोठी कमतरता",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "धागा",
+                "सुई",
+                "कापड",
+                "काजे"
+            ],
+            "theme": "शिवणकाम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लाकूड",
+                "खिळा",
+                "करवत",
+                "रंधा"
+            ],
+            "theme": "सुतारकाम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "भट्टी",
+                "हातोडा",
+                "निखारा",
+                "लोखंड"
+            ],
+            "theme": "लोहारकाम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "चंद्र",
                 "सूर्य",
                 "नक्षत्र",
