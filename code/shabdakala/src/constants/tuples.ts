@@ -12147,6 +12147,146 @@ export const Tuples = [
     [
         {
             "words": [
+                "त्रिज्या",
+                "परीघ",
+                "जिवा",
+                "पाय"
+            ],
+            "theme": "भूमितीतील वर्तुळ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "शेपूट",
+                "वशिंड",
+                "खूर",
+                "शिंग"
+            ],
+            "theme": "गाय/बैल",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "टाच",
+                "बोटे",
+                "नखे",
+                "चवडा"
+            ],
+            "theme": "तळपाय",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "फुगा",
+                "तुतारी",
+                "मेणबत्ती",
+                "शिट्टी"
+            ],
+            "theme": "फुंकण्याशी संबंधित",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "केक",
+                "टोपी",
+                "मित्रमैत्रिणी",
+                "भेटवस्तू"
+            ],
+            "theme": "वाढदिवस साजरा करणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गांधी",
+                "पगडी",
+                "बॅगी",
+                "साफा"
+            ],
+            "theme": "टोप्यांचे प्रकार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "क्रोध",
+                "लोभ",
+                "मत्सर",
+                "मद"
+            ],
+            "theme": "मानवी षड्रिपू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "भीती",
+                "स्पर्धा",
+                "कुतूहल",
+                "आळस"
+            ],
+            "theme": "मानवी प्रवृत्ती",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सेवा",
+                "संयम",
+                "दानशूरता",
+                "विवेक"
+            ],
+            "theme": "मानवी सद्गुण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "हरभजन",
+                "दोशी",
+                "कुंबळे",
+                "हिरवाणी"
+            ],
+            "theme": "क्रिकेट - फिरकी गोलंदाज",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कपिल",
+                "अक्षर",
+                "शास्त्री",
+                "युवराज"
+            ],
+            "theme": "क्रिकेट - अष्टपैलू खेळाडू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "किरमाणी",
+                "किरण",
+                "महेंद्र",
+                "मोंगिया"
+            ],
+            "theme": "क्रिकेट - यष्टीरक्षक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "पिठलं",
                 "भाकरी",
                 "भाजी",
