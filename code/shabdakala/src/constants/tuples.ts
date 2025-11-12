@@ -12287,6 +12287,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "झाडू",
+                "निर्जंतुक",
+                "चकाचक",
+                "सफाई"
+            ],
+            "theme": "स्वच्छते संबंधी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "विषाणू",
+                "संसर्ग",
+                "कॉलरा",
+                "जीवाणू"
+            ],
+            "theme": "रोग जंतू विषयी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कृमी",
+                "हायड्रा",
+                "प्रवाळ",
+                "बुरशी"
+            ],
+            "theme": "बहूपेशीय सूक्ष जीव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "त्रिविक्रीम",
+                "जनार्दन",
+                "अच्युत",
+                "नारायण"
+            ],
+            "theme": "श्री विष्णू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चतुरानन",
+                "प्रजापती",
+                "वेदज्ञ",
+                "कमलासन"
+            ],
+            "theme": "श्री ब्रह्मदेव",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "रुद्र",
+                "गंगाधर",
+                "विश्वनाथ",
+                "पशुपती"
+            ],
+            "theme": "श्री शंकर",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "पिठलं",
                 "भाकरी",
                 "भाजी",
