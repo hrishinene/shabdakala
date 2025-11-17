@@ -12392,6 +12392,146 @@ export const Tuples = [
     [
         {
             "words": [
+                "प्रेषित",
+                "यक्षांची देणगी",
+                "अंतराळातील स्फोट",
+                "टाइम मशीनची किमया"
+            ],
+            "theme": "जयंत नारळीकर पुस्तके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चंद्राची सावली",
+                "इक्माई",
+                "पारंब्यांचे जग",
+                "समर्थांचिया सेवका"
+            ],
+            "theme": "नारायण धारप पुस्तके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पिंगळा वेळ",
+                "रक्तचंदन",
+                "सांजशकुन",
+                "काजळमाया"
+            ],
+            "theme": "जी ए कुलकर्णी पुस्तके",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "प्रसव",
+                "उद्गम",
+                "उत्पत्ती",
+                "प्रकटन"
+            ],
+            "theme": "जन्म",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "प्राण",
+                "अस्तित्व",
+                "जीवन",
+                "चेतना"
+            ],
+            "theme": "जगणे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "श्वास",
+                "धडधड",
+                "नाडी",
+                "पचन"
+            ],
+            "theme": "जीवन क्रिया",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "लोकल",
+                "पावभाजी",
+                "बॉलिवूड",
+                "डबेवाला"
+            ],
+            "theme": "मुंबई",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दुर्गापूजा",
+                "संदेश",
+                "हावडा पूल",
+                "ट्राम"
+            ],
+            "theme": "कोलकत्ता",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कुतुब मिनार",
+                "छोले भटुरे",
+                "संसद",
+                "चांदणी चौक"
+            ],
+            "theme": "दिल्ली",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पट",
+                "चेक",
+                "प्यादे",
+                "एल पसांट"
+            ],
+            "theme": "बुद्धिबळ शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ऑफसाईड",
+                "गोल",
+                "पेनल्टी",
+                "पास"
+            ],
+            "theme": "फुटबॉल (सॉकर) शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ड्यूस",
+                "व्हॉली",
+                "एस",
+                "फॉल्ट"
+            ],
+            "theme": "टेनिस शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "आकाश",
                 "पाणी",
                 "माती",
