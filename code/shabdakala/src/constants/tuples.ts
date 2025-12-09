@@ -13162,6 +13162,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "फेसाळते",
+                "गढूळ",
+                "उथळ",
+                "खळाळते"
+            ],
+            "theme": "पाणी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "खडतर",
+                "सुखमय",
+                "धकाधकीचे",
+                "परिपूर्ण"
+            ],
+            "theme": "जीवन",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कच्चा",
+                "खडबडीत",
+                "वळणावळणाचा",
+                "डांबरी"
+            ],
+            "theme": "रस्ता",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "पंखा",
                 "कुलर",
                 "एसी",
