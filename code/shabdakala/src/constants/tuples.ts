@@ -13197,6 +13197,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "आरती",
+                "प्रसाद",
+                "शंख",
+                "तुळस"
+            ],
+            "theme": "हिंदू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अजान",
+                "किब्ला",
+                "वजू",
+                "सजदा"
+            ],
+            "theme": "इस्लाम",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कडा",
+                "किरपान",
+                "कीर्तन",
+                "गुरुद्वारा"
+            ],
+            "theme": "शीख",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मत्स्य",
+                "वामन",
+                "गरुड",
+                "स्कंद"
+            ],
+            "theme": "पुराण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ईश",
+                "कठ",
+                "मैत्री",
+                "छांदोग्य"
+            ],
+            "theme": "उपनिषद",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ऋग्",
+                "साम",
+                "यजु:",
+                "अथर्व"
+            ],
+            "theme": "वेद",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "पंखा",
                 "कुलर",
                 "एसी",
