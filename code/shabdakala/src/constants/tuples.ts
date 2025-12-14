@@ -13337,6 +13337,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "खांदा",
+                "तिरडी",
+                "मडके",
+                "चिता"
+            ],
+            "theme": "मृत्यूपश्चात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "माठ",
+                "सुरई",
+                "कुंडी",
+                "पणती"
+            ],
+            "theme": "मातीच्या वस्तू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गुडघा",
+                "कंबर",
+                "कोपर",
+                "मनगट"
+            ],
+            "theme": "शरीरातील सांधे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "मुलगा",
                 "मुलगी",
                 "आई",
