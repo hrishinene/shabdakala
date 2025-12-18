@@ -13477,6 +13477,76 @@ export const Tuples = [
     [
         {
             "words": [
+                "कापूस",
+                "खोबरे",
+                "बर्फ",
+                "रस्सा"
+            ],
+            "theme": "पांढरा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सूत",
+                "वात",
+                "मलमपट्टी",
+                "गादी"
+            ],
+            "theme": "कापसाचे उपयोग",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "फरसाण",
+                "कांदा",
+                "तर्री",
+                "मटकी"
+            ],
+            "theme": "मिसळीचे घटक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "काश्मीरी",
+                "लवंगी",
+                "भूत जोलोकिया",
+                "ब्याडगी"
+            ],
+            "theme": "मिरच्यांचे प्रकार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लक्ष्मी",
+                "सुतळी",
+                "पानपट्टी",
+                "आपटबार"
+            ],
+            "theme": "आवाजी फटाक्यांचे प्रकार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "भुई",
+                "सुदर्शन",
+                "काल",
+                "राशी"
+            ],
+            "theme": "...चक्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "मुलगा",
                 "मुलगी",
                 "आई",
