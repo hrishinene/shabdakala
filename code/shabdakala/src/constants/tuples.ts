@@ -13687,6 +13687,111 @@ export const Tuples = [
     [
         {
             "words": [
+                "सुतार",
+                "लोहपुरुष",
+                "साधू बेट",
+                "एकता"
+            ],
+            "theme": "सरदार पटेल पुतळा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लाकूड",
+                "रंधा",
+                "कपाट",
+                "करवत"
+            ],
+            "theme": "सुतारकाम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ऐरण",
+                "भट्टी",
+                "भाता",
+                "घण"
+            ],
+            "theme": "लोहारकाम",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कथा",
+                "काम",
+                "योग",
+                "कळ"
+            ],
+            "theme": "--सूत्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "भाग्य",
+                "विधिलिखित",
+                "प्रारब्ध",
+                "दैव"
+            ],
+            "theme": "नशीब",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "क्रोध",
+                "मद",
+                "मत्सर",
+                "लोभ"
+            ],
+            "theme": "षडरिपू पैकी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "राक्षस",
+                "मलयकेतू",
+                "विक्रमादित्य",
+                "चाणक्य"
+            ],
+            "theme": "मुद्राराक्षस (किंवा चाणक्य कथेमधील) पात्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "जय",
+                "बलदेव सिंग",
+                "राधा",
+                "कालिया"
+            ],
+            "theme": "शोले चित्रपटातील पात्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "जटायू",
+                "अंगद",
+                "शत्रुघ्न",
+                "इंद्रजीत"
+            ],
+            "theme": "रामायणातील व्यक्ती/पात्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "मुलगा",
                 "मुलगी",
                 "आई",
