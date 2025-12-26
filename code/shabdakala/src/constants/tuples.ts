@@ -13792,6 +13792,111 @@ export const Tuples = [
     [
         {
             "words": [
+                "अंदाज",
+                "गाठ",
+                "दोरी",
+                "भिंत"
+            ],
+            "theme": "... बांधतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सूड",
+                "विश्रांती",
+                "औषध",
+                "जीव"
+            ],
+            "theme": "... घेतात",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शेपटी",
+                "कन्नी",
+                "मांजा",
+                "चरखी"
+            ],
+            "theme": "पतंग संबंधी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "तुझा",
+                "रंग",
+                "प्रेमा",
+                "कसा"
+            ],
+            "theme": "मराठी नाटक - १",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "दुर्वांची",
+                "जुडी",
+                "मी",
+                "वाहतो"
+            ],
+            "theme": "मराठी नाटक - २",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "चालू",
+                "आहे",
+                "कोर्ट",
+                "शांतता"
+            ],
+            "theme": "मराठी नाटक - ३",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पेट्रोल",
+                "डिझेल",
+                "इथेनॉल",
+                "वीज"
+            ],
+            "theme": "मोटार गाड्यांचे इंधन",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "फॅराडे",
+                "जनित्र",
+                "धक्का",
+                "सर्किट"
+            ],
+            "theme": "वीज/विद्युत संबंधी",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कोळसा",
+                "अणू",
+                "सौर",
+                "पवन"
+            ],
+            "theme": "वीज निर्मितीचे प्रकार/इंधन",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "मुलगा",
                 "मुलगी",
                 "आई",
