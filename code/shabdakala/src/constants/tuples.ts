@@ -14037,6 +14037,868 @@ export const Tuples = [
     [
         {
             "words": [
+                "डंख",
+                "लचका",
+                "चावा",
+                "दंश"
+            ],
+            "theme": "प्राण्यांचा तोंडावाटे हल्ला",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "शंकर",
+                "कात",
+                "फणा",
+                "पंचमी"
+            ],
+            "theme": "नागाशी संबंधित",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "आषाढी एकादशी",
+                "शिवरात्र",
+                "श्रावणी सोमवार",
+                "दत्त जयंती"
+            ],
+            "theme": "काही उपवास करण्याचे दिवस",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "रोमियो",
+                "ऑथेल्लो",
+                "शायलॉक",
+                "मॅकबेथ"
+            ],
+            "theme": "शेक्सपिअर च्या नाटकांतली पात्र",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ऑगस्टस",
+                "नीरो",
+                "मार्कस ऑरेलियस",
+                "क्लॉडियस"
+            ],
+            "theme": "रोमन सम्राट",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "युक्लीड",
+                "आर्यभट्ट",
+                "पायथॅगोरस",
+                "आर्किमिडीज"
+            ],
+            "theme": "प्राचीन गणितज्ञ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भुजंगप्रयात",
+                "शार्दूलविक्रीडित",
+                "आर्या",
+                "मंदाक्रांता"
+            ],
+            "theme": "कवितेतील वृत्ते",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चित्रांगदा",
+                "शकुंतला",
+                "सत्यवती",
+                "बृहन्नला"
+            ],
+            "theme": "महाभारतातील स्त्रिया",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "मनोरमा",
+                "शशिकला",
+                "कुमकुम",
+                "नादिरा"
+            ],
+            "theme": "हिंदी चित्रपटातील जुन्या स्त्री चरित्र अभिनेत्री",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "अण्णासाहेब किर्लोस्कर",
+                "मधुसूदन कालेलकर",
+                "वसंत कानेटकर",
+                "विद्याधर गोखले"
+            ],
+            "theme": "प्रसिद्ध मराठी नाटककार",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "पु. ल. देशपांडे",
+                "वि. वा. शिरवाडकर",
+                "आचार्य अत्रे",
+                "गंगाधर गाडगीळ"
+            ],
+            "theme": "नाटक व साहित्य दोन्ही क्षेत्रांतले लेखक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "राम गबाले",
+                "राजा परांजपे",
+                "राजा नेने",
+                "शांताराम"
+            ],
+            "theme": "मराठी चित्रपट दिग्दर्शक",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "सूत्र",
+                "धागा",
+                "रेषा",
+                "बंध"
+            ],
+            "theme": "जोडणी दर्शवणाऱ्या संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "व्यास",
+                "त्रिज्या",
+                "परिघ",
+                "क्षेत्रफळ"
+            ],
+            "theme": "भूमितीतील घटक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ऋषी",
+                "ग्रंथ",
+                "कथा",
+                "परंपरा"
+            ],
+            "theme": "भारतीय ज्ञानपरंपरेचे घटक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आसन",
+                "पादुका",
+                "चक्र",
+                "शंख"
+            ],
+            "theme": "पूजाविधीतील प्रतीक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अधिकार",
+                "कर्तव्य",
+                "मर्यादा",
+                "शिस्त"
+            ],
+            "theme": "सत्तेशी संबंधित संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "राजा",
+                "ऋषी",
+                "सेनानी",
+                "दूत"
+            ],
+            "theme": "प्राचीन समाजातील भूमिका",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मार्ग",
+                "चक्र",
+                "सोपान",
+                "प्रवाह"
+            ],
+            "theme": "प्रक्रिया दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "धर्म",
+                "नीती",
+                "संयम",
+                "कर्तव्य"
+            ],
+            "theme": "नैतिक संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वन",
+                "आश्रम",
+                "सभा",
+                "रणभूमी"
+            ],
+            "theme": "महाभारतातील संदर्भस्थळे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भाव",
+                "रस",
+                "छटा",
+                "लय"
+            ],
+            "theme": "साहित्यिक अनुभूती",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गंध",
+                "स्पर्श",
+                "स्वाद",
+                "श्रवण"
+            ],
+            "theme": "इंद्रियज्ञान",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "अनुभव",
+                "जाणीव",
+                "स्मृती",
+                "संवेदना"
+            ],
+            "theme": "मानसिक प्रक्रिया",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "छत्र",
+                "ध्वज",
+                "सिंहासन",
+                "मुकुट"
+            ],
+            "theme": "राजसत्ता दर्शवणारी चिन्हे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तप",
+                "व्रत",
+                "संन्यास",
+                "संयम"
+            ],
+            "theme": "आत्मशुद्धीच्या पद्धती",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "चिन्ह",
+                "प्रतिमा",
+                "अर्थ",
+                "संकेत"
+            ],
+            "theme": "प्रतिनिधित्व दर्शवणाऱ्या संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आधार",
+                "स्तंभ",
+                "पाया",
+                "मूळ"
+            ],
+            "theme": "आधार किंवा बेस दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "तर्क",
+                "कारण",
+                "परिणाम",
+                "निष्पत्ती"
+            ],
+            "theme": "विचारसाखळीतील घटक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बीज",
+                "अंकुर",
+                "वाढ",
+                "फळ"
+            ],
+            "theme": "नैसर्गिक विकासक्रम",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "स्पंदन",
+                "आवाज",
+                "प्रतिध्वनी",
+                "लय"
+            ],
+            "theme": "ध्वनीशी संबंधित संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "ताल",
+                "मात्रा",
+                "आवर्तन",
+                "गती"
+            ],
+            "theme": "संगीतात्मक रचना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कालावधी",
+                "क्षण",
+                "फेरफटका",
+                "अंतर"
+            ],
+            "theme": "वेळेशी निगडित शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आकृती",
+                "घडण",
+                "रचना",
+                "संघटन"
+            ],
+            "theme": "आकारनिर्मितीशी संबंधित शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "संविधान",
+                "नियम",
+                "कलम",
+                "अमलबजावणी"
+            ],
+            "theme": "व्यवस्थेची चौकट",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कणा",
+                "स्नायू",
+                "अवयव",
+                "संस्था"
+            ],
+            "theme": "जैविक संरचना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "ओळख",
+                "प्रतिष्ठा",
+                "प्रतिमा",
+                "सन्मान"
+            ],
+            "theme": "सामाजिक मान्यता",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "नाव",
+                "उपाधी",
+                "हुद्दा",
+                "पदवी"
+            ],
+            "theme": "ओळख दर्शवणारी साधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "चिन्ह",
+                "मुद्रा",
+                "ठसा",
+                "खूण"
+            ],
+            "theme": "ओळख पटवणारे घटक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "वाहन",
+                "मार्ग",
+                "दिशा",
+                "गंतव्य"
+            ],
+            "theme": "प्रवासाशी संबंधित शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "साधन",
+                "पद्धत",
+                "यंत्रणा",
+                "उपाय"
+            ],
+            "theme": "कार्यसाधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सेतू",
+                "दुवा",
+                "जोड",
+                "संपर्क"
+            ],
+            "theme": "जोडणी दर्शवणाऱ्या संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "उद्गम",
+                "स्रोत",
+                "उगम",
+                "मूळस्थान"
+            ],
+            "theme": "सुरुवात दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "नदी",
+                "ओढा",
+                "प्रवाह",
+                "खाडी"
+            ],
+            "theme": "जलप्रणाली",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "विचार",
+                "कल्पना",
+                "स्फुरण",
+                "प्रेरणा"
+            ],
+            "theme": "मानसिक उगम",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "सीमा",
+                "कक्षा",
+                "परिघ",
+                "मर्यादा"
+            ],
+            "theme": "आवाक्य दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अधिकारक्षेत्र",
+                "प्रांत",
+                "हद्द",
+                "परिसर"
+            ],
+            "theme": "प्रशासनिक मर्यादा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "दृष्टीक्षेप",
+                "आकलन",
+                "समज",
+                "जाणीव"
+            ],
+            "theme": "मानसिक सीमा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "भार",
+                "दाब",
+                "ताण",
+                "घनता"
+            ],
+            "theme": "भौतिक संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "जबाबदारी",
+                "दायित्व",
+                "ओझे",
+                "कर्तव्य"
+            ],
+            "theme": "मानसिक/सामाजिक भार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गंभीरता",
+                "तीव्रता",
+                "प्रखरता",
+                "घनपणा"
+            ],
+            "theme": "तीव्रतेची छटा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "क्रम",
+                "पायरी",
+                "स्तर",
+                "श्रेणी"
+            ],
+            "theme": "क्रमबद्धता",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वर्ग",
+                "घट",
+                "प्रकार",
+                "गट"
+            ],
+            "theme": "वर्गीकरण",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "श्रेणी",
+                "मालिका",
+                "अनुक्रम",
+                "परंपरा"
+            ],
+            "theme": "सातत्य दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "दृश्य",
+                "प्रतिमा",
+                "छटा",
+                "आभास"
+            ],
+            "theme": "दृष्टीअनुभव",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "भास",
+                "भ्रम",
+                "छल",
+                "माया"
+            ],
+            "theme": "खोटे आकलन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "सत्य",
+                "वास्तव",
+                "अर्थ",
+                "तथ्य"
+            ],
+            "theme": "खरेपणा दर्शवणाऱ्या संकल्पना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "बा. सी. मर्ढेकर",
+                "वि. वा. शिरवाडकर",
+                "वि. स. खांडेकर",
+                "पु. ल. देशपांडे"
+            ],
+            "theme": "साहित्य अकादमी पुरस्कार विजेते मराठी लेखक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "रणजीत देसाई",
+                "शिवाजी सावंत",
+                "ना. सी. फडके",
+                "वि. स. खांडेकर"
+            ],
+            "theme": "इतिहास/जीवनपट कादंबरीकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कुसुमाग्रज",
+                "केशवसुत",
+                "मर्ढेकर",
+                "इंदिरा संत"
+            ],
+            "theme": "आधुनिक मराठी कवितेचे प्रवाह",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "इथिओपिया",
+                "येमेन",
+                "ब्राझील",
+                "कोलंबिया"
+            ],
+            "theme": "कॉफी उत्पादक प्रदेश",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अरॅबिका",
+                "रोबस्टा",
+                "चिकोरी",
+                "ब्लेंड"
+            ],
+            "theme": "कॉफीशी संबंधित संज्ञा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कागद",
+                "दारू",
+                "चहा",
+                "बारूद"
+            ],
+            "theme": "चीनचे प्राचीन शोध",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "नूडल्स",
+                "शेवया",
+                "पास्ता",
+                "रामेन"
+            ],
+            "theme": "गव्हाच्या लांबट पदार्थांचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मसाले",
+                "रेशीम",
+                "पोर्सिलेन",
+                "चहा"
+            ],
+            "theme": "प्राचीन व्यापार वस्तू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "अण्णासाहेब किर्लोस्कर",
+                "मधुसूदन कालेलकर",
+                "वसंत कानेटकर",
+                "विद्याधर गोखले"
+            ],
+            "theme": "प्रसिद्ध मराठी नाटककार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "पु. ल. देशपांडे",
+                "वि. वा. शिरवाडकर",
+                "आचार्य अत्रे",
+                "गंगाधर गाडगीळ"
+            ],
+            "theme": "नाटक व साहित्य दोन्ही क्षेत्रांतले लेखक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "राम गबाले",
+                "राजा परांजपे",
+                "राजा नेने",
+                "शांताराम"
+            ],
+            "theme": "मराठी चित्रपट दिग्दर्शक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "संस्कृत",
+                "प्राकृत",
+                "पाली",
+                "अर्धमागधी"
+            ],
+            "theme": "भारतीय भाषांचे मूळ प्रवाह",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मराठी",
+                "हिंदी",
+                "गुजराती",
+                "बंगाली"
+            ],
+            "theme": "इंडो-आर्यन भाषा",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लिपी",
+                "व्याकरण",
+                "छंद",
+                "अलंकार"
+            ],
+            "theme": "भाषिक संरचना",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "बासुंदी",
+                "खीर",
+                "रबडी",
+                "फिरणी"
+            ],
+            "theme": "दुधापासून बनणारे गोड पदार्थ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "तंदुरी",
+                "भट्टी",
+                "धुरकट",
+                "शेकलेले"
+            ],
+            "theme": "शिजवण्याच्या पद्धती",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गवती",
+                "मसाला",
+                "आलंचहा",
+                "काढा"
+            ],
+            "theme": "चहा बनवण्याचे प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
                 "मुलगा",
                 "मुलगी",
                 "आई",
@@ -14044,8 +14906,10 @@ export const Tuples = [
             ],
             "theme": "कुटुंब",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "मित्र",
@@ -14055,7 +14919,7 @@ export const Tuples = [
             ],
             "theme": "सामाजिक संबंध",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -14066,10 +14930,8 @@ export const Tuples = [
             ],
             "theme": "झणझणीत खाणं",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "कुरकुर",
@@ -14079,8 +14941,10 @@ export const Tuples = [
             ],
             "theme": "आवाज",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "टिकली",
@@ -14090,7 +14954,7 @@ export const Tuples = [
             ],
             "theme": "स्त्रियांचे दागिने",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -14101,10 +14965,8 @@ export const Tuples = [
             ],
             "theme": "शस्त्रास्त्रे",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "पीक",
@@ -14114,8 +14976,10 @@ export const Tuples = [
             ],
             "theme": "शेतीसाठी घटक",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "खाणं",
@@ -14125,7 +14989,7 @@ export const Tuples = [
             ],
             "theme": "दैनंदिन क्रिया",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -14136,10 +15000,8 @@ export const Tuples = [
             ],
             "theme": "सौंदर्य वस्तू",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "सोनं",
@@ -14149,8 +15011,10 @@ export const Tuples = [
             ],
             "theme": "मौल्यवान धातू",
             "sharedBy": "Chat GPT",
-            "difficulty": 0
-        },
+            "difficulty": 2
+        }
+    ],
+    [
         {
             "words": [
                 "बघणे",
@@ -14160,7 +15024,7 @@ export const Tuples = [
             ],
             "theme": "ज्ञानेंद्रिये",
             "sharedBy": "Chat GPT",
-            "difficulty": 1
+            "difficulty": 0
         },
         {
             "words": [
@@ -14171,10 +15035,8 @@ export const Tuples = [
             ],
             "theme": "धार्मिक गोष्टी",
             "sharedBy": "Chat GPT",
-            "difficulty": 2
-        }
-    ],
-    [
+            "difficulty": 1
+        },
         {
             "words": [
                 "परीक्षा",
@@ -14183,28 +15045,6 @@ export const Tuples = [
                 "श्रेणी"
             ],
             "theme": "शिक्षण",
-            "sharedBy": "Chat GPT",
-            "difficulty": 0
-        },
-        {
-            "words": [
-                "ओळखपत्र",
-                "गणवेश",
-                "घंटा",
-                "मैदान"
-            ],
-            "theme": "शाळा",
-            "sharedBy": "Chat GPT",
-            "difficulty": 1
-        },
-        {
-            "words": [
-                "खेळपट्टी",
-                "तापमान",
-                "सूर्यप्रकाश",
-                "शिवण"
-            ],
-            "theme": "क्रिकेट मध्ये यावर चेंडू किती स्विंग होईल हे ठरते",
             "sharedBy": "Chat GPT",
             "difficulty": 2
         }
