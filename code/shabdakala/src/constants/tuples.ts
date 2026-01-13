@@ -14422,6 +14422,111 @@ export const Tuples = [
     [
         {
             "words": [
+                "धमक",
+                "शार",
+                "गार",
+                "भडक"
+            ],
+            "theme": "रंगाचा उठाव दर्शवणारे शब्द",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "झिंगाट",
+                "कोंबडी",
+                "विश्वविनायक",
+                "धडक"
+            ],
+            "theme": "अजय अतुल यांच्या कलाकृती",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "अनुदान",
+                "सांत्वन",
+                "कुमक",
+                "पुनर्वसन"
+            ],
+            "theme": "आपत्तीचे निराकरण",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मासळी",
+                "गटार",
+                "ओले मोजे",
+                "शौचालय"
+            ],
+            "theme": "दुर्गंध",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "चित्रपटगृह",
+                "तळघर",
+                "गुहा",
+                "रात्र"
+            ],
+            "theme": "अंधार/अंधाऱ्या जागा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वाचनालय",
+                "ध्यानकक्ष",
+                "परीक्षाकेंद्र",
+                "स्मशान"
+            ],
+            "theme": "शांत जागा",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "तिमिर",
+                "दुरित",
+                "व्यंकटी",
+                "मैत्र"
+            ],
+            "theme": "पसायदानातील शब्द (ज्ञानेश्वर)",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वैखरी",
+                "पापबुद्धी",
+                "नीववावे",
+                "चत्वार"
+            ],
+            "theme": "मनाच्या श्लोकांतील शब्द (रामदास)",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "वनचरे",
+                "हरिकथा",
+                "एकांताचा वास",
+                "आकाशमंडप"
+            ],
+            "theme": "वृक्षवल्ली आम्हा सोयरे (तुकोबा)",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "आधार",
                 "स्तंभ",
                 "पाया",
