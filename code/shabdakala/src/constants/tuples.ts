@@ -14597,6 +14597,181 @@ export const Tuples = [
     [
         {
             "words": [
+                "संत ज्ञानेश्वर",
+                100,
+                "शिडी",
+                "साप"
+            ],
+            "theme": "सापशिडी खेळ - त्याचे निर्माते वगैरे",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कवड्या",
+                "पट",
+                "चिरा",
+                "फासे"
+            ],
+            "theme": "सारीपाट खेळ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "शह",
+                "राणी",
+                64,
+                "हत्ती"
+            ],
+            "theme": "बुद्धिबळ खेळ",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "आणि",
+                "किंवा",
+                "परंतु",
+                "तथापि"
+            ],
+            "theme": "समुच्चयबोधक जोडशब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "म्हणून",
+                "कारण",
+                "तेव्हा",
+                "जर"
+            ],
+            "theme": "कारण-परिणाम दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "खरेतर",
+                "अर्थात",
+                "वस्तुतः",
+                "मात्र"
+            ],
+            "theme": "स्पष्टीकरण/मर्यादा दर्शवणारे शब्द",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "ठाणे",
+                "कल्याण",
+                "डोंबिवली",
+                "अंबरनाथ"
+            ],
+            "theme": "मुंबई उपनगरे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "लोकल",
+                "टॅक्सी",
+                "रिक्षा",
+                "बस"
+            ],
+            "theme": "मुंबईतील वाहतूक",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "म्हातारीचा बूट",
+                "राणीचा बाग",
+                "गेटवे",
+                "चौपाटी"
+            ],
+            "theme": "मुंबईतील स्थळे",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "कपडा",
+                "कागद",
+                "लोखंड",
+                "लाकूड"
+            ],
+            "theme": "साहित्य प्रकार",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "कात्री",
+                "सुई",
+                "दोरा",
+                "पट्टी"
+            ],
+            "theme": "शिवणकाम साधने",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घड्याळ",
+                "दिवा",
+                "भिंत",
+                "खाट"
+            ],
+            "theme": "घरातील उपयुक्त वस्तू",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "गाय",
+                "रेडा",
+                "म्हैस",
+                "कालवड"
+            ],
+            "theme": "पशुधन",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गवत",
+                "सुपीक",
+                "धूप",
+                "नांगर"
+            ],
+            "theme": "शेतीतील संदर्भ",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "घंटा",
+                "शंख",
+                "ताशा",
+                "तुतारी"
+            ],
+            "theme": "आवाज करणारी वाद्ये",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "आकृती",
                 "घडण",
                 "रचना",
