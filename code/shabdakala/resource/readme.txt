@@ -2,8 +2,8 @@
 # Making combos
 # --------------
 source ~/.bashrc
-source ~/github/scripts/gc_devdashboard/dashboard.sh
-cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/.
+# source ~/github/scripts/gc_devdashboard/dashboard.sh
+cd $SBBD_SRC/resource/.
 
 # open in excel and load and check
 open sbwords.xlsx
@@ -20,7 +20,7 @@ rm -rf ./*
 # copy files
 cp ../sbwords.xlsx .
 cp ../tpls_tmpl.ts tuples.ts
-cp /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts ./tuples_orig.ts
+cp $SBBD_SRC/src/constants/tuples.ts ./tuples_orig.ts
 
 ### Install Python stuff
 # if pandas error
@@ -32,28 +32,30 @@ python3 -m pip install pandas
 pip install openpyxl
 
 # finally make tuples
-python /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/scripts/python/csv2combo.py sbwords.xlsx ./tuples.ts
+python $SBBD_SRC/scripts/python/csv2combo.py sbwords.xlsx ./tuples.ts
 
 # Compare tuples files
 diff tuples.ts tuples_orig.ts
 
 # Once convinced, copy on to the src
-cp tuples.ts /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts
+cp tuples.ts $SBBD_SRC/src/constants/tuples.ts
 
 # Submit to Git
-git add /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/src/constants/tuples.ts
-git add /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/sbwords.xlsx
+git add $SBBD_SRC/src/constants/tuples.ts
+git add $SBBD_SRC/resource/sbwords.xlsx
 cd ..
-rm -rf /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/resource/work
+rm -rf $SBBD_SRC/resource/work
 
 
 git commit -m "Words change"
 
 git push origin main
 
-cd /Users/hrishinene/shabdak_github/sbbd/shabdakala/code/shabdakala/
+cd $SBBD_SRC/
 
 source deploy_mac.sh
+
+rm -rf $SBBD_SRC/.venv
 
 ********* Python errors **********
 
