@@ -14702,6 +14702,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "खुळखुळा",
+                "बोबडे बोल",
+                "लाळ",
+                "शी शु"
+            ],
+            "theme": "नवजात शिशु",
+            "sharedBy": "Chat GPT",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "गणवेश",
+                "मित्र-मैत्रिणी",
+                "खेळ",
+                "अभ्यास"
+            ],
+            "theme": "शाळकरी",
+            "sharedBy": "Chat GPT",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "गॉगल",
+                "फॅशन",
+                "वाहन",
+                "फोन"
+            ],
+            "theme": "कॉलेज/टीन एजर्स",
+            "sharedBy": "Chat GPT",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "कपडा",
                 "कागद",
                 "लोखंड",
