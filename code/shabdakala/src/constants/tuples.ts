@@ -14947,6 +14947,41 @@ export const Tuples = [
     [
         {
             "words": [
+                "उर्मिला",
+                "श्रुतकिर्ती",
+                "सीता",
+                "मांडवी"
+            ],
+            "theme": "रघुकुलवधू",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "शूर्पणखा",
+                "सुलोचना",
+                "मंदोदरी",
+                "कैकसी"
+            ],
+            "theme": "रावण कुटुंबीय",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "तारा",
+                "रुमा",
+                "अंजना",
+                "भागाबाई"
+            ],
+            "theme": "वानर स्त्रिया",
+            "sharedBy": "HVN Unplugged",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
                 "आकृती",
                 "घडण",
                 "रचना",
