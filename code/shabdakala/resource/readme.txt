@@ -41,6 +41,8 @@ diff tuples.ts tuples_orig.ts
 cp tuples.ts $SBBD_SRC/src/constants/tuples.ts
 
 # Submit to Git
+ssh -T git@github-personal
+
 git add $SBBD_SRC/src/constants/tuples.ts
 git add $SBBD_SRC/resource/sbwords.xlsx
 cd ..
