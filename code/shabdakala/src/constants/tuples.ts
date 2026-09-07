@@ -22583,7 +22583,7 @@ export const Tuples = [
                 "बुध"
             ],
             "theme": "सौरमाला",
-            "sharedBy": "शब्दबंध टीम",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22605,7 +22605,7 @@ export const Tuples = [
                 "झिम्मा"
             ],
             "theme": "सिक्वेल निघालेले सिनेमा",
-            "sharedBy": "शब्दबंध टीम",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22629,7 +22629,7 @@ export const Tuples = [
                 "विटी-दांडू"
             ],
             "theme": "लाकूड वापरण्यात येणारे खेळ ",
-            "sharedBy": "शब्दबंध टीम",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22653,7 +22653,7 @@ export const Tuples = [
                 "नीर"
             ],
             "theme": "पाण्याशी समानार्थी ",
-            "sharedBy": "शब्दबंध टीम",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22675,7 +22675,182 @@ export const Tuples = [
                 "पेरू"
             ],
             "theme": "दक्षिण अमेरिकेतील मुख्य देश",
-            "sharedBy": "शब्दबंध टीम",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "अमिताभ बच्चन",
+                "इशांत शर्मा",
+                "शेख अब्दुल्ला",
+                "धर्मेंद्र प्रताप सिंग"
+            ],
+            "theme": "खूप उंच लोक (६ ते ८ फूट)",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "अनुपम खेर",
+                "सय्यद किरमाणी",
+                "राकेश रोशन",
+                "विशाल दादलानी"
+            ],
+            "theme": "डोक्यावरील केस नसलेले प्रसिद्ध लोक",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "व्योमकेश बक्षी",
+                "कटप्पा",
+                "फेलुदा",
+                "छोटा भीम"
+            ],
+            "theme": "काल्पनिक व्यक्ती",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "नाट्य",
+                "शैली",
+                "प्रकरण",
+                "कथा"
+            ],
+            "theme": "पुस्तक/लेखन",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "मुद्रण",
+                "छपाई",
+                "आवृत्ती",
+                "प्रकाशक"
+            ],
+            "theme": "प्रकाशन",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "फूल",
+                "पान",
+                "देठ",
+                "पराग"
+            ],
+            "theme": "फुलाचे भाग",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मान",
+                "पद",
+                "दर्जा",
+                "स्थान"
+            ],
+            "theme": "सामाजिक/व्यावसायिक स्थान (Status)",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "आसन",
+                "बैठक",
+                "खुर्ची",
+                "सिंहासन"
+            ],
+            "theme": "बसण्याची जागा",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "पदवी",
+                "किताब",
+                "बहुमान",
+                "पुरस्कार"
+            ],
+            "theme": "उपाधी/सन्मान",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "चाल",
+                "लय",
+                "ठेका",
+                "ताल"
+            ],
+            "theme": "संगीतातील गती/रचना",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "वेग",
+                "गती",
+                "झपाटा",
+                "त्वरा"
+            ],
+            "theme": "हालचालीचा वेग",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "ओघ",
+                "प्रवाह",
+                "धार",
+                "लाट"
+            ],
+            "theme": "पाण्याची हालचाल",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 2
+        }
+    ],
+    [
+        {
+            "words": [
+                "मथळा",
+                "वार्ता",
+                "संपादकीय",
+                "अग्रलेख"
+            ],
+            "theme": "वृत्तपत्र",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 0
+        },
+        {
+            "words": [
+                "सदर",
+                "अंक",
+                "मुखपृष्ठ",
+                "कथा"
+            ],
+            "theme": "मासिक/नियतकालिक",
+            "sharedBy": "एक हितचिंतक",
+            "difficulty": 1
+        },
+        {
+            "words": [
+                "कथानक",
+                "प्रकरण",
+                "नायक",
+                "शेवट"
+            ],
+            "theme": "कादंबरी",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22688,7 +22863,7 @@ export const Tuples = [
                 "चिकू"
             ],
             "theme": "उष्णकटिबंधीय फळे",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22699,7 +22874,7 @@ export const Tuples = [
                 "एअरलिफ्ट"
             ],
             "theme": "विमानाशी संबंधित हिंदी सिनेमे",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22710,7 +22885,7 @@ export const Tuples = [
                 "आरंभ"
             ],
             "theme": "पहिला या अर्थाचे शब्द",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22723,7 +22898,7 @@ export const Tuples = [
                 "सुनील"
             ],
             "theme": "कसोटीतील सलामीचे फलंदाज",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22734,7 +22909,7 @@ export const Tuples = [
                 "चंदू"
             ],
             "theme": "दादा कोंडके यांचे नायक",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22745,7 +22920,7 @@ export const Tuples = [
                 "करंगुळ्या"
             ],
             "theme": "स्त्रीच्या पायाच्या बोटातील दागिने",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22758,7 +22933,7 @@ export const Tuples = [
                 "बास्केट"
             ],
             "theme": "_बॉल खेळ..",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22769,7 +22944,7 @@ export const Tuples = [
                 "टाळ"
             ],
             "theme": "ताल वाद्य",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22780,7 +22955,7 @@ export const Tuples = [
                 "हंस"
             ],
             "theme": "हिंदू देवतांची वाहने",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22793,7 +22968,7 @@ export const Tuples = [
                 "चित्रा"
             ],
             "theme": "पावसाळी नक्षत्रे ",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22804,7 +22979,7 @@ export const Tuples = [
                 "सिंह"
             ],
             "theme": "मांजर समूहातील प्रजाती",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22815,7 +22990,7 @@ export const Tuples = [
                 "कृष्णकाठ"
             ],
             "theme": "काही आत्मचरित्रे",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22828,7 +23003,7 @@ export const Tuples = [
                 "वसंत"
             ],
             "theme": "मराठी ऋतू",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22839,7 +23014,7 @@ export const Tuples = [
                 "राधा ही बावरी"
             ],
             "theme": "झी वाहिनी वरच्या काही मालिका",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22850,7 +23025,7 @@ export const Tuples = [
                 "स्वाभिमान"
             ],
             "theme": "दूरदर्शन वरील काही जुन्या मालिका",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22863,7 +23038,7 @@ export const Tuples = [
                 "कार्तिक"
             ],
             "theme": "मराठी महिने",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22874,7 +23049,7 @@ export const Tuples = [
                 "निकृष्ट"
             ],
             "theme": "कमी प्रतीचा या अर्थाचे शब्द",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22885,7 +23060,7 @@ export const Tuples = [
                 "सुदर्शन चक्र"
             ],
             "theme": "श्रीकृष्णाचे दर्शन",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22898,7 +23073,7 @@ export const Tuples = [
                 "आवारा"
             ],
             "theme": "राज कपूर चित्रपट",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22909,7 +23084,7 @@ export const Tuples = [
                 "दामिनी"
             ],
             "theme": "ऋषी कपूर चित्रपट",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22920,7 +23095,7 @@ export const Tuples = [
                 "लाकूड"
             ],
             "theme": "घराच्या भिंती बनवण्याची विविध साहित्य ",
-            "sharedBy": "कुलदीप क्षीरसागर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22933,7 +23108,7 @@ export const Tuples = [
                 "पाषाण"
             ],
             "theme": "सर्व संभव जागा ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22944,7 +23119,7 @@ export const Tuples = [
                 "भेद"
             ],
             "theme": "लोकांकडून काम करवून घेण्याच्या युक्ती ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22955,7 +23130,7 @@ export const Tuples = [
                 "मैथुन"
             ],
             "theme": "मनुष्य आणि प्राणिमात्रांमधील मूळ प्रवृत्ती ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -22968,7 +23143,7 @@ export const Tuples = [
                 "दमण"
             ],
             "theme": "केंद्रशासित प्रदेश",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -22979,7 +23154,7 @@ export const Tuples = [
                 "भोपाळ"
             ],
             "theme": "राजधान्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -22990,7 +23165,7 @@ export const Tuples = [
                 "अयोध्या"
             ],
             "theme": "उत्तर प्रदेशातील शहरे ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23003,7 +23178,7 @@ export const Tuples = [
                 "दिलीप"
             ],
             "theme": "८०-९० मधील मुंबई क्रिकेटपटू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23014,7 +23189,7 @@ export const Tuples = [
                 "भास्कर"
             ],
             "theme": "सूर्याची नावे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23025,7 +23200,7 @@ export const Tuples = [
                 "सोबती"
             ],
             "theme": "मैत्र या अर्थी ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23038,7 +23213,7 @@ export const Tuples = [
                 "झुंजूमुंजू"
             ],
             "theme": "दिवसाची सुरुवात या अर्थी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23049,7 +23224,7 @@ export const Tuples = [
                 "चहा"
             ],
             "theme": "दिवसाच्या सुरुवातीला होणाऱ्या गोष्टी ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23060,7 +23235,7 @@ export const Tuples = [
                 "कुमार यादव"
             ],
             "theme": "सूर्य-- ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23108,7 +23283,7 @@ export const Tuples = [
                 "कु"
             ],
             "theme": "नावापुढील एकाक्षरी लघु रूपे ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23119,7 +23294,7 @@ export const Tuples = [
                 "ऊ"
             ],
             "theme": "एकाक्षरी शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23130,7 +23305,7 @@ export const Tuples = [
                 "दे"
             ],
             "theme": "एकाक्षरी आज्ञारुपी क्रियापदे ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23143,7 +23318,7 @@ export const Tuples = [
                 "लक्ष्य"
             ],
             "theme": "भारतीय बॅडमिंटनपटू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23154,7 +23329,7 @@ export const Tuples = [
                 "ऋतुराज"
             ],
             "theme": "तरुण क्रिकेटपटू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23165,7 +23340,7 @@ export const Tuples = [
                 "राज्यवर्धन"
             ],
             "theme": "पदक विजेते भारतीय नेमबाज ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23178,7 +23353,7 @@ export const Tuples = [
                 "त्र्याहत्तर"
             ],
             "theme": "मूळ संख्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23189,7 +23364,7 @@ export const Tuples = [
                 "चौसष्ठ"
             ],
             "theme": "घन संख्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23200,7 +23375,7 @@ export const Tuples = [
                 "एक्क्यांशी"
             ],
             "theme": "वर्ग संख्या ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23248,7 +23423,7 @@ export const Tuples = [
                 "इसराज"
             ],
             "theme": "तंतुवाद्ये ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23259,7 +23434,7 @@ export const Tuples = [
                 "मादल"
             ],
             "theme": "ताल वाद्ये",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23270,7 +23445,7 @@ export const Tuples = [
                 "हार्मोनियम"
             ],
             "theme": "वायू वाद्ये  ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23283,7 +23458,7 @@ export const Tuples = [
                 "मोदी"
             ],
             "theme": "पंतप्रधान",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23294,7 +23469,7 @@ export const Tuples = [
                 "मुखर्जी"
             ],
             "theme": "राष्ट्रपती ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23305,7 +23480,7 @@ export const Tuples = [
                 "पवार"
             ],
             "theme": "महाराष्ट्र मुख्यमंत्री",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23318,7 +23493,7 @@ export const Tuples = [
                 "तोशिबा"
             ],
             "theme": "जपानी कंपन्या ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23329,7 +23504,7 @@ export const Tuples = [
                 "अमेझॉन"
             ],
             "theme": "अमेरिकन कंपन्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23340,7 +23515,7 @@ export const Tuples = [
                 "युनिलिव्हर"
             ],
             "theme": "ब्रिटिश कंपन्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23353,7 +23528,7 @@ export const Tuples = [
                 "सुपार्श्व"
             ],
             "theme": "जैन तीर्थांकर ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23364,7 +23539,7 @@ export const Tuples = [
                 "हरगोविंद"
             ],
             "theme": "शीख गुरु",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23375,7 +23550,7 @@ export const Tuples = [
                 "ओंकार"
             ],
             "theme": "नाथ संप्रदायातील संत",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23388,7 +23563,7 @@ export const Tuples = [
                 "भीम"
             ],
             "theme": "पांडव ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23399,7 +23574,7 @@ export const Tuples = [
                 "शत्रुघ्न"
             ],
             "theme": "दशरथ पुत्र   ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23410,7 +23585,7 @@ export const Tuples = [
                 "दुर्योधन"
             ],
             "theme": "कौरव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23423,7 +23598,7 @@ export const Tuples = [
                 "अमृत"
             ],
             "theme": "समुद्रमंथनातील रत्ने",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23434,7 +23609,7 @@ export const Tuples = [
                 "चाफा"
             ],
             "theme": "झाडांवरील फुले",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23445,7 +23620,7 @@ export const Tuples = [
                 "बोगनवेल"
             ],
             "theme": "वेलींवरील फुले",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23458,7 +23633,7 @@ export const Tuples = [
                 "प्रेम"
             ],
             "theme": "हिंदी चित्रपट खलनायक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23469,7 +23644,7 @@ export const Tuples = [
                 "जगदीप"
             ],
             "theme": "हिंदी चित्रपट हास्य अभिनेता   ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23480,7 +23655,7 @@ export const Tuples = [
                 "बलराज"
             ],
             "theme": "हिंदी चित्रपट चरित्र अभिनेता",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23493,7 +23668,7 @@ export const Tuples = [
                 "खोगीरभरती"
             ],
             "theme": "पुलं वाङ्मय",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23504,7 +23679,7 @@ export const Tuples = [
                 "नटसम्राट"
             ],
             "theme": "कुसुमाग्रज वाङ्मय",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23515,7 +23690,7 @@ export const Tuples = [
                 "पिंगळा वेळ"
             ],
             "theme": "जी. ए. कुलकर्णी वाङ्मय ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23528,7 +23703,7 @@ export const Tuples = [
                 "कम्मो"
             ],
             "theme": "हिंदी चित्रपट नृत्यांगना",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23539,7 +23714,7 @@ export const Tuples = [
                 "परिणीती"
             ],
             "theme": "हिंदी चित्रपट अभिनेत्री गायिका",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23550,7 +23725,7 @@ export const Tuples = [
                 "नादिरा"
             ],
             "theme": "हिंदी चित्रपट खलनायिका ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23563,7 +23738,7 @@ export const Tuples = [
                 "उकडीचे मोदक"
             ],
             "theme": "सणासुदीचे पदार्थ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23574,7 +23749,7 @@ export const Tuples = [
                 "तमालपत्र "
             ],
             "theme": "मसाले",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23585,7 +23760,7 @@ export const Tuples = [
                 "बेल"
             ],
             "theme": "पवित्र वनस्पती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23598,7 +23773,7 @@ export const Tuples = [
                 "होळी"
             ],
             "theme": "भारतीय सण",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23609,7 +23784,7 @@ export const Tuples = [
                 "शेळी"
             ],
             "theme": "पाळीव प्राणी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23620,7 +23795,7 @@ export const Tuples = [
                 "औरंगाबाद"
             ],
             "theme": "महाराष्ट्रातील शहरे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23633,7 +23808,7 @@ export const Tuples = [
                 "गारपीट"
             ],
             "theme": "हवामानाशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23644,7 +23819,7 @@ export const Tuples = [
                 "घंटा"
             ],
             "theme": "शालेय जीवन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23655,7 +23830,7 @@ export const Tuples = [
                 "जिजामाता"
             ],
             "theme": "मराठा इतिहासातील व्यक्तिरेखा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23668,7 +23843,7 @@ export const Tuples = [
                 "टोपी"
             ],
             "theme": "पावसात लागणाऱ्या वस्तू",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23679,7 +23854,7 @@ export const Tuples = [
                 "पान"
             ],
             "theme": "वाचन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23690,7 +23865,7 @@ export const Tuples = [
                 "बारा"
             ],
             "theme": "घड्याळ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23703,7 +23878,7 @@ export const Tuples = [
                 "अदमास"
             ],
             "theme": "ज्या शब्दात कालवाचक शब्द दडला आले असे शब्द ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23714,7 +23889,7 @@ export const Tuples = [
                 "कुडाळ"
             ],
             "theme": "ज्या शब्दात खायचे पदार्थ दडले आहेत असे शब्द ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23725,7 +23900,7 @@ export const Tuples = [
                 "महेश्वरी"
             ],
             "theme": "देवाचे नाव लपलेले शब्द ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23738,7 +23913,7 @@ export const Tuples = [
                 "पजामा"
             ],
             "theme": "मधले अक्षर बदललेली देशांची नावे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23749,7 +23924,7 @@ export const Tuples = [
                 "एच डी"
             ],
             "theme": "टीव्ही चे प्रकार ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23760,7 +23935,7 @@ export const Tuples = [
                 "टाटा"
             ],
             "theme": "हाताचा पंजा दाखवणे याचे संभाव्य अर्थ ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23773,7 +23948,7 @@ export const Tuples = [
                 "गळ"
             ],
             "theme": "माश्याशी संबंधित ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23784,7 +23959,7 @@ export const Tuples = [
                 "अगर"
             ],
             "theme": "अहमदनगर शब्दातील अक्षरे वापरून तयार होणारे शब्द",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23795,7 +23970,7 @@ export const Tuples = [
                 "खल"
             ],
             "theme": "____बत ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23808,7 +23983,7 @@ export const Tuples = [
                 "मेंमें"
             ],
             "theme": "प्राण्यांचे ओरडण्याचे आवाज",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23819,7 +23994,7 @@ export const Tuples = [
                 "हंबरणे"
             ],
             "theme": "प्राणीपक्ष्यांच्या ओरडण्याला दिलेले नाव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23830,7 +24005,7 @@ export const Tuples = [
                 "गुटर्गु"
             ],
             "theme": "पक्ष्यांचे ओरडण्याचे आवाज",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23843,7 +24018,7 @@ export const Tuples = [
                 "औद्योगिक"
             ],
             "theme": "न्यायालयातील खटल्याचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23854,7 +24029,7 @@ export const Tuples = [
                 "तलाठी/ग्राम"
             ],
             "theme": "न्यायालयाच्या श्रेणी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23865,7 +24040,7 @@ export const Tuples = [
                 "न्यायाधीश"
             ],
             "theme": "न्यायालयातील व्यक्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23878,7 +24053,7 @@ export const Tuples = [
                 "हवेत गोळीबार"
             ],
             "theme": "जमाव पांगवण्याच्या पद्धती",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23889,7 +24064,7 @@ export const Tuples = [
                 "छडी"
             ],
             "theme": "लाकडी दांडू",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23900,7 +24075,7 @@ export const Tuples = [
                 "दहशत"
             ],
             "theme": "दंगल",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23913,7 +24088,7 @@ export const Tuples = [
                 "माचिस"
             ],
             "theme": "सिगारेट व्यसन",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23924,7 +24099,7 @@ export const Tuples = [
                 "जागरण"
             ],
             "theme": "मोबाईल व्यसन",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23935,7 +24110,7 @@ export const Tuples = [
                 "पुनर्वसन"
             ],
             "theme": "दारूचे व्यसन",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23948,7 +24123,7 @@ export const Tuples = [
                 "छाया"
             ],
             "theme": "____चित्र",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23959,7 +24134,7 @@ export const Tuples = [
                 "नशीब"
             ],
             "theme": "___वान",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -23970,7 +24145,7 @@ export const Tuples = [
                 "तोंड"
             ],
             "theme": "या गोष्टी शिवतात ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -23983,7 +24158,7 @@ export const Tuples = [
                 "मास्तर"
             ],
             "theme": "पुलंच्या म्हैस कथेतील पात्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -23994,7 +24169,7 @@ export const Tuples = [
                 "जय"
             ],
             "theme": "शोले चित्रपटातील पात्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24005,7 +24180,7 @@ export const Tuples = [
                 "भागवंतीं"
             ],
             "theme": "हम लोग मालिकेतही पात्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24018,7 +24193,7 @@ export const Tuples = [
                 "अती"
             ],
             "theme": "भरपूर ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24029,7 +24204,7 @@ export const Tuples = [
                 "वाह"
             ],
             "theme": "कौतुकाचे शब्द",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24040,7 +24215,7 @@ export const Tuples = [
                 "अट"
             ],
             "theme": "शेवटी क लावल्यास नवीन अर्थाचा शब्द बनतो",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24053,7 +24228,7 @@ export const Tuples = [
                 "बॉक्सिंग"
             ],
             "theme": "२ जणांमध्ये खेळले जाणारे खेळ ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24064,7 +24239,7 @@ export const Tuples = [
                 "हातोडा"
             ],
             "theme": "या गोष्टी फेकण्याच्या स्पर्धा होतात",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24075,7 +24250,7 @@ export const Tuples = [
                 "मुसळ"
             ],
             "theme": "दंडगोलाकार वस्तू",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24088,7 +24263,7 @@ export const Tuples = [
                 "कोठडी"
             ],
             "theme": "पोलीस आणि न्यायालय",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24099,7 +24274,7 @@ export const Tuples = [
                 "घरफोडी"
             ],
             "theme": "गंभीर गुन्हे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24110,7 +24285,7 @@ export const Tuples = [
                 "महानिरीक्षक"
             ],
             "theme": "पोलिसांची श्रेणी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24123,7 +24298,7 @@ export const Tuples = [
                 "इजिप्त"
             ],
             "theme": "दोन खंडांमध्ये असलेले देश",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24134,7 +24309,7 @@ export const Tuples = [
                 "पनामा"
             ],
             "theme": "स्पॅनिश भाषिक देश",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24145,7 +24320,7 @@ export const Tuples = [
                 "मालदीव"
             ],
             "theme": "बेट असलेले देश",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24158,7 +24333,7 @@ export const Tuples = [
                 "गतिरोधक"
             ],
             "theme": "रस्ता ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24169,7 +24344,7 @@ export const Tuples = [
                 "दिनदर्शिका"
             ],
             "theme": "गूगल प्रणाली (ॲप्स)",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24180,7 +24355,7 @@ export const Tuples = [
                 "नाव"
             ],
             "theme": "धनादेशावरील माहिती",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24193,7 +24368,7 @@ export const Tuples = [
                 "गोप"
             ],
             "theme": "पशु पालन",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24204,7 +24379,7 @@ export const Tuples = [
                 "हस्तिदंत"
             ],
             "theme": "प्राण्यांपासून मिळणारे पदार्थ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24215,7 +24390,7 @@ export const Tuples = [
                 "तबेला"
             ],
             "theme": "प्राण्यांना ठेवण्याच्या जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24228,7 +24403,7 @@ export const Tuples = [
                 "यादव"
             ],
             "theme": "महाराष्ट्रातील राजवंश ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24239,7 +24414,7 @@ export const Tuples = [
                 "अवंती"
             ],
             "theme": "प्राचीन महाजनपदे ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24250,7 +24425,7 @@ export const Tuples = [
                 "होयसळ"
             ],
             "theme": "दक्षिण भारतातील राजवंश",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24263,7 +24438,7 @@ export const Tuples = [
                 "आरटीआय"
             ],
             "theme": "काही कायद्यांची लघु रुपे ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24274,7 +24449,7 @@ export const Tuples = [
                 "रॉ"
             ],
             "theme": "सुरक्षा दलांच्या नावाची लघुरूपे ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24285,7 +24460,7 @@ export const Tuples = [
                 "एचसी"
             ],
             "theme": "पोलिस दलातील पदांची लघुरूपे ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24298,7 +24473,7 @@ export const Tuples = [
                 "ढोल"
             ],
             "theme": "गणपतीशी संबंधित",
-            "sharedBy": "कौस्तुभ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24309,7 +24484,7 @@ export const Tuples = [
                 "काकडी"
             ],
             "theme": "उपवास संबंधित ",
-            "sharedBy": "कौस्तुभ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24320,7 +24495,7 @@ export const Tuples = [
                 "आम्रखंड"
             ],
             "theme": "आंबा संबंधित ",
-            "sharedBy": "कौस्तुभ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24333,7 +24508,7 @@ export const Tuples = [
                 "फटाके"
             ],
             "theme": "ज्वालाग्राही पदार्थ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24344,7 +24519,7 @@ export const Tuples = [
                 "कार्बन डाय ऑक्साईड"
             ],
             "theme": "पाण्यात विरघळणारी द्रव्ये",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24355,7 +24530,7 @@ export const Tuples = [
                 "आपटबार"
             ],
             "theme": "फटाक्यांचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24368,7 +24543,7 @@ export const Tuples = [
                 "मुसळधार"
             ],
             "theme": "पाऊस",
-            "sharedBy": "स्मिता कोरडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24379,7 +24554,7 @@ export const Tuples = [
                 "सुकन्या"
             ],
             "theme": "राशींची नावे लपलेली नावे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24390,7 +24565,7 @@ export const Tuples = [
                 "शिशिर"
             ],
             "theme": "ऋतू ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24403,7 +24578,7 @@ export const Tuples = [
                 "सोमेश्वर"
             ],
             "theme": "एक म्हण",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24414,7 +24589,7 @@ export const Tuples = [
                 "फार"
             ],
             "theme": "अजून एक म्हण",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24425,7 +24600,7 @@ export const Tuples = [
                 "दोन"
             ],
             "theme": "ही पण एक म्हण",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24438,7 +24613,7 @@ export const Tuples = [
                 "होली"
             ],
             "theme": "यासाठी लोक पांढरे कपडे घालतात",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24449,7 +24624,7 @@ export const Tuples = [
                 "दिवे"
             ],
             "theme": "दिवाळीशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24460,7 +24635,7 @@ export const Tuples = [
                 "भाजी"
             ],
             "theme": "दैनंदिन आहार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24473,7 +24648,7 @@ export const Tuples = [
                 "डाळिंब"
             ],
             "theme": "फळे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24484,7 +24659,7 @@ export const Tuples = [
                 "ट्रक"
             ],
             "theme": "वाहनप्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24495,7 +24670,7 @@ export const Tuples = [
                 "संस्कृत"
             ],
             "theme": "भाषा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24508,7 +24683,7 @@ export const Tuples = [
                 "अवाढव्य"
             ],
             "theme": "राक्षसाची विशेषणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24519,7 +24694,7 @@ export const Tuples = [
                 "चक्रवर्ती"
             ],
             "theme": "राजाची विशेषणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24530,7 +24705,7 @@ export const Tuples = [
                 "कष्टाळू"
             ],
             "theme": "सभ्य माणसाची विशेषणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24543,7 +24718,7 @@ export const Tuples = [
                 "विभावरी"
             ],
             "theme": "रात्र समानार्थी शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24554,7 +24729,7 @@ export const Tuples = [
                 "जलधारा"
             ],
             "theme": "पाऊस",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24565,7 +24740,7 @@ export const Tuples = [
                 "अवनी"
             ],
             "theme": "पृथ्वी तत्त्व",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24578,7 +24753,7 @@ export const Tuples = [
                 "सूक्ष्मदर्शक"
             ],
             "theme": "वेगळे दृश्य दाखवणाऱ्या वस्तू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24589,7 +24764,7 @@ export const Tuples = [
                 "इंटरनेट"
             ],
             "theme": "प्रसारमाध्यमे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24600,7 +24775,7 @@ export const Tuples = [
                 "देशी दारू"
             ],
             "theme": "भट्टी मधे बनणाऱ्या गोष्टी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24613,7 +24788,7 @@ export const Tuples = [
                 "हवा"
             ],
             "theme": "या गोष्टी खातात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24624,7 +24799,7 @@ export const Tuples = [
                 "पाणी"
             ],
             "theme": "या गोष्टी गिळतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24635,7 +24810,7 @@ export const Tuples = [
                 "लाथ"
             ],
             "theme": "या गोष्टी मारतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24648,7 +24823,7 @@ export const Tuples = [
                 "निर्जंतुक"
             ],
             "theme": "स्वच्छता या विषयाशी संबंधित शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24659,7 +24834,7 @@ export const Tuples = [
                 "बादली"
             ],
             "theme": "अंघोळ विषयी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24670,7 +24845,7 @@ export const Tuples = [
                 "फरशी"
             ],
             "theme": "पाणी आणि साबणाचे वापर",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24683,7 +24858,7 @@ export const Tuples = [
                 "विहीर"
             ],
             "theme": "पाण्याचे स्रोत",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24694,7 +24869,7 @@ export const Tuples = [
                 "कोनमापक"
             ],
             "theme": "शालेय साहित्य",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24705,7 +24880,7 @@ export const Tuples = [
                 "सरबत"
             ],
             "theme": "पेय",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24718,7 +24893,7 @@ export const Tuples = [
                 "तहान"
             ],
             "theme": "मूलभूत गरजा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24729,7 +24904,7 @@ export const Tuples = [
                 "कथा"
             ],
             "theme": "साहित्य प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24740,7 +24915,7 @@ export const Tuples = [
                 "आकाशगंगा"
             ],
             "theme": "अंतरिक्षाशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24753,7 +24928,7 @@ export const Tuples = [
                 "पुढारी"
             ],
             "theme": "मराठी वर्तमानपत्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24764,7 +24939,7 @@ export const Tuples = [
                 "सह्याद्री"
             ],
             "theme": "मराठी वाहिन्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24775,7 +24950,7 @@ export const Tuples = [
                 "मधुरा रेसिपीज"
             ],
             "theme": "मराठी युट्युब चॅनेल",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24788,7 +24963,7 @@ export const Tuples = [
                 "मावशी"
             ],
             "theme": "मातुल (आईच्या बाजूचे) नातेवाईक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24799,7 +24974,7 @@ export const Tuples = [
                 "आत्या"
             ],
             "theme": "वडलांच्या बाजूचे नातेवाईक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24810,7 +24985,7 @@ export const Tuples = [
                 "जाऊ"
             ],
             "theme": "पतीच्या बाजूचे नातेवाईक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24823,7 +24998,7 @@ export const Tuples = [
                 "घाम"
             ],
             "theme": "उन्हाळा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24834,7 +25009,7 @@ export const Tuples = [
                 "शेकोटी"
             ],
             "theme": "थंडी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24845,7 +25020,7 @@ export const Tuples = [
                 "ढग"
             ],
             "theme": "पावसाळा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24858,7 +25033,7 @@ export const Tuples = [
                 "मीना"
             ],
             "theme": "मंगेशकर भगिनी ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24869,7 +25044,7 @@ export const Tuples = [
                 "गवंडी"
             ],
             "theme": "कारागीर",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24880,7 +25055,7 @@ export const Tuples = [
                 "उड्या मारणे "
             ],
             "theme": "व्यायाम",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24893,7 +25068,7 @@ export const Tuples = [
                 "वारा"
             ],
             "theme": "निसर्ग",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24904,7 +25079,7 @@ export const Tuples = [
                 "कारलं"
             ],
             "theme": "भाजीपाला",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24915,7 +25090,7 @@ export const Tuples = [
                 "ओरिगामी"
             ],
             "theme": "हस्तकला",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24928,7 +25103,7 @@ export const Tuples = [
                 "संतापी"
             ],
             "theme": "नद्यांची नावे लपलेले शब्द",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24939,7 +25114,7 @@ export const Tuples = [
                 "वट"
             ],
             "theme": "अर्ध____",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24950,7 +25125,7 @@ export const Tuples = [
                 "नैवेद्य"
             ],
             "theme": "विविध धर्मातील देवाला वाहायच्या वस्तू",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24963,7 +25138,7 @@ export const Tuples = [
                 "चाचणी"
             ],
             "theme": "____परीक्षा",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -24974,7 +25149,7 @@ export const Tuples = [
                 "नस्य"
             ],
             "theme": "आयुर्वेदिक पंचकर्म",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -24985,7 +25160,7 @@ export const Tuples = [
                 "मलम"
             ],
             "theme": "औषधांचे प्रकार",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -24998,7 +25173,7 @@ export const Tuples = [
                 "कला"
             ],
             "theme": "शेवटी नी लावल्यास आडनाव बनते",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25009,7 +25184,7 @@ export const Tuples = [
                 "चालक"
             ],
             "theme": "बस शी संबंधित",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25020,7 +25195,7 @@ export const Tuples = [
                 "मसाला"
             ],
             "theme": "पानाशी संबंधित",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25033,7 +25208,7 @@ export const Tuples = [
                 "उजळ"
             ],
             "theme": "पांढरा",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25044,7 +25219,7 @@ export const Tuples = [
                 "विवाह"
             ],
             "theme": "पुनर् ____",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25055,7 +25230,7 @@ export const Tuples = [
                 "खतरनाक"
             ],
             "theme": "अवयव लपलेले शब्द",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25068,7 +25243,7 @@ export const Tuples = [
                 "दाढी"
             ],
             "theme": "केस",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25079,7 +25254,7 @@ export const Tuples = [
                 "ब्लेड"
             ],
             "theme": "केश कर्तनालय साधने",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25090,7 +25265,7 @@ export const Tuples = [
                 "अंबाडा"
             ],
             "theme": "केशरचना",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25103,7 +25278,7 @@ export const Tuples = [
                 "मल्ल"
             ],
             "theme": "___युद्ध",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25114,7 +25289,7 @@ export const Tuples = [
                 "पान"
             ],
             "theme": "___मसाला",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25125,7 +25300,7 @@ export const Tuples = [
                 "पूर्व"
             ],
             "theme": "_____ग्रह",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25138,7 +25313,7 @@ export const Tuples = [
                 "स्पिन"
             ],
             "theme": "टेबल टेनिस",
-            "sharedBy": "क्रीडाप्रेमी",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25149,7 +25324,7 @@ export const Tuples = [
                 "पदलालित्य(foot work)"
             ],
             "theme": "बॅडमिंटन",
-            "sharedBy": "क्रीडाप्रेमी",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25160,7 +25335,7 @@ export const Tuples = [
                 "रन"
             ],
             "theme": "क्रिकेट",
-            "sharedBy": "क्रीडाप्रेमी",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25173,7 +25348,7 @@ export const Tuples = [
                 "सोने"
             ],
             "theme": "गुंतवणूक",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25184,7 +25359,7 @@ export const Tuples = [
                 "धरण"
             ],
             "theme": "यापासून वीज निर्मिती करतात",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25195,7 +25370,7 @@ export const Tuples = [
                 "अन"
             ],
             "theme": "____वाणी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25208,7 +25383,7 @@ export const Tuples = [
                 "कर्ण"
             ],
             "theme": "भूमितीय संज्ञा",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25219,7 +25394,7 @@ export const Tuples = [
                 "बली"
             ],
             "theme": "चिरंजीव",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25230,7 +25405,7 @@ export const Tuples = [
                 "गौतम"
             ],
             "theme": "रामायणातील साधू",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25243,7 +25418,7 @@ export const Tuples = [
                 "धुडगूस"
             ],
             "theme": "गोंधळ या शब्दाचे संभाव्य अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25254,7 +25429,7 @@ export const Tuples = [
                 "रक्त"
             ],
             "theme": "____दान",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25265,7 +25440,7 @@ export const Tuples = [
                 "पोथी"
             ],
             "theme": "देवघरातील वस्तू",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25278,7 +25453,7 @@ export const Tuples = [
                 "लवंग"
             ],
             "theme": "पानात वापरण्याचे पदार्थ",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25289,7 +25464,7 @@ export const Tuples = [
                 "चारुकेशी"
             ],
             "theme": "राग",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25300,7 +25475,7 @@ export const Tuples = [
                 "शुक्राचार्य"
             ],
             "theme": "ययाती कादंबरीतली पात्र",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25313,7 +25488,7 @@ export const Tuples = [
                 "आंतरजाल"
             ],
             "theme": "संदेश पाठवण्याची माध्यमे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25324,7 +25499,7 @@ export const Tuples = [
                 "संगणक"
             ],
             "theme": "यावर संदेश लिहितात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25335,7 +25510,7 @@ export const Tuples = [
                 "तर्जनी"
             ],
             "theme": "या आधारे संदेश लिहितात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25348,7 +25523,7 @@ export const Tuples = [
                 "द्वारकाधीश"
             ],
             "theme": "भगवान विष्णू ची रूपे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25359,7 +25534,7 @@ export const Tuples = [
                 "महाकालेश्वर"
             ],
             "theme": "भगवान शंकराची रूपे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25370,7 +25545,7 @@ export const Tuples = [
                 "गिरिजात्मज"
             ],
             "theme": "गणपती ची रूपे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25383,7 +25558,7 @@ export const Tuples = [
                 "उदार"
             ],
             "theme": "उत्तम व्यक्ती वैशिष्टये",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25394,7 +25569,7 @@ export const Tuples = [
                 "अधीर"
             ],
             "theme": "मध्यम व्यक्ति वैशिष्टये",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25405,7 +25580,7 @@ export const Tuples = [
                 "नराधम"
             ],
             "theme": "नीचतम व्यक्ति वैशिष्टये",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25418,7 +25593,7 @@ export const Tuples = [
                 "हट्टंगडी"
             ],
             "theme": "रोहिणी",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25429,7 +25604,7 @@ export const Tuples = [
                 "महाजन"
             ],
             "theme": "लोकसभा अध्यक्ष",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25440,7 +25615,7 @@ export const Tuples = [
                 "गोळे"
             ],
             "theme": "मराठी कवयित्री",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25453,7 +25628,7 @@ export const Tuples = [
                 "खवा"
             ],
             "theme": "____ पोळी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25464,7 +25639,7 @@ export const Tuples = [
                 "गिर्यारोहक"
             ],
             "theme": "या गोष्टी चढतात उतरतात",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25475,7 +25650,7 @@ export const Tuples = [
                 "अंतर्वक्र आरसा"
             ],
             "theme": "अर्ध वक्र आकाराच्या गोष्टी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25488,7 +25663,7 @@ export const Tuples = [
                 "लक्ष"
             ],
             "theme": "... देणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25499,7 +25674,7 @@ export const Tuples = [
                 "दिवसा तारे"
             ],
             "theme": "... दाखवणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25510,7 +25685,7 @@ export const Tuples = [
                 "भांडण"
             ],
             "theme": "... करणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25523,7 +25698,7 @@ export const Tuples = [
                 "कॉमनवेल्थ"
             ],
             "theme": "गेम्स",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25534,7 +25709,7 @@ export const Tuples = [
                 "फ्युएल"
             ],
             "theme": "टँक",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25545,7 +25720,7 @@ export const Tuples = [
                 "इम्पॉस्टर"
             ],
             "theme": "मोबाईल गेम्स",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25558,7 +25733,7 @@ export const Tuples = [
                 "तारामासा (स्टारफिश)"
             ],
             "theme": "पाच(५)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25569,7 +25744,7 @@ export const Tuples = [
                 "इंच"
             ],
             "theme": "बारा(१२)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25580,7 +25755,7 @@ export const Tuples = [
                 "रूपक ताल"
             ],
             "theme": "सात(७)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25593,7 +25768,7 @@ export const Tuples = [
                 "पापण्या"
             ],
             "theme": "आवरण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25604,7 +25779,7 @@ export const Tuples = [
                 "अनाथालय/वृद्धाश्रम"
             ],
             "theme": "आधार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25615,7 +25790,7 @@ export const Tuples = [
                 "गदा"
             ],
             "theme": "शस्त्रास्त्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25628,7 +25803,7 @@ export const Tuples = [
                 "हत्ती"
             ],
             "theme": "जंगली प्राणी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25639,7 +25814,7 @@ export const Tuples = [
                 "टीव्ही"
             ],
             "theme": "इलेक्ट्रॉनिक साधने",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25650,7 +25825,7 @@ export const Tuples = [
                 "हॉकी"
             ],
             "theme": "खेळ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25663,7 +25838,7 @@ export const Tuples = [
                 "गर्दी"
             ],
             "theme": "गणपती मिरवणूक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25674,7 +25849,7 @@ export const Tuples = [
                 "सामूहिक उच्चारण"
             ],
             "theme": "गणपती आरती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25685,7 +25860,7 @@ export const Tuples = [
                 "सुबक"
             ],
             "theme": "गणेश मूर्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25698,7 +25873,7 @@ export const Tuples = [
                 "ए आर"
             ],
             "theme": "हिंदी संगीतकारांची अद्याक्षरे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25709,7 +25884,7 @@ export const Tuples = [
                 "के एल सैगल"
             ],
             "theme": "हिंदी गायक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25720,7 +25895,7 @@ export const Tuples = [
                 "बॉंबे टॉकीज"
             ],
             "theme": "जुन्या हिंदी चित्रपट निर्मिती संस्था",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25733,7 +25908,7 @@ export const Tuples = [
                 "सुनामी"
             ],
             "theme": "नैसर्गिक आपत्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25744,7 +25919,7 @@ export const Tuples = [
                 "दंगल"
             ],
             "theme": "मानवनिर्मित आपत्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25755,7 +25930,7 @@ export const Tuples = [
                 "शार्क हल्ला"
             ],
             "theme": "प्राणी/सूक्ष्मजीव निर्मित आपत्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25768,7 +25943,7 @@ export const Tuples = [
                 "भावे"
             ],
             "theme": "प्रयोग (भाषा आणि इतर)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25779,7 +25954,7 @@ export const Tuples = [
                 "मोहनमाळ"
             ],
             "theme": "अलंकार (भाषा आणि इतर)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25790,7 +25965,7 @@ export const Tuples = [
                 "अव्ययीभाव"
             ],
             "theme": "मराठी समास",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25803,7 +25978,7 @@ export const Tuples = [
                 "शरद"
             ],
             "theme": "ऋतू",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25814,7 +25989,7 @@ export const Tuples = [
                 "कान"
             ],
             "theme": "शरीराचे अवयव",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25825,7 +26000,7 @@ export const Tuples = [
                 "उपमा"
             ],
             "theme": "नाश्ता",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25838,7 +26013,7 @@ export const Tuples = [
                 "उंच"
             ],
             "theme": "वर या शब्दाचे अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25849,7 +26024,7 @@ export const Tuples = [
                 "दिवे"
             ],
             "theme": "नगरपालिकेची कामे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25860,7 +26035,7 @@ export const Tuples = [
                 "विटा"
             ],
             "theme": "माती पासून बनलेल्या वस्तू",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25873,7 +26048,7 @@ export const Tuples = [
                 "महाविस्फोट"
             ],
             "theme": "सुरुवात",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25884,7 +26059,7 @@ export const Tuples = [
                 "पराकाष्ठा"
             ],
             "theme": "समाप्ती",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25895,7 +26070,7 @@ export const Tuples = [
                 "मूल्यांकन"
             ],
             "theme": "परीक्षा",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25908,7 +26083,7 @@ export const Tuples = [
                 "तुळशी"
             ],
             "theme": "____माळ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25919,7 +26094,7 @@ export const Tuples = [
                 "ठोके"
             ],
             "theme": "स्मार्ट वॉच या गोष्टी मोजते",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25930,7 +26105,7 @@ export const Tuples = [
                 "डाव"
             ],
             "theme": "चाल या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25943,7 +26118,7 @@ export const Tuples = [
                 "सुरक्षा"
             ],
             "theme": "_____रक्षक",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25954,7 +26129,7 @@ export const Tuples = [
                 "कष्ट"
             ],
             "theme": "_____करी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -25965,7 +26140,7 @@ export const Tuples = [
                 "कोठी"
             ],
             "theme": "जुन्या काळातील मोठी घरे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -25978,7 +26153,7 @@ export const Tuples = [
                 "कोपर"
             ],
             "theme": "सांधे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -25989,7 +26164,7 @@ export const Tuples = [
                 "पोटरी"
             ],
             "theme": "स्नायू",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26000,7 +26175,7 @@ export const Tuples = [
                 "कान"
             ],
             "theme": "ज्ञानेंद्रिय",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26013,7 +26188,7 @@ export const Tuples = [
                 "चालू"
             ],
             "theme": "बँकेतील खात्याचे प्रकार",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26024,7 +26199,7 @@ export const Tuples = [
                 "शिक्षण"
             ],
             "theme": "कर्जाचे प्रकार",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26035,7 +26210,7 @@ export const Tuples = [
                 "तारण"
             ],
             "theme": "कर्जाची परिमाणे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26048,7 +26223,7 @@ export const Tuples = [
                 "बातमी"
             ],
             "theme": "वर्तमानपत्राच्या मुख्य पानावरील गोष्टी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26059,7 +26234,7 @@ export const Tuples = [
                 "मास"
             ],
             "theme": "श्रावण_____",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26070,7 +26245,7 @@ export const Tuples = [
                 "सरकव"
             ],
             "theme": "सार या शब्दाचे संभाव्य अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26083,7 +26258,7 @@ export const Tuples = [
                 "चेकिन"
             ],
             "theme": "विमान प्रवास",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26094,7 +26269,7 @@ export const Tuples = [
                 "बोगदे"
             ],
             "theme": "रेल्वे प्रवास ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26105,7 +26280,7 @@ export const Tuples = [
                 "चालक"
             ],
             "theme": "रस्त्याने प्रवास ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26118,7 +26293,7 @@ export const Tuples = [
                 "ध्यान"
             ],
             "theme": "एकट्याच्या क्रिया/उपक्रम ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26129,7 +26304,7 @@ export const Tuples = [
                 "सभा"
             ],
             "theme": "समूहाच्या क्रिया/उपक्रम  ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26140,7 +26315,7 @@ export const Tuples = [
                 "द्वंद्वगीत"
             ],
             "theme": "दोन माणसांच्या क्रिया/उपक्रम ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26153,7 +26328,7 @@ export const Tuples = [
                 "झेब्रा"
             ],
             "theme": "चार पायांचे प्राणी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26164,7 +26339,7 @@ export const Tuples = [
                 "इंटरनेट"
             ],
             "theme": "माहितीचे स्रोत",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26175,7 +26350,7 @@ export const Tuples = [
                 "खेळणी"
             ],
             "theme": "बालपणाशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26188,7 +26363,7 @@ export const Tuples = [
                 "फणिवरबंधना"
             ],
             "theme": "विविध आरत्यांमधील शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26199,7 +26374,7 @@ export const Tuples = [
                 "भूतप्रेतसमंधादी"
             ],
             "theme": "मारुतीस्तोत्रातील शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26210,7 +26385,7 @@ export const Tuples = [
                 "विप्रप्रियम्"
             ],
             "theme": "रामरक्षेतील शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26223,7 +26398,7 @@ export const Tuples = [
                 "शिडी"
             ],
             "theme": "पायरी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26234,7 +26409,7 @@ export const Tuples = [
                 "तेज"
             ],
             "theme": "चमक या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26245,7 +26420,7 @@ export const Tuples = [
                 "हावभाव"
             ],
             "theme": "मुद्रा या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26258,7 +26433,7 @@ export const Tuples = [
                 "रांगणे"
             ],
             "theme": "बालपण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26269,7 +26444,7 @@ export const Tuples = [
                 "स्वप्न"
             ],
             "theme": "तारुण्य",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26280,7 +26455,7 @@ export const Tuples = [
                 "चष्मा"
             ],
             "theme": "वार्धक्य",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26293,7 +26468,7 @@ export const Tuples = [
                 "पद्मभूषण"
             ],
             "theme": "भारतीय नागरी सन्मान",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26304,7 +26479,7 @@ export const Tuples = [
                 "वीर"
             ],
             "theme": "__चक्र - सैन्य दलातील सन्मान",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26315,7 +26490,7 @@ export const Tuples = [
                 "ऑस्कर"
             ],
             "theme": "आंतरराष्ट्रीय पारितोषिके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26328,7 +26503,7 @@ export const Tuples = [
                 "भरणे"
             ],
             "theme": "कानाचे अनुभव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26339,7 +26514,7 @@ export const Tuples = [
                 "चित्र"
             ],
             "theme": "डोळ्याचे अनुभव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26350,7 +26525,7 @@ export const Tuples = [
                 "सर्दी"
             ],
             "theme": "नाकासंबंधी अनुभव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26363,7 +26538,7 @@ export const Tuples = [
                 "तिथी"
             ],
             "theme": "दिन/समय दर्शक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26374,7 +26549,7 @@ export const Tuples = [
                 "कंद"
             ],
             "theme": "कला---",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26385,7 +26560,7 @@ export const Tuples = [
                 "खिडकी"
             ],
             "theme": "प्रवेश मार्ग",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26398,7 +26573,7 @@ export const Tuples = [
                 "धैवत"
             ],
             "theme": "संगीत स्वर",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26409,7 +26584,7 @@ export const Tuples = [
                 "पिलू"
             ],
             "theme": "संगीत राग",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26420,7 +26595,7 @@ export const Tuples = [
                 "भजनी"
             ],
             "theme": "संगीत ताल",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26433,7 +26608,7 @@ export const Tuples = [
                 "प्रेमा तुझा"
             ],
             "theme": "वसंत कानेटकर नाटके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26444,7 +26619,7 @@ export const Tuples = [
                 "सीमेवरून परत"
             ],
             "theme": "बाळ कोल्हटकर नाटके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26455,7 +26630,7 @@ export const Tuples = [
                 "सखाराम"
             ],
             "theme": "विजय तेंडुलकर नाटके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26468,7 +26643,7 @@ export const Tuples = [
                 "दसरा"
             ],
             "theme": "दहा/दश ___",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26479,7 +26654,7 @@ export const Tuples = [
                 "देव"
             ],
             "theme": "तीन/त्रि ___",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26490,7 +26665,7 @@ export const Tuples = [
                 "पैलू"
             ],
             "theme": "आठ/अष्ट/अष्टांग ___",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26503,7 +26678,7 @@ export const Tuples = [
                 "प्रारब्ध"
             ],
             "theme": "नशीब",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26514,7 +26689,7 @@ export const Tuples = [
                 "निष्पत्ती"
             ],
             "theme": "अखेरीस जे मिळते/घडते",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26525,7 +26700,7 @@ export const Tuples = [
                 "उद्दिष्ट"
             ],
             "theme": "हेतू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26538,7 +26713,7 @@ export const Tuples = [
                 "नेपाळी"
             ],
             "theme": "देवनागरी लिपी वापरणाऱ्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26549,7 +26724,7 @@ export const Tuples = [
                 "कांजी"
             ],
             "theme": "विविध लिप्या",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26560,7 +26735,7 @@ export const Tuples = [
                 "अर्धमागधी"
             ],
             "theme": "लुप्त (आता वापरात नसलेल्या) भाषा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26573,7 +26748,7 @@ export const Tuples = [
                 "ओढ"
             ],
             "theme": "पाहिलं प्रेम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26584,7 +26759,7 @@ export const Tuples = [
                 "संसार"
             ],
             "theme": "लग्न",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26595,7 +26770,7 @@ export const Tuples = [
                 "पोटगी"
             ],
             "theme": "घटस्फोट",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26608,7 +26783,7 @@ export const Tuples = [
                 "आमांश(डिसेंट्री)"
             ],
             "theme": "पोटाचे आजार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26619,7 +26794,7 @@ export const Tuples = [
                 "लठ्ठपणा"
             ],
             "theme": "जीवनशैलीचे आजार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26630,7 +26805,7 @@ export const Tuples = [
                 "कुष्ठरोग"
             ],
             "theme": "जंतुजन्य आजार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26643,7 +26818,7 @@ export const Tuples = [
                 "कातणं"
             ],
             "theme": "स्वयंपाक घर - कापण्याची अवजारे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26654,7 +26829,7 @@ export const Tuples = [
                 "लंगरी"
             ],
             "theme": "स्वयंपाकघर - पदार्थ गरम करण्यासाठी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26665,7 +26840,7 @@ export const Tuples = [
                 "लाटणं"
             ],
             "theme": "स्वयंपाक घर लांबट अवजारे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26678,7 +26853,7 @@ export const Tuples = [
                 "कंटाळा"
             ],
             "theme": "चालढकल/procrastination",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26689,7 +26864,7 @@ export const Tuples = [
                 "संकल्प"
             ],
             "theme": "ध्येय/goal",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26700,7 +26875,7 @@ export const Tuples = [
                 "निग्रह"
             ],
             "theme": "एकाग्रता/focus",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26713,7 +26888,7 @@ export const Tuples = [
                 "गॅलिलिओ"
             ],
             "theme": "प्रसिद्द भौतिक शास्त्र वैज्ञानिक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26724,7 +26899,7 @@ export const Tuples = [
                 "प्रफुल्लचंद्र रे"
             ],
             "theme": "प्रसिद्द रसायनशास्त्र शास्त्र वैज्ञानिक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26735,7 +26910,7 @@ export const Tuples = [
                 "लाप्लास"
             ],
             "theme": "प्रसिद्ध गणितज्ञ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26748,7 +26923,7 @@ export const Tuples = [
                 "पांढरे हत्ती"
             ],
             "theme": "ब्रह्मदेश (म्यानमार)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26759,7 +26934,7 @@ export const Tuples = [
                 "ब्रह्मपुत्रेचे पूर"
             ],
             "theme": "बांगलादेश",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26770,7 +26945,7 @@ export const Tuples = [
                 "दोचुला खिंड"
             ],
             "theme": "भूतान",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26783,7 +26958,7 @@ export const Tuples = [
                 "मंडाले"
             ],
             "theme": "तुरुंग",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26794,7 +26969,7 @@ export const Tuples = [
                 "लखनौ"
             ],
             "theme": "IIM संस्था शहरे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26805,7 +26980,7 @@ export const Tuples = [
                 "चेन्नई"
             ],
             "theme": "IIT संस्था शहरे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26818,7 +26993,7 @@ export const Tuples = [
                 "निदर्शने"
             ],
             "theme": "सामूहिक निषेध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26829,7 +27004,7 @@ export const Tuples = [
                 "सिग्नल बिघाड"
             ],
             "theme": "ट्रॅफिक जॅम ची करणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26840,7 +27015,7 @@ export const Tuples = [
                 "व्हील चेअर"
             ],
             "theme": "स्वयंचलित नसलेली वाहने",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26853,7 +27028,7 @@ export const Tuples = [
                 "१८० अंश"
             ],
             "theme": "त्रिकोण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26864,7 +27039,7 @@ export const Tuples = [
                 "सुवर्ण महामार्ग प्रकल्प"
             ],
             "theme": "चौकोन/चौकोनी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26875,7 +27050,7 @@ export const Tuples = [
                 "कैरो"
             ],
             "theme": "इजिप्त",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26888,7 +27063,7 @@ export const Tuples = [
                 "नाड"
             ],
             "theme": "पत्रिकेतील गुणमिलन",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26899,7 +27074,7 @@ export const Tuples = [
                 "आर्या"
             ],
             "theme": "काव्य रचनेचे प्रकार",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26910,7 +27085,7 @@ export const Tuples = [
                 "कपुरी"
             ],
             "theme": "विड्याची पाने",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26923,7 +27098,7 @@ export const Tuples = [
                 "पोळं"
             ],
             "theme": "पक्षी/प्राणी/कीटक घरे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26934,7 +27109,7 @@ export const Tuples = [
                 "जम्बो"
             ],
             "theme": "हत्ती",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26945,7 +27120,7 @@ export const Tuples = [
                 "रेडकू"
             ],
             "theme": "जनावरांची पिल्ले",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26958,7 +27133,7 @@ export const Tuples = [
                 "शेंडा"
             ],
             "theme": "उंची वरचा भाग",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -26969,7 +27144,7 @@ export const Tuples = [
                 "कोटा"
             ],
             "theme": "थर असलेले दगड",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -26980,7 +27155,7 @@ export const Tuples = [
                 "हवा"
             ],
             "theme": "बाण",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -26993,7 +27168,7 @@ export const Tuples = [
                 "भुयारी"
             ],
             "theme": "वाहतुकीचे रस्ते",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27004,7 +27179,7 @@ export const Tuples = [
                 "होमकुंड"
             ],
             "theme": "लग्नविधी",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27015,7 +27190,7 @@ export const Tuples = [
                 "ओडिसी"
             ],
             "theme": "नृत्यप्रकार",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27028,7 +27203,7 @@ export const Tuples = [
                 "गारंबीचा बापू"
             ],
             "theme": "प्रसिद्ध कादंबऱ्या",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27039,7 +27214,7 @@ export const Tuples = [
                 "अंगठा"
             ],
             "theme": "बोटांची नावे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27050,7 +27225,7 @@ export const Tuples = [
                 "निशा"
             ],
             "theme": "रात्र",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27063,7 +27238,7 @@ export const Tuples = [
                 "रोहिणी"
             ],
             "theme": "नक्षत्रं",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27074,7 +27249,7 @@ export const Tuples = [
                 "अभंग"
             ],
             "theme": "काव्य प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27085,7 +27260,7 @@ export const Tuples = [
                 "गणित"
             ],
             "theme": "शालेय विषय",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27098,7 +27273,7 @@ export const Tuples = [
                 "स्वातंत्र्य"
             ],
             "theme": "देशप्रेम",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27109,7 +27284,7 @@ export const Tuples = [
                 "चुलता"
             ],
             "theme": "नातेसंबंध",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27120,7 +27295,7 @@ export const Tuples = [
                 "संध्याकाळ"
             ],
             "theme": "दिवसाचे भाग",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27133,7 +27308,7 @@ export const Tuples = [
                 "मनुका"
             ],
             "theme": "सुकामेवा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27144,7 +27319,7 @@ export const Tuples = [
                 "झोपडी"
             ],
             "theme": "निवास",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27155,7 +27330,7 @@ export const Tuples = [
                 "चौक"
             ],
             "theme": "वाहतूक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27168,7 +27343,7 @@ export const Tuples = [
                 "अद्ययावत"
             ],
             "theme": "स्वा. सावरकरांनी मराठी भाषेला दिलेले शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27179,7 +27354,7 @@ export const Tuples = [
                 "छावणी मंडळ"
             ],
             "theme": "स्थानिक नियामक मंडळे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27190,7 +27365,7 @@ export const Tuples = [
                 "आयुष्मान भारत"
             ],
             "theme": "सरकारी योजना",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27203,7 +27378,7 @@ export const Tuples = [
                 "ब्राह्मी"
             ],
             "theme": "लिपी",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27214,7 +27389,7 @@ export const Tuples = [
                 "देवदार"
             ],
             "theme": "दीर्घायु वृक्षांची नावे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27225,7 +27400,7 @@ export const Tuples = [
                 "कोळसा"
             ],
             "theme": "खाणीतून मिळणारे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27238,7 +27413,7 @@ export const Tuples = [
                 "माकड"
             ],
             "theme": "हाड/सांधे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27249,7 +27424,7 @@ export const Tuples = [
                 "पतियाळा"
             ],
             "theme": "शास्त्रीय संगीत घराणी",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27260,7 +27435,7 @@ export const Tuples = [
                 "रजनी"
             ],
             "theme": "रात्र",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27273,7 +27448,7 @@ export const Tuples = [
                 "दोनापावला"
             ],
             "theme": "गोव्यातील बीच",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27284,7 +27459,7 @@ export const Tuples = [
                 "मेळ"
             ],
             "theme": "घाट",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27295,7 +27470,7 @@ export const Tuples = [
                 "एकर"
             ],
             "theme": "जमिनीचे मोजमाप",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27308,7 +27483,7 @@ export const Tuples = [
                 "कलम"
             ],
             "theme": "बागकाम",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27319,7 +27494,7 @@ export const Tuples = [
                 "नारळाच्या शेंड्या"
             ],
             "theme": "शोभेच्या वस्तूंसाठी वापर",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27330,7 +27505,7 @@ export const Tuples = [
                 "नर्गिस"
             ],
             "theme": "फुलांची नावे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27343,7 +27518,7 @@ export const Tuples = [
                 "रिषभ"
             ],
             "theme": "सप्तसुरांतील चार सूर",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27354,7 +27529,7 @@ export const Tuples = [
                 "रजत"
             ],
             "theme": "धातू-संस्कृत नावे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27365,7 +27540,7 @@ export const Tuples = [
                 "लालित्य"
             ],
             "theme": "पद___",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27378,7 +27553,7 @@ export const Tuples = [
                 "तुला"
             ],
             "theme": "सुवर्ण___",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27389,7 +27564,7 @@ export const Tuples = [
                 "गोडी"
             ],
             "theme": "एखाद्या गोष्टीची आवड",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27400,7 +27575,7 @@ export const Tuples = [
                 "गहू"
             ],
             "theme": "भारतकामातील टाके",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27413,7 +27588,7 @@ export const Tuples = [
                 "मुखत्यार"
             ],
             "theme": "पत्र",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27424,7 +27599,7 @@ export const Tuples = [
                 "येन"
             ],
             "theme": "परदेशी चलन",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27435,7 +27610,7 @@ export const Tuples = [
                 "युपीआय"
             ],
             "theme": "पैशाच्या व्यवहाराची माध्यमे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27448,7 +27623,7 @@ export const Tuples = [
                 "सुघोष"
             ],
             "theme": "शंखांची नावे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27459,7 +27634,7 @@ export const Tuples = [
                 "अन्न"
             ],
             "theme": "दान",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27470,7 +27645,7 @@ export const Tuples = [
                 "ज्योतिर्लिंगे"
             ],
             "theme": "या गोष्टी बारा असतात",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27483,7 +27658,7 @@ export const Tuples = [
                 "ज्युलियन"
             ],
             "theme": "साहित्यिकांची टोपण नावे",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27494,7 +27669,7 @@ export const Tuples = [
                 "गोमेद"
             ],
             "theme": "रत्न",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27505,7 +27680,7 @@ export const Tuples = [
                 "भुंकणे"
             ],
             "theme": "प्राण्यांचे आवाज",
-            "sharedBy": "सुनंदा केळकर",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27518,7 +27693,7 @@ export const Tuples = [
                 "युग"
             ],
             "theme": "काळ/समय सूचक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27529,7 +27704,7 @@ export const Tuples = [
                 "गजर"
             ],
             "theme": "आवाज संबंधी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27540,7 +27715,7 @@ export const Tuples = [
                 "किरण"
             ],
             "theme": "प्रकाशासंबंधी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27553,7 +27728,7 @@ export const Tuples = [
                 "जोड"
             ],
             "theme": "जवळचा संबंध",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27564,7 +27739,7 @@ export const Tuples = [
                 "होडी"
             ],
             "theme": "मत्स्य व्यवसाय",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27575,7 +27750,7 @@ export const Tuples = [
                 "कोलीवारा"
             ],
             "theme": "कोळी गीतातील शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27588,7 +27763,7 @@ export const Tuples = [
                 "पखरण"
             ],
             "theme": "सडा या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27599,7 +27774,7 @@ export const Tuples = [
                 "नजर"
             ],
             "theme": "____बंदी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27610,7 +27785,7 @@ export const Tuples = [
                 "वळण"
             ],
             "theme": "मोड या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27623,7 +27798,7 @@ export const Tuples = [
                 "हंडा"
             ],
             "theme": "पिण्याच्या पाण्याची व्यवस्था",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27634,7 +27809,7 @@ export const Tuples = [
                 "भूजल"
             ],
             "theme": "जमिनी खालच्या गोष्टी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27645,7 +27820,7 @@ export const Tuples = [
                 "खत"
             ],
             "theme": "शेतीशी संबंधित",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27658,7 +27833,7 @@ export const Tuples = [
                 "उबदार"
             ],
             "theme": "तापमान",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27669,7 +27844,7 @@ export const Tuples = [
                 "खारट"
             ],
             "theme": "चवी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27680,7 +27855,7 @@ export const Tuples = [
                 "साखर"
             ],
             "theme": "स्वयंपाकातील पदार्थ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27693,7 +27868,7 @@ export const Tuples = [
                 "प्रतिबिंब"
             ],
             "theme": "परावर्तनाशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27704,7 +27879,7 @@ export const Tuples = [
                 "संपादक"
             ],
             "theme": "बातमीशी संबंधित",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27715,7 +27890,7 @@ export const Tuples = [
                 "सागर"
             ],
             "theme": "पाण्याशी संबंधित पण भिन्न पातळ्यांवर",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27728,7 +27903,7 @@ export const Tuples = [
                 "दसरा"
             ],
             "theme": "येति घरा.. एक म्हण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27739,7 +27914,7 @@ export const Tuples = [
                 "मंगळागौर"
             ],
             "theme": "श्रावणातील सण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27750,7 +27925,7 @@ export const Tuples = [
                 "नानेटी"
             ],
             "theme": "सापांचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27763,7 +27938,7 @@ export const Tuples = [
                 "रताळे"
             ],
             "theme": "यांचे चिप्स (पातळ काप) करतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27774,7 +27949,7 @@ export const Tuples = [
                 "ओव्याची पाने"
             ],
             "theme": "यांची भजी करतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27785,7 +27960,7 @@ export const Tuples = [
                 "काटेरी"
             ],
             "theme": "... हलवा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27798,7 +27973,7 @@ export const Tuples = [
                 "बस"
             ],
             "theme": "प्रवासाची साधने",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27809,7 +27984,7 @@ export const Tuples = [
                 "फुलं"
             ],
             "theme": "पूजेसाठी उपयोगी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27820,7 +27995,7 @@ export const Tuples = [
                 "यूट्यूब"
             ],
             "theme": "सोशल मीडिया",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27833,7 +28008,7 @@ export const Tuples = [
                 "कुर्ता"
             ],
             "theme": "कपडे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27844,7 +28019,7 @@ export const Tuples = [
                 "केवळ"
             ],
             "theme": "क्रियाविशेषणे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27855,7 +28030,7 @@ export const Tuples = [
                 "बुरुज"
             ],
             "theme": "दुर्गशास्त्र",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27868,7 +28043,7 @@ export const Tuples = [
                 "तिखट"
             ],
             "theme": "चव वर्णन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27879,7 +28054,7 @@ export const Tuples = [
                 "फळं"
             ],
             "theme": "वनस्पती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27890,7 +28065,7 @@ export const Tuples = [
                 "कार्यालय"
             ],
             "theme": "कामाची ठिकाणं",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -27973,7 +28148,7 @@ export const Tuples = [
                 "धकाधकीचे"
             ],
             "theme": "आयुष्याची विशेषणे",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -27984,7 +28159,7 @@ export const Tuples = [
                 "चिंचोळा"
             ],
             "theme": "रस्त्याची विशेषणे",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -27995,7 +28170,7 @@ export const Tuples = [
                 "ध्रुव तारा"
             ],
             "theme": "दिशा दर्शक",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28008,7 +28183,7 @@ export const Tuples = [
                 "डास"
             ],
             "theme": "उडते किडे",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28019,7 +28194,7 @@ export const Tuples = [
                 "पक्का"
             ],
             "theme": "हुशार माणूस",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28030,7 +28205,7 @@ export const Tuples = [
                 "धीमा"
             ],
             "theme": "वेग",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28043,7 +28218,7 @@ export const Tuples = [
                 "जर्मनी"
             ],
             "theme": "महायुद्ध-२:अक्ष (axis) राष्ट्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28054,7 +28229,7 @@ export const Tuples = [
                 "फ्रान्स"
             ],
             "theme": "महायुद्ध-२:मित्र राष्ट्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28065,7 +28240,7 @@ export const Tuples = [
                 "तुर्कस्तान"
             ],
             "theme": "महायुद्ध-२:तटस्थ राष्ट्रे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28078,7 +28253,7 @@ export const Tuples = [
                 "अर्जेंटिना"
             ],
             "theme": "दक्षिण अमेरिका देश",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28089,7 +28264,7 @@ export const Tuples = [
                 "द्राक्ष"
             ],
             "theme": "फळे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28100,7 +28275,7 @@ export const Tuples = [
                 "फुटबॉल"
             ],
             "theme": "अर्जेंटिना",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28113,7 +28288,7 @@ export const Tuples = [
                 "विरळ"
             ],
             "theme": "केस",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28124,7 +28299,7 @@ export const Tuples = [
                 "खारफुटी"
             ],
             "theme": "जंगलांचे प्रकार",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28135,7 +28310,7 @@ export const Tuples = [
                 "मखमली"
             ],
             "theme": "पृष्ठभागाचे पोत/texture प्रकार",
-            "sharedBy": "makj9",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28148,7 +28323,7 @@ export const Tuples = [
                 "तबला"
             ],
             "theme": "वाद्ये",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28159,7 +28334,7 @@ export const Tuples = [
                 "कान"
             ],
             "theme": "इंद्रिये",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28170,7 +28345,7 @@ export const Tuples = [
                 "उडीद"
             ],
             "theme": "डाळी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28183,7 +28358,7 @@ export const Tuples = [
                 "स्कूटर"
             ],
             "theme": "रस्त्यावरील वाहनं",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28194,7 +28369,7 @@ export const Tuples = [
                 "मध्यान्ह"
             ],
             "theme": "वेळ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28205,7 +28380,7 @@ export const Tuples = [
                 "पक्षी"
             ],
             "theme": "जीवसृष्टी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28218,7 +28393,7 @@ export const Tuples = [
                 "ऋचा"
             ],
             "theme": "क्रिकेट विश्वविजेत्या खेळाडू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28229,7 +28404,7 @@ export const Tuples = [
                 "अश्विनी"
             ],
             "theme": "बॅडमिंटनपटू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28240,7 +28415,7 @@ export const Tuples = [
                 "मल्लेश्वरी"
             ],
             "theme": "ऑलिम्पिक पदक विजेत्या खेळाडू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28253,7 +28428,7 @@ export const Tuples = [
                 "आवाज"
             ],
             "theme": "मोठ्याने बोलावणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28264,7 +28439,7 @@ export const Tuples = [
                 "तंटा"
             ],
             "theme": "झगडा वैर",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28275,7 +28450,7 @@ export const Tuples = [
                 "दोष"
             ],
             "theme": "लहान मोठी कमतरता",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28288,7 +28463,7 @@ export const Tuples = [
                 "काजे"
             ],
             "theme": "शिवणकाम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28299,7 +28474,7 @@ export const Tuples = [
                 "रंधा"
             ],
             "theme": "सुतारकाम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28310,7 +28485,7 @@ export const Tuples = [
                 "लोखंड"
             ],
             "theme": "लोहारकाम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28323,7 +28498,7 @@ export const Tuples = [
                 "ग्रह"
             ],
             "theme": "आकाशीय वस्तू",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28334,7 +28509,7 @@ export const Tuples = [
                 "कोरडे"
             ],
             "theme": "हवामान",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28345,7 +28520,7 @@ export const Tuples = [
                 "आयत"
             ],
             "theme": "आकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28358,7 +28533,7 @@ export const Tuples = [
                 "पाय"
             ],
             "theme": "भूमितीतील वर्तुळ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28369,7 +28544,7 @@ export const Tuples = [
                 "शिंग"
             ],
             "theme": "गाय/बैल",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28380,7 +28555,7 @@ export const Tuples = [
                 "चवडा"
             ],
             "theme": "तळपाय",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28393,7 +28568,7 @@ export const Tuples = [
                 "शिट्टी"
             ],
             "theme": "फुंकण्याशी संबंधित",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28404,7 +28579,7 @@ export const Tuples = [
                 "भेटवस्तू"
             ],
             "theme": "वाढदिवस साजरा करणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28415,7 +28590,7 @@ export const Tuples = [
                 "साफा"
             ],
             "theme": "टोप्यांचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28428,7 +28603,7 @@ export const Tuples = [
                 "मद"
             ],
             "theme": "मानवी षड्रिपू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28439,7 +28614,7 @@ export const Tuples = [
                 "आळस"
             ],
             "theme": "मानवी प्रवृत्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28450,7 +28625,7 @@ export const Tuples = [
                 "विवेक"
             ],
             "theme": "मानवी सद्गुण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28463,7 +28638,7 @@ export const Tuples = [
                 "हिरवाणी"
             ],
             "theme": "क्रिकेट - फिरकी गोलंदाज",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28474,7 +28649,7 @@ export const Tuples = [
                 "युवराज"
             ],
             "theme": "क्रिकेट - अष्टपैलू खेळाडू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28485,7 +28660,7 @@ export const Tuples = [
                 "मोंगिया"
             ],
             "theme": "क्रिकेट - यष्टीरक्षक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28498,7 +28673,7 @@ export const Tuples = [
                 "सफाई"
             ],
             "theme": "स्वच्छते संबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28509,7 +28684,7 @@ export const Tuples = [
                 "जीवाणू"
             ],
             "theme": "रोग जंतू विषयी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28520,7 +28695,7 @@ export const Tuples = [
                 "बुरशी"
             ],
             "theme": "बहूपेशीय सूक्ष जीव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28533,7 +28708,7 @@ export const Tuples = [
                 "नारायण"
             ],
             "theme": "श्री विष्णू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28544,7 +28719,7 @@ export const Tuples = [
                 "कमलासन"
             ],
             "theme": "श्री ब्रह्मदेव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28555,7 +28730,7 @@ export const Tuples = [
                 "पशुपती"
             ],
             "theme": "श्री शंकर",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28568,7 +28743,7 @@ export const Tuples = [
                 "लोणचं"
             ],
             "theme": "ग्रामीण जेवण",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28579,7 +28754,7 @@ export const Tuples = [
                 "झारा"
             ],
             "theme": "स्वयंपाक भांडी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28590,7 +28765,7 @@ export const Tuples = [
                 "कुजबुजणं"
             ],
             "theme": "प्रतिक्रिया",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28603,7 +28778,7 @@ export const Tuples = [
                 "टाइम मशीनची किमया"
             ],
             "theme": "जयंत नारळीकर पुस्तके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28614,7 +28789,7 @@ export const Tuples = [
                 "समर्थांचिया सेवका"
             ],
             "theme": "नारायण धारप पुस्तके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28625,7 +28800,7 @@ export const Tuples = [
                 "काजळमाया"
             ],
             "theme": "जी ए कुलकर्णी पुस्तके",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28638,7 +28813,7 @@ export const Tuples = [
                 "प्रकटन"
             ],
             "theme": "जन्म",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28649,7 +28824,7 @@ export const Tuples = [
                 "चेतना"
             ],
             "theme": "जगणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28660,7 +28835,7 @@ export const Tuples = [
                 "पचन"
             ],
             "theme": "जीवन क्रिया",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28673,7 +28848,7 @@ export const Tuples = [
                 "डबेवाला"
             ],
             "theme": "मुंबई",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28684,7 +28859,7 @@ export const Tuples = [
                 "ट्राम"
             ],
             "theme": "कोलकत्ता",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28695,7 +28870,7 @@ export const Tuples = [
                 "चांदणी चौक"
             ],
             "theme": "दिल्ली",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28708,7 +28883,7 @@ export const Tuples = [
                 "एल पसांट"
             ],
             "theme": "बुद्धिबळ शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28719,7 +28894,7 @@ export const Tuples = [
                 "पास"
             ],
             "theme": "फुटबॉल (सॉकर) शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28730,7 +28905,7 @@ export const Tuples = [
                 "फॉल्ट"
             ],
             "theme": "टेनिस शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28743,7 +28918,7 @@ export const Tuples = [
                 "अग्नी"
             ],
             "theme": "पंचमहाभूत",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28754,7 +28929,7 @@ export const Tuples = [
                 "वीजांसह"
             ],
             "theme": "पावसाचे प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28765,7 +28940,7 @@ export const Tuples = [
                 "गुरुवार"
             ],
             "theme": "आठवड्याचे दिवस",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28778,7 +28953,7 @@ export const Tuples = [
                 "प्रेम"
             ],
             "theme": "कौटुंबिक जीवन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28789,7 +28964,7 @@ export const Tuples = [
                 "खिडकी"
             ],
             "theme": "घराचे भाग",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28800,7 +28975,7 @@ export const Tuples = [
                 "पुस्तके"
             ],
             "theme": "शालेय साहित्य",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28813,7 +28988,7 @@ export const Tuples = [
                 "दिनांक"
             ],
             "theme": "वेळ दर्शक गोष्टी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28824,7 +28999,7 @@ export const Tuples = [
                 "लेखन"
             ],
             "theme": "भाषाशिक्षण",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28835,7 +29010,7 @@ export const Tuples = [
                 "बाथरूम"
             ],
             "theme": "घरातली खोली",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28848,7 +29023,7 @@ export const Tuples = [
                 "उद्या"
             ],
             "theme": "काळ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28859,7 +29034,7 @@ export const Tuples = [
                 "तूप"
             ],
             "theme": "दुग्धजन्य पदार्थ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28870,7 +29045,7 @@ export const Tuples = [
                 "सरोवर"
             ],
             "theme": "पाण्याचे प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28883,7 +29058,7 @@ export const Tuples = [
                 "विहीर"
             ],
             "theme": "जलस्रोत",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28894,7 +29069,7 @@ export const Tuples = [
                 "उपमा"
             ],
             "theme": "उपाहाराचे पदार्थ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28905,7 +29080,7 @@ export const Tuples = [
                 "झुळूक"
             ],
             "theme": "वाऱ्याचे प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28918,7 +29093,7 @@ export const Tuples = [
                 "शासन"
             ],
             "theme": "शिक्षेच्या संबंधित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28929,7 +29104,7 @@ export const Tuples = [
                 "मुद्रा"
             ],
             "theme": "योग संबंधित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28940,7 +29115,7 @@ export const Tuples = [
                 "राजमुद्रा"
             ],
             "theme": "राजाशी संबंधित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28953,7 +29128,7 @@ export const Tuples = [
                 "खतरनाक"
             ],
             "theme": "अवयव लपलेले शब्द",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28964,7 +29139,7 @@ export const Tuples = [
                 "अध्यात्मिक"
             ],
             "theme": "साहित्य प्रकार",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -28975,7 +29150,7 @@ export const Tuples = [
                 "अदृश्य"
             ],
             "theme": "रितेश देशमुख चित्रपट",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -28988,7 +29163,7 @@ export const Tuples = [
                 "मंडळ"
             ],
             "theme": "समूह",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -28999,7 +29174,7 @@ export const Tuples = [
                 "वाद"
             ],
             "theme": "वि ___",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29010,7 +29185,7 @@ export const Tuples = [
                 "सरस्वती"
             ],
             "theme": "वाणी या शब्दाचे विविध अर्थ",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29023,7 +29198,7 @@ export const Tuples = [
                 "निकाजळे"
             ],
             "theme": "मुंबई अंडरवर्ल्ड",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29034,7 +29209,7 @@ export const Tuples = [
                 "सफाई कामगार"
             ],
             "theme": "सकाळी लवकर दिसणाऱ्या गोष्टी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29045,7 +29220,7 @@ export const Tuples = [
                 "मोदी"
             ],
             "theme": "प्रसिद्ध क्रिकेट मैदानं",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29058,7 +29233,7 @@ export const Tuples = [
                 "सुपारी"
             ],
             "theme": "जेवणा नंतर घेतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29069,7 +29244,7 @@ export const Tuples = [
                 "अशोक"
             ],
             "theme": "सरळ रेषेत उंच वाढणारी झाडे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29080,7 +29255,7 @@ export const Tuples = [
                 "साजूक तूप"
             ],
             "theme": "च्यवनप्राश प्रमुख घटक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29093,7 +29268,7 @@ export const Tuples = [
                 "कलिंग"
             ],
             "theme": "सम्राट अशोक संबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29104,7 +29279,7 @@ export const Tuples = [
                 "दुःख"
             ],
             "theme": "सिद्धार्थ गौतम बुद्ध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29115,7 +29290,7 @@ export const Tuples = [
                 "उदयसिंह"
             ],
             "theme": "महाराणा प्रताप",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29128,7 +29303,7 @@ export const Tuples = [
                 "कारण"
             ],
             "theme": "ज्यांच्या मागे 'राज...' लागते",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29139,7 +29314,7 @@ export const Tuples = [
                 "गिरी"
             ],
             "theme": "ज्यांच्या पुढे '...धर' लागते",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29150,7 +29325,7 @@ export const Tuples = [
                 "लोणी"
             ],
             "theme": "...लावणे' म्हणजे फसवणे/खोटे बोलणे",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29163,7 +29338,7 @@ export const Tuples = [
                 "सार्वजनिक सुट्टी"
             ],
             "theme": "महान व्यक्तींची स्मृती जागृत ठेवायचे मार्ग",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29174,7 +29349,7 @@ export const Tuples = [
                 "पेन"
             ],
             "theme": "बँक कैशियर कडे असणाऱ्या गोष्टी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29185,7 +29360,7 @@ export const Tuples = [
                 "जेल"
             ],
             "theme": "पेन चे प्रकार",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29198,7 +29373,7 @@ export const Tuples = [
                 "रात्री"
             ],
             "theme": "वेळेचे वर्णन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29209,7 +29384,7 @@ export const Tuples = [
                 "दूध"
             ],
             "theme": "घरच्या खरेदीच्या गोष्टी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29220,7 +29395,7 @@ export const Tuples = [
                 "मोगरा"
             ],
             "theme": "फुलं",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29233,7 +29408,7 @@ export const Tuples = [
                 "घोडे"
             ],
             "theme": "...गाव",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29244,7 +29419,7 @@ export const Tuples = [
                 "राजा"
             ],
             "theme": "...पूर",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29255,7 +29430,7 @@ export const Tuples = [
                 "प्रबळ"
             ],
             "theme": "...गड",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29268,7 +29443,7 @@ export const Tuples = [
                 "एकतेचा पुतळा"
             ],
             "theme": "वल्लभभाई पटेल",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29279,7 +29454,7 @@ export const Tuples = [
                 "पोखरण"
             ],
             "theme": "इंदिरा गांधी",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29290,7 +29465,7 @@ export const Tuples = [
                 "चाचा"
             ],
             "theme": "जवाहरलाल नेहरू",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29303,7 +29478,7 @@ export const Tuples = [
                 2016
             ],
             "theme": "नोटबंदी",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29314,7 +29489,7 @@ export const Tuples = [
                 "युनियन कार्बाइड"
             ],
             "theme": "भोपाळ वायू दुर्घटना",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29325,7 +29500,7 @@ export const Tuples = [
                 "अतिरेकी"
             ],
             "theme": "मुंबई २६/११ हल्ला",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29338,7 +29513,7 @@ export const Tuples = [
                 "हायवे"
             ],
             "theme": "उमेश आणि गिरीश कुलकर्णी चित्रपट",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29349,7 +29524,7 @@ export const Tuples = [
                 "ज्वालामुखी"
             ],
             "theme": "येथे तुमच्या अंगावर पांढरा थर जमू शकतो",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29360,7 +29535,7 @@ export const Tuples = [
                 "पाट"
             ],
             "theme": "वाहते पाणी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29373,7 +29548,7 @@ export const Tuples = [
                 "खळाळते"
             ],
             "theme": "पाणी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29384,7 +29559,7 @@ export const Tuples = [
                 "परिपूर्ण"
             ],
             "theme": "जीवन",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29395,7 +29570,7 @@ export const Tuples = [
                 "डांबरी"
             ],
             "theme": "रस्ता",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29408,7 +29583,7 @@ export const Tuples = [
                 "तुळस"
             ],
             "theme": "हिंदू",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29419,7 +29594,7 @@ export const Tuples = [
                 "सजदा"
             ],
             "theme": "इस्लाम",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29430,7 +29605,7 @@ export const Tuples = [
                 "गुरुद्वारा"
             ],
             "theme": "शीख",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29443,7 +29618,7 @@ export const Tuples = [
                 "स्कंद"
             ],
             "theme": "पुराण",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29454,7 +29629,7 @@ export const Tuples = [
                 "छांदोग्य"
             ],
             "theme": "उपनिषद",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29465,7 +29640,7 @@ export const Tuples = [
                 "अथर्व"
             ],
             "theme": "वेद",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29478,7 +29653,7 @@ export const Tuples = [
                 "उनाड"
             ],
             "theme": "खोडकर नटखट या अर्थी",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29489,7 +29664,7 @@ export const Tuples = [
                 "म्हण"
             ],
             "theme": "एक मराठी म्हण",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29500,7 +29675,7 @@ export const Tuples = [
                 "अंबु"
             ],
             "theme": "पाणी/जल ला समानार्थी शब्द",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29513,7 +29688,7 @@ export const Tuples = [
                 "झुरळपंखा"
             ],
             "theme": "थंडी करणारी साधने",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29524,7 +29699,7 @@ export const Tuples = [
                 "तडका"
             ],
             "theme": "प्रकाशाचे प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29535,7 +29710,7 @@ export const Tuples = [
                 "बसणे"
             ],
             "theme": "हालचाली",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29548,7 +29723,7 @@ export const Tuples = [
                 "चिता"
             ],
             "theme": "मृत्यूपश्चात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29559,7 +29734,7 @@ export const Tuples = [
                 "पणती"
             ],
             "theme": "मातीच्या वस्तू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29570,7 +29745,7 @@ export const Tuples = [
                 "मनगट"
             ],
             "theme": "शरीरातील सांधे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29583,7 +29758,7 @@ export const Tuples = [
                 "कोसला"
             ],
             "theme": "ज्ञानपीठकार भालचंद्र नेमाडे लिखित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29594,7 +29769,7 @@ export const Tuples = [
                 "नटरंग"
             ],
             "theme": "आनंद यादव लिखित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29605,7 +29780,7 @@ export const Tuples = [
                 "करुणाष्टक"
             ],
             "theme": "व्यंकटेश माडगूळकर लिखित",
-            "sharedBy": "आदित्य नंदकुमार पोंक्षे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29618,7 +29793,7 @@ export const Tuples = [
                 "बैल"
             ],
             "theme": "राशी ची चिन्हे",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29629,7 +29804,7 @@ export const Tuples = [
                 "बेडूक"
             ],
             "theme": "उभयचर",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29640,7 +29815,7 @@ export const Tuples = [
                 "गरुड"
             ],
             "theme": "विविध देवांची वाहने असलेले प्राणी",
-            "sharedBy": "रविकिरण देशपांडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29653,7 +29828,7 @@ export const Tuples = [
                 "कोजागिरी"
             ],
             "theme": "पौर्णिमा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29664,7 +29839,7 @@ export const Tuples = [
                 "पृथ्वी"
             ],
             "theme": "ग्रह",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29675,7 +29850,7 @@ export const Tuples = [
                 "मंद"
             ],
             "theme": "प्रसिद्ध भावगीत",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29688,7 +29863,7 @@ export const Tuples = [
                 "रस्सा"
             ],
             "theme": "पांढरा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29699,7 +29874,7 @@ export const Tuples = [
                 "गादी"
             ],
             "theme": "कापसाचे उपयोग",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29710,7 +29885,7 @@ export const Tuples = [
                 "मटकी"
             ],
             "theme": "मिसळीचे घटक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29723,7 +29898,7 @@ export const Tuples = [
                 "ब्याडगी"
             ],
             "theme": "मिरच्यांचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29734,7 +29909,7 @@ export const Tuples = [
                 "आपटबार"
             ],
             "theme": "आवाजी फटाक्यांचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29745,7 +29920,7 @@ export const Tuples = [
                 "राशी"
             ],
             "theme": "...चक्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29758,7 +29933,7 @@ export const Tuples = [
                 "वोम्बॅट"
             ],
             "theme": "फक्त ऑस्ट्रेलिया खंडात आढळणारे सस्तन प्रजातीतील प्राणी",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29769,7 +29944,7 @@ export const Tuples = [
                 "टिरॅनॉसॉरस"
             ],
             "theme": "डायनासॉर प्रजातीतील प्राणी",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29780,7 +29955,7 @@ export const Tuples = [
                 "ध्रुवीय अस्वल"
             ],
             "theme": "भारतात न आढळणारे प्राणी (प्राणिसंग्रहालये वगळता)",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29804,7 +29979,7 @@ export const Tuples = [
                 " हॉकी"
             ],
             "theme": " पंजाबशी संबंधित ",
-            "sharedBy": "ऋतुजा ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29815,7 +29990,7 @@ export const Tuples = [
                 "चक्र"
             ],
             "theme": "पारितोषिके",
-            "sharedBy": "संदीप सोवनी ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29828,7 +30003,7 @@ export const Tuples = [
                 "हृदय"
             ],
             "theme": "विरघळणार्या / पाघळणाऱ्या गोष्टी",
-            "sharedBy": "संदीप सोवनी ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29839,7 +30014,7 @@ export const Tuples = [
                 "आंबा"
             ],
             "theme": "कोकणातील गोष्टी ",
-            "sharedBy": "मीनल अभ्यंकर ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29850,7 +30025,7 @@ export const Tuples = [
                 "ऋतू हिरवा"
             ],
             "theme": "कवयित्री शांता शेळके यांच्याशी संबंधित",
-            "sharedBy": "ऋतुजा ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29863,7 +30038,7 @@ export const Tuples = [
                 "विदुषक"
             ],
             "theme": "पत्ते",
-            "sharedBy": "संदीप सोवनी ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29874,7 +30049,7 @@ export const Tuples = [
                 "कायदा"
             ],
             "theme": "न्यायालय",
-            "sharedBy": "संदीप सोवनी ",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29885,7 +30060,7 @@ export const Tuples = [
                 "नोकरी"
             ],
             "theme": "ही “मिळते” :-)",
-            "sharedBy": "केदार म्हसवडे",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29898,7 +30073,7 @@ export const Tuples = [
                 "एकता"
             ],
             "theme": "सरदार पटेल पुतळा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29909,7 +30084,7 @@ export const Tuples = [
                 "करवत"
             ],
             "theme": "सुतारकाम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29920,7 +30095,7 @@ export const Tuples = [
                 "घण"
             ],
             "theme": "लोहारकाम",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29933,7 +30108,7 @@ export const Tuples = [
                 "कळ"
             ],
             "theme": "--सूत्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29944,7 +30119,7 @@ export const Tuples = [
                 "दैव"
             ],
             "theme": "नशीब",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29955,7 +30130,7 @@ export const Tuples = [
                 "लोभ"
             ],
             "theme": "षडरिपू पैकी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -29968,7 +30143,7 @@ export const Tuples = [
                 "चाणक्य"
             ],
             "theme": "मुद्राराक्षस (किंवा चाणक्य कथेमधील) पात्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -29979,7 +30154,7 @@ export const Tuples = [
                 "कालिया"
             ],
             "theme": "शोले चित्रपटातील पात्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -29990,7 +30165,7 @@ export const Tuples = [
                 "इंद्रजीत"
             ],
             "theme": "रामायणातील व्यक्ती/पात्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30003,7 +30178,7 @@ export const Tuples = [
                 "भिंत"
             ],
             "theme": "... बांधतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30014,7 +30189,7 @@ export const Tuples = [
                 "जीव"
             ],
             "theme": "... घेतात",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30025,7 +30200,7 @@ export const Tuples = [
                 "चरखी"
             ],
             "theme": "पतंग संबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30038,7 +30213,7 @@ export const Tuples = [
                 "कसा"
             ],
             "theme": "मराठी नाटक - १",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30049,7 +30224,7 @@ export const Tuples = [
                 "वाहतो"
             ],
             "theme": "मराठी नाटक - २",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30060,7 +30235,7 @@ export const Tuples = [
                 "शांतता"
             ],
             "theme": "मराठी नाटक - ३",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30073,7 +30248,7 @@ export const Tuples = [
                 "वीज"
             ],
             "theme": "मोटार गाड्यांचे इंधन",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30084,7 +30259,7 @@ export const Tuples = [
                 "सर्किट"
             ],
             "theme": "वीज/विद्युत संबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30095,7 +30270,7 @@ export const Tuples = [
                 "पवन"
             ],
             "theme": "वीज निर्मितीचे प्रकार/इंधन",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30178,7 +30353,7 @@ export const Tuples = [
                 "तोटा"
             ],
             "theme": "धंद्याची आर्थिक गणित",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30189,7 +30364,7 @@ export const Tuples = [
                 "गोदाम"
             ],
             "theme": "धंद्यात मालासंबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30200,7 +30375,7 @@ export const Tuples = [
                 "नोकरवर्ग"
             ],
             "theme": "धंद्यातील महत्वाच्या व्यक्ती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30213,7 +30388,7 @@ export const Tuples = [
                 "पंचतंत्र"
             ],
             "theme": "कथा प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30224,7 +30399,7 @@ export const Tuples = [
                 "रुबाई"
             ],
             "theme": "काव्य प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30235,7 +30410,7 @@ export const Tuples = [
                 "दशावतार"
             ],
             "theme": "नाट्य प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30248,7 +30423,7 @@ export const Tuples = [
                 "दंश"
             ],
             "theme": "प्राण्यांचा तोंडावाटे हल्ला",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30259,7 +30434,7 @@ export const Tuples = [
                 "पंचमी"
             ],
             "theme": "नागाशी संबंधित",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30270,7 +30445,7 @@ export const Tuples = [
                 "दत्त जयंती"
             ],
             "theme": "काही उपवास करण्याचे दिवस",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30283,7 +30458,7 @@ export const Tuples = [
                 "मॅकबेथ"
             ],
             "theme": "शेक्सपिअर च्या नाटकांतली पात्र",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30294,7 +30469,7 @@ export const Tuples = [
                 "क्लॉडियस"
             ],
             "theme": "रोमन सम्राट",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30305,7 +30480,7 @@ export const Tuples = [
                 "आर्किमिडीज"
             ],
             "theme": "प्राचीन गणितज्ञ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30318,7 +30493,7 @@ export const Tuples = [
                 "मंदाक्रांता"
             ],
             "theme": "कवितेतील वृत्ते",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30329,7 +30504,7 @@ export const Tuples = [
                 "बृहन्नला"
             ],
             "theme": "महाभारतातील स्त्रिया",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30340,7 +30515,7 @@ export const Tuples = [
                 "नादिरा"
             ],
             "theme": "हिंदी चित्रपटातील जुन्या स्त्री चरित्र अभिनेत्री",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30353,7 +30528,7 @@ export const Tuples = [
                 "विद्याधर गोखले"
             ],
             "theme": "प्रसिद्ध मराठी नाटककार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30364,7 +30539,7 @@ export const Tuples = [
                 "गंगाधर गाडगीळ"
             ],
             "theme": "नाटक व साहित्य दोन्ही क्षेत्रांतले लेखक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30375,7 +30550,7 @@ export const Tuples = [
                 "शांताराम"
             ],
             "theme": "मराठी चित्रपट दिग्दर्शक",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30388,7 +30563,7 @@ export const Tuples = [
                 "बंध"
             ],
             "theme": "जोडणी दर्शवणाऱ्या संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30399,7 +30574,7 @@ export const Tuples = [
                 "क्षेत्रफळ"
             ],
             "theme": "भूमितीतील घटक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30410,7 +30585,7 @@ export const Tuples = [
                 "परंपरा"
             ],
             "theme": "भारतीय ज्ञानपरंपरेचे घटक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30423,7 +30598,7 @@ export const Tuples = [
                 "शंख"
             ],
             "theme": "पूजाविधीतील प्रतीक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30434,7 +30609,7 @@ export const Tuples = [
                 "शिस्त"
             ],
             "theme": "सत्तेशी संबंधित संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30445,7 +30620,7 @@ export const Tuples = [
                 "दूत"
             ],
             "theme": "प्राचीन समाजातील भूमिका",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30458,7 +30633,7 @@ export const Tuples = [
                 "प्रवाह"
             ],
             "theme": "प्रक्रिया दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30469,7 +30644,7 @@ export const Tuples = [
                 "कर्तव्य"
             ],
             "theme": "नैतिक संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30480,7 +30655,7 @@ export const Tuples = [
                 "रणभूमी"
             ],
             "theme": "महाभारतातील संदर्भस्थळे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30493,7 +30668,7 @@ export const Tuples = [
                 "लय"
             ],
             "theme": "साहित्यिक अनुभूती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30504,7 +30679,7 @@ export const Tuples = [
                 "श्रवण"
             ],
             "theme": "इंद्रियज्ञान",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30515,7 +30690,7 @@ export const Tuples = [
                 "संवेदना"
             ],
             "theme": "मानसिक प्रक्रिया",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30528,7 +30703,7 @@ export const Tuples = [
                 "मुकुट"
             ],
             "theme": "राजसत्ता दर्शवणारी चिन्हे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30539,7 +30714,7 @@ export const Tuples = [
                 "संयम"
             ],
             "theme": "आत्मशुद्धीच्या पद्धती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30550,7 +30725,7 @@ export const Tuples = [
                 "संकेत"
             ],
             "theme": "प्रतिनिधित्व दर्शवणाऱ्या संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30563,7 +30738,7 @@ export const Tuples = [
                 "कालप्रवास"
             ],
             "theme": "अविश्वसनीय / अतिप्राकृतिक गोष्टी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30574,7 +30749,7 @@ export const Tuples = [
                 "मिलन"
             ],
             "theme": "पुनर्जन्मावर आधारित चित्रपट",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30585,7 +30760,7 @@ export const Tuples = [
                 "गहाण"
             ],
             "theme": "कर्जा संबंधी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30598,7 +30773,7 @@ export const Tuples = [
                 "दीपिका पदुकोण"
             ],
             "theme": "जानेवारी मध्ये जन्मलेल्या व्यक्ती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30609,7 +30784,7 @@ export const Tuples = [
                 "जयललिता"
             ],
             "theme": "फेब्रुवारी मध्ये जन्मलेल्या व्यक्ती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30620,7 +30795,7 @@ export const Tuples = [
                 "शशी थरूर"
             ],
             "theme": "मार्च मध्ये जन्मलेल्या व्यक्ती",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30633,7 +30808,7 @@ export const Tuples = [
                 "भडक"
             ],
             "theme": "रंगाचा उठाव दर्शवणारे शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30644,7 +30819,7 @@ export const Tuples = [
                 "धडक"
             ],
             "theme": "अजय अतुल यांच्या कलाकृती",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30655,7 +30830,7 @@ export const Tuples = [
                 "पुनर्वसन"
             ],
             "theme": "आपत्तीचे निराकरण",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30668,7 +30843,7 @@ export const Tuples = [
                 "शौचालय"
             ],
             "theme": "दुर्गंध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30679,7 +30854,7 @@ export const Tuples = [
                 "रात्र"
             ],
             "theme": "अंधार/अंधाऱ्या जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30690,7 +30865,7 @@ export const Tuples = [
                 "स्मशान"
             ],
             "theme": "शांत जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30703,7 +30878,7 @@ export const Tuples = [
                 "मैत्र"
             ],
             "theme": "पसायदानातील शब्द (ज्ञानेश्वर)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30714,7 +30889,7 @@ export const Tuples = [
                 "चत्वार"
             ],
             "theme": "मनाच्या श्लोकांतील शब्द (रामदास)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30725,7 +30900,7 @@ export const Tuples = [
                 "आकाशमंडप"
             ],
             "theme": "वृक्षवल्ली आम्हा सोयरे (तुकोबा)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30738,7 +30913,7 @@ export const Tuples = [
                 "मूळ"
             ],
             "theme": "आधार किंवा बेस दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30749,7 +30924,7 @@ export const Tuples = [
                 "निष्पत्ती"
             ],
             "theme": "विचारसाखळीतील घटक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30760,7 +30935,7 @@ export const Tuples = [
                 "फळ"
             ],
             "theme": "नैसर्गिक विकासक्रम",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30773,7 +30948,7 @@ export const Tuples = [
                 "लय"
             ],
             "theme": "ध्वनीशी संबंधित संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30784,7 +30959,7 @@ export const Tuples = [
                 "गती"
             ],
             "theme": "संगीतात्मक रचना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30795,7 +30970,7 @@ export const Tuples = [
                 "अंतर"
             ],
             "theme": "वेळेशी निगडित शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30808,7 +30983,7 @@ export const Tuples = [
                 "साप"
             ],
             "theme": "सापशिडी खेळ - त्याचे निर्माते वगैरे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30819,7 +30994,7 @@ export const Tuples = [
                 "फासे"
             ],
             "theme": "सारीपाट खेळ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30830,7 +31005,7 @@ export const Tuples = [
                 "हत्ती"
             ],
             "theme": "बुद्धिबळ खेळ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30843,7 +31018,7 @@ export const Tuples = [
                 "तथापि"
             ],
             "theme": "समुच्चयबोधक जोडशब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30854,7 +31029,7 @@ export const Tuples = [
                 "जर"
             ],
             "theme": "कारण-परिणाम दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30865,7 +31040,7 @@ export const Tuples = [
                 "मात्र"
             ],
             "theme": "स्पष्टीकरण/मर्यादा दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30878,7 +31053,7 @@ export const Tuples = [
                 "अंबरनाथ"
             ],
             "theme": "मुंबई उपनगरे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30889,7 +31064,7 @@ export const Tuples = [
                 "बस"
             ],
             "theme": "मुंबईतील वाहतूक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30900,7 +31075,7 @@ export const Tuples = [
                 "चौपाटी"
             ],
             "theme": "मुंबईतील स्थळे",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30913,7 +31088,7 @@ export const Tuples = [
                 "शी शु"
             ],
             "theme": "नवजात शिशु",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30924,7 +31099,7 @@ export const Tuples = [
                 "अभ्यास"
             ],
             "theme": "शाळकरी",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30935,7 +31110,7 @@ export const Tuples = [
                 "फोन"
             ],
             "theme": "कॉलेज/टीन एजर्स",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30948,7 +31123,7 @@ export const Tuples = [
                 "लाकूड"
             ],
             "theme": "साहित्य प्रकार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30959,7 +31134,7 @@ export const Tuples = [
                 "पट्टी"
             ],
             "theme": "शिवणकाम साधने",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -30970,7 +31145,7 @@ export const Tuples = [
                 "खाट"
             ],
             "theme": "घरातील उपयुक्त वस्तू",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -30983,7 +31158,7 @@ export const Tuples = [
                 "कालवड"
             ],
             "theme": "पशुधन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -30994,7 +31169,7 @@ export const Tuples = [
                 "नांगर"
             ],
             "theme": "शेतीतील संदर्भ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31005,7 +31180,7 @@ export const Tuples = [
                 "तुतारी"
             ],
             "theme": "आवाज करणारी वाद्ये",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31018,7 +31193,7 @@ export const Tuples = [
                 "पाणी"
             ],
             "theme": "अंघोळ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31029,7 +31204,7 @@ export const Tuples = [
                 "बटरफ्लाय"
             ],
             "theme": "पोहोणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31040,7 +31215,7 @@ export const Tuples = [
                 "नारळ"
             ],
             "theme": "समुद्रकिनारा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31053,7 +31228,7 @@ export const Tuples = [
                 "ठोसेघर"
             ],
             "theme": "प्रसिद्ध धबधबे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31064,7 +31239,7 @@ export const Tuples = [
                 "विहार"
             ],
             "theme": "महाराष्ट्रातील प्रसिद्ध तलाव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31075,7 +31250,7 @@ export const Tuples = [
                 "पाचगणी"
             ],
             "theme": "महाराष्ट्रातली थंड हवेची ठिकाणे (हिलस्टेशन)",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31088,7 +31263,7 @@ export const Tuples = [
                 "कार्यालय"
             ],
             "theme": "लोकांच्या कामाच्या जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31099,7 +31274,7 @@ export const Tuples = [
                 "क्लब"
             ],
             "theme": "लोकांच्या आनंदात वेळ घालवण्याच्या जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31110,7 +31285,7 @@ export const Tuples = [
                 "दवाखाना"
             ],
             "theme": "लोकांच्या (नाईलाजाने?) नियमित वेळ घालवण्याच्या जागा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31123,7 +31298,7 @@ export const Tuples = [
                 "बिपीन रावत"
             ],
             "theme": "हवाई अपघातात मृत्यू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31134,7 +31309,7 @@ export const Tuples = [
                 "बेनझीर भुट्टो"
             ],
             "theme": "घातपात आणि राजकीय हिंसाचारात मृत्यू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31145,7 +31320,7 @@ export const Tuples = [
                 "डॉ.श्रीकांत जिचकार"
             ],
             "theme": "रस्त्यावरील वाहन अपघातात मृत्यू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31158,7 +31333,7 @@ export const Tuples = [
                 "मांडवी"
             ],
             "theme": "रघुकुलवधू",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31169,7 +31344,7 @@ export const Tuples = [
                 "कैकसी"
             ],
             "theme": "रावण कुटुंबीय",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31180,7 +31355,7 @@ export const Tuples = [
                 "भागाबाई"
             ],
             "theme": "वानर स्त्रिया",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31193,7 +31368,7 @@ export const Tuples = [
                 "अँटीला"
             ],
             "theme": "मुंबईतील मान्यवरांची निवासस्थाने",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31204,7 +31379,7 @@ export const Tuples = [
                 "जहर"
             ],
             "theme": "इम्रान हाश्मी अभिनीत चित्रपट",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31215,7 +31390,7 @@ export const Tuples = [
                 "मॅच फिक्सिंग"
             ],
             "theme": "क्रिकेटपटू मोहम्मद अझरुद्दीनशी संबंधित",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31228,7 +31403,7 @@ export const Tuples = [
                 "संघटन"
             ],
             "theme": "आकारनिर्मितीशी संबंधित शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31239,7 +31414,7 @@ export const Tuples = [
                 "अमलबजावणी"
             ],
             "theme": "व्यवस्थेची चौकट",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31250,7 +31425,7 @@ export const Tuples = [
                 "संस्था"
             ],
             "theme": "जैविक संरचना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31263,7 +31438,7 @@ export const Tuples = [
                 "समभाग"
             ],
             "theme": "गुंतवणुकीचे प्रकार ",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31274,7 +31449,7 @@ export const Tuples = [
                 "घडणावळ"
             ],
             "theme": "सोनाराचा शब्दसंग्रह",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31285,7 +31460,7 @@ export const Tuples = [
                 "लाभांश"
             ],
             "theme": "गुंतवणूकदारांचा शब्दसंग्रह",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31298,7 +31473,7 @@ export const Tuples = [
                 "गच्ची"
             ],
             "theme": "घराच्या बाहेरील जागा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31309,7 +31484,7 @@ export const Tuples = [
                 "प्रवेशद्वार"
             ],
             "theme": "घराच्या प्रवेश भागाशी संबंधित जागा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31320,7 +31495,7 @@ export const Tuples = [
                 "स्वयंपाकघर"
             ],
             "theme": "राहण्याच्या/वापराच्या मुख्य खोल्या",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31333,7 +31508,7 @@ export const Tuples = [
                 "जलपर्णी"
             ],
             "theme": "पाण्याच्या पृष्ठभागावर येणारे",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31344,7 +31519,7 @@ export const Tuples = [
                 "चंपी"
             ],
             "theme": "तेल/तैल",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31355,7 +31530,7 @@ export const Tuples = [
                 "मिरची"
             ],
             "theme": "फोडणी मधील पदार्थ",
-            "sharedBy": "हितचिंतक",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31368,7 +31543,7 @@ export const Tuples = [
                 "सन्मान"
             ],
             "theme": "सामाजिक मान्यता",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31379,7 +31554,7 @@ export const Tuples = [
                 "पदवी"
             ],
             "theme": "ओळख दर्शवणारी साधने",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31390,7 +31565,7 @@ export const Tuples = [
                 "खूण"
             ],
             "theme": "ओळख पटवणारे घटक",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31403,7 +31578,7 @@ export const Tuples = [
                 "गंतव्य"
             ],
             "theme": "प्रवासाशी संबंधित शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31414,7 +31589,7 @@ export const Tuples = [
                 "उपाय"
             ],
             "theme": "कार्यसाधने",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31425,7 +31600,7 @@ export const Tuples = [
                 "संपर्क"
             ],
             "theme": "जोडणी दर्शवणाऱ्या संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31438,7 +31613,7 @@ export const Tuples = [
                 "मूळस्थान"
             ],
             "theme": "सुरुवात दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31449,7 +31624,7 @@ export const Tuples = [
                 "खाडी"
             ],
             "theme": "जलप्रणाली",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31460,7 +31635,7 @@ export const Tuples = [
                 "प्रेरणा"
             ],
             "theme": "मानसिक उगम",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31473,7 +31648,7 @@ export const Tuples = [
                 "मर्यादा"
             ],
             "theme": "आवाक्य दर्शवणारे शब्द",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31484,7 +31659,7 @@ export const Tuples = [
                 "परिसर"
             ],
             "theme": "प्रशासनिक मर्यादा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31495,7 +31670,7 @@ export const Tuples = [
                 "जाणीव"
             ],
             "theme": "मानसिक सीमा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31508,7 +31683,7 @@ export const Tuples = [
                 "घनता"
             ],
             "theme": "भौतिक संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31519,7 +31694,7 @@ export const Tuples = [
                 "कर्तव्य"
             ],
             "theme": "मानसिक/सामाजिक भार",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31530,7 +31705,7 @@ export const Tuples = [
                 "घनपणा"
             ],
             "theme": "तीव्रतेची छटा",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31543,7 +31718,7 @@ export const Tuples = [
                 "फिरकी"
             ],
             "theme": "हलक्या फुलक्या चिडवाचिडवीचे प्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31554,7 +31729,7 @@ export const Tuples = [
                 "गिरकी"
             ],
             "theme": "नृत्याशी संबंधित",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31565,7 +31740,7 @@ export const Tuples = [
                 "तिल्लाना"
             ],
             "theme": "भरतनाट्यम नृत्याचे ४ भाग",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31578,7 +31753,7 @@ export const Tuples = [
                 "कक्षा"
             ],
             "theme": "खगोलशास्त्रीय संज्ञा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31589,7 +31764,7 @@ export const Tuples = [
                 "ग्रहदशा"
             ],
             "theme": "ज्योतिष शास्त्रीय संज्ञा",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31600,7 +31775,7 @@ export const Tuples = [
                 "कृत्रिम उपग्रह"
             ],
             "theme": "मानवाचा अंतराळ वेध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31613,7 +31788,7 @@ export const Tuples = [
                 "अर्धांगिनी"
             ],
             "theme": "पत्नी/बायको समानार्थी",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31624,7 +31799,7 @@ export const Tuples = [
                 "दुर्गा"
             ],
             "theme": "हिंदू देवींची नावे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31635,7 +31810,7 @@ export const Tuples = [
                 "वसंततिलका"
             ],
             "theme": "काव्यातील वृत्तप्रकार",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31648,7 +31823,7 @@ export const Tuples = [
                 "पवित्र"
             ],
             "theme": "समान गुण दर्शवणारे शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31659,7 +31834,7 @@ export const Tuples = [
                 "ताजे"
             ],
             "theme": "अन्नपदार्थांची विशेषणे",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31670,7 +31845,7 @@ export const Tuples = [
                 "पूर्ण"
             ],
             "theme": "संतुष्टता/पूर्णता दर्शवणारे शब्द",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31683,7 +31858,7 @@ export const Tuples = [
                 "बंद"
             ],
             "theme": "सामूहिक विरोध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31694,7 +31869,7 @@ export const Tuples = [
                 "आत्महत्या"
             ],
             "theme": "व्यक्तीने केलेले टोकाचे/प्रतीकात्मक निषेध",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31705,7 +31880,7 @@ export const Tuples = [
                 "खटका"
             ],
             "theme": "दोन लोकांमधील दुरावा / तणाव",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31718,7 +31893,7 @@ export const Tuples = [
                 "आभास"
             ],
             "theme": "दृष्टीअनुभव",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31729,7 +31904,7 @@ export const Tuples = [
                 "माया"
             ],
             "theme": "खोटे आकलन",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31740,7 +31915,7 @@ export const Tuples = [
                 "तथ्य"
             ],
             "theme": "खरेपणा दर्शवणाऱ्या संकल्पना",
-            "sharedBy": "Chat GPT",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ],
@@ -31753,7 +31928,7 @@ export const Tuples = [
                 "फ़ैलाव"
             ],
             "theme": "मोठ्या प्रमाणावर अनियंत्रित वाढ",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 0
         },
         {
@@ -31764,7 +31939,7 @@ export const Tuples = [
                 "सुळका"
             ],
             "theme": "टोकदार उंच उभा दगड",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 1
         },
         {
@@ -31775,7 +31950,7 @@ export const Tuples = [
                 "सुबत्ता"
             ],
             "theme": "भरपूर उपलब्धता",
-            "sharedBy": "HVN Unplugged",
+            "sharedBy": "एक हितचिंतक",
             "difficulty": 2
         }
     ]
