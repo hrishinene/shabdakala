@@ -22758,7 +22758,7 @@ export const Tuples = [
                 "स्थान"
             ],
             "theme": "सामाजिक/व्यावसायिक स्थान (Status)",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 0
         },
         {
@@ -22769,7 +22769,7 @@ export const Tuples = [
                 "सिंहासन"
             ],
             "theme": "बसण्याची जागा",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 1
         },
         {
@@ -22780,7 +22780,7 @@ export const Tuples = [
                 "पुरस्कार"
             ],
             "theme": "उपाधी/सन्मान",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 2
         }
     ],
@@ -22793,7 +22793,7 @@ export const Tuples = [
                 "ताल"
             ],
             "theme": "संगीतातील गती/रचना",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 0
         },
         {
@@ -22804,7 +22804,7 @@ export const Tuples = [
                 "त्वरा"
             ],
             "theme": "हालचालीचा वेग",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 1
         },
         {
@@ -22815,7 +22815,7 @@ export const Tuples = [
                 "लाट"
             ],
             "theme": "पाण्याची हालचाल",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 2
         }
     ],
@@ -22828,7 +22828,7 @@ export const Tuples = [
                 "अग्रलेख"
             ],
             "theme": "वृत्तपत्र",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 0
         },
         {
@@ -22839,7 +22839,7 @@ export const Tuples = [
                 "कथा"
             ],
             "theme": "मासिक/नियतकालिक",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 1
         },
         {
@@ -22850,7 +22850,7 @@ export const Tuples = [
                 "शेवट"
             ],
             "theme": "कादंबरी",
-            "sharedBy": "एक हितचिंतक",
+            "sharedBy": "AI",
             "difficulty": 2
         }
     ],
